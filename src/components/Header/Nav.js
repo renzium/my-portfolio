@@ -5,19 +5,21 @@ import { Navigation } from "@styled-icons/fluentui-system-filled/Navigation";
 
 const NavStyle = styled.div`
   position: sticky;
-
-  padding: 1.25rem 0 0.75rem 0;
+  padding: 1.25rem 0;
   top: 0;
-  background: white;
-  z-index: 3;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  z-index: 100;
   display: flex;
-  box-shadow: 10px 0 5px -2px var(--light);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 
   .nav-btn {
     display: block;
     width: 1.7rem;
     margin-left: auto;
     margin-right: 1.125rem;
+    color: var(--dark);
   }
   .blog,
   .works,
@@ -27,6 +29,11 @@ const NavStyle = styled.div`
   .logo {
     flex-grow: 1;
     margin-left: 1.125rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
   @media (min-width: 37.5rem) {
@@ -39,11 +46,13 @@ const NavStyle = styled.div`
     .contact,
     .logo {
       display: block;
-      text-shadow: 0 0 1px var(--primary);
-      transition: all 0.5s;
+      transition: all 0.3s ease;
       font-size: 1.2rem;
+      font-weight: 600;
+      
       &:hover {
-        text-shadow: 0 0 10px;
+        color: var(--primary);
+        transform: translateY(-2px);
       }
     }
     .logo {

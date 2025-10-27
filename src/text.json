@@ -15,39 +15,87 @@
     },
     "home": {
         "section1": {
-            "heading": "Hi, I am Lawrence  Software Engineer",
-            "text": "I love creating visual and interactive elements that keep users highly engaged with your web applications with the primary objective of effectively and aesthetically communicating the essence of your product to them."
+            "heading": "I'm Lawrence Ughonu",
+            "subtitle": "React Native & Full-Stack Engineer",
+            "description": "Building intelligent mobile and web applications with AI integration",
+            "text": "I transform complex ideas into elegant, scalable solutions. With expertise in React Native, TypeScript, and Python, I create apps that millions of users love."
+        },
+        "tech_stack": {
+            "title": "Tech Stack",
+            "subtitle": "Technologies I work with",
+            "categories": [
+                {
+                    "name": "Mobile Development",
+                    "technologies": ["React Native", "Expo", "iOS", "Android", "TypeScript", "Redux"]
+                },
+                {
+                    "name": "Web Development",
+                    "technologies": ["React.js", "Next.js", "Remix", "JavaScript", "Styled Components"]
+                },
+                {
+                    "name": "Backend & APIs",
+                    "technologies": ["Node.js", "FastAPI", "Python", "PostgreSQL", "Supabase", "AWS"]
+                },
+                {
+                    "name": "AI & Integrations",
+                    "technologies": ["OpenAI API", "Voice Processing", "Firebase", "WebSocket", "Stripe"]
+                }
+            ]
         },
         "recent_posts": [
             {
-                "title": "Design System from Scratch",
-                "date": "16th Nov 2021",
-                "topic": "Figma Design",
-                "text": "What do you think of faster project turnarounds? How about consistency in all of your products? Does better UX and customer satisfaction sound good to you? This isn’t some new miracle product that’s available to buy — but you can build it yourself."
+                "title": "Building Cross-Platform Mobile Apps with React Native",
+                "date": "15th Dec 2024",
+                "topic": "React Native Development",
+                "text": "React Native enables developers to build truly native mobile applications for iOS and Android from a single codebase. With TypeScript integration, Expo for rapid development, and native modules for C++ integration, React Native is the go-to framework for building modern mobile applications with excellent performance."
             },
             {
-                "title": "Getting Started with Redux",
-                "date": "20th Oct 2021",
-                "topic": "React State",
-                "text": "Redux is a predictable state container for JavaScript apps.It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. On top of that, it provides a great developer experience, such as live code editing combined with a time traveling debugger."
+                "title": "Integrating AI Voice Features into Mobile Apps",
+                "date": "10th Dec 2024",
+                "topic": "AI Integration",
+                "text": "AI voice features are revolutionizing mobile app interactions. By integrating speech-to-text, text-to-speech, and conversational AI, we can create accessible and engaging user experiences. Combining OpenAI APIs with React Native creates powerful voice-enabled applications."
             }
         ],
         "featured_works": [
+            {
+                "image": "sqe-app",
+                "url":"https://sqe.io",
+                "title": "SQE App",
+                "year": "2023",
+                "topic": "React Native • Blockchain • WebSocket",
+                "text": "Built a comprehensive mobile application with multiple modules including blockchain wallet, real-time messaging (WebSocket), organization management, contacts, digital asset management, QR code scanning, and integrated AI features. Developed using React Native, TypeScript, C++ native modules, and native performance optimizations."
+            },
+            {
+                "image": "paka-app",
+                "url":"#",
+                "title": "Paka User App - NYXIDIOM",
+                "year": "2024",
+                "topic": "React Native • Expo • Stripe • Supabase",
+                "text": "Developed a production-ready React Native mobile application for logistics/delivery service as part of NYXIDIOM's React expert team. Built with Expo framework and TypeScript, implementing complete authentication flows with Supabase, Stripe payment processing, real-time push notifications, and Google Maps integration. Successfully fixed critical iOS memory management issues and optimized keyboard handling, demonstrating strong problem-solving skills in cross-platform development."
+            },
+            {
+                "image": "invoice-validator",
+                "url":"#",
+                "title": "Invoice Validator System - NYXIDIOM",
+                "year": "2024",
+                "topic": "Python • FastAPI • AWS Lambda • Document Intelligence",
+                "text": "Created an intelligent document processing system for logistics invoice validation as part of NYXIDIOM's backend solutions. Supports multiple companies (MRW, Schenker, Sertrans, TXT) with automated PDF and Excel processing using Python and FastAPI. Deployed on AWS Lambda with batch processing capabilities and achieved 48% validation accuracy. Demonstrates expertise in document intelligence, API development, and cloud infrastructure."
+            },
             {
                 "image": "swiftbranding",
                 "url":"https://www.swiftbranding.ng",
                 "title": "Swiftbranding",
                 "year": "2020",
-                "topic": "Routing with React Router",
-                "text": "Managed website development project from initial design through completion, optimizing all cross-browser and multi-platform compactibility using React library. Worked alongside  a team of developers to create a custom website for Swiftbranding (https: //www.swiftbranding.ng)using react library and CSS modules for styling.For me, the most interesting part of the project was the routing using React Router. The project required an in-depth understanding of URL Parameters, Nested Routes, how to pass props to Router Components, Code Splitting, etc. It was also my first project which require the use of React Router in dropdown navigation."
+                "topic": "React • React Router",
+                "text": "Managed website development project from initial design through completion, optimizing all cross-browser and multi-platform compatibility using React library. Implemented complex routing with React Router including URL Parameters, Nested Routes, and Code Splitting."
             },
             {
                 "image": "digifigs",
                 "url":"https://digifigs.com",
                 "title": "Digifigs",
                 "year": "2021",
-                "topic": "Creative use of UI elements",
-                "text": "Front-end role in the refactored and updated Digifigs website using react library and styled-components for  styling. Worked with carefully selected fonts, color pallet and other assets to create an awesome user-interface."
+                "topic": "React • Styled Components",
+                "text": "Refactored and updated Digifigs company website using React library and styled-components for styling. Worked with carefully selected fonts, color palette, and other assets to create an awesome user-interface with responsive design and excellent user experience."
             }
         ]
     }

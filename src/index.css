@@ -6,8 +6,10 @@
   --light2: #edf7fa;
   --light3: #e0e0e0;
 }
-html{
+
+html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -17,6 +19,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #ffffff;
+  line-height: 1.6;
 }
 
 * {

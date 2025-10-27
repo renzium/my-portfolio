@@ -3,44 +3,57 @@ import styled from "styled-components"
 import HomeStyle from './HomeStyle';
 import text from "../../text.json"
 import PostCard from "./PostCard";
-const RecentPostStyle = styled(HomeStyle)`
+
+const RecentPostStyle = styled.div`
+  padding: 4rem 1.5rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #ffffff 100%);
   position: relative;
-  background-color: var(--light2);
 
-
-  div + div {
-    margin-top: 1rem;
+  @media (min-width: 37.5rem) {
+    padding: 6rem 2.25rem;
   }
-  grid-template-columns: 1fr 1fr;
+
+  @media (min-width: 56.25rem) {
+    padding: 8rem 6.25rem;
+  }
+
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--dark);
+    
+    @media (min-width: 37.5rem) {
+      font-size: 2rem;
+    }
+  }
+
   .view-all {
     color: var(--secondary);
     cursor: pointer;
-    justify-content: end;
-    align-items: center;
-    display: inline-block;
-    position: absolute;
-    right: 10px;
-    top: 1rem;
-  }
-  h5 {
-    text-align: left;
-    display: inline-block;
-  }
-  @media (max-width: 37.5rem) {
-    padding: 0 0.625rem 2.375rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      color: var(--primary);
+      transform: translateX(4px);
+    }
   }
 
-  @media (min-width: 37.5rem) {
-    div + div {
-      margin-top: unset;
-      margin-left: 1.25rem;
-    }
-    h5 {
-      text-align: left;
-    }
-    .view-all{
-      position: static;
-      display:flex;
+  .posts-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+
+    @media (min-width: 37.5rem) {
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 `;
@@ -48,17 +61,21 @@ const RecentPostStyle = styled(HomeStyle)`
 function RecentPost() {
   return (
     <RecentPostStyle>
-      <h5>Recent posts</h5>
-      <p class="view-all">View all</p>
-      {text.home.recent_posts.map((item) => (
-        <PostCard
-          title={item.title}
-          date={item.date}
-          key={item.date + item.title}
-          topic={item.topic}
-          text={item.text.substring(0, 250) + "..."}
-        />
-      ))}
+      <div className="header-wrapper">
+        <h5>Recent Posts</h5>
+        <a href="/blog" className="view-all">View all →</a>
+      </div>
+      <div className="posts-grid">
+        {text.home.recent_posts.map((item) => (
+          <PostCard
+            title={item.title}
+            date={item.date}
+            key={item.date + item.title}
+            topic={item.topic}
+            text={item.text.substring(0, 250) + "..."}
+          />
+        ))}
+      </div>
     </RecentPostStyle>
   );
 }

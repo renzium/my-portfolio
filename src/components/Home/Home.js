@@ -3,7 +3,9 @@ import styled from "styled-components"
 import FeaturedWorks from './FeaturedWorks'
 import RecentPost from './RecentPost'
 import Section1 from "./Section1"
+import TechStack from './TechStack'
 import Footer from '../Footer';
+
 const HomeStyle = styled.div`
   hr {
     color: var(--light3);
@@ -31,13 +33,12 @@ const HomeStyle = styled.div`
 
 function Home() {
   return (
-    <HomeStyle>
+    <>
       <Section1 />
-      <RecentPost />
-      <h5>Feature works</h5>
+      <TechStack />
       <FeaturedWorks/>
-      <hr />
-    </HomeStyle>
+      <RecentPost />
+    </>
   );
 }
 
