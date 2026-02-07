@@ -1,0 +1,102 @@
+{
+    "id": "cv",
+    "name": "React Native & Full-Stack Engineer",
+    "personalInfo": {
+      "fullName": "Lawrence Ughonu",
+      "location": "Ibadan, Oyo State, Nigeria",
+      "email": "lawrenceughonu@gmail.com",
+      "website": "www.renzium.com",
+      "linkedin": "linkedin.com/in/lawrence-ughonu",
+      "github": "github.com/renzium"
+    },
+    "summary": "React Native & Full-Stack Software Engineer with proven experience building scalable mobile and web applications with AI integration. Expert in React Native, TypeScript, Python, Node.js. Delivered production apps including Paka (logistics/delivery) and SQE (comprehensive blockchain/messaging app). Fixed iOS memory issues, integrated Stripe payments, implemented real-time WebSocket messaging. Strong collaboration with AI developers and CTOs.",
+    "technicalSkills": [
+      {
+        "category": "Mobile",
+        "skills": "React Native, Expo, iOS, Android, TypeScript, Redux"
+      },
+      {
+        "category": "AI & Voice",
+        "skills": "OpenAI API, Voice Processing, Firebase, WebSocket"
+      },
+      {
+        "category": "Backend",
+        "skills": "Node.js, FastAPI, Python, PostgreSQL, Supabase"
+      },
+      {
+        "category": "Web",
+        "skills": "React.js, Next.js, Remix, JavaScript"
+      },
+      {
+        "category": "Cloud",
+        "skills": "AWS Lambda, S3, EC2, Stripe Integration"
+      }
+    ],
+    "experience": [
+      {
+        "title": "React Native & Full-Stack Developer",
+        "company": "NYXIDIOM",
+        "website": "nyxidiom.com",
+        "location": "Remote",
+        "startDate": "May 2025",
+        "endDate": "Present",
+        "description": "Built React Native mobile apps with Expo and Remix web applications, integrating AI services and FastAPI backends.",
+        "achievements": [
+          "Paka User App (React Native/Expo): Logistics app with Supabase auth, Stripe payments, Expo Notifications, Google Maps, multilingual support. Fixed iOS memory management issues causing image disappearance, optimized keyboard handling.",
+          "Invoice Validator (Python/FastAPI): Document intelligence system validating logistics invoices across multiple companies. Automated PDF/Excel processing with batch capabilities, deployed on AWS Lambda with serverless architecture."
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "company": "SQE Holdings LLC",
+        "website": "sqe.io",
+        "location": "Remote",
+        "startDate": "2023",
+        "endDate": "Present",
+        "description": "",
+        "achievements": [
+          "Built comprehensive mobile application (React Native/TypeScript) with C++ native modules. Features include blockchain wallet, real-time messaging, organization management, contacts, and asset management",
+          "Developed real-time messaging system using WebSocket for live communication",
+          "Implemented QR code scanning, blockchain transaction flows, and digital asset tokenization"
+        ]
+      },
+      {
+        "title": "Frontend Engineer",
+        "company": "Digifigs",
+        "website": "",
+        "location": "",
+        "startDate": "November 2020",
+        "endDate": "December 2022",
+        "description": "",
+        "achievements": [
+          "Refactored and updated company website using React and styled-components",
+          "Created responsive layouts with carefully selected fonts, color palettes, and design assets"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "SQE App",
+        "year": "2023",
+        "description": "Comprehensive React Native application with blockchain wallet, real-time messaging (WebSocket), organization management, contacts, QR scanning, and digital asset management"
+      },
+      {
+        "name": "Paka User App - NYXIDIOM",
+        "year": "2025",
+        "description": "React Native delivery platform with Expo, Stripe integration, real-time notifications, Google Maps, iOS optimizations"
+      },
+      {
+        "name": "Invoice Validator - NYXIDIOM",
+        "year": "2025",
+        "description": "Python/FastAPI document intelligence system for logistics invoice validation, AWS Lambda deployment, batch processing"
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Engineering (B.Eng.) in Electrical and Electronic Engineering",
+        "institution": "University of Ibadan",
+        "startYear": "2018",
+        "endYear": "2024"
+      }
+    ]
+  }

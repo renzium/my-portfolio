@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lawrence Ughonu - Full-Stack Engineer</title>
+  <style>
+    @media print {
+      body { margin: 0; padding: 0; }
+      .no-print { display: none; }
+      @page { margin: 1.5cm; size: A4; }
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 1.25; color: #000; padding: 1.5cm; max-width: 210mm; margin: 0 auto; }
+    h1 { font-size: 16pt; font-weight: bold; text-align: center; margin-bottom: 4pt; }
+    h2 { font-size: 11pt; font-weight: bold; margin-top: 10pt; margin-bottom: 4pt; border-bottom: 1pt solid #000; padding-bottom: 2pt; }
+    .contact { font-size: 8pt; text-align: center; margin-bottom: 6pt; line-height: 1.3; }
+    .summary { font-size: 9pt; margin-bottom: 6pt; text-align: justify; }
+    .job { margin-bottom: 6pt; }
+    .job-header { display: flex; justify-content: space-between; margin-bottom: 2pt; }
+    .job-title { font-weight: bold; font-size: 10pt; }
+    .company { font-size: 9pt; margin-bottom: 1pt; }
+    .date { font-size: 9pt; white-space: nowrap; }
+    ul { margin-left: 15pt; margin-bottom: 4pt; padding-left: 10pt; font-size: 9pt; }
+    li { margin-bottom: 1.5pt; text-align: justify; }
+    .skills { columns: 3; column-gap: 15pt; font-size: 9pt; margin-bottom: 6pt; }
+    .skills div { margin-bottom: 2pt; }
+    .print-btn { position: fixed; bottom: 20px; right: 20px; background: #667eea; color: white; border: none; padding: 12px 24px; border-radius: 8px; font-weight: bold; cursor: pointer; box-shadow: 0 4px 12px rgba(102,126,234,0.4); z-index: 1000; }
+    .print-btn:hover { background: #764ba2; }
+    p { margin-bottom: 3pt; font-size: 9pt; text-align: justify; }
+  </style>
+</head>
+<body>
+  <button class="print-btn no-print" onclick="window.print()">📄 Print to PDF</button>
+
+  <h1>LAWRENCE UGHONU</h1>
+  <div class="contact">
+    Lagos, Nigeria | lawrenceughonu@gmail.com | www.renzium.com | linkedin.com/in/lawrence-ughonu | github.com/renzium
+  </div>
+
+  <div class="summary">
+    <strong>Full-Stack Engineer (Laravel • Vue.js • Node.js)</strong> with 6+ years building real-time chat, notification, and authentication systems. Experienced integrating Pusher/Socket.io, Twilio/Termii/SendGrid, and social login providers. Proven ability to onboard quickly and deliver high-quality features under tight timelines.
+  </div>
+
+  <h2>TECHNICAL SKILLS</h2>
+  <div class="skills">
+    <div><strong>Backend:</strong> Laravel 10/9, PHP 8, Node.js, Express, REST APIs, Redis queues, MySQL/PostgreSQL</div>
+    <div><strong>Frontend:</strong> Vue 3, Vue Router, Pinia, Vite, Tailwind CSS, Composition API</div>
+    <div><strong>Real-Time:</strong> Pusher, Socket.io, Firebase Cloud Messaging</div>
+    <div><strong>Notifications:</strong> Twilio, Termii, SendGrid, Mailgun, AWS SES</div>
+    <div><strong>Auth & Security:</strong> Laravel Passport, Sanctum, OAuth2, OpenID Connect, Apple/Google/Facebook Sign-In, AWS Cognito</div>
+    <div><strong>DevOps:</strong> Docker, Nginx, AWS (EC2, S3), GitHub Actions, PHPUnit, Pest, Cypress</div>
+  </div>
+
+  <h2>PROFESSIONAL EXPERIENCE</h2>
+
+  <div class="job">
+    <div class="job-header">
+      <div>
+        <div class="job-title">Senior Full-Stack Engineer</div>
+        <div class="company">NYXIDIOM</div>
+      </div>
+      <div class="date">May 2025 – Present • Remote</div>
+    </div>
+    <p>Led Drugstore.ng enhancements across chat, notifications, and authentication.</p>
+    <ul>
+      <li>Built vendor-customer chat (Laravel 10 + Vue 3 + Pusher) with read receipts, typing indicators, offline fallbacks.</li>
+      <li>Integrated WhatsApp/email escalations via Twilio, Termii, SendGrid, improving vendor SLA compliance by 68%.</li>
+      <li>Implemented Facebook, Google, Apple sign-in using Laravel Passport + PKCE with role-based onboarding.</li>
+      <li>Hardened notification pipelines with Redis queues, Horizon monitoring, and audit logging.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <div>
+        <div class="job-title">Full-Stack Engineer</div>
+        <div class="company">SQE Holdings</div>
+      </div>
+      <div class="date">2022 – 2024 • Remote</div>
+    </div>
+    <ul>
+      <li>Delivered VendorCare console (Vue 3 SPA) with Socket.io chat, order ops, multi-tenant ACL, and organization tools.</li>
+      <li>Built Node.js notification worker orchestrating SMS/email/in-app alerts with retry/fallback logic.</li>
+      <li>Moved auth to Cognito bridge with Laravel middleware, reducing login-related tickets by 72%.</li>
+      <li>Designed modular architecture enabling client-specific workflows and integrations.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <div>
+        <div class="job-title">Freelance Engineer</div>
+      </div>
+      <div class="date">2019 – 2022 • Remote</div>
+    </div>
+    <ul>
+      <li>Built inventory portals, messaging dashboards, and CRM extensions using Laravel + Vue stack.</li>
+      <li>Integrated Termii SMS, Twilio WhatsApp, SendGrid for omni-channel alerts.</li>
+      <li>Managed deployments on AWS Lightsail, DigitalOcean, and shared hosting.</li>
+    </ul>
+  </div>
+
+  <h2>FEATURED PROJECTS</h2>
+  <div class="job">
+    <div class="job-header">
+      <div>
+        <div class="job-title">Drugstore Chat Platform</div>
+      </div>
+      <div class="date">2025</div>
+    </div>
+    <p>Vue 3 chat widget + Laravel API with Pusher real-time events, queue-based delivery receipts, and audit trails.</p>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <div>
+        <div class="job-title">SupplyPulse Notification Engine</div>
+      </div>
+      <div class="date">2024</div>
+    </div>
+    <p>Node.js worker using Redis streams for WhatsApp/email/SMS fallbacks via Termii and SendGrid, ensuring escalations.</p>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <div>
+        <div class="job-title">CareID Auth Suite</div>
+      </div>
+      <div class="date">2023</div>
+    </div>
+    <p>Unified OAuth journey integrating Apple, Google, Facebook, and phone OTP using Laravel Passport & Sanctum.</p>
+  </div>
+
+  <h2>EDUCATION</h2>
+  <div class="job">
+    <div class="job-header">
+      <div>
+        <div class="job-title">B.Eng Electrical & Electronic Engineering</div>
+        <div class="company">University of Ibadan</div>
+      </div>
+      <div class="date">2018 – 2024</div>
+    </div>
+  </div>
+
+  <h2>AVAILABILITY & VALUE</h2>
+  <ul>
+    <li>Immediate start • Remote • WAT (UTC+1)</li>
+    <li>Real-time chat expertise with Pusher/Socket.io and read receipts.</li>
+    <li>Reliable notification pipelines across SMS/WhatsApp/email.</li>
+    <li>Social login and access control implementations using OAuth2/OpenID.</li>
+    <li>Proven ability to audit legacy Laravel/Vue codebases and deliver clean handovers.</li>
+  </ul>
+
+  <div style="text-align: center; font-size: 8pt; margin-top: 6pt; color: #666;">
+    Portfolio: www.renzium.com | LinkedIn: linkedin.com/in/lawrence-ughonu | GitHub: github.com/renzium | Email: lawrenceughonu@gmail.com
+  </div>
+
+</body>
+</html>

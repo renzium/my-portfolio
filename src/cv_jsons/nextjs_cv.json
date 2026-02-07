@@ -1,0 +1,110 @@
+{
+    "id": "nextjs_cv",
+    "name": "Next.js Frontend Engineer",
+    "personalInfo": {
+      "fullName": "Lawrence Ughonu",
+      "location": "Ibadan, Oyo State, Nigeria",
+      "email": "lawrenceughonu@gmail.com",
+      "website": "www.renzium.com",
+      "linkedin": "linkedin.com/in/lawrence-ughonu",
+      "github": "github.com/renzium"
+    },
+    "summary": "Next.js Frontend Engineer with 5+ years of experience building fast, scalable, and user-focused web applications using React, Next.js, and TypeScript. Specialized in component-driven development, responsive UI, API integration, and performance optimization. Proven ability to collaborate with designers, backend engineers, and product teams to deliver production-ready applications.",
+    "technicalSkills": [
+      {
+        "category": "Frontend",
+        "skills": "Next.js, React, TypeScript, JavaScript"
+      },
+      {
+        "category": "Styling",
+        "skills": "Tailwind CSS, CSS3, Styled Components"
+      },
+      {
+        "category": "State & Data",
+        "skills": "React Query, Zustand, Redux"
+      },
+      {
+        "category": "APIs",
+        "skills": "REST APIs, WebSockets, JSON"
+      },
+      {
+        "category": "Tools",
+        "skills": "Git, GitHub Actions, Postman, Vercel"
+      },
+      {
+        "category": "Testing",
+        "skills": "Jest, Playwright (basic)"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Frontend Engineer (Next.js & React)",
+        "company": "NYXIDIOM",
+        "website": "nyxidiom.com",
+        "location": "Remote",
+        "startDate": "May 2025",
+        "endDate": "Present",
+        "description": "",
+        "achievements": [
+          "Developed responsive web applications using Next.js, React, and TypeScript with reusable component architecture.",
+          "Implemented authentication flows, dashboards, and data-driven UI using REST APIs.",
+          "Worked closely with backend engineers and product managers to translate business requirements into functional UI.",
+          "Optimized page performance, routing, and loading states for better user experience."
+        ]
+      },
+      {
+        "title": "Software Engineer (Frontend Focus)",
+        "company": "SQE Holdings LLC",
+        "website": "sqe.io",
+        "location": "Remote",
+        "startDate": "2023",
+        "endDate": "Present",
+        "description": "",
+        "achievements": [
+          "Built and maintained complex frontend interfaces using React and TypeScript.",
+          "Implemented real-time messaging UI using WebSockets.",
+          "Collaborated with designers to create intuitive and accessible user experiences.",
+          "Participated in code reviews and improved component structure and code quality."
+        ]
+      },
+      {
+        "title": "Frontend Engineer",
+        "company": "Digifigs",
+        "website": "",
+        "location": "",
+        "startDate": "Nov 2020",
+        "endDate": "Dec 2022",
+        "description": "",
+        "achievements": [
+          "Built and maintained company websites using React and modern CSS techniques.",
+          "Created responsive layouts optimized for mobile and desktop.",
+          "Worked with branding teams to ensure visual consistency and accessibility."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Business Management Dashboard (Next.js)",
+        "year": "",
+        "description": "Built a responsive admin dashboard with authentication, charts, and API integration."
+      },
+      {
+        "name": "Client Web Platform",
+        "year": "",
+        "description": "Developed UI for a SaaS platform using React, Tailwind CSS, and REST APIs."
+      },
+      {
+        "name": "Real-Time Messaging Web App",
+        "year": "",
+        "description": "Implemented chat UI using WebSockets and component-driven architecture."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Engineering (B.Eng.) — Electrical & Electronic Engineering",
+        "institution": "University of Ibadan",
+        "startYear": "2018",
+        "endYear": "2024"
+      }
+    ]
+  }
