@@ -1,0 +1,121 @@
+{
+    "id": "fullstack-react-nestjs-python",
+    "name": "Full Stack Developer - React, Nest.js, Node.js & Python",
+    "personalInfo": {
+      "fullName": "Lawrence Ughonu",
+      "location": "Ibadan, Oyo State, Nigeria",
+      "email": "lawrenceughonu@gmail.com",
+      "website": "www.renzium.com",
+      "linkedin": "linkedin.com/in/lawrence-ughonu",
+      "github": "github.com/renzium"
+    },
+    "summary": "Full Stack Software Engineer with 5+ years of hands-on experience building scalable web applications using React, Nest.js, Node.js, and Python. Expert in developing end-to-end solutions from responsive frontends to robust backend APIs and microservices. Proven track record delivering production applications with real-time features, API integrations, database optimization, and cloud deployment. Strong problem-solver with experience in agile environments and cross-functional collaboration.",
+    "technicalSkills": [
+      {
+        "category": "Frontend",
+        "skills": "React.js, Next.js, TypeScript, JavaScript, Redux, Zustand, React Query, Tailwind CSS"
+      },
+      {
+        "category": "Backend",
+        "skills": "Nest.js, Node.js, Express.js, FastAPI, Python, RESTful APIs, WebSocket, Microservices"
+      },
+      {
+        "category": "Database",
+        "skills": "PostgreSQL, MongoDB, Supabase, Redis, Database Design, Query Optimization"
+      },
+      {
+        "category": "DevOps & Cloud",
+        "skills": "AWS (Lambda, S3, EC2), Docker, CI/CD, GitHub Actions, Vercel, Serverless"
+      },
+      {
+        "category": "Tools & Methods",
+        "skills": "Git, Postman, Jest, Playwright, Agile/Scrum, API Documentation, Testing"
+      },
+      {
+        "category": "Additional",
+        "skills": "React Native, Expo, OpenAI API Integration, Payment Systems (Stripe), Firebase"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Full Stack Developer (React, Node.js, Python)",
+        "company": "NYXIDIOM",
+        "website": "nyxidiom.com",
+        "location": "Remote",
+        "startDate": "May 2025",
+        "endDate": "Present",
+        "description": "",
+        "achievements": [
+          "Built full-stack applications using React frontend with Nest.js/Node.js backend APIs and Python microservices for data processing and AI integration.",
+          "Developed Invoice Validator system using Python/FastAPI with automated PDF/Excel processing, deployed on AWS Lambda with serverless architecture serving multiple logistics companies.",
+          "Created React-based logistics platform with real-time features, Stripe payment integration, Google Maps API, and multi-language support connected to Node.js backend.",
+          "Implemented database schemas in PostgreSQL and Supabase with optimized queries for high-performance data retrieval.",
+          "Integrated OpenAI APIs and custom Python services for intelligent document processing and validation workflows.",
+          "Deployed applications to cloud infrastructure (AWS) with CI/CD pipelines and automated testing."
+        ]
+      },
+      {
+        "title": "Software Engineer (Full Stack)",
+        "company": "SQE Holdings LLC",
+        "website": "sqe.io",
+        "location": "Remote",
+        "startDate": "2023",
+        "endDate": "Present",
+        "description": "",
+        "achievements": [
+          "Built comprehensive full-stack application with React/TypeScript frontend and Node.js backend with real-time WebSocket messaging system.",
+          "Developed RESTful APIs using Node.js/Express for user management, authentication, organization management, and asset tokenization.",
+          "Implemented complex state management using Redux and integrated with backend services for seamless data synchronization.",
+          "Created scalable database architecture with PostgreSQL for handling blockchain transactions, user data, and messaging.",
+          "Integrated third-party APIs and developed custom middleware for authentication, logging, and error handling.",
+          "Collaborated with cross-functional teams including designers, product managers, and QA for agile development cycles."
+        ]
+      },
+      {
+        "title": "Frontend Engineer (React Focus)",
+        "company": "Digifigs",
+        "website": "",
+        "location": "",
+        "startDate": "November 2020",
+        "endDate": "December 2022",
+        "description": "",
+        "achievements": [
+          "Developed and maintained company web applications using React.js with modern development practices and component-driven architecture.",
+          "Built responsive user interfaces with React, implementing state management and API integration with Node.js backends.",
+          "Collaborated with backend developers to design and consume RESTful APIs for dynamic content rendering.",
+          "Optimized application performance through code splitting, lazy loading, and efficient rendering strategies.",
+          "Participated in code reviews and contributed to establishing frontend development best practices."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Invoice Validator Platform",
+        "year": "2025",
+        "description": "Python/FastAPI microservice with React admin dashboard for logistics invoice validation. Processes 1000+ documents daily with AWS Lambda deployment, PostgreSQL database, and automated batch processing workflows."
+      },
+      {
+        "name": "Logistics Delivery App (Full Stack)",
+        "year": "2025",
+        "description": "Complete full-stack solution: React frontend, Node.js/Nest.js backend APIs, Python processing services. Features include Stripe payments, real-time notifications, Google Maps integration, and Supabase database."
+      },
+      {
+        "name": "SQE Enterprise Application",
+        "year": "2023-Present",
+        "description": "Full-stack React/TypeScript application with Node.js backend. Real-time messaging (WebSocket), blockchain integration, organization management, and PostgreSQL database with complex relational schemas."
+      },
+      {
+        "name": "E-Commerce Platform Backend",
+        "year": "2023",
+        "description": "Built scalable Node.js/Nest.js REST API with PostgreSQL database, JWT authentication, payment processing integration, and comprehensive API documentation."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Engineering (B.Eng.) in Electrical and Electronic Engineering",
+        "institution": "University of Ibadan",
+        "startYear": "2018",
+        "endYear": "2024"
+      }
+    ]
+  }
