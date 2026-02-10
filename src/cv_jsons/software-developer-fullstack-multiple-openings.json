@@ -1,0 +1,116 @@
+{
+  "id": "software-developer-fullstack-multiple-openings",
+  "name": "Full Stack Software Developer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Ibadan, Oyo State, Nigeria",
+    "email": "lawrenceughonu@gmail.com",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Full Stack Software Developer with 5+ years of experience designing, building, and maintaining scalable web and mobile applications. Proficient in JavaScript, TypeScript, and Python across the full stack — from responsive React frontends to Node.js/Nest.js/FastAPI backends. Consistently delivers clean, well-documented code in collaboration with product and design teams. Experienced working remotely and in hybrid environments with teams across multiple time zones.",
+  "technicalSkills": [
+    {
+      "category": "Languages",
+      "skills": "JavaScript (ES6+), TypeScript, Python"
+    },
+    {
+      "category": "Frontend",
+      "skills": "React.js, Next.js, Remix, Tailwind CSS, Styled Components, Redux, React Query, Zustand"
+    },
+    {
+      "category": "Backend",
+      "skills": "Node.js, Nest.js, Express.js, FastAPI, Python, REST APIs, WebSocket, Microservices"
+    },
+    {
+      "category": "Database",
+      "skills": "PostgreSQL, Supabase, MongoDB, Firebase, SQL, Database Design"
+    },
+    {
+      "category": "Cloud & DevOps",
+      "skills": "AWS (Lambda, S3, EC2), Docker, GitHub Actions, CI/CD, Vercel, Serverless Architecture"
+    },
+    {
+      "category": "Mobile & Other",
+      "skills": "React Native, Expo, Stripe Integration, OpenAI API, Google Maps API, Git"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Developer",
+      "company": "NYXIDIOM",
+      "website": "nyxidiom.com",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "Present",
+      "description": "",
+      "achievements": [
+        "Designed and developed full-stack web and mobile applications using React, Node.js, Nest.js and Python, writing clean, modular, and well-documented code throughout.",
+        "Built a logistics delivery platform with React/Expo frontend integrated with Nest.js backend APIs — featuring Stripe payments, Google Maps, Supabase database, and multilingual support.",
+        "Developed a Python/FastAPI document intelligence microservice for automated invoice validation across multiple logistics companies, deployed serverlessly on AWS Lambda.",
+        "Collaborated closely with product managers and designers to translate wireframes and business requirements into polished, user-focused interfaces.",
+        "Resolved critical iOS memory management bugs, improving app stability and performance measurably in production."
+      ]
+    },
+    {
+      "title": "Software Engineer (Full Stack)",
+      "company": "SQE Holdings LLC",
+      "website": "sqe.io",
+      "location": "Remote",
+      "startDate": "2023",
+      "endDate": "Present",
+      "description": "",
+      "achievements": [
+        "Built and maintained a comprehensive full-stack application (React/TypeScript frontend, Node.js backend) with features spanning real-time messaging, blockchain wallets, organization management, and digital asset tokenization.",
+        "Designed scalable REST APIs and a real-time WebSocket messaging system handling live user communication.",
+        "Maintained high code quality standards through structured code reviews, reusable component architecture, and detailed documentation.",
+        "Collaborated with designers and product teams to consistently deliver accessible and intuitive user experiences."
+      ]
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Digifigs",
+      "website": "",
+      "location": "",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "description": "",
+      "achievements": [
+        "Designed, developed, and maintained company web applications using React.js and modern JavaScript, ensuring clean and scalable codebases.",
+        "Built fully responsive layouts optimized for mobile and desktop, collaborating with design teams to maintain visual consistency.",
+        "Integrated frontend applications with backend APIs and contributed to improving development standards and documentation practices."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Paka — Logistics Delivery Platform",
+      "year": "2025",
+      "description": "Full-stack delivery app. React Native/Expo frontend, Nest.js backend, Supabase database, Stripe payments, Google Maps, and AWS deployment. Fixed critical iOS memory issues in production."
+    },
+    {
+      "name": "Invoice Validator — Document Intelligence System",
+      "year": "2025",
+      "description": "Python/FastAPI microservice with React admin dashboard. Automated PDF/Excel invoice processing for logistics companies, deployed on AWS Lambda with batch processing support."
+    },
+    {
+      "name": "SQE — Enterprise Blockchain & Messaging App",
+      "year": "2023",
+      "description": "Full-stack React/TypeScript + Node.js application featuring real-time WebSocket messaging, QR scanning, blockchain wallet, asset tokenization, and organization management."
+    },
+    {
+      "name": "Business Management Dashboard",
+      "year": "2024",
+      "description": "Responsive React/Next.js admin dashboard with authentication, data charts, and REST API integration — built for a SaaS platform client."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (B.Eng.) in Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024"
+    }
+  ]
+}
