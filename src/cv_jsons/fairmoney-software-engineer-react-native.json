@@ -1,0 +1,133 @@
+{
+    "id": "fairmoney-software-engineer-react-native",
+    "name": "Software Engineer - React Native & React",
+    "personalInfo": {
+      "fullName": "Lawrence Ughonu",
+      "location": "Lagos, Nigeria",
+      "email": "lawrenceughonu@gmail.com",
+      "website": "www.renzium.com",
+      "linkedin": "linkedin.com/in/lawrence-ughonu",
+      "github": "github.com/renzium"
+    },
+    "summary": "Software Engineer with 5+ years of professional experience building production mobile and web applications using React Native and React. Expert in developing customer-facing fintech applications with complex financial workflows, payment integrations, and real-time features. Proven track record delivering scalable solutions in fast-paced environments with expertise in TypeScript, REST APIs, automated testing, and CI/CD pipelines. Strong problem-solver with excellent communication skills and experience mentoring team members.",
+    "technicalSkills": [
+      {
+        "category": "Mobile Development",
+        "skills": "React Native, Expo, iOS, Android, TypeScript, Redux, Zustand"
+      },
+      {
+        "category": "Web Development",
+        "skills": "React.js, Next.js, TypeScript, JavaScript, Tailwind CSS, Styled Components"
+      },
+      {
+        "category": "State Management & Data",
+        "skills": "Redux Toolkit, Zustand, React Query, Context API, RESTful APIs"
+      },
+      {
+        "category": "Backend & APIs",
+        "skills": "Node.js, Nest.js, Python, FastAPI, REST APIs, WebSocket, Microservices"
+      },
+      {
+        "category": "Testing & Quality",
+        "skills": "Jest, React Testing Library, Playwright, E2E Testing, Unit Testing, Integration Testing"
+      },
+      {
+        "category": "DevOps & Cloud",
+        "skills": "CI/CD (GitHub Actions), Azure, AWS (Lambda, S3, EC2), Docker, Git"
+      },
+      {
+        "category": "Fintech & Payments",
+        "skills": "Stripe Integration, Payment Processing, Financial Workflows, Transaction Management"
+      },
+      {
+        "category": "Database",
+        "skills": "PostgreSQL, Supabase, MongoDB, Firebase, Database Design"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Software Engineer (React Native & Full Stack)",
+        "company": "NYXIDIOM",
+        "website": "nyxidiom.com",
+        "location": "Remote",
+        "startDate": "May 2025",
+        "endDate": "Present",
+        "description": "Building customer-facing mobile and web applications for logistics and fintech clients with focus on React Native, payment integrations, and scalable architecture.",
+        "achievements": [
+          "Developed Paka logistics delivery platform using React Native/Expo with 10,000+ active users, featuring Stripe payment processing, real-time GPS tracking via Google Maps, push notifications, and multi-currency support across Nigeria.",
+          "Architected and implemented complex financial workflows including payment reconciliation, invoice validation, and automated transaction processing with 99.9% accuracy rate.",
+          "Solved critical iOS memory management issues causing app crashes in production, improving app stability from 85% to 99.5% crash-free rate through systematic debugging and performance optimization.",
+          "Built REST API integrations connecting mobile app to backend services (Nest.js/Node.js), implementing authentication flows, real-time data synchronization, and offline-first architecture.",
+          "Developed Python/FastAPI microservices for automated invoice processing deployed on AWS Lambda, handling 1,000+ documents weekly with batch processing capabilities.",
+          "Implemented comprehensive automated testing suite using Jest and React Testing Library, achieving 80%+ code coverage and reducing production bugs by 60%.",
+          "Collaborated with product managers and designers in agile environment to translate business requirements into technical implementations, delivering features on 2-week sprint cycles.",
+          "Established CI/CD pipelines using GitHub Actions for automated testing, building, and deployment to Azure and AWS, reducing deployment time from 45 minutes to 8 minutes."
+        ]
+      },
+      {
+        "title": "Software Engineer (Mobile & Full Stack)",
+        "company": "SQE Holdings LLC",
+        "website": "sqe.io",
+        "location": "Remote",
+        "startDate": "2023",
+        "endDate": "Present",
+        "description": "Built comprehensive mobile application with React Native and TypeScript serving 50,000+ users, featuring blockchain wallet, real-time messaging, and complex financial workflows.",
+        "achievements": [
+          "Developed production-ready React Native application (iOS and Android) with TypeScript, Redux for state management, and custom C++ native modules for blockchain integration.",
+          "Implemented real-time messaging system using WebSocket protocol, handling 100,000+ messages daily with end-to-end encryption and offline message queuing.",
+          "Built complex financial transaction flows including blockchain wallet management, QR code payments, digital asset tokenization, and multi-signature transaction approval workflows.",
+          "Designed and implemented scalable REST APIs using Node.js, integrating with PostgreSQL database for user management, transaction history, and organization management.",
+          "Conducted thorough code reviews for team members, establishing best practices for component architecture, TypeScript usage, and testing patterns.",
+          "Optimized app performance through code splitting, lazy loading, and efficient rendering strategies, reducing initial load time by 40% and improving app responsiveness.",
+          "Collaborated with cross-functional teams including backend engineers, designers, and product managers using agile methodologies and pair programming practices.",
+          "Mentored 2 junior developers on React Native best practices, TypeScript patterns, and mobile development workflows."
+        ]
+      },
+      {
+        "title": "Frontend Engineer",
+        "company": "Digifigs",
+        "website": "",
+        "location": "",
+        "startDate": "November 2020",
+        "endDate": "December 2022",
+        "description": "Built and maintained customer-facing web applications using React and modern JavaScript, establishing frontend best practices and improving code quality.",
+        "achievements": [
+          "Developed and maintained company web applications using React.js, implementing component-driven architecture with reusable UI components reducing development time by 30%.",
+          "Integrated RESTful APIs for dynamic content rendering, implementing proper error handling, loading states, and data caching strategies.",
+          "Implemented automated testing using Jest and React Testing Library, establishing testing standards that improved code reliability.",
+          "Collaborated with designers to build pixel-perfect, responsive interfaces optimized for mobile and desktop using CSS3, Flexbox, and Grid.",
+          "Participated in code reviews and contributed to establishing frontend development best practices including coding standards, component patterns, and documentation requirements."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Paka Logistics Platform (React Native)",
+        "year": "2025",
+        "description": "Production mobile app serving 10,000+ users. React Native/Expo, Stripe payments, Google Maps integration, real-time GPS tracking, push notifications, Supabase backend. Reduced delivery time tracking errors by 75%."
+      },
+      {
+        "name": "SQE Mobile Application (React Native)",
+        "year": "2023-Present",
+        "description": "Comprehensive fintech app with 50,000+ users. React Native/TypeScript, blockchain wallet, real-time WebSocket messaging, QR payments, organization management, PostgreSQL database. Featured complex financial workflows and multi-signature transactions."
+      },
+      {
+        "name": "Invoice Validator Microservice",
+        "year": "2025",
+        "description": "Python/FastAPI microservice with React admin dashboard. Automated financial document processing for logistics companies, AWS Lambda serverless deployment, processing 1,000+ invoices weekly with 99.9% accuracy."
+      },
+      {
+        "name": "Business Management Dashboard (Next.js)",
+        "year": "2024",
+        "description": "Enterprise web application using Next.js, TypeScript, and React. Built responsive admin dashboard with authentication, real-time data charts, API integration, and comprehensive user management system."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Engineering (B.Eng.) in Electrical and Electronic Engineering",
+        "institution": "University of Ibadan",
+        "startYear": "2018",
+        "endYear": "2024"
+      }
+    ]
+  }
