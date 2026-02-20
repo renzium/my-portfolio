@@ -1,0 +1,119 @@
+{
+    "id": "momentum-outbound-frontend-nextjs",
+    "name": "Frontend Engineer - Next.js & SaaS UI Specialist",
+    "personalInfo": {
+      "fullName": "Lawrence Ughonu",
+      "location": "Ibadan, Nigeria (100% Remote)",
+      "email": "lawrenceughonu@gmail.com",
+      "website": "www.renzium.com",
+      "linkedin": "linkedin.com/in/lawrence-ughonu",
+      "github": "github.com/renzium"
+    },
+    "summary": "Frontend Engineer with 5+ years building clean, structured SaaS interfaces using Next.js, React, and TypeScript. Proven track record designing and implementing production dashboards, onboarding flows, and marketing websites with strong usability instincts. Expert at integrating frontend systems with backend APIs, building reusable component systems, and delivering against milestones with minimal supervision. Strong communicator comfortable working from functional specifications in remote environments.",
+    "technicalSkills": [
+      {
+        "category": "Frontend & Frameworks",
+        "skills": "Next.js, React.js, TypeScript, JavaScript (ES6+), HTML5, CSS3"
+      },
+      {
+        "category": "UI/UX & Design",
+        "skills": "Responsive Design, Component Systems, Tailwind CSS, Styled Components, Figma Implementation, Design Systems"
+      },
+      {
+        "category": "SaaS & Dashboards",
+        "skills": "Dashboard Development, Analytics Interfaces, Onboarding Flows, Configuration Panels, Admin Interfaces"
+      },
+      {
+        "category": "API Integration",
+        "skills": "REST APIs, API Integration, Data Fetching, React Query, Axios, Error Handling"
+      },
+      {
+        "category": "Performance & Quality",
+        "skills": "Performance Optimization, SEO, Code Splitting, Lazy Loading, Lighthouse Optimization"
+      },
+      {
+        "category": "Tools & Workflow",
+        "skills": "Git, GitHub, Vercel, CI/CD, Figma, Chrome DevTools"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Frontend Engineer (Next.js & React)",
+        "company": "NYXIDIOM",
+        "website": "nyxidiom.com",
+        "location": "Remote",
+        "startDate": "May 2025",
+        "endDate": "Present",
+        "description": "",
+        "achievements": [
+          "Designed and implemented complete SaaS dashboard interfaces using Next.js and TypeScript for logistics platform, building configuration panels, campaign management flows, and analytics displays serving 10,000+ users.",
+          "Built structured onboarding experiences guiding new users through multi-step setup flows with progress tracking, form validation, and clear UX guidance reducing onboarding abandonment by 40%.",
+          "Created reusable component library with consistent design patterns used across dashboard, admin panels, and marketing pages - reducing development time for new features by 30%.",
+          "Integrated frontend components with backend REST APIs (Nest.js/Node.js), implementing proper error handling, loading states, and data caching for smooth user experience.",
+          "Developed high-performance marketing website using Next.js with optimized SEO, achieving 95+ Lighthouse scores across all metrics through image optimization, code splitting, and lazy loading.",
+          "Delivered against project milestones with minimal supervision - owned complete frontend implementation from functional specifications to production deployment on 2-week sprint cycles.",
+          "Communicated clearly with backend team and stakeholders through daily updates, technical documentation, and progress reports on Slack and GitHub."
+        ]
+      },
+      {
+        "title": "Software Engineer (Frontend Focus)",
+        "company": "SQE Holdings LLC",
+        "website": "sqe.io",
+        "location": "Remote",
+        "startDate": "2023",
+        "endDate": "Present",
+        "description": "",
+        "achievements": [
+          "Built comprehensive SaaS application interface using React and TypeScript with dashboard screens, settings panels, user management, and analytics displays for blockchain platform.",
+          "Designed and implemented clean, structured layouts prioritizing usability and clarity - created organization management interface, QR payment flows, and asset configuration screens.",
+          "Integrated frontend with backend APIs handling authentication, real-time data sync, transaction processing, and user settings with proper error boundaries and loading states.",
+          "Developed scalable, responsive design system ensuring consistent UI across all screens using component-driven architecture with reusable patterns and shared styling.",
+          "Worked from functional specifications provided by technical lead, translating requirements into production-ready interfaces without constant oversight."
+        ]
+      },
+      {
+        "title": "Frontend Engineer",
+        "company": "Digifigs",
+        "website": "",
+        "location": "Nigeria",
+        "startDate": "November 2020",
+        "endDate": "December 2022",
+        "description": "",
+        "achievements": [
+          "Built marketing websites and company platforms using React with focus on clean layouts, responsive design, and performance optimization.",
+          "Implemented UI designs from wireframes and mockups, ensuring pixel-perfect implementation with strong attention to usability and visual consistency.",
+          "Created reusable component patterns and maintained design systems across multiple client projects, ensuring scalable and maintainable frontend code."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Paka SaaS Dashboard (Next.js)",
+        "year": "2025",
+        "description": "Complete dashboard interface for logistics platform. Built campaign management, configuration panels, analytics displays, and onboarding flows. Next.js, TypeScript, Tailwind CSS. Served 10,000+ users."
+      },
+      {
+        "name": "Logistics Marketing Website (Next.js)",
+        "year": "2025",
+        "description": "High-performance marketing site built with Next.js. Achieved 95+ Lighthouse scores. Implemented SEO optimization, responsive design, smooth animations. Production-ready landing pages and product pages."
+      },
+      {
+        "name": "SQE Enterprise Interface (React/TypeScript)",
+        "year": "2023-Present",
+        "description": "Comprehensive SaaS application UI with dashboard, settings panels, user management, analytics screens. Clean, structured interface with consistent design system and reusable components."
+      },
+      {
+        "name": "Business Management Dashboard",
+        "year": "2024",
+        "description": "Admin dashboard with authentication, data visualization, configuration panels. Next.js/TypeScript with backend API integration. Built from functional specifications."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Engineering (B.Eng.) in Electrical and Electronic Engineering",
+        "institution": "University of Ibadan",
+        "startYear": "2018",
+        "endYear": "2024"
+      }
+    ]
+  }
