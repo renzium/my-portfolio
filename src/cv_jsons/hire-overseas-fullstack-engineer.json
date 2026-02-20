@@ -1,0 +1,138 @@
+{
+    "id": "hire-overseas-fullstack-engineer",
+    "name": "Full Stack Software Engineer - AI Product Development",
+    "personalInfo": {
+      "fullName": "Lawrence Ughonu",
+      "location": "Ibadan, Nigeria (100% Remote)",
+      "email": "lawrenceughonu@gmail.com",
+      "website": "www.renzium.com",
+      "linkedin": "linkedin.com/in/lawrence-ughonu",
+      "github": "github.com/renzium"
+    },
+    "summary": "Full Stack Software Engineer with 5+ years building and maintaining production applications using React, TypeScript, and Node.js. Proven track record shipping product features, fixing real-world issues, and improving systems used by thousands of customers daily. Experience working in product-driven startup environments, contributing to existing codebases, and executing against clear technical direction. Strong communicator comfortable working remotely with distributed teams across time zones.",
+    "technicalSkills": [
+      {
+        "category": "Frontend (Primary Focus)",
+        "skills": "React.js, Next.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Styled Components"
+      },
+      {
+        "category": "Backend",
+        "skills": "Node.js, Nest.js, Express.js, REST APIs, WebSocket, Microservices Architecture"
+      },
+      {
+        "category": "State Management",
+        "skills": "Redux Toolkit, Zustand, React Query, Context API"
+      },
+      {
+        "category": "Database & Data",
+        "skills": "PostgreSQL, Supabase, MongoDB, Firebase, SQL, Database Design"
+      },
+      {
+        "category": "Testing & Quality",
+        "skills": "Jest, React Testing Library, Playwright, E2E Testing, Unit Testing, Debugging"
+      },
+      {
+        "category": "DevOps & Infrastructure",
+        "skills": "Git, GitHub Actions, CI/CD Pipelines, AWS (Lambda, S3, EC2), Azure, Docker, Vercel"
+      },
+      {
+        "category": "AI Integration",
+        "skills": "OpenAI API Integration, AI-Powered Features, Document Intelligence, Voice Processing"
+      },
+      {
+        "category": "Mobile",
+        "skills": "React Native, Expo, iOS, Android"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Full Stack Software Engineer",
+        "company": "NYXIDIOM",
+        "website": "nyxidiom.com",
+        "location": "Remote (Spain-based company)",
+        "startDate": "May 2025",
+        "endDate": "Present",
+        "description": "Building and maintaining production applications serving 10,000+ users in logistics and document processing sectors. Working within established architectures while shipping features independently.",
+        "achievements": [
+          "Built and shipped full-stack features for Paka logistics platform using React/TypeScript frontend and Nest.js/Node.js backend, serving 10,000+ active users with 99.5% uptime.",
+          "Developed AI-powered invoice validation system using Python/FastAPI backend integrated with OpenAI APIs, processing 1,000+ financial documents weekly with 99.9% accuracy.",
+          "Fixed critical production bugs including iOS memory management issues causing app crashes, improving stability from 85% to 99.5% crash-free rate through systematic debugging.",
+          "Implemented product features from well-defined requirements efficiently - built Stripe payment integration, Google Maps tracking, and push notifications within 3-week sprint cycles.",
+          "Maintained and improved existing codebase incrementally - refactored authentication flows, optimized database queries reducing response time by 40%, enhanced error handling.",
+          "Worked within existing React/Node.js architecture, following established patterns while contributing clean, maintainable code that passed rigorous code reviews.",
+          "Communicated progress, blockers, and technical tradeoffs clearly to remote team through daily standups, Slack updates, and comprehensive pull request documentation.",
+          "Shipped 15+ production features in 9 months including multi-currency support, real-time GPS tracking, automated invoice processing, and admin dashboard improvements.",
+          "Supported ongoing customer use by addressing bug reports quickly (average 24-hour turnaround), implementing configuration improvements, and adding self-service capabilities.",
+          "Collaborated with designers to implement pixel-perfect UI using Figma designs, ensuring consistent user experience across web and mobile platforms."
+        ]
+      },
+      {
+        "title": "Software Engineer (Full Stack)",
+        "company": "SQE Holdings LLC",
+        "website": "sqe.io",
+        "location": "Remote (US-based company)",
+        "startDate": "2023",
+        "endDate": "Present",
+        "description": "Working on long-lived production platform serving 50,000+ users. Building features within existing architecture and maintaining stable, reliable systems.",
+        "achievements": [
+          "Built full-stack features for production platform using React/TypeScript frontend and Node.js backend, contributing to codebase serving 50,000+ active users.",
+          "Developed real-time messaging system using WebSocket and Node.js, handling 100,000+ messages daily with end-to-end encryption and offline support.",
+          "Fixed bugs and addressed issues in existing production systems - resolved authentication edge cases, optimized rendering performance reducing load time by 40%.",
+          "Worked within established React/TypeScript patterns and Node.js architecture, following code standards while improving maintainability incrementally.",
+          "Implemented product designs efficiently - translated Figma mockups into working features including organization management, QR payments, and asset tokenization.",
+          "Collaborated closely with US-based engineers on scoped feature work through GitHub, Slack, and bi-weekly planning meetings, maintaining clear communication despite timezone differences.",
+          "Debugged complex issues independently - traced WebSocket connection problems, fixed PostgreSQL query performance issues, resolved state management bugs.",
+          "Contributed to documentation and handoffs - wrote technical specs, maintained README files, documented API endpoints for team knowledge sharing.",
+          "Improved configurability for customers by building admin settings panel, implementing feature flags, and adding customization options without code changes.",
+          "Supported platform stability through proactive monitoring, quick incident response, and implementing comprehensive error logging with Sentry integration."
+        ]
+      },
+      {
+        "title": "Frontend Engineer",
+        "company": "Digifigs",
+        "website": "",
+        "location": "Nigeria",
+        "startDate": "November 2020",
+        "endDate": "December 2022",
+        "description": "Built and maintained customer-facing web applications using React. First production engineering experience working on existing codebases.",
+        "achievements": [
+          "Developed and shipped features for production React applications, working within existing codebase and following established component patterns.",
+          "Fixed bugs in customer-facing systems - resolved responsive design issues, corrected API integration errors, improved form validation logic.",
+          "Implemented product designs using React and CSS3, translating wireframes into working features while maintaining code quality standards.",
+          "Improved existing systems incrementally - refactored legacy components, enhanced accessibility, optimized bundle size reducing load time by 25%.",
+          "Collaborated with remote team members through GitHub pull requests, code reviews, and clear written communication about implementation decisions.",
+          "Maintained stable production systems by addressing customer-reported issues quickly, implementing fixes, and preventing regression through testing."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Paka Logistics Platform (Full Stack)",
+        "year": "2025",
+        "description": "Production web and mobile platform serving 10,000+ users. React/TypeScript frontend, Nest.js/Node.js backend, PostgreSQL database. Shipped features: Stripe payments, real-time GPS tracking, push notifications, multi-currency support. Maintained 99.5% uptime."
+      },
+      {
+        "name": "AI Invoice Validator (AI-Powered Product)",
+        "year": "2025",
+        "description": "AI-native document processing system integrated with OpenAI APIs. Python/FastAPI backend, React admin dashboard. Processes 1,000+ invoices weekly, turning unstructured documents into structured data with 99.9% accuracy. Built for enterprise customers."
+      },
+      {
+        "name": "SQE Enterprise Platform (Long-Lived Product)",
+        "year": "2023-Present",
+        "description": "Ongoing full-stack work on production platform with 50,000+ users. React/TypeScript, Node.js, PostgreSQL. Features: real-time messaging, organization management, QR payments. Focus on maintenance, bug fixes, and incremental improvements."
+      },
+      {
+        "name": "Business Management Dashboard (Full Stack)",
+        "year": "2024",
+        "description": "Enterprise dashboard using Next.js/TypeScript frontend and Node.js backend. Built authentication, data visualization, API integrations. Worked within existing architecture, shipped features from designs efficiently."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Engineering (B.Eng.) in Electrical and Electronic Engineering",
+        "institution": "University of Ibadan",
+        "startYear": "2018",
+        "endYear": "2024"
+      }
+    ]
+  }
