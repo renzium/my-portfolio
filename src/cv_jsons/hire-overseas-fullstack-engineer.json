@@ -70,10 +70,10 @@
         "endDate": "Present",
         "description": "",
         "achievements": [
-          "Built full-stack features for production platform (React/TypeScript, Node.js) serving 50,000+ users, including real-time WebSocket messaging handling 100,000+ daily messages.",
-          "Fixed bugs and optimized existing systems - resolved authentication issues, improved performance reducing load time by 40%, debugged PostgreSQL queries independently.",
-          "Implemented product designs efficiently from Figma mockups, shipping organization management, QR payments, and asset tokenization features.",
-          "Collaborated with US-based engineers on scoped work through GitHub and Slack, contributed to documentation, and improved customer configurability with admin panels and feature flags."
+          "Built comprehensive full-stack application (React/TypeScript, Node.js) with real-time WebSocket messaging, blockchain wallet integration, and complex financial workflows in preparation for launch.",
+          "Developed complete feature sets from requirements including organization management, QR code payments, digital asset tokenization, and multi-signature transaction flows.",
+          "Fixed bugs and optimized performance throughout development - resolved authentication edge cases, improved rendering reducing load time by 40%, debugged PostgreSQL query issues independently.",
+          "Collaborated with US-based engineers on scoped work through GitHub and Slack, following established patterns while contributing clean code and comprehensive documentation."
         ]
       },
       {
@@ -103,9 +103,9 @@
         "description": "AI-powered document processing with OpenAI integration. Python/FastAPI, React dashboard. Processes 1,000+ invoices weekly at 99.9% accuracy."
       },
       {
-        "name": "SQE Enterprise Platform",
+        "name": "SQE Enterprise Application",
         "year": "2023-Present",
-        "description": "Production platform with 50,000+ users. React/TypeScript, Node.js. Real-time messaging, organization management, ongoing maintenance and feature development."
+        "description": "Comprehensive full-stack application built for blockchain and financial services. React/TypeScript, Node.js. Features: real-time messaging, blockchain wallet, organization management, QR payments."
       }
     ],
     "education": [
