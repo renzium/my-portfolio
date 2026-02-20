@@ -52,18 +52,13 @@
         "location": "Remote (Spain-based company)",
         "startDate": "May 2025",
         "endDate": "Present",
-        "description": "Building and maintaining production applications serving 10,000+ users in logistics and document processing sectors. Working within established architectures while shipping features independently.",
+        "description": "",
         "achievements": [
-          "Built and shipped full-stack features for Paka logistics platform using React/TypeScript frontend and Nest.js/Node.js backend, serving 10,000+ active users with 99.5% uptime.",
-          "Developed AI-powered invoice validation system using Python/FastAPI backend integrated with OpenAI APIs, processing 1,000+ financial documents weekly with 99.9% accuracy.",
-          "Fixed critical production bugs including iOS memory management issues causing app crashes, improving stability from 85% to 99.5% crash-free rate through systematic debugging.",
-          "Implemented product features from well-defined requirements efficiently - built Stripe payment integration, Google Maps tracking, and push notifications within 3-week sprint cycles.",
-          "Maintained and improved existing codebase incrementally - refactored authentication flows, optimized database queries reducing response time by 40%, enhanced error handling.",
-          "Worked within existing React/Node.js architecture, following established patterns while contributing clean, maintainable code that passed rigorous code reviews.",
-          "Communicated progress, blockers, and technical tradeoffs clearly to remote team through daily standups, Slack updates, and comprehensive pull request documentation.",
-          "Shipped 15+ production features in 9 months including multi-currency support, real-time GPS tracking, automated invoice processing, and admin dashboard improvements.",
-          "Supported ongoing customer use by addressing bug reports quickly (average 24-hour turnaround), implementing configuration improvements, and adding self-service capabilities.",
-          "Collaborated with designers to implement pixel-perfect UI using Figma designs, ensuring consistent user experience across web and mobile platforms."
+          "Built and shipped full-stack features for Paka logistics platform (React/TypeScript, Nest.js/Node.js) serving 10,000+ users with 99.5% uptime, implementing Stripe payments, GPS tracking, and push notifications.",
+          "Developed AI-powered invoice validation system with OpenAI API integration processing 1,000+ documents weekly at 99.9% accuracy using Python/FastAPI backend.",
+          "Fixed critical production bugs including iOS memory crashes, improving stability from 85% to 99.5% through systematic debugging and performance optimization.",
+          "Worked within existing React/Node.js architecture following established patterns, shipping 15+ features in 9 months while maintaining clean, maintainable code.",
+          "Collaborated with remote team across time zones through clear communication in standups, Slack updates, and comprehensive PR documentation."
         ]
       },
       {
@@ -73,18 +68,12 @@
         "location": "Remote (US-based company)",
         "startDate": "2023",
         "endDate": "Present",
-        "description": "Working on long-lived production platform serving 50,000+ users. Building features within existing architecture and maintaining stable, reliable systems.",
+        "description": "",
         "achievements": [
-          "Built full-stack features for production platform using React/TypeScript frontend and Node.js backend, contributing to codebase serving 50,000+ active users.",
-          "Developed real-time messaging system using WebSocket and Node.js, handling 100,000+ messages daily with end-to-end encryption and offline support.",
-          "Fixed bugs and addressed issues in existing production systems - resolved authentication edge cases, optimized rendering performance reducing load time by 40%.",
-          "Worked within established React/TypeScript patterns and Node.js architecture, following code standards while improving maintainability incrementally.",
-          "Implemented product designs efficiently - translated Figma mockups into working features including organization management, QR payments, and asset tokenization.",
-          "Collaborated closely with US-based engineers on scoped feature work through GitHub, Slack, and bi-weekly planning meetings, maintaining clear communication despite timezone differences.",
-          "Debugged complex issues independently - traced WebSocket connection problems, fixed PostgreSQL query performance issues, resolved state management bugs.",
-          "Contributed to documentation and handoffs - wrote technical specs, maintained README files, documented API endpoints for team knowledge sharing.",
-          "Improved configurability for customers by building admin settings panel, implementing feature flags, and adding customization options without code changes.",
-          "Supported platform stability through proactive monitoring, quick incident response, and implementing comprehensive error logging with Sentry integration."
+          "Built full-stack features for production platform (React/TypeScript, Node.js) serving 50,000+ users, including real-time WebSocket messaging handling 100,000+ daily messages.",
+          "Fixed bugs and optimized existing systems - resolved authentication issues, improved performance reducing load time by 40%, debugged PostgreSQL queries independently.",
+          "Implemented product designs efficiently from Figma mockups, shipping organization management, QR payments, and asset tokenization features.",
+          "Collaborated with US-based engineers on scoped work through GitHub and Slack, contributed to documentation, and improved customer configurability with admin panels and feature flags."
         ]
       },
       {
@@ -94,37 +83,29 @@
         "location": "Nigeria",
         "startDate": "November 2020",
         "endDate": "December 2022",
-        "description": "Built and maintained customer-facing web applications using React. First production engineering experience working on existing codebases.",
+        "description": "",
         "achievements": [
-          "Developed and shipped features for production React applications, working within existing codebase and following established component patterns.",
-          "Fixed bugs in customer-facing systems - resolved responsive design issues, corrected API integration errors, improved form validation logic.",
-          "Implemented product designs using React and CSS3, translating wireframes into working features while maintaining code quality standards.",
-          "Improved existing systems incrementally - refactored legacy components, enhanced accessibility, optimized bundle size reducing load time by 25%.",
-          "Collaborated with remote team members through GitHub pull requests, code reviews, and clear written communication about implementation decisions.",
-          "Maintained stable production systems by addressing customer-reported issues quickly, implementing fixes, and preventing regression through testing."
+          "Developed and shipped features for production React applications, working within existing codebase following established patterns.",
+          "Fixed bugs in customer-facing systems, implemented designs from wireframes, and improved systems incrementally through refactoring and optimization.",
+          "Collaborated remotely through GitHub PRs and code reviews, maintaining stable systems with quick issue resolution."
         ]
       }
     ],
     "projects": [
       {
-        "name": "Paka Logistics Platform (Full Stack)",
+        "name": "Paka Logistics Platform",
         "year": "2025",
-        "description": "Production web and mobile platform serving 10,000+ users. React/TypeScript frontend, Nest.js/Node.js backend, PostgreSQL database. Shipped features: Stripe payments, real-time GPS tracking, push notifications, multi-currency support. Maintained 99.5% uptime."
+        "description": "Full-stack platform serving 10,000+ users. React/TypeScript frontend, Nest.js backend. Features: Stripe payments, real-time GPS, push notifications, 99.5% uptime."
       },
       {
-        "name": "AI Invoice Validator (AI-Powered Product)",
+        "name": "AI Invoice Validator",
         "year": "2025",
-        "description": "AI-native document processing system integrated with OpenAI APIs. Python/FastAPI backend, React admin dashboard. Processes 1,000+ invoices weekly, turning unstructured documents into structured data with 99.9% accuracy. Built for enterprise customers."
+        "description": "AI-powered document processing with OpenAI integration. Python/FastAPI, React dashboard. Processes 1,000+ invoices weekly at 99.9% accuracy."
       },
       {
-        "name": "SQE Enterprise Platform (Long-Lived Product)",
+        "name": "SQE Enterprise Platform",
         "year": "2023-Present",
-        "description": "Ongoing full-stack work on production platform with 50,000+ users. React/TypeScript, Node.js, PostgreSQL. Features: real-time messaging, organization management, QR payments. Focus on maintenance, bug fixes, and incremental improvements."
-      },
-      {
-        "name": "Business Management Dashboard (Full Stack)",
-        "year": "2024",
-        "description": "Enterprise dashboard using Next.js/TypeScript frontend and Node.js backend. Built authentication, data visualization, API integrations. Worked within existing architecture, shipped features from designs efficiently."
+        "description": "Production platform with 50,000+ users. React/TypeScript, Node.js. Real-time messaging, organization management, ongoing maintenance and feature development."
       }
     ],
     "education": [
