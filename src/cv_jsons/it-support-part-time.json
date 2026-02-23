@@ -1,0 +1,118 @@
+{
+    "id": "it-support-part-time",
+    "name": "IT Support Specialist",
+    "personalInfo": {
+      "fullName": "Lawrence Ughonu",
+      "location": "Ibadan, Nigeria (Remote)",
+      "email": "lawrenceughonu@gmail.com",
+      "website": "www.renzium.com",
+      "linkedin": "linkedin.com/in/lawrence-ughonu",
+      "github": "github.com/renzium"
+    },
+    "summary": "IT Support Specialist with 6+ years in the tech space as a Software Engineer. Deep understanding of technical terminology, systems troubleshooting, and documentation. Experience supporting users with software issues, providing technical guidance, and creating clear documentation. Proficient in React, Node.js, Python, cloud systems (AWS), databases, and various development tools. Strong communicator skilled at explaining technical concepts to non-technical users.",
+    "technicalSkills": [
+      {
+        "category": "Technical Support",
+        "skills": "Troubleshooting, User Support, Technical Documentation, Issue Resolution, System Diagnostics"
+      },
+      {
+        "category": "Software & Tools",
+        "skills": "Windows, macOS, Linux/Ubuntu, Git, GitHub, VS Code, Chrome DevTools, Postman, Figma"
+      },
+      {
+        "category": "Cloud & Infrastructure",
+        "skills": "AWS (Lambda, S3, EC2), Azure basics, Vercel, Docker, CI/CD, Deployment troubleshooting"
+      },
+      {
+        "category": "Databases",
+        "skills": "PostgreSQL, MongoDB, Firebase, Supabase, SQL queries, Database troubleshooting"
+      },
+      {
+        "category": "Communication Tools",
+        "skills": "Slack, Zoom, Google Meet, Microsoft Teams, Email support, Remote desktop tools"
+      },
+      {
+        "category": "Documentation",
+        "skills": "Technical writing, User guides, API documentation, README files, Markdown, Google Docs"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Software Engineer",
+        "company": "NYXIDIOM",
+        "website": "nyxidiom.com",
+        "location": "Remote",
+        "startDate": "May 2025",
+        "endDate": "Present",
+        "description": "",
+        "achievements": [
+          "Provided technical support to 10,000+ platform users, troubleshooting app issues, login problems, payment errors, and navigation difficulties.",
+          "Created comprehensive technical documentation including user guides, troubleshooting FAQs, API documentation, and setup instructions.",
+          "Collaborated with non-technical team members, translating complex technical concepts into clear, understandable language.",
+          "Supported users remotely through Slack, email, and video calls, providing step-by-step guidance for resolving technical issues."
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "company": "SQE Holdings LLC",
+        "website": "sqe.io",
+        "location": "Remote",
+        "startDate": "2023",
+        "endDate": "Present",
+        "description": "",
+        "achievements": [
+          "Troubleshot and resolved software bugs, system errors, and user-reported issues across web and mobile applications.",
+          "Wrote technical documentation for internal tools, APIs, and development processes used by engineering team.",
+          "Provided technical guidance to team members on using development tools, debugging techniques, and best practices."
+        ]
+      },
+      {
+        "title": "Frontend Engineer",
+        "company": "Digifigs",
+        "website": "",
+        "location": "Nigeria",
+        "startDate": "November 2020",
+        "endDate": "December 2022",
+        "description": "",
+        "achievements": [
+          "Assisted clients with technical issues on their websites including browser compatibility problems, mobile responsiveness, and functionality errors.",
+          "Created documentation for website features, maintenance procedures, and common troubleshooting steps.",
+          "Communicated with non-technical clients, explaining technical issues and solutions in simple, clear terms."
+        ]
+      }
+    ],
+    "relevantSkills": [
+      {
+        "category": "IT Support Experience",
+        "details": "6+ years working in tech with hands-on troubleshooting experience, user support, and technical problem-solving"
+      },
+      {
+        "category": "Documentation Skills",
+        "details": "Written user guides, API docs, technical specifications, troubleshooting FAQs, and training materials"
+      },
+      {
+        "category": "Tech Terminology",
+        "details": "Deep understanding of software development, cloud systems, databases, APIs, debugging, deployment, and IT infrastructure"
+      },
+      {
+        "category": "Problem-Solving",
+        "details": "Skilled at diagnosing issues, researching solutions, and resolving technical problems systematically"
+      },
+      {
+        "category": "Communication",
+        "details": "Excellent at explaining technical concepts to non-technical users in clear, simple language"
+      },
+      {
+        "category": "Remote Work",
+        "details": "6+ years working remotely, comfortable with async communication, video support, and virtual collaboration"
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Engineering (B.Eng.) in Electrical and Electronic Engineering",
+        "institution": "University of Ibadan",
+        "startYear": "2018",
+        "endYear": "2024"
+      }
+    ]
+  }
