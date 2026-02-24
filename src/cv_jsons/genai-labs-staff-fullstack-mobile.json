@@ -1,0 +1,125 @@
+{
+    "id": "genai-labs-staff-fullstack-mobile",
+    "name": "Staff Full Stack Engineer - Mobile & AI",
+    "personalInfo": {
+      "fullName": "Lawrence Ughonu",
+      "location": "Lagos, Nigeria (Remote - UTC+1)",
+      "email": "lawrenceughonu@gmail.com",
+      "website": "www.renzium.com",
+      "linkedin": "linkedin.com/in/lawrence-ughonu",
+      "github": "github.com/renzium"
+    },
+    "summary": "Full Stack Engineer with 6+ years building production mobile and web applications with embedded AI capabilities. Expert in React Native mobile development, backend API architecture, and AI/LLM integrations. Shipped production apps serving 10,000+ users with real-time features, offline-first architecture, and intelligent workflows. Strong technical leadership in mobile UI/UX, microservices design, and cross-platform development. Proven ability to own complex features end-to-end from mobile client to backend services.",
+    "technicalSkills": [
+      {
+        "category": "Mobile Development (Primary)",
+        "skills": "React Native, Expo, iOS, Android, Mobile UI/UX, Offline-First, State Management (Redux, Zustand)"
+      },
+      {
+        "category": "Frontend & UI",
+        "skills": "React.js, TypeScript, JavaScript, Responsive Design, Animations, Gestures, Accessibility, Design Systems"
+      },
+      {
+        "category": "Backend & APIs",
+        "skills": "Node.js, Nest.js, Python, FastAPI, REST APIs, GraphQL concepts, Microservices Architecture"
+      },
+      {
+        "category": "AI & LLM Integration",
+        "skills": "OpenAI API, AI-Powered Workflows, Document Intelligence, Conversational Interfaces, Prompt Engineering"
+      },
+      {
+        "category": "Real-Time & Async",
+        "skills": "WebSocket, Push Notifications, Background Jobs, Streaming, Event-Driven Architecture"
+      },
+      {
+        "category": "Cloud & Infrastructure",
+        "skills": "AWS (Lambda, S3, EC2), Serverless, Docker, CI/CD (GitHub Actions), Vercel, Azure basics"
+      },
+      {
+        "category": "Databases & Storage",
+        "skills": "PostgreSQL, MongoDB, Firebase, Supabase, Offline Storage, Data Synchronization"
+      },
+      {
+        "category": "Testing & Quality",
+        "skills": "Jest, React Testing Library, E2E Testing, Performance Optimization, Code Reviews, Technical Leadership"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Full Stack Engineer (Mobile-First, AI Integration)",
+        "company": "NYXIDIOM",
+        "website": "nyxidiom.com",
+        "location": "Remote",
+        "startDate": "May 2025",
+        "endDate": "Present",
+        "description": "",
+        "achievements": [
+          "Owned end-to-end mobile experience for Paka logistics platform (React Native/Expo) serving 10,000+ users - architected UI, navigation, state management, and performance optimization achieving 99.5% crash-free rate.",
+          "Built polished, responsive mobile UI with excellent UX including smooth animations, gesture handling, accessibility features, and pixel-perfect design implementation from Figma mockups.",
+          "Implemented offline-first architecture with local storage, background sync, and graceful handling of unreliable networks - ensuring app functionality in low-connectivity environments.",
+          "Designed and built backend APIs (Nest.js/Node.js) powering mobile features including authentication, real-time data access, payment processing (Stripe), and business workflows with PostgreSQL database.",
+          "Integrated real-time features using WebSocket for live location tracking, push notifications (Expo Notifications), and instant updates creating seamless mobile experience.",
+          "Embedded AI-driven document processing using Python/FastAPI with OpenAI API integration - built intelligent invoice validation system processing 1,000+ documents weekly with 99.9% accuracy.",
+          "Led technical direction for mobile architecture decisions, conducted code reviews, and mentored team members on React Native best practices and mobile optimization techniques.",
+          "Maintained quality across testing (Jest, E2E), observability (error tracking, performance monitoring), security (auth, data encryption), and CI/CD for both mobile and backend systems.",
+          "Shipped production mobile app to iOS App Store and Google Play Store with automated deployment pipelines, achieving 95+ app store ratings and handling thousands of daily active users."
+        ]
+      },
+      {
+        "title": "Full Stack Engineer (Mobile & Backend)",
+        "company": "SQE Holdings LLC",
+        "website": "sqe.io",
+        "location": "Remote (US-based)",
+        "startDate": "2023",
+        "endDate": "Present",
+        "description": "",
+        "achievements": [
+          "Built comprehensive mobile application using React Native and TypeScript with complex UI architecture, screen flows, navigation patterns, and advanced state management serving production users.",
+          "Developed backend microservices using Node.js with REST APIs for mobile client including auth patterns (JWT), asynchronous data flows, and real-time WebSocket communication.",
+          "Implemented conversational interface patterns with real-time messaging, chat features, and interactive workflows demonstrating experience with user-facing AI-like interactions.",
+          "Optimized mobile app performance reducing load time by 40% through code splitting, lazy loading, efficient rendering, and memory management improvements.",
+          "Led technical decisions for mobile architecture, component design patterns, and backend service integration while mentoring junior developers on best practices.",
+          "Built integrations with third-party services, implemented background jobs for async processing, and ensured security across authentication, data access, and API communications."
+        ]
+      },
+      {
+        "title": "Frontend Engineer",
+        "company": "Digifigs",
+        "website": "",
+        "location": "Nigeria",
+        "startDate": "November 2020",
+        "endDate": "December 2022",
+        "description": "",
+        "achievements": [
+          "Built responsive web applications using React with strong attention to design, usability, and user experience working closely with UX teams.",
+          "Implemented design systems with reusable UI components, consistent styling patterns, and accessibility considerations across multiple projects.",
+          "Developed frontend features with backend API integration, proper error handling, loading states, and optimized performance for production applications."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Paka - Production Mobile App (React Native)",
+        "year": "2025",
+        "description": "Complete mobile-first platform serving 10,000+ users. Owned mobile experience end-to-end: UI architecture, screens, navigation, state management, performance. Features: offline-first with background sync, real-time GPS tracking, Stripe payments, push notifications, gesture controls, animations. Backend: Nest.js REST APIs, PostgreSQL, AWS deployment. Achieved 99.5% crash-free rate, 95+ app store rating."
+      },
+      {
+        "name": "AI-Powered Document Intelligence System",
+        "year": "2025",
+        "description": "Embedded AI workflow using OpenAI API for intelligent document processing. Python/FastAPI backend with React dashboard. Implemented conversational-style interactions, summarization, and automated extraction processing 1,000+ documents weekly. Deployed on AWS Lambda with proper orchestration and guardrails."
+      },
+      {
+        "name": "Enterprise Mobile Application (React Native)",
+        "year": "2023-Present",
+        "description": "Production React Native app with TypeScript. Complex mobile UI with real-time messaging (WebSocket), interactive workflows, organization management, QR scanning, and payment features. Node.js backend APIs with auth patterns and async data flows."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Engineering (B.Eng.) in Electrical and Electronic Engineering",
+        "institution": "University of Ibadan",
+        "startYear": "2018",
+        "endYear": "2024"
+      }
+    ]
+  }
