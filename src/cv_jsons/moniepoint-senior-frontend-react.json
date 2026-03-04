@@ -1,0 +1,161 @@
+{
+  "id": "moniepoint-senior-frontend-react",
+  "name": "Senior Frontend Engineer - React Specialist",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Remote)",
+    "email": "lawrenceughonu@gmail.com",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Senior Frontend Engineer with 6+ years of proven experience building high-quality, scalable web applications using React and JavaScript. Expert in developing clean, efficient code with strong focus on software architecture, automated testing, and agile methodologies. Demonstrated ability to work independently, lead technical projects, and deliver solutions aligned with user needs and business goals. Experienced in fintech environments with deep understanding of payment systems, transaction processing, and financial applications.",
+  "technicalSkills": [
+    {
+      "category": "Frontend Development (Primary)",
+      "skills": "React.js (6+ years), JavaScript (ES6+), TypeScript, HTML5, CSS3, Modern Web Standards"
+    },
+    {
+      "category": "React Ecosystem & State Management",
+      "skills": "React Hooks, Context API, Redux Toolkit, Zustand, React Query, React Router, Next.js"
+    },
+    {
+      "category": "Software Architecture & Design",
+      "skills": "Component Architecture, Design Patterns, Scalable Systems, Code Organization, Reusable Libraries"
+    },
+    {
+      "category": "Testing & Quality Assurance",
+      "skills": "Jest, React Testing Library, Automated Testing Frameworks, E2E Testing, Unit Testing, Test-Driven Development"
+    },
+    {
+      "category": "Development Tools & Automation",
+      "skills": "Webpack, Vite, npm/yarn, ESLint, Prettier, Git, GitHub Actions, CI/CD, Task Automation, Scripting"
+    },
+    {
+      "category": "System Monitoring & Performance",
+      "skills": "Performance Optimization, Application Monitoring, Error Tracking (Sentry), CloudWatch, Performance Profiling"
+    },
+    {
+      "category": "Styling & UI Development",
+      "skills": "Tailwind CSS, CSS-in-JS, Styled Components, Sass/SCSS, Responsive Design, Cross-browser Compatibility"
+    },
+    {
+      "category": "Backend Integration & APIs",
+      "skills": "RESTful APIs, API Integration, Async Data Fetching, Error Handling, WebSocket, Real-time Updates"
+    },
+    {
+      "category": "Operating Systems",
+      "skills": "Linux, macOS, Windows - Cross-platform Development Experience"
+    },
+    {
+      "category": "Agile & Project Management",
+      "skills": "Agile/Scrum Methodologies, Sprint Planning, Code Reviews, Technical Documentation, Team Leadership"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Frontend Engineer (React)",
+      "company": "NYXIDIOM",
+      "website": "nyxidiom.com",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "Present",
+      "description": "",
+      "achievements": [
+        "Developed high-quality software architecture for React applications serving 10,000+ users, ensuring scalability, maintainability, and alignment with business goals.",
+        "Produced clean, efficient React code using modern JavaScript (ES6+) and TypeScript, implementing best practices for component design, state management, and performance optimization.",
+        "Identified, prioritized, and executed tasks throughout the software development lifecycle using agile methodologies with 2-week sprint cycles.",
+        "Automated development tasks through custom scripting and tooling, reducing deployment time from 45 minutes to 8 minutes and improving team productivity by 30%.",
+        "Reviewed and debugged code systematically, conducting thorough code reviews and implementing solutions that improved application stability from 85% to 99.5% crash-free rate.",
+        "Performed validation and verification testing using Jest and React Testing Library, implementing automated testing frameworks achieving 80%+ test coverage.",
+        "Collaborated with internal teams including backend engineers, designers, and product managers to deliver cohesive solutions in fast-paced environment.",
+        "Documented development phases comprehensively, maintaining technical documentation for components, APIs, and system architecture to support knowledge sharing.",
+        "Monitored production systems using error tracking tools and performance monitoring, ensuring applications remained up-to-date with latest React patterns and security standards.",
+        "Led technical projects independently with minimal supervision, making architectural decisions and mentoring junior developers on React best practices."
+      ]
+    },
+    {
+      "title": "Frontend Engineer (React/JavaScript)",
+      "company": "SQE Holdings LLC",
+      "website": "sqe.io",
+      "location": "Remote",
+      "startDate": "2023",
+      "endDate": "Present",
+      "description": "",
+      "achievements": [
+        "Developed production React applications with JavaScript and TypeScript, building scalable component architectures for complex financial workflows.",
+        "Implemented automated testing frameworks using Jest, establishing testing standards that improved code quality and reduced production bugs by 60%.",
+        "Optimized application performance through systematic profiling and debugging, achieving 40% improvement in load times and responsiveness.",
+        "Worked independently on feature development with excellent organizational skills, managing multiple priorities and delivering on-time in agile environment.",
+        "Collaborated with cross-functional teams to define software requirements, translate business needs into technical solutions, and ensure alignment with user goals.",
+        "Monitored system performance and application health, implementing proactive error tracking and performance optimization strategies."
+      ]
+    },
+    {
+      "title": "Frontend Developer (React)",
+      "company": "Digifigs",
+      "website": "",
+      "location": "Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "description": "",
+      "achievements": [
+        "Built production web applications using React and JavaScript, developing clean, maintainable code following industry best practices.",
+        "Executed software development tasks independently, demonstrating strong problem-solving aptitude and analytical mindset.",
+        "Collaborated with team members and vendors to fix and improve products, participating in code reviews and continuous improvement initiatives.",
+        "Implemented responsive designs compatible across various operating systems and browsers (Linux, macOS, Windows)."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Paka - Production React Application",
+      "year": "2025",
+      "description": "High-quality React application serving 10,000+ users with sophisticated architecture. Built using React, JavaScript, TypeScript, and modern development practices. Implemented automated testing with Jest (80%+ coverage), CI/CD pipelines, and system monitoring. Achieved 99.5% crash-free rate through rigorous testing and debugging. Features include payment processing, real-time updates, and responsive design across all platforms."
+    },
+    {
+      "name": "Enterprise Financial Application (React/TypeScript)",
+      "year": "2023-Present",
+      "description": "Complex React application for financial services with TypeScript. Developed high-quality software architecture supporting transaction processing, user management, and real-time data updates. Implemented comprehensive testing framework, automated deployment, and performance monitoring. Demonstrates expertise in building scalable, production-grade React applications."
+    },
+    {
+      "name": "Component Library & Design System",
+      "year": "2024-Present",
+      "description": "Reusable React component library built with clean, efficient code following best practices. Includes comprehensive documentation, automated testing, and storybook implementation. Used across multiple projects to ensure consistency and reduce development time by 30%."
+    }
+  ],
+  "technicalLeadership": [
+    {
+      "category": "Independent Work & Leadership",
+      "description": "Proven ability to work independently with minimal supervision, taking ownership of technical projects from requirements definition through deployment. Led architectural decisions and mentored junior developers."
+    },
+    {
+      "category": "Problem-Solving & Organization",
+      "description": "Excellent organizational skills managing multiple priorities in fast-paced environments. Analytical mindset with strong problem-solving aptitude, systematically debugging complex issues and implementing optimal solutions."
+    },
+    {
+      "category": "Agile Methodologies",
+      "description": "Extensive hands-on experience with agile development practices including sprint planning, daily stand-ups, retrospectives, and continuous improvement. Consistently delivered features on-time in 2-week sprint cycles."
+    },
+    {
+      "category": "Code Quality & Standards",
+      "description": "Established and maintained high code quality standards through automated testing, code reviews, and comprehensive documentation. Improved team coding practices and reduced technical debt."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (B.Eng.) in Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "location": "Lagos, Nigeria",
+    "workPreference": "Remote",
+    "availability": "Immediate",
+    "yearsOfExperience": "6+ years as Software Engineer, 6+ years with JavaScript and React",
+    "strengths": "Independent worker, analytical problem-solver, excellent organizational skills, proven leadership abilities"
+  }
+}

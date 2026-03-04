@@ -1,0 +1,164 @@
+{
+  "id": "lorgarithm-fullstack-nextjs-nestjs",
+  "name": "Full Stack Engineer - Next.js & NestJS Specialist",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Hybrid - Available for Lagos Office)",
+    "email": "lawrenceughonu@gmail.com",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Full Stack Engineer with 6+ years building scalable production applications using Next.js and NestJS. Expert in developing high-performance web applications, implementing microservices architecture, and integrating real-time communication systems and payment processing. Strong algorithmic problem-solving skills with proven track record optimizing system performance and delivering cloud-native solutions on AWS. Based in Lagos, Nigeria with extensive experience in hybrid and remote work environments.",
+  "technicalSkills": [
+    {
+      "category": "Frontend Development",
+      "skills": "Next.js, React.js, TypeScript, JavaScript, Server-Side Rendering, Responsive Design, Tailwind CSS"
+    },
+    {
+      "category": "Backend Development",
+      "skills": "NestJS, Node.js, Express.js, RESTful APIs, WebSocket, Microservices Architecture, Dependency Injection"
+    },
+    {
+      "category": "Cloud Infrastructure & AWS",
+      "skills": "AWS EC2, AWS Lambda, AWS S3, AWS ECS, Cloud Deployment, Serverless Architecture, Load Balancing"
+    },
+    {
+      "category": "Containerization & Orchestration",
+      "skills": "Docker, Kubernetes (fundamentals), Container Deployment, Orchestration Concepts"
+    },
+    {
+      "category": "Databases",
+      "skills": "PostgreSQL, MySQL, MongoDB, Firebase, Database Design, Query Optimization, RDS"
+    },
+    {
+      "category": "Payment Processing",
+      "skills": "Stripe Integration, Payment Gateway APIs, Transaction Management, Webhook Handling, PCI Compliance"
+    },
+    {
+      "category": "Real-Time Communication",
+      "skills": "WebSocket, Real-Time Data Sync, Push Notifications, Event-Driven Architecture, High-Throughput Messaging"
+    },
+    {
+      "category": "DevOps & CI/CD",
+      "skills": "GitHub Actions, CI/CD Pipelines, Automated Testing, Deployment Automation, Git Version Control"
+    },
+    {
+      "category": "Monitoring & Logging",
+      "skills": "Application Monitoring, Performance Tracking, Error Logging, CloudWatch, System Observability"
+    },
+    {
+      "category": "Algorithms & Optimization",
+      "skills": "Algorithm Design, Data Structures, Performance Optimization, Query Optimization, System Scalability"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer (Next.js & NestJS)",
+      "company": "NYXIDIOM",
+      "website": "nyxidiom.com",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "Present",
+      "description": "",
+      "achievements": [
+        "Designed and implemented full-stack applications using Next.js frontend and NestJS backend serving 10,000+ active users with 99.5% uptime and high availability.",
+        "Built scalable backend services with NestJS implementing microservices architecture, RESTful APIs, WebSocket real-time communication, and proper dependency injection patterns.",
+        "Developed high-performance Next.js web applications with server-side rendering, optimized SEO, responsive design, and seamless API integration for optimal user experience.",
+        "Integrated Stripe payment processing system handling thousands of transactions with 99.9% accuracy, implementing secure payment flows, webhook management, and transaction logging.",
+        "Implemented real-time communication using WebSocket protocol for instant updates, handling high-throughput messaging with low latency and proper connection management.",
+        "Deployed applications on AWS infrastructure using EC2 instances, S3 for object storage, Lambda for serverless functions, and implemented load balancing for traffic distribution.",
+        "Optimized system performance through algorithm development and database query optimization, achieving 40% improvement in API response times and reduced server costs.",
+        "Containerized applications using Docker for consistent development and deployment environments, preparing foundation for Kubernetes orchestration.",
+        "Implemented CI/CD pipelines using GitHub Actions with automated testing, linting, and deployment processes, reducing deployment time from 45 minutes to 8 minutes.",
+        "Collaborated with cross-functional teams including designers, product managers, and DevOps engineers to deliver end-to-end solutions in agile environment."
+      ]
+    },
+    {
+      "title": "Full Stack Developer (Node.js & React)",
+      "company": "SQE Holdings LLC",
+      "website": "sqe.io",
+      "location": "Remote",
+      "startDate": "2023",
+      "endDate": "Present",
+      "description": "",
+      "achievements": [
+        "Built full-stack applications with React/TypeScript frontend and Node.js backend, implementing RESTful APIs and real-time features using WebSocket protocol.",
+        "Developed real-time messaging system handling thousands of messages daily with proper message queuing, reconnection logic, and error handling for high availability.",
+        "Designed and optimized PostgreSQL database schemas with proper indexing, query optimization, and transaction management for complex business logic.",
+        "Implemented microservices patterns for service separation, API gateway integration, and inter-service communication in distributed system architecture.",
+        "Optimized application performance reducing load time by 40% through efficient algorithms, database query optimization, and frontend rendering improvements.",
+        "Participated in code reviews, architectural decisions, and mentored team members on best practices for Node.js backend development and React frontend patterns."
+      ]
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Digifigs",
+      "website": "",
+      "location": "Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "description": "",
+      "achievements": [
+        "Built production web applications using React with focus on responsive design, user experience, and performance optimization.",
+        "Integrated frontend applications with backend APIs implementing proper error handling, loading states, and data management.",
+        "Collaborated with designers and backend developers using Git workflows, participating in code reviews and contributing to team best practices.",
+        "Optimized application performance through code improvements, efficient rendering strategies, and bundle size reduction."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Paka Logistics Platform (Next.js & NestJS)",
+      "year": "2025",
+      "description": "Production full-stack platform serving 10,000+ users. Next.js frontend with SSR, React, TypeScript. NestJS backend with microservices, PostgreSQL database, Stripe payment integration, WebSocket real-time updates. Deployed on AWS (EC2, S3, Lambda). Achieved 99.5% uptime with load balancing and auto-scaling. Features: real-time GPS tracking, payment processing, order management, push notifications."
+    },
+    {
+      "name": "Real-Time Messaging System (WebSocket)",
+      "year": "2023-Present",
+      "description": "High-throughput messaging platform using Node.js and WebSocket. Handles thousands of concurrent connections with low latency. Implemented message queuing, connection pooling, reconnection logic, and distributed architecture. PostgreSQL for message storage and user data. Demonstrates expertise in real-time communication systems."
+    },
+    {
+      "name": "Payment Processing Integration (Stripe)",
+      "year": "2025",
+      "description": "Secure payment system integrated with Stripe API. Implemented transaction processing, webhook handling for payment events, refund management, and transaction logging. Built using NestJS with proper error handling and retry logic. Processes thousands of monthly transactions with 99.9% accuracy and PCI compliance."
+    },
+    {
+      "name": "Serverless Document Processing (AWS Lambda)",
+      "year": "2025",
+      "description": "Cloud-native application using AWS Lambda, Python, and FastAPI. Serverless architecture with auto-scaling, event-driven processing, and S3 integration. Processes 1,000+ requests weekly with fault tolerance and monitoring. Demonstrates AWS expertise and cloud-native development."
+    }
+  ],
+  "algorithmicExperience": [
+    {
+      "category": "Performance Optimization",
+      "description": "Optimized database queries and API endpoints achieving 40% performance improvement through efficient algorithms, proper indexing, and caching strategies."
+    },
+    {
+      "category": "Real-Time Systems",
+      "description": "Designed and implemented algorithms for real-time communication with low latency requirements, handling high-throughput messaging and connection management."
+    },
+    {
+      "category": "Data Structures",
+      "description": "Applied appropriate data structures (hash maps, queues, trees) for efficient operations in payment processing, order management, and real-time tracking systems."
+    },
+    {
+      "category": "Scalability",
+      "description": "Developed scalable solutions handling 10,000+ concurrent users through proper algorithm design, load balancing, and distributed system architecture."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (B.Eng.) in Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024"
+    }
+  ],
+  "additionalInformation": {
+    "location": "Based in Lagos, Nigeria - Available for hybrid work (2 days office, 3 days remote)",
+    "availability": "Immediate",
+    "workPreference": "Hybrid (Lagos office + remote)",
+    "salaryExpectation": "₦800,000 - ₦1,000,000 per month (negotiable based on complete package)"
+  }
+}

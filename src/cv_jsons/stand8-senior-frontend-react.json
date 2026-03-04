@@ -1,0 +1,133 @@
+{
+  "id": "stand8-senior-frontend-react",
+  "name": "Senior Frontend Engineer - React Specialist",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Remote)",
+    "email": "lawrenceughonu@gmail.com",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Senior Frontend Engineer with 6+ years specializing in React, TypeScript, and modern JavaScript. Expert in building high-performance, scalable user interfaces with deep expertise in React Hooks, Context API, and state management solutions. Proven track record optimizing application performance, building reusable component libraries, and delivering exceptional user experiences for production applications serving 10,000+ users. Strong collaborator experienced working with cross-functional teams in remote environments.",
+  "technicalSkills": [
+    {
+      "category": "React Ecosystem",
+      "skills": "React.js, React Hooks, Context API, Redux Toolkit, Zustand, React Query, Next.js, React Router"
+    },
+    {
+      "category": "Languages & Core",
+      "skills": "TypeScript, JavaScript (ES6+), HTML5, CSS3, Modern Web Standards"
+    },
+    {
+      "category": "Styling & UI",
+      "skills": "Tailwind CSS, CSS-in-JS, Styled Components, Sass/SCSS, Responsive Design, Design Systems"
+    },
+    {
+      "category": "State Management",
+      "skills": "Redux Toolkit, Zustand, React Query, Context API, Component State Management"
+    },
+    {
+      "category": "Build Tools & Development",
+      "skills": "Webpack, Vite, npm/yarn, ESLint, Prettier, TypeScript Compiler, Module Bundlers"
+    },
+    {
+      "category": "Testing & Quality",
+      "skills": "Jest, React Testing Library, E2E Testing, Unit Testing, Code Reviews, Performance Profiling"
+    },
+    {
+      "category": "CI/CD & DevOps",
+      "skills": "GitHub Actions, Git, CI/CD Pipelines, Automated Deployment, Version Control"
+    },
+    {
+      "category": "Performance & Optimization",
+      "skills": "Code Splitting, Lazy Loading, React Optimization (useMemo, useCallback), Bundle Optimization"
+    },
+    {
+      "category": "APIs & Backend Integration",
+      "skills": "RESTful APIs, GraphQL (basics), API Integration, Async Data Fetching, Error Handling"
+    },
+    {
+      "category": "Additional",
+      "skills": "Accessibility (WCAG), Figma to Code, Agile/Scrum, Cross-browser Compatibility"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Frontend Engineer (React)",
+      "company": "NYXIDIOM",
+      "website": "nyxidiom.com",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "Present",
+      "description": "",
+      "achievements": [
+        "Designed and developed modern, high-performance React applications serving 10,000+ users with focus on scalability, intuitive UX, and accessibility.",
+        "Built reusable component libraries and design systems supporting scalable application development across web and mobile platforms, reducing development time by 30%.",
+        "Optimized React applications for maximum performance and responsiveness - improved initial load time by 40% through code splitting, lazy loading, and efficient rendering strategies.",
+        "Implemented modern React patterns using Hooks, Context API, and state management solutions (Zustand, React Query) for complex application state.",
+        "Collaborated closely with designers, backend engineers, and product stakeholders to deliver high-quality user experiences from Figma designs to production code.",
+        "Participated in code reviews, established frontend best practices, and mentored team members on React optimization patterns and TypeScript usage.",
+        "Built accessible interfaces following WCAG guidelines, implementing keyboard navigation, screen reader support, and semantic HTML throughout applications.",
+        "Maintained CI/CD pipelines with GitHub Actions for automated testing, linting, and deployment, reducing deployment time from 45 to 8 minutes."
+      ]
+    },
+    {
+      "title": "Frontend Engineer (React/TypeScript)",
+      "company": "SQE Holdings LLC",
+      "website": "sqe.io",
+      "location": "Remote",
+      "startDate": "2023",
+      "endDate": "Present",
+      "description": "",
+      "achievements": [
+        "Developed complex React applications with TypeScript, implementing type-safe components and maintaining high code quality standards.",
+        "Optimized application performance through React profiling, identifying bottlenecks, and implementing useMemo, useCallback, and React.memo patterns - achieving 40% performance improvement.",
+        "Built responsive, pixel-perfect UIs from design mockups using modern CSS techniques, ensuring cross-browser compatibility and mobile responsiveness.",
+        "Consumed RESTful and GraphQL APIs, implementing proper error handling, loading states, and data caching strategies for smooth user experience.",
+        "Contributed to continuous improvement of frontend workflows, testing strategies, and development standards through active participation in code reviews.",
+        "Collaborated with cross-functional teams in agile environment, participating in daily stand-ups, sprint planning, and technical discussions."
+      ]
+    },
+    {
+      "title": "Frontend Developer (React)",
+      "company": "Digifigs",
+      "website": "",
+      "location": "Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "description": "",
+      "achievements": [
+        "Built production React applications with focus on component reusability, clean code architecture, and modern JavaScript patterns.",
+        "Translated design mockups into functional, responsive React components with attention to detail and user experience.",
+        "Implemented frontend build processes, package management, and version control workflows using modern development tools.",
+        "Collaborated with designers and backend developers to integrate APIs and deliver cohesive frontend solutions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Paka - React/Next.js Application",
+      "year": "2025",
+      "description": "High-performance React application serving 10,000+ users. Built with Next.js, TypeScript, Tailwind CSS. Features: reusable component library, optimized performance (40% load time improvement), responsive design, accessibility implementation. State management using Context API and React Query. Available on Google Play Store."
+    },
+    {
+      "name": "Enterprise Dashboard (React/TypeScript)",
+      "year": "2023-Present",
+      "description": "Complex React application with TypeScript. Advanced state management, real-time data updates, GraphQL API integration. Built reusable components, implemented design system, optimized rendering performance. Production application with comprehensive testing."
+    },
+    {
+      "name": "Component Library & Design System",
+      "year": "2024-Present",
+      "description": "Reusable React component library built with TypeScript and Tailwind CSS. Includes form components, data display components, navigation elements. Documented with Storybook, tested with Jest and React Testing Library. Used across multiple projects."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (B.Eng.) in Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024"
+    }
+  ]
+}
