@@ -1,17 +1,25 @@
 {
     "header": {
         "nav": [
-            "Logo",
-            "Works",
-            "Blog",
-            "Contact"
+            { "label": "Home", "path": "/" },
+            { "label": "Works", "path": "/works" },
+            { "label": "Blog", "path": "/blog" },
+            { "label": "Contact", "path": "/contact" }
         ],
         "sidebar": [
-            "Logo",
-            "Works",
-            "Blog",
-            "Contact"
+            { "label": "Works", "path": "/works" },
+            { "label": "Blog", "path": "/blog" },
+            { "label": "Contact", "path": "/contact" }
         ]
+    },
+    "footer": {
+        "social": {
+            "github": "https://github.com/renzium",
+            "linkedin": "https://www.linkedin.com/in/lawrence-ughonu",
+            "twitter": "https://x.com/renzium1",
+            "instagram": "https://www.instagram.com/ughonulawrence",
+            "facebook": "https://web.facebook.com/lawrence.chibikem"
+        }
     },
     "home": {
         "section1": {

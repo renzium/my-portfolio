@@ -4,8 +4,11 @@ import { Facebook } from "@styled-icons/entypo-social/Facebook";
 import { Instagram } from "@styled-icons/fa-brands/Instagram";
 import { Twitter } from "@styled-icons/fa-brands/Twitter";
 import { Linkedin } from "@styled-icons/bootstrap/Linkedin";
-import {Github} from "@styled-icons/bootstrap/Github";
-import { NavLink } from "react-router-dom";
+import { Github } from "@styled-icons/bootstrap/Github";
+import text from "../text.json";
+
+const { social } = text.footer;
+
 const FooterStyle = styled.div`
   display: flex;
   width: 100%;
@@ -52,27 +55,18 @@ const FooterStyle = styled.div`
     padding: 0.5rem;
   }
 `;
+
 function Footer() {
   return (
     <FooterStyle>
       <div>
-        <a href="https://github.com/bykelaw">
-          <Github />
-        </a>
-        <a href="https://www.linkedin.com/in/lawrence-ughonu">
-          <Linkedin />
-        </a>
-        <a href="https://twitter.com/mr_chiblaw">
-          <Twitter />
-        </a>
-        <a href="https://www.instagram.com/ughonulawrence">
-          <Instagram />
-        </a>
-        <a href="https://web.facebook.com/lawrence.chibikem">
-          <Facebook />
-        </a>
+        {social.github && <a href={social.github} target="_blank" rel="noopener noreferrer"><Github /></a>}
+        {social.linkedin && <a href={social.linkedin} target="_blank" rel="noopener noreferrer"><Linkedin /></a>}
+        {social.twitter && <a href={social.twitter} target="_blank" rel="noopener noreferrer"><Twitter /></a>}
+        {social.instagram && <a href={social.instagram} target="_blank" rel="noopener noreferrer"><Instagram /></a>}
+        {social.facebook && <a href={social.facebook} target="_blank" rel="noopener noreferrer"><Facebook /></a>}
       </div>
-      <p>Copyright ©2021 All rights reserved </p>
+      <p>Copyright ©{new Date().getFullYear()} All rights reserved</p>
     </FooterStyle>
   );
 }

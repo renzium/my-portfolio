@@ -2,6 +2,10 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { Navigation } from "@styled-icons/fluentui-system-filled/Navigation";
+import text from "../../text.json";
+
+const navLinks = text.header.nav;
+console.log(navLinks)
 
 const NavStyle = styled.div`
   position: sticky;
@@ -21,9 +25,7 @@ const NavStyle = styled.div`
     margin-right: 1.125rem;
     color: var(--dark);
   }
-  .blog,
-  .works,
-  .contact {
+  .nav-link {
     display: none;
   }
   .logo {
@@ -41,15 +43,13 @@ const NavStyle = styled.div`
     .active {
       color: var(--primary);
     }
-    .blog,
-    .works,
-    .contact,
+    .nav-link,
     .logo {
       display: block;
       transition: all 0.3s ease;
       font-size: 1.2rem;
       font-weight: 600;
-      
+
       &:hover {
         color: var(--primary);
         transform: translateY(-2px);
@@ -62,7 +62,7 @@ const NavStyle = styled.div`
     & > a + a {
       margin-left: 2rem;
     }
-    .contact {
+    .nav-link:last-of-type {
       margin-right: 3.75rem;
     }
     .nav-btn {
@@ -71,26 +71,30 @@ const NavStyle = styled.div`
   }
 
   @media (min-width: 50rem) {
-    .blog,
-    .works,
-    .contact,
+    .nav-link,
     .logo {
       font-size: 1.875rem;
-     
     }
   }
 `;
+
 const Nav = ({ onClick }) => {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggle = () => setIsOpen(!isOpen);
   return (
     <NavStyle>
-      <NavLink to="/" className="logo">Home</NavLink >
-      <NavLink to="/blog" className="blog">Blog</NavLink >
-      <NavLink to="/works" className="works">Works</NavLink >
-      <NavLink to="/contact" className="contact">Contact</NavLink >
+      {navLinks.map((link, index) =>
+        index === 0 ? (
+          <NavLink key={link.path} to={link.path} className="logo">
+            {link.label}
+          </NavLink>
+        ) : (
+          <NavLink key={link.path} to={link.path} className="nav-link">
+            {link.label}
+          </NavLink>
+        )
+      )}
       <Navigation onClick={onClick} className="nav-btn" />
     </NavStyle>
   );
 };
+
 export default Nav;

@@ -1,5 +1,8 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
+import text from "../../text.json";
+
+const sidebarLinks = text.header.sidebar;
 
 const SidebarStyle = styled.div`
   padding: 3.125rem 1.125rem;
@@ -20,14 +23,14 @@ const SidebarStyle = styled.div`
   a + a {
     margin-top: 1.5rem;
   }
-  .blog {
-    padding-top: 1.875rem;
-  }
-  .blog,
-  .works,
-  .contact {
+
+  a {
     border-bottom: 1px solid var(--light);
     padding-bottom: 1.5rem;
+  }
+
+  a:first-child {
+    padding-top: 1.875rem;
   }
 
   position: fixed;
@@ -43,19 +46,17 @@ const SidebarStyle = styled.div`
     display: none;
   }
 `;
-const Sidebar = ({ isOpen,click }) => (
+
+const Sidebar = ({ isOpen, click }) => (
   <>
     <SidebarStyle showSidebar={isOpen}>
-      <NavLink onClick={click} to="/blog" className="blog">
-        Blog
-      </NavLink>
-      <NavLink onClick={click} to="works" className="works">
-        Works
-      </NavLink>
-      <NavLink onClick={click} to="contact" className="contact">
-        Contact
-      </NavLink>
+      {sidebarLinks.map((link) => (
+        <NavLink key={link.path} onClick={click} to={link.path}>
+          {link.label}
+        </NavLink>
+      ))}
     </SidebarStyle>
   </>
 );
+
 export default Sidebar;
