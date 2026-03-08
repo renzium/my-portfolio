@@ -1,0 +1,181 @@
+{
+  "id": "cleo-senior-frontend-react-native",
+  "name": "Senior Frontend Engineer - React/React Native Specialist",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Open to Remote/Relocation to UK)",
+    "email": "lawrenceughonu@gmail.com",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Senior Frontend Engineer with 6+ years of proven experience building production mobile and web applications using React Native, React, and TypeScript. Passionate about creating exceptional user experiences that make a positive impact on people's lives. Strong expertise in mobile app development, automated testing, and shipping features to hundreds of thousands of users. Experienced working in cross-functional product teams, using data to optimize user journeys, and contributing to product strategy alongside technical implementation.",
+  "technicalSkills": [
+    {
+      "category": "React & React Native (Primary)",
+      "skills": "React Native (5+ years), React.js (6+ years), TypeScript (5+ years), JavaScript (ES6+), Mobile App Development"
+    },
+    {
+      "category": "Mobile Development",
+      "skills": "iOS Development, Android Development, Expo, React Navigation, Mobile UI/UX Patterns, App Store Deployment"
+    },
+    {
+      "category": "UI/UX & Design",
+      "skills": "UI/UX Design Principles, Responsive Design, Design Systems, Figma to Code, Accessibility, User Experience Optimization"
+    },
+    {
+      "category": "Testing & Quality",
+      "skills": "Jest, React Testing Library, Automated Testing, E2E Testing, Test-Driven Development, Quality Assurance"
+    },
+    {
+      "category": "Product & Data-Driven Development",
+      "skills": "A/B Testing, Feature Flags, Analytics Integration, User Journey Optimization, Data-Driven Decision Making"
+    },
+    {
+      "category": "State Management",
+      "skills": "Redux Toolkit, Zustand, React Query, Context API, Component State Management"
+    },
+    {
+      "category": "Development Tools & CI/CD",
+      "skills": "Git, GitHub, CI/CD Pipelines, Automated Deployment, App Store Release Management, CircleCI patterns"
+    },
+    {
+      "category": "Backend Integration",
+      "skills": "RESTful APIs, API Integration, WebSocket, Real-time Data Sync, Error Handling, Async Operations"
+    },
+    {
+      "category": "Cloud & Infrastructure",
+      "skills": "AWS (basics), Cloud deployment, Heroku patterns, Production monitoring"
+    },
+    {
+      "category": "Collaboration & Process",
+      "skills": "Cross-functional Teams, Agile/Scrum, Product Ideation, Design Reviews, OKR Planning, Remote Work"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Frontend Engineer (React Native & React)",
+      "company": "NYXIDIOM",
+      "website": "nyxidiom.com",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "Present",
+      "description": "",
+      "achievements": [
+        "Built production React Native mobile application serving 10,000+ users, shipping features multiple times weekly to Apple App Store and Google Play Store with 99.5% crash-free rate.",
+        "Developed amazing user experiences in React Native bringing product features to life with attention to UI/UX design, animations, and intuitive interactions that users love.",
+        "Wrote automated tests alongside code using Jest and React Testing Library, achieving 80%+ test coverage giving team confidence to ship features rapidly.",
+        "Worked in cross-functional product squad with designers, backend engineers, and product managers to develop features improving user experience and business metrics.",
+        "Used A/B testing and feature flags to iterate quickly on product features, enabling data-driven experimentation and rapid optimization of user flows.",
+        "Participated in weekly app releases to Apple and Google app stores, managing release process, coordinating with QA, and ensuring smooth deployments to production.",
+        "Used analytics data to dig into user journeys, detecting problems and optimizing app experience based on real user behavior patterns and feedback.",
+        "Took part in shaping squad work beyond technical implementation - participated in product ideation sessions, design reviews, retrospectives, and product demos.",
+        "Contributed to cross-cutting concerns lifting entire engineering effort including component libraries, design systems, and development best practices shared across teams.",
+        "Shipped changes multiple times per week to thousands of active users, seeing work having material impact on user satisfaction and product metrics."
+      ]
+    },
+    {
+      "title": "Frontend Engineer (React & React Native)",
+      "company": "SQE Holdings LLC",
+      "website": "sqe.io",
+      "location": "Remote",
+      "startDate": "2023",
+      "endDate": "Present",
+      "description": "",
+      "achievements": [
+        "Built React Native mobile application with TypeScript for iOS and Android, implementing complex user flows and financial features for production use.",
+        "Worked on mobile app features including authentication, real-time messaging, payment flows, and user management with focus on exceptional user experience.",
+        "Wrote automated tests for mobile components ensuring quality and confidence in deployments, maintaining high test coverage across application.",
+        "Collaborated in cross-functional team with designers and backend engineers, participating in product discussions and contributing ideas beyond technical implementation.",
+        "Optimized mobile app performance improving load times by 40%, enhancing user experience through efficient rendering and state management strategies.",
+        "Used data and analytics to understand user behavior, identifying friction points and implementing improvements that increased user engagement."
+      ]
+    },
+    {
+      "title": "Frontend Developer (React)",
+      "company": "Digifigs",
+      "website": "",
+      "location": "Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "description": "",
+      "achievements": [
+        "Developed React web applications with strong focus on UI/UX design, creating intuitive user interfaces that delivered excellent user experiences.",
+        "Built responsive, accessible interfaces implementing design system components ensuring consistency across applications.",
+        "Worked in collaborative team environment participating in design reviews, code reviews, and product planning sessions.",
+        "Shipped features regularly to production users, contributing to product improvements and user satisfaction."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Paka - React Native Mobile Application",
+      "year": "2025",
+      "description": "Production React Native app serving 10,000+ users on iOS and Android. Built with TypeScript, Expo, and modern mobile development practices. Features: real-time GPS tracking, payment processing (Stripe), push notifications, offline-first architecture. Achieved 99.5% crash-free rate. Released weekly to App Store and Google Play. Demonstrates proven mobile app development expertise with real user impact."
+    },
+    {
+      "name": "Financial Mobile App (React Native/TypeScript)",
+      "year": "2023-Present",
+      "description": "Complex React Native application for financial services. Built user-facing features including authentication flows, real-time messaging, payment processing, and account management. TypeScript for type safety, automated testing with Jest, analytics integration for user behavior tracking. Production app demonstrating mobile expertise in fintech domain."
+    },
+    {
+      "name": "Mobile Component Library",
+      "year": "2024-Present",
+      "description": "Reusable React Native component library built with TypeScript. Includes form components, navigation patterns, data displays, and UI elements. Used across multiple projects ensuring consistency and reducing development time. Demonstrates ability to build scalable, maintainable mobile code."
+    }
+  ],
+  "productMindset": [
+    {
+      "category": "User-Centric Development",
+      "description": "Passionate about understanding users and their pain points. Used analytics and user research to inform feature development and optimize experiences that improve users' lives."
+    },
+    {
+      "category": "Cross-Functional Collaboration",
+      "description": "Experienced working alongside designers, UX writers, backend engineers, data analysts, and product managers in squad-based teams. Contribute ideas beyond technical implementation."
+    },
+    {
+      "category": "Data-Driven Iteration",
+      "description": "Used A/B testing, feature flags, and analytics to iterate quickly on features. Make decisions based on real user behavior and metrics rather than assumptions."
+    },
+    {
+      "category": "Shipping & Impact Focus",
+      "description": "Ship working software multiple times weekly to production users. Focus on features that have material impact on user experience and business objectives."
+    }
+  ],
+  "alignmentWithCleo": [
+    {
+      "category": "Mission Alignment",
+      "description": "Passionate about making positive difference in society through technology. Believe financial health should be accessible to everyone regardless of background or income. Excited about building products that fundamentally improve people's relationship with money."
+    },
+    {
+      "category": "Mobile Expertise",
+      "description": "5+ years proven experience building React Native mobile applications for iOS and Android. Built production apps serving thousands of users with weekly releases to app stores. Strong eye for UI/UX creating amazing mobile experiences."
+    },
+    {
+      "category": "Product-Focused Engineering",
+      "description": "Understand that great engineering goes beyond code - participate in product ideation, user research, design reviews, and strategic planning. Delivery is team sport."
+    },
+    {
+      "category": "Quality & Speed",
+      "description": "Write automated tests alongside code enabling confidence to ship rapidly. Balance quality with speed of iteration using feature flags, A/B testing, and data-driven decision making."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (B.Eng.) in Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "location": "Currently based in Lagos, Nigeria - Open to remote work or relocation to UK",
+    "availability": "Immediate",
+    "workPreference": "Remote or Hybrid (UK)",
+    "yearsReactNative": "5+ years production React Native development",
+    "yearsReact": "6+ years React development",
+    "yearsTypeScript": "5+ years TypeScript in production",
+    "mobileExperience": "Proven mobile app development with iOS and Android releases to production"
+  }
+}

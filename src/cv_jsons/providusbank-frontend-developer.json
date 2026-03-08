@@ -1,0 +1,120 @@
+{
+  "id": "providusbank-frontend-developer",
+  "name": "Frontend Developer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Frontend Developer with 6+ years of professional experience building high-performance web applications using React, JavaScript, and TypeScript. Proven expertise in developing responsive, user-friendly interfaces for banking and financial services platforms. Strong focus on code quality, performance optimization, and delivering exceptional user experiences. Based in Lagos with extensive experience working on production applications serving thousands of users.",
+  "technicalSkills": [
+    {
+      "category": "Frontend Development (Core)",
+      "skills": "React.js, JavaScript (ES6+), TypeScript, HTML5, CSS3, Responsive Web Design"
+    },
+    {
+      "category": "UI Frameworks & Libraries",
+      "skills": "Next.js, React Hooks, Redux, Context API, React Router, Tailwind CSS, Bootstrap"
+    },
+    {
+      "category": "Frontend Tools & Build Systems",
+      "skills": "Webpack, Vite, npm/yarn, Babel, ESLint, Prettier, Git"
+    },
+    {
+      "category": "Testing & Quality Assurance",
+      "skills": "Jest, React Testing Library, Unit Testing, Integration Testing, Cross-browser Testing"
+    },
+    {
+      "category": "Performance & Optimization",
+      "skills": "Performance Optimization, Code Splitting, Lazy Loading, SEO, Web Vitals"
+    },
+    {
+      "category": "API Integration",
+      "skills": "RESTful APIs, Axios, Fetch API, Error Handling, Async/Await"
+    },
+    {
+      "category": "Version Control & Collaboration",
+      "skills": "Git, GitHub, GitLab, Code Reviews, Agile Methodologies"
+    },
+    {
+      "category": "Additional Skills",
+      "skills": "Mobile Development (React Native), Backend Basics (Node.js), Cloud Deployment (AWS)"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Frontend Developer",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "Present",
+      "achievements": [
+        "Developed and maintained responsive web applications using React and TypeScript serving 10,000+ users with 99.5% uptime.",
+        "Built reusable UI components and component libraries ensuring consistency across multiple applications and reducing development time by 30%.",
+        "Optimized frontend performance achieving 40% improvement in page load times through code splitting, lazy loading, and efficient rendering strategies.",
+        "Implemented comprehensive testing using Jest and React Testing Library, maintaining 80%+ test coverage across codebase.",
+        "Collaborated with backend developers to integrate RESTful APIs, implementing proper error handling and loading states for seamless user experience.",
+        "Utilized modern development tools including Webpack, Git, and CI/CD pipelines for efficient development and deployment processes.",
+        "Ensured cross-browser compatibility and responsive design across all devices (desktop, tablet, mobile)."
+      ]
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "2023",
+      "endDate": "Present",
+      "achievements": [
+        "Built production web applications using React and TypeScript with focus on user experience and interface design.",
+        "Developed responsive layouts and UI components following design specifications and best practices.",
+        "Integrated frontend with backend APIs ensuring smooth data flow and proper state management using Redux and Context API.",
+        "Improved application performance by 40% through systematic optimization of React components and rendering logic.",
+        "Participated in code reviews and contributed to establishing frontend development standards within the team."
+      ]
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Developed responsive web applications using React with emphasis on clean code and user-friendly interfaces.",
+        "Implemented designs from wireframes and mockups ensuring pixel-perfect implementation and cross-browser compatibility.",
+        "Worked with HTML5, CSS3, and JavaScript to create interactive and engaging user interfaces.",
+        "Collaborated with designers and backend developers to deliver complete web solutions for clients."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Banking Application Interface (React/TypeScript)",
+      "description": "Developed frontend for financial services platform with user dashboard, transaction management, and account features. Implemented secure authentication flows and real-time data updates. Technologies: React, TypeScript, Redux, Tailwind CSS."
+    },
+    {
+      "name": "E-commerce Web Application",
+      "description": "Built responsive e-commerce frontend with product catalog, shopping cart, and checkout functionality. Optimized for performance and SEO. Technologies: React, Next.js, CSS3, REST API integration."
+    },
+    {
+      "name": "Component Library",
+      "description": "Created reusable React component library with comprehensive documentation. Includes form components, buttons, modals, and data displays. Used across multiple projects ensuring UI consistency."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (B.Eng.) in Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "year": "2024"
+    }
+  ],
+  "additionalInformation": {
+    "availability": "Immediate",
+    "location": "Lagos, Nigeria",
+    "workType": "Full Time",
+    "strengths": "Strong problem-solving skills, attention to detail, ability to work independently and in teams, quick learner"
+  }
+}
