@@ -1,0 +1,161 @@
+{
+  "id": "intellibus-fullstack-engineer-javascript-typescript",
+  "name": "Full Stack Engineer - JavaScript/TypeScript",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Remote - Eastern Time Zone)",
+    "email": "lawrenceughonu@gmail.com",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Full Stack Engineer with 7+ years of professional engineering experience building scalable, high-performance applications using React, TypeScript, Node.js, and NestJS. Expert in designing React architectures, implementing state management and performance optimizations, and building RESTful APIs and microservices. Strong expertise in Microsoft Azure cloud architecture, distributed systems, Docker, and CI/CD pipelines. Proven experience with event-driven workflows, BullMQ background jobs, and Kafka messaging. Solid understanding of SQL/NoSQL databases, Azure services, and Linux environments. Detail-oriented with ownership mindset and strong communication skills. Passionate about solving complex problems at scale.",
+  "technicalSkills": [
+    {
+      "category": "Frontend Core",
+      "skills": "React.js, TypeScript, JavaScript, HTML5, CSS3, TailwindCSS"
+    },
+    {
+      "category": "React Expertise",
+      "skills": "React Hooks, Functional Components, State Management, Caching, Performance Optimizations, Component Libraries, Storybook, Monorepos"
+    },
+    {
+      "category": "Backend & APIs",
+      "skills": "Node.js, NestJS, Express, REST APIs, Microservices, RESTful API Design"
+    },
+    {
+      "category": "Event-Driven & Async",
+      "skills": "BullMQ, Background Jobs, Queues, Async Processing, Event-Driven Workflows, Kafka"
+    },
+    {
+      "category": "Cloud & Azure",
+      "skills": "Microsoft Azure, Azure App Services, Azure Virtual Machines, Azure Service Bus, Azure Event Grid, Azure Storage Queues"
+    },
+    {
+      "category": "Databases",
+      "skills": "SQL, NoSQL, PostgreSQL, MongoDB, Database Design, Query Optimization"
+    },
+    {
+      "category": "DevOps & Infrastructure",
+      "skills": "Docker, CI/CD Pipelines, Infrastructure-as-Code, Linux, Unix Environments"
+    },
+    {
+      "category": "Performance & Optimization",
+      "skills": "Performance Optimization, Caching Layers, API Optimization, Query Optimization"
+    },
+    {
+      "category": "UI/UX Features",
+      "skills": "Dark Mode, Theming, Internationalization, Localization, Responsive Design"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer (React/TypeScript/Node.js)",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "Present",
+      "achievements": [
+        "Designed and implemented scalable, high-performance React architectures using TypeScript and modern JavaScript patterns serving 10,000+ users.",
+        "Built and maintained full-stack applications using React, TypeScript, Node.js, and NestJS with microservices architecture.",
+        "Migrated class components to functional components using React Hooks improving code maintainability and performance by 40%.",
+        "Implemented state management, caching strategies, and performance optimizations reducing load times and improving user experience.",
+        "Added dark mode, theming, internationalization, and localization features supporting multiple languages and user preferences.",
+        "Built and documented UI component libraries using Storybook and monorepo architecture for reusable components across projects.",
+        "Developed and maintained backend services using Node.js and TypeScript with NestJS framework for RESTful APIs and microservices.",
+        "Designed event-driven and asynchronous workflows using BullMQ for background jobs, queues, and async processing.",
+        "Optimized performance across APIs, queries, and caching layers achieving 40% improvement in response times.",
+        "Integrated with SQL (PostgreSQL) and NoSQL (MongoDB) databases with efficient query design and indexing strategies.",
+        "Worked with Kafka and Azure-native messaging services including Azure Service Bus for event-driven architecture.",
+        "Deployed and operated services on Microsoft Azure using Azure App Services and Virtual Machines.",
+        "Used Docker for containerization, CI/CD pipelines for automated deployment, and Infrastructure-as-Code for reproducible environments.",
+        "Debugged and troubleshooted applications in Azure-hosted Linux environments with strong Unix/Linux command-line proficiency.",
+        "Led technical decisions on architecture, technology stack, and best practices while mentoring junior engineers.",
+        "Demonstrated ownership mindset taking full responsibility for features from design through deployment and monitoring."
+      ]
+    },
+    {
+      "title": "Full Stack Engineer (Node.js/React/TypeScript)",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "2023",
+      "endDate": "Present",
+      "achievements": [
+        "Built scalable React applications with TypeScript implementing modern JavaScript patterns and functional components with Hooks.",
+        "Developed backend services using Node.js and Express building RESTful APIs for microservices architecture.",
+        "Implemented state management solutions and performance optimizations for React applications improving responsiveness.",
+        "Worked with SQL databases (PostgreSQL) designing schemas, optimizing queries, and ensuring data integrity.",
+        "Deployed services to cloud infrastructure with Docker containerization and CI/CD automation.",
+        "Built event-driven workflows handling asynchronous processing and background jobs efficiently.",
+        "Collaborated with distributed teams demonstrating strong communication skills and technical leadership.",
+        "Mentored engineers on React best practices, TypeScript patterns, and backend service design."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Digifigs",
+      "location": "Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Developed full-stack applications using React, JavaScript, HTML5, CSS3, and TailwindCSS with responsive design.",
+        "Built backend services with Node.js creating REST APIs for frontend applications.",
+        "Implemented UI component libraries ensuring consistency and reusability across projects.",
+        "Worked in Linux environments with command-line tools for debugging and troubleshooting."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Microservices Platform (NestJS/React/Azure)",
+      "description": "Built scalable microservices platform using NestJS, React, TypeScript, and Microsoft Azure. Implemented RESTful APIs, event-driven workflows with BullMQ, and Kafka messaging. Deployed on Azure App Services with Docker containers and CI/CD pipelines. PostgreSQL database with optimized queries. Demonstrates full-stack expertise with cloud architecture."
+    },
+    {
+      "name": "React Component Library (Storybook/Monorepo)",
+      "description": "Designed and built comprehensive UI component library using React, TypeScript, TailwindCSS, and Storybook. Implemented dark mode, theming, internationalization, and localization. Organized as monorepo for reusability. Migrated class components to functional components with Hooks. Shows frontend architecture expertise."
+    },
+    {
+      "name": "Event-Driven Backend System (Node.js/BullMQ/Kafka)",
+      "description": "Developed event-driven backend using Node.js, NestJS, BullMQ for background jobs and queues, and Kafka for messaging. Asynchronous workflows, performance optimizations, caching layers. Deployed on Azure with Infrastructure-as-Code. Linux environment. Demonstrates backend and distributed systems expertise."
+    }
+  ],
+  "leadership": [
+    {
+      "category": "Technical Leadership",
+      "description": "Led technical decisions on architecture, technology selection, and engineering best practices. Proven experience making strategic choices that impact scalability and performance."
+    },
+    {
+      "category": "Mentoring Engineers",
+      "description": "Mentored junior and mid-level engineers on React patterns, TypeScript best practices, backend service design, and cloud architecture principles."
+    },
+    {
+      "category": "Ownership Mindset",
+      "description": "Demonstrated strong ownership taking full responsibility for features from design through production. Proactive problem-solving and detail-oriented approach."
+    },
+    {
+      "category": "Communication",
+      "description": "Strong communication skills working with distributed teams across time zones. Clear technical documentation and collaborative decision-making."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (B.Eng.) in Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024",
+      "location": "Nigeria",
+      "note": "Equivalent to Computer Science practical experience with strong foundation in systems, algorithms, and problem-solving"
+    }
+  ],
+  "additionalInformation": {
+    "yearsExperience": "7+ years of professional engineering experience",
+    "reactExpertise": "Strong expertise in React and TypeScript",
+    "nestjsExperience": "Proven experience building Node.js backend services with NestJS",
+    "azureExpertise": "Solid understanding of Azure cloud architecture and distributed systems",
+    "leadership": "Experience leading technical decisions and mentoring engineers",
+    "communication": "Strong communication skills with ownership mindset",
+    "availability": "Available to work Eastern Time Zone hours (9:00 AM - 5:00 PM ET)",
+    "location": "Remote (can work Eastern Time hours)",
+    "relocation": "Open to relocation to Manhattan if required"
+  }
+}

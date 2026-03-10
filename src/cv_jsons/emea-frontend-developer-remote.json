@@ -1,0 +1,163 @@
+{
+  "id": "emea-frontend-developer-remote",
+  "name": "Frontend Developer - Remote EMEA",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (EMEA Region - Remote)",
+    "email": "lawrenceughonu@gmail.com",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Frontend Developer with 6+ years of experience building modern, responsive, and high-performing user interfaces using React, HTML5, CSS3, and JavaScript. Expert in translating UI/UX designs into clean, high-quality code and optimizing applications for performance, scalability, and cross-browser compatibility. Strong proficiency in modern frameworks (React, Vue.js), REST APIs, and version control systems (Git). Proven ability to work independently in remote environments while collaborating with product managers, designers, and backend engineers. Understanding of responsive design principles and mobile-first development.",
+  "technicalSkills": [
+    {
+      "category": "Core Frontend Technologies",
+      "skills": "HTML5, CSS3, JavaScript, Modern JavaScript ES6+"
+    },
+    {
+      "category": "Modern Frontend Frameworks",
+      "skills": "React, Vue.js, Angular (basics), Next.js"
+    },
+    {
+      "category": "Responsive & Mobile-First",
+      "skills": "Responsive Design Principles, Mobile-First Development, Cross-Browser Compatibility"
+    },
+    {
+      "category": "APIs & Integration",
+      "skills": "REST APIs, Asynchronous Request Handling, API Integration, Axios, Fetch API"
+    },
+    {
+      "category": "Version Control",
+      "skills": "Git, GitHub, GitLab, Version Control Systems"
+    },
+    {
+      "category": "Performance & Optimization",
+      "skills": "Performance Optimization, Scalability, Code Optimization, Lazy Loading"
+    },
+    {
+      "category": "Styling & Design",
+      "skills": "Tailwind CSS, CSS3, Sass/SCSS, CSS-in-JS, UI/UX Implementation"
+    },
+    {
+      "category": "Development Practices",
+      "skills": "Code Reviews, Coding Standards, Clean Code, Problem-Solving, Debugging, Troubleshooting"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Frontend Developer",
+      "company": "NYXIDIOM",
+      "location": "Remote (EMEA Compatible)",
+      "startDate": "May 2025",
+      "endDate": "Present",
+      "achievements": [
+        "Developed and maintained responsive web applications using modern frontend frameworks (React, Next.js) serving 10,000+ users.",
+        "Translated UI/UX designs into clean, high-quality code ensuring pixel-perfect implementation and exceptional user experiences.",
+        "Optimized applications for performance, scalability, and cross-browser compatibility achieving 40% improvement in load times.",
+        "Collaborated closely with product managers, designers, and backend engineers to transform ideas into scalable web applications.",
+        "Ensured technical feasibility of UI/UX designs through proactive communication and technical analysis.",
+        "Conducted code reviews and maintained coding standards across team ensuring consistent quality and best practices.",
+        "Troubleshot, debugged, and improved existing applications identifying and resolving performance bottlenecks.",
+        "Integrated REST APIs and backend services using asynchronous request handling with proper error management.",
+        "Implemented responsive design principles and mobile-first development for optimal viewing across all devices.",
+        "Worked independently in remote environment demonstrating strong problem-solving skills and self-management.",
+        "Stayed updated with emerging frontend technologies and best practices continuously improving technical skills."
+      ]
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "2023",
+      "endDate": "Present",
+      "achievements": [
+        "Built modern, responsive user interfaces using React and JavaScript delivering high-performing web applications.",
+        "Translated design mockups into clean HTML5, CSS3, and JavaScript code with attention to detail.",
+        "Optimized frontend performance through code splitting, lazy loading, and efficient rendering strategies.",
+        "Collaborated with backend developers to integrate REST APIs ensuring seamless data flow and functionality.",
+        "Maintained version control using Git with organized commit history and proper branching strategies.",
+        "Conducted code reviews providing constructive feedback and maintaining team coding standards.",
+        "Debugged and troubleshot cross-browser compatibility issues ensuring consistent experience across platforms."
+      ]
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Digifigs",
+      "location": "Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Developed responsive web applications using HTML5, CSS3, JavaScript, and React with mobile-first approach.",
+        "Transformed UI/UX designs into functional, high-quality frontend code following design specifications.",
+        "Worked with REST APIs integrating backend services with asynchronous request handling.",
+        "Used Git version control system maintaining clean repositories and collaborating with team members.",
+        "Ensured cross-browser compatibility and responsive design across all major browsers and devices.",
+        "Demonstrated strong problem-solving skills troubleshooting and debugging frontend issues independently."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Responsive Web Application (React)",
+      "description": "Built modern, responsive web application using React, HTML5, CSS3, and JavaScript. Translated UI/UX designs into clean code. Optimized for performance and cross-browser compatibility. Integrated REST APIs with asynchronous request handling. Mobile-first development with responsive design principles. Demonstrates frontend development expertise."
+    },
+    {
+      "name": "E-commerce Platform Frontend",
+      "description": "Developed scalable frontend for e-commerce platform using React and modern JavaScript frameworks. Collaborated with designers to ensure technical feasibility of UI/UX designs. Performance optimization and code reviews. Git version control. Shows ability to build high-performing user interfaces."
+    },
+    {
+      "name": "Component Library",
+      "description": "Created reusable component library with clean, high-quality code. HTML5, CSS3, JavaScript, React. Maintained coding standards and conducted code reviews. Version control with Git. Demonstrates commitment to code quality and best practices."
+    }
+  ],
+  "keyStrengths": [
+    {
+      "category": "Modern Frontend Frameworks",
+      "description": "Strong proficiency in React with experience in Vue.js and Angular. Expertise building responsive, high-performing user interfaces with modern frameworks."
+    },
+    {
+      "category": "UI/UX Implementation",
+      "description": "Proven ability to translate UI/UX designs into clean, high-quality code ensuring technical feasibility and exceptional user experiences."
+    },
+    {
+      "category": "Performance & Optimization",
+      "description": "Expert in optimizing applications for performance, scalability, and cross-browser compatibility with measurable improvements."
+    },
+    {
+      "category": "Remote Work Excellence",
+      "description": "Strong ability to work independently in remote environments with proven track record across distributed teams in EMEA-compatible time zones."
+    },
+    {
+      "category": "Collaboration Skills",
+      "description": "Experience collaborating closely with product managers, designers, and backend engineers to deliver scalable web applications."
+    },
+    {
+      "category": "Problem-Solving",
+      "description": "Strong problem-solving skills with ability to troubleshoot, debug, and improve existing applications independently."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (B.Eng.) in Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024",
+      "location": "Nigeria",
+      "note": "Equivalent to Computer Science with strong foundation in systems, algorithms, and problem-solving"
+    }
+  ],
+  "additionalInformation": {
+    "yearsExperience": "6+ years of experience in frontend development (exceeds 3+ years requirement)",
+    "location": "Based in Nigeria (EMEA region) - fully remote",
+    "frameworks": "Strong proficiency in React, Vue.js, and modern JavaScript frameworks",
+    "htmlCssJs": "Expert in HTML5, CSS3, and JavaScript",
+    "apis": "Familiarity with REST APIs and asynchronous request handling",
+    "git": "Experience with version control systems (Git)",
+    "responsive": "Understanding of responsive design principles and mobile-first development",
+    "remote": "Strong ability to work independently in remote environment",
+    "problemSolving": "Strong problem-solving skills and self-management",
+    "collaboration": "Experience collaborating with international teams",
+    "learning": "Continuously staying updated with emerging frontend technologies and best practices"
+  }
+}
