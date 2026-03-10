@@ -1,0 +1,163 @@
+{
+  "id": "epilot-senior-frontend-engineer",
+  "name": "Senior Product Engineer (Frontend) - React Specialist",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Open to Remote)",
+    "email": "lawrenceughonu@gmail.com",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Product-minded Frontend Engineer with 6+ years building React applications that bridge technical excellence with product strategy. Expert in implementing responsive user interfaces, writing comprehensive tests, and taking ownership from conception to production. Passionate about building impactful software with strong DevOps mindset: you build it, you run it. Proven track record shipping working software early and frequently, working in cross-functional teams, and optimizing features based on user feedback.",
+  "technicalSkills": [
+    {
+      "category": "Frontend Core (Primary Expertise)",
+      "skills": "React.js (6+ years), React Hooks, JavaScript (ES6+), TypeScript, HTML5, CSS3"
+    },
+    {
+      "category": "React Ecosystem",
+      "skills": "React Hooks, Global State Management (Redux, Zustand, Context API), React Router, Component Architecture"
+    },
+    {
+      "category": "JavaScript & TypeScript",
+      "skills": "TypeScript (5+ years), JavaScript ES6+, Modern JavaScript Patterns, Async/Await"
+    },
+    {
+      "category": "Build Tools & Development",
+      "skills": "Webpack, Vite, ESLint, Prettier, npm/yarn, Module Bundlers"
+    },
+    {
+      "category": "Testing",
+      "skills": "Jest, React Testing Library, Unit Testing, E2E Testing, Test-Driven Development"
+    },
+    {
+      "category": "UI/UX Implementation",
+      "skills": "Responsive Design, CSS3, Tailwind CSS, CSS-in-JS, Implementing from Wireframes/Designs"
+    },
+    {
+      "category": "Backend & APIs (Nice to Have)",
+      "skills": "Node.js, GraphQL (basics), REST APIs, API Integration"
+    },
+    {
+      "category": "Cloud & DevOps",
+      "skills": "AWS (Lambda, S3, EC2), Serverless Architecture, CI/CD (GitHub Actions, GitLab CI/CD patterns)"
+    },
+    {
+      "category": "Product & Process",
+      "skills": "Agile/Scrum, Cross-functional Collaboration, Feature Optimization, User-centric Development, API-First Design"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Frontend Engineer (Product-Minded)",
+      "company": "NYXIDIOM",
+      "website": "nyxidiom.com",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "Present",
+      "description": "",
+      "achievements": [
+        "Developed and shipped React applications serving 10,000+ users, implementing responsive user interfaces from wireframes and screen designs with pixel-perfect accuracy.",
+        "Built highly responsive UI components using React Hooks, Context API, and modern React patterns, ensuring optimal performance and user experience.",
+        "Wrote comprehensive unit and end-to-end tests using Jest and React Testing Library, achieving 80%+ test coverage for all features and applications developed.",
+        "Took full ownership of features: you build it, you run it - responsible for conception, implementation, testing, deployment, monitoring, and optimization.",
+        "Shipped working software early and frequently, releasing features multiple times per week with fast feedback loops between team and users.",
+        "Worked in cross-functional agile team with backend developers, designers, and product managers, contributing to product strategy and feature conception.",
+        "Analyzed and corrected errors proactively, monitoring production issues and implementing fixes autonomously without dedicated ops team.",
+        "Involved in optimization of existing features based on user feedback and metrics, improving application performance by 40% through strategic improvements.",
+        "Collaborated with other teams across organization, contributing to product decisions, API design discussions, and technical direction.",
+        "Demonstrated product engineering mindset: bridging technical implementation with business goals and user needs throughout development process."
+      ]
+    },
+    {
+      "title": "Frontend Engineer (React/TypeScript)",
+      "company": "SQE Holdings LLC",
+      "website": "sqe.io",
+      "location": "Remote",
+      "startDate": "2023",
+      "endDate": "Present",
+      "description": "",
+      "achievements": [
+        "Built production React applications with TypeScript, implementing user interfaces using React concepts including Hooks, global state management (Redux), and routing.",
+        "Enjoyed creating user-friendly UIs with CSS and HTML, implementing responsive designs that work seamlessly across all devices and browsers.",
+        "Wrote automated tests for components and features, maintaining high code quality and reliability throughout application.",
+        "Worked with ES6, TypeScript, Webpack, and ESLint in professional environment, following best practices for modern JavaScript development.",
+        "Collaborated in cross-functional team environment, participating in feature conception, implementation, and optimization cycles.",
+        "Operated with freedom and responsibility, making autonomous technical decisions while aligning with team principles and strategic mindset."
+      ]
+    },
+    {
+      "title": "Frontend Developer (React)",
+      "company": "Digifigs",
+      "website": "",
+      "location": "Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "description": "",
+      "achievements": [
+        "Developed React applications with focus on implementing user-friendly interfaces from design specifications and wireframes.",
+        "Built responsive UI components using React, HTML5, and CSS3, ensuring cross-browser compatibility and optimal user experience.",
+        "Worked in agile team with designers and backend developers, delivering features iteratively with continuous feedback.",
+        "Gained foundational experience implementing designs into working code and optimizing existing features based on user needs."
+      ]
+    }
+  ],
+  "productEngineeringMindset": [
+    {
+      "category": "Product Strategy Bridge",
+      "description": "Product-minded engineer who bridges technical expertise with product strategy. Participated in feature conception, roadmap discussions, and optimization decisions. Understand business goals and user needs, not just implementation."
+    },
+    {
+      "category": "Ownership Culture: You Build It, You Run It",
+      "description": "Full DevOps mindset with end-to-end ownership. No passing responsibility to ops team - built, deployed, monitored, and optimized own features. Proactively identified and fixed issues in production."
+    },
+    {
+      "category": "Show, Don't Tell: Ship Early & Often",
+      "description": "Released working software early and frequently with multiple weekly deployments. Created fast feedback loops with users through iterative releases. Managed risk through continuous delivery approach."
+    },
+    {
+      "category": "API-First Thinking",
+      "description": "Experience designing and working with well-defined APIs. Collaborated with backend teams on API contracts before implementation. Understood importance of interface design for seamless integration."
+    },
+    {
+      "category": "Freedom & Responsibility",
+      "description": "Operated autonomously with strategic mindset, making technical decisions aligned with team principles. Trusted to deliver without micromanagement while maintaining high quality standards."
+    }
+  ],
+  "projects": [
+    {
+      "name": "React E-commerce Platform",
+      "description": "Built production React application serving 10,000+ users. Implemented responsive UI components from wireframes, comprehensive testing suite (80%+ coverage), and continuous deployment pipeline. Technologies: React Hooks, TypeScript, Context API, Jest, React Testing Library, Webpack. Demonstrates full product engineering cycle from conception to production ownership."
+    },
+    {
+      "name": "Financial Services Application (React/TypeScript)",
+      "description": "Developed complex React application with TypeScript for financial workflows. Implemented global state management with Redux, routing with React Router, and responsive UI with CSS3. Built with security principles and reliability at core. Production application demonstrating TypeScript expertise and enterprise-grade development."
+    },
+    {
+      "name": "Component Library & Design System",
+      "description": "Created reusable React component library with comprehensive documentation and testing. Built with TypeScript, ESLint standards, and Webpack configuration. Used across multiple projects ensuring UI consistency and development efficiency."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (B.Eng.) in Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "yearsJavaScriptExperience": "6+ years professional experience with JavaScript",
+    "yearsReactExperience": "6+ years with React (Hooks, state management, routing)",
+    "typescriptExperience": "5+ years with TypeScript and ES6",
+    "testingExperience": "Unit and E2E testing with Jest and React Testing Library",
+    "awsExperience": "Hands-on with AWS serverless (Lambda, S3), cloud deployment",
+    "graphqlExperience": "Basic GraphQL experience, eager to expand",
+    "workStyle": "Product-minded, ownership culture, agile, cross-functional collaboration",
+    "availability": "Immediate - flexible with remote work",
+    "location": "Lagos, Nigeria - open to full remote or relocation",
+    "passion": "Passionate about impactful software and creating user-friendly experiences"
+  }
+}

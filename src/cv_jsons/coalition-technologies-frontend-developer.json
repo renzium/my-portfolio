@@ -1,0 +1,175 @@
+{
+  "id": "coalition-technologies-frontend-developer",
+  "name": "Front End Developer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Remote)",
+    "email": "lawrenceughonu@gmail.com",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Front End Developer with 6+ years of professional experience transforming complex layout PSDs into pixel-perfect HTML5/CSS3 templates using modern JavaScript ES6+, React, jQuery, and Bootstrap. Expert in WordPress theme and plugin development, PHP/MySQL, and AJAX. Proficient with Photoshop, Illustrator, and version control systems (GIT/SVN). Proven ability to handle multiple projects simultaneously under tight deadlines with strong attention to detail and highly organized work style. Excellent written and spoken English with experience in remote work environments and multicultural teams. Available to work 40 hours per week from 9:00 am to 6:00 pm PST.",
+  "technicalSkills": [
+    {
+      "category": "Frontend Core Technologies",
+      "skills": "HTML5, CSS3, JavaScript ES6+, jQuery, Responsive Web Design"
+    },
+    {
+      "category": "Frontend Frameworks & Libraries",
+      "skills": "React.js, Next.js, Vue.js (basics), Modern JavaScript Frameworks"
+    },
+    {
+      "category": "CSS Frameworks & Preprocessors",
+      "skills": "Bootstrap, Tailwind CSS, CSS3 Media Queries, Responsive Design, CSS-in-JS"
+    },
+    {
+      "category": "Backend & Database",
+      "skills": "PHP/MySQL, AJAX, Node.js, RESTful APIs, Database Management"
+    },
+    {
+      "category": "CMS & E-commerce Platforms",
+      "skills": "WordPress (Theme & Plugin Development), Shopify, BigCommerce, Magento, WooCommerce"
+    },
+    {
+      "category": "Design Tools & Image Optimization",
+      "skills": "Photoshop, Illustrator, Fireworks, Figma, PSD to HTML Conversion, Web Image Optimization"
+    },
+    {
+      "category": "Version Control Systems",
+      "skills": "GIT, SVN, GitHub, GitLab, Version Control Best Practices"
+    },
+    {
+      "category": "Cross-Browser & Debugging",
+      "skills": "Chrome DevTools (Console, Network, Elements), Cross-Browser Compatibility, Debugging Techniques"
+    },
+    {
+      "category": "AI-Assisted Development",
+      "skills": "GitHub Copilot, OpenAI Tools, Cursor AI, AI for Boilerplate Code Generation, AI-Powered Troubleshooting, Workflow Acceleration"
+    },
+    {
+      "category": "E-commerce Platforms",
+      "skills": "WordPress WooCommerce, Shopify Development, BigCommerce, Magento, E-commerce Implementation"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Front End Developer",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "Present",
+      "achievements": [
+        "Transformed complex layout PSDs into pixel-perfect presentation-layer HTML5/CSS3 templates with exceptional attention to detail and accuracy.",
+        "Created responsive website designs using modern JavaScript ES6+, React, HTML5, CSS3, jQuery, Bootstrap, and media queries for optimal viewing across all devices.",
+        "Built websites with WordPress, extending and developing custom plugins and themes using PHP/MySQL and AJAX for dynamic functionality.",
+        "Worked extensively with Photoshop, Illustrator, and Fireworks to create images optimized for the web, ensuring fast loading and visual quality.",
+        "Utilized version control systems (GIT/SVN) for all projects, maintaining clean repositories and collaborating with distributed development teams.",
+        "Worked under tight deadlines handling multiple projects simultaneously (3-5 concurrent projects), demonstrating excellent time management and organizational skills.",
+        "Produced exceptionally high quality work with strong focus on detail, ensuring pixel-perfect implementation matching design specifications exactly.",
+        "Leveraged AI tools including GitHub Copilot, OpenAI, and Cursor for boilerplate code generation, troubleshooting, and workflow acceleration, improving productivity by 30%.",
+        "Developed e-commerce solutions using WordPress WooCommerce, Shopify, and integrated payment systems with secure checkout processes.",
+        "Debugged cross-browser compatibility issues using Chrome DevTools (Console, Network panels, Elements inspection) ensuring consistent experience across all browsers.",
+        "Demonstrated strong communication and collaboration skills working remotely in multicultural environment with clear technical discussions and feedback.",
+        "Took proactive initiative and ownership of projects, identifying issues early and implementing solutions autonomously with positive, upbeat attitude."
+      ]
+    },
+    {
+      "title": "Front End Developer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "2023",
+      "endDate": "Present",
+      "achievements": [
+        "Built responsive websites using React, JavaScript ES6+, HTML5, CSS3, jQuery, and Bootstrap framework ensuring mobile-first, cross-browser compatible designs.",
+        "Developed WordPress websites with custom theme development and plugin extensions using PHP/MySQL and AJAX for dynamic content and functionality.",
+        "Transformed complex PSD layouts into pixel-perfect HTML5/CSS3 templates working under tight deadlines with multiple concurrent projects.",
+        "Implemented e-commerce functionality using Shopify and BigCommerce platforms, integrating payment gateways and shopping cart systems.",
+        "Worked with Photoshop and Illustrator creating web-optimized images and graphics for fast page loading and optimal visual quality.",
+        "Debugged frontend issues using Chrome DevTools, optimizing performance and resolving cross-browser compatibility problems across all major browsers.",
+        "Used GIT version control system for all projects, maintaining organized repositories and collaborating with remote team members.",
+        "Collaborated remotely with backend developers, designers, and stakeholders demonstrating excellent written and spoken English communication skills."
+      ]
+    },
+    {
+      "title": "Front End Developer",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Developed responsive websites using HTML5, CSS3, JavaScript ES6+, jQuery, and Bootstrap with expert-level cross-browser compatibility across all platforms.",
+        "Transformed complex PSD and Illustrator designs into clean, semantic HTML5/CSS3 code with pixel-perfect accuracy and attention to detail.",
+        "Built WordPress websites with custom theme development and plugin customization using PHP/MySQL, implementing client requirements and dynamic features.",
+        "Created web-optimized images and graphics working with Photoshop, Illustrator, and Fireworks ensuring fast loading times and visual quality.",
+        "Worked with version control systems (GIT/SVN) managing code repositories and collaborating with development team members.",
+        "Handled multiple client projects simultaneously (4-6 concurrent projects), consistently meeting tight deadlines while maintaining exceptional quality standards.",
+        "Worked in diverse, multicultural environment with clients from various backgrounds demonstrating adaptability, positive attitude, and excellent English communication.",
+        "Implemented e-commerce solutions using WordPress WooCommerce and Shopify for online store functionality and payment processing."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "E-commerce Websites (WordPress, Shopify, BigCommerce)",
+      "description": "Built multiple e-commerce websites using WordPress WooCommerce, Shopify, and BigCommerce platforms. Transformed PSD designs into pixel-perfect responsive templates. Implemented payment gateways, shopping carts, product catalogs, and checkout processes. Technologies: WordPress, PHP/MySQL, AJAX, HTML5, CSS3, JavaScript ES6+, jQuery, Bootstrap. Demonstrates comprehensive e-commerce development expertise."
+    },
+    {
+      "name": "WordPress Custom Themes & Plugins (Multiple Projects)",
+      "description": "Developed 15+ custom WordPress themes and plugins using PHP/MySQL and AJAX. Extended WordPress functionality for various clients. Transformed complex PSD layouts into responsive WordPress templates. Used Photoshop and Illustrator for web-optimized graphics. Managed projects using GIT version control. Worked under tight deadlines handling 4-6 concurrent projects."
+    },
+    {
+      "name": "Responsive Landing Pages & Web Applications",
+      "description": "Created collection of pixel-perfect responsive websites using HTML5, CSS3, JavaScript ES6+, React, jQuery, and Bootstrap. Debugged cross-browser compatibility issues using Chrome DevTools. Implemented media queries for all device sizes. Used AI tools (GitHub Copilot, OpenAI) for workflow acceleration. Worked with Fireworks and Photoshop for image optimization."
+    },
+    {
+      "name": "Magento E-commerce Store Customization",
+      "description": "Customized Magento e-commerce platform with responsive design and custom functionality. Implemented product displays, checkout processes, and payment integration. Used PHP/MySQL for backend customization and JavaScript/jQuery for frontend interactivity. Demonstrates e-commerce platform expertise."
+    }
+  ],
+  "keyStrengths": [
+    {
+      "category": "Technical Excellence",
+      "description": "Expert in modern JavaScript ES6+, React, HTML5, CSS3, jQuery. Proficient in transforming designs into pixel-perfect code with cross-browser compatibility."
+    },
+    {
+      "category": "Attention to Detail",
+      "description": "Highly organized work style with exceptional attention to detail. Consistently delivers pixel-perfect implementations matching design specifications exactly."
+    },
+    {
+      "category": "Multi-tasking Ability",
+      "description": "Proven ability to handle multiple projects simultaneously while meeting tight deadlines without compromising quality."
+    },
+    {
+      "category": "Communication Skills",
+      "description": "Strong written and spoken English. Excellent communication and collaboration skills with ability to clearly discuss technical concepts and feedback."
+    },
+    {
+      "category": "Proactive Mindset",
+      "description": "Takes initiative and ownership of work. Proactively identifies issues and implements solutions. Positive, upbeat attitude with ability to learn quickly."
+    },
+    {
+      "category": "Remote Work Experience",
+      "description": "6+ years working remotely with distributed teams across multiple time zones. Reliable workstation with fast computer and stable internet connection."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (B.Eng.) in Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "availability": "Available to work 40 hours per week from 9:00 am to 6:00 pm PST",
+    "timezone": "Available 9:00 AM - 6:00 PM PST (adjusted schedule, reliable availability)",
+    "workSetup": "Reliable workstation with fast computer, microphone, speakers, stable internet and power",
+    "communication": "Excellent written and spoken English",
+    "environment": "Able to adapt to diverse and multicultural environment",
+    "passion": "Passionate about building startups and contributing to high-quality web experiences with growing companies",
+    "location": "Lagos, Nigeria - fully remote, international",
+    "yearsExperience": "6+ years professional frontend development experience"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "id": "consensys-metamask-senior-software-engineer",
+  "name": "Senior Software Engineer - MetaMask (Engagement)",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Remote - EMEA)",
+    "email": "lawrenceughonu@gmail.com",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Senior Software Engineer with 6+ years building websites, applications, and mobile-based technologies using React, React Native, and modern JavaScript (ES6/TypeScript). Expert in user-centric solutions across mobile, web, and extension platforms with experience in backend APIs and middleware services. Strong knowledge of blockchain fundamentals, Web3 integration, DeFi protocols, and Web3 wallet ecosystem. Proven track record working in agile development teams with clean code practices, testing, and coding standards. Experience with in-app marketing strategies, push notifications, and engagement features. Passionate about building intuitive, efficient, and secure Web3 interactions.",
+  "technicalSkills": [
+    {
+      "category": "Mobile Technologies (3+ years)",
+      "skills": "React Native, Mobile App Development, iOS, Android, Expo, Mobile-First Design"
+    },
+    {
+      "category": "Web Technologies (3+ years)",
+      "skills": "React, Next.js, Web Applications, Browser Extensions, Cross-Platform Development"
+    },
+    {
+      "category": "Modern JavaScript",
+      "skills": "ES6+, TypeScript, JavaScript, Async/Await, Modern JS Patterns"
+    },
+    {
+      "category": "Backend & APIs",
+      "skills": "Node.js, RESTful APIs, Middleware Services, Backend Development, API Integration"
+    },
+    {
+      "category": "Blockchain & Web3",
+      "skills": "Blockchain Fundamentals, Web3 Integration, DeFi Protocols, Token Swaps, Web3 Wallet Ecosystem, Cryptography Principles"
+    },
+    {
+      "category": "Cross-Platform & Browser",
+      "skills": "Cross-Platform Compatibility, Cross-Browser Compatibility, Responsive Design"
+    },
+    {
+      "category": "Engagement & Marketing",
+      "skills": "In-App Marketing, Push Notifications, Carousel Banners, In-App Modals, User Engagement Strategies"
+    },
+    {
+      "category": "Development Practices",
+      "skills": "Clean Code Practices, Testing, Coding Standards, Code Reviews, Agile Development"
+    },
+    {
+      "category": "Security & Performance",
+      "skills": "Web-Based Security, Performance Optimization, Secure Web3 Interactions"
+    },
+    {
+      "category": "Financial Products",
+      "skills": "Fiat On/Off Ramps, Token Swaps, Digital Financial Products, Payment Integration"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Software Engineer (React Native & Web3)",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "Present",
+      "achievements": [
+        "Built and enhanced user engagement features across mobile (React Native) and web (React) platforms driving user retention and growth metrics.",
+        "Implemented user-centric solutions for mobile applications using React Native with 10,000+ users, focusing on intuitive and secure interactions.",
+        "Developed backend APIs and middleware services using Node.js to power consumer experiences with scalable architecture.",
+        "Integrated Web3 functionality including blockchain fundamentals, DeFi protocols, token swaps, and fiat on/off ramps for seamless crypto transactions.",
+        "Implemented in-app marketing and engagement strategies including push notifications, carousel banners, and in-app modals to drive user activation.",
+        "Built cross-platform applications ensuring compatibility across iOS, Android, and web browsers with consistent user experience.",
+        "Worked with APIs and middleware services integrating third-party services and blockchain nodes for Web3 wallet functionality.",
+        "Developed applications with clean code practices, comprehensive testing (Jest, React Testing Library), and adherence to coding standards.",
+        "Implemented web-based security considerations and cryptography principles for secure user authentication and transaction signing.",
+        "Collaborated with product managers, designers, and engineers in agile development team delivering high-quality features on 2-week sprints.",
+        "Participated in code reviews maintaining high code quality standards and mentoring team members on best practices.",
+        "Optimized application performance reducing load times by 40% and improving user experience through efficient rendering strategies.",
+        "Worked in distributed remote team across multiple time zones with strong verbal and written communication in English."
+      ]
+    },
+    {
+      "title": "Software Engineer (React Native & React)",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "2023",
+      "endDate": "Present",
+      "achievements": [
+        "Built mobile applications using React Native with blockchain integration and Web3 wallet functionality for secure crypto transactions.",
+        "Developed websites and applications using React and TypeScript with modern JavaScript ES6+ patterns and best practices.",
+        "Implemented DeFi protocol integrations including token swaps, wallet connections, and smart contract interactions.",
+        "Worked with backend APIs and middleware services ensuring seamless integration between frontend and backend systems.",
+        "Applied understanding of cryptography principles for secure key management and transaction signing in Web3 applications.",
+        "Worked in agile development team with flexibility and organization, delivering features iteratively with continuous improvement.",
+        "Demonstrated eagerness to learn blockchain technologies and Web3 ecosystem, staying current with latest developments.",
+        "Balanced technical quality with business needs and user experience in product development decisions."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Digifigs",
+      "location": "Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Built websites and applications using React and modern JavaScript ES6+ with focus on user experience and performance.",
+        "Developed mobile-responsive designs with cross-browser compatibility ensuring consistent experience across platforms.",
+        "Worked in development team with good communication, teamwork, and collaboration on feature development.",
+        "Gained foundational experience with financial products in digital space and payment integration systems."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Mobile Crypto Wallet App (React Native + Web3)",
+      "description": "Built React Native mobile application (iOS/Android) with Web3 wallet functionality serving 10,000+ users. Integrated blockchain fundamentals, DeFi protocols, token swaps, and fiat on/off ramps. Implemented in-app engagement features (push notifications, modals, banners). Used TypeScript, clean code practices, comprehensive testing. Demonstrates mobile-based technologies + Web3 integration expertise."
+    },
+    {
+      "name": "Web3 DApp (React + Blockchain)",
+      "description": "Developed web application using React and TypeScript with blockchain integration and Web3 wallet ecosystem connectivity. Implemented user-centric solutions with secure Web3 interactions. Backend APIs with Node.js middleware services. Cross-browser compatibility and performance optimization. Shows Web application + blockchain fundamentals."
+    },
+    {
+      "name": "Backend APIs & Middleware for Consumer Apps",
+      "description": "Built backend APIs and middleware services using Node.js powering mobile and web consumer experiences. RESTful APIs, authentication, data management. Worked with distributed teams in agile environment. Demonstrates backend + API + middleware expertise."
+    }
+  ],
+  "web3Experience": [
+    {
+      "category": "Blockchain & Web3",
+      "description": "Familiarity with blockchain fundamentals, Web3 integration, DeFi protocols, token swaps, fiat on/off ramps, and Web3 wallet ecosystem. Interest and experience in blockchain technologies."
+    },
+    {
+      "category": "Cryptography & Security",
+      "description": "Basic understanding of cryptography principles for secure key management, transaction signing, and authentication. Strong focus on web-based security considerations."
+    },
+    {
+      "category": "Financial Products",
+      "description": "Knowledge of financial products in digital space including token swaps, fiat on/off ramps, and crypto payment integration."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (B.Eng.) in Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024"
+    }
+  ],
+  "additionalInformation": {
+    "yearsExperience": "6+ years building websites and applications, 5+ years mobile-based technologies",
+    "reactExperience": "6+ years React, 5+ years React Native",
+    "javascriptExperience": "Strong knowledge of modern JavaScript ES6/TypeScript",
+    "blockchainExperience": "Familiarity with blockchain fundamentals and Web3 integration",
+    "apiExperience": "Experience working with APIs and middleware services",
+    "agileExperience": "Experience working in agile development teams",
+    "securityKnowledge": "Understanding of web-based security considerations",
+    "communication": "Good verbal and written communication in English",
+    "workStyle": "Teamwork, flexibility, organization, eagerness to learn and grow technical skills",
+    "remoteExperience": "Experience working in distributed remote teams across time zones",
+    "location": "Based in Nigeria (EMEA region), fully remote",
+    "availability": "Immediate"
+  }
+}
