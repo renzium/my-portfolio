@@ -1,203 +1,270 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import styled from 'styled-components';
+import './CVList.css';
 
-const Container = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 20px;
-`;
-
-const Title = styled.h1`
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-  color: #333;
-`;
-
-const Subtitle = styled.p`
-  color: #666;
-  margin-bottom: 30px;
-  font-size: 1.1rem;
-`;
-
-const Controls = styled.div`
-  display: flex;
-  gap: 20px;
-  margin-bottom: 30px;
-  flex-wrap: wrap;
-`;
-
-const SortButton = styled.button`
-  padding: 10px 20px;
-  background: ${props => props.active ? '#667eea' : '#f0f0f0'};
-  color: ${props => props.active ? 'white' : '#333'};
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-weight: 600;
-  transition: all 0.3s ease;
-
-  &:hover {
-    background: ${props => props.active ? '#5568d3' : '#e0e0e0'};
-    transform: translateY(-2px);
-  }
-`;
-
-const CVGrid = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 25px;
-`;
-
-const CVCard = styled(Link)`
-  background: white;
-  border-radius: 12px;
-  padding: 25px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  text-decoration: none;
-  color: inherit;
-  transition: all 0.3s ease;
-  border: 2px solid transparent;
-
-  &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 24px rgba(102, 126, 234, 0.3);
-    border-color: #667eea;
-  }
-`;
-
-const CVTitle = styled.h2`
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-  color: #667eea;
-`;
-
-const CVMeta = styled.div`
-  font-size: 0.9rem;
-  color: #666;
-  margin-bottom: 15px;
-`;
-
-const SkillTags = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 15px;
-`;
-
-const Tag = styled.span`
-  background: #f0f0f0;
-  padding: 5px 12px;
-  border-radius: 15px;
-  font-size: 0.85rem;
-  color: #555;
-`;
-
-const CVList = () => {
+function CVList() {
   const [cvs, setCvs] = useState([]);
-  const [sortBy, setSortBy] = useState('name');
+  const [loading, setLoading] = useState(true);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [currentPage, setCurrentPage] = useState(1);
+  const cvsPerPage = 10;
 
   useEffect(() => {
-    // Import all JSON files from cv_jsons directory
-    const importAll = (r) => {
-      return r.keys().map((key) => ({
-        ...r(key),
-        fileName: key.replace('./', '').replace('.json', '')
-      }));
+    const loadAllCVs = async () => {
+      try {
+        // Import all CV JSON files from the cv_jsons directory
+        const cvContext = require.context('../cv_jsons', false, /\.json$/);
+        const cvList = [];
+
+        cvContext.keys().forEach((key) => {
+          const cvData = cvContext(key);
+          const fileName = key.replace('./', '').replace('.json', '');
+          
+          // Extract company and role from ID
+          const { company, role } = extractCompanyAndRole(cvData.id || fileName);
+          
+          cvList.push({
+            id: cvData.id || fileName,
+            name: cvData.name || 'Untitled CV',
+            company,
+            role,
+            skills: extractSkills(cvData),
+            fileName
+          });
+        });
+
+        // Sort by company name
+        cvList.sort((a, b) => a.company.localeCompare(b.company));
+        
+        setCvs(cvList);
+        setLoading(false);
+      } catch (error) {
+        console.error('Error loading CVs:', error);
+        setLoading(false);
+      }
     };
 
-    try {
-      const cvFiles = importAll(require.context('../cv_jsons', false, /\.json$/));
-      setCvs(cvFiles);
-    } catch (error) {
-      console.error('Error loading CV files:', error);
-    }
+    loadAllCVs();
   }, []);
 
-  const getMainSkills = (technicalSkills) => {
-    if (!technicalSkills || technicalSkills.length === 0) return [];
+  // Extract company and role from ID like "cleo-senior-frontend-react-native"
+  const extractCompanyAndRole = (id) => {
+    if (!id) return { company: 'Unknown', role: 'Unknown' };
     
-    // Get first 3 skill categories
-    return technicalSkills.slice(0, 3).map(skill => skill.category);
-  };
-
-  const sortCVs = (cvsArray) => {
-    const sorted = [...cvsArray];
+    // Split by hyphens
+    const parts = id.split('-');
     
-    switch (sortBy) {
-      case 'name':
-        return sorted.sort((a, b) => a.name.localeCompare(b.name));
-      case 'date':
-        return sorted.sort((a, b) => {
-          const dateA = a.experience?.[0]?.startDate || '';
-          const dateB = b.experience?.[0]?.startDate || '';
-          return dateB.localeCompare(dateA);
-        });
-      case 'skills':
-        return sorted.sort((a, b) => {
-          const skillsA = a.technicalSkills?.length || 0;
-          const skillsB = b.technicalSkills?.length || 0;
-          return skillsB - skillsA;
-        });
-      default:
-        return sorted;
+    // Common role keywords to help identify where role starts
+    const roleKeywords = ['senior', 'junior', 'mid', 'lead', 'staff', 'principal', 
+                         'frontend', 'backend', 'fullstack', 'full', 'software', 
+                         'engineer', 'developer', 'architect', 'manager'];
+    
+    let roleStartIndex = -1;
+    
+    // Find where the role likely starts
+    for (let i = 0; i < parts.length; i++) {
+      if (roleKeywords.includes(parts[i].toLowerCase())) {
+        roleStartIndex = i;
+        break;
+      }
     }
+    
+    if (roleStartIndex === -1) {
+      // Couldn't find role keywords, assume first 1-2 words are company
+      const company = parts.slice(0, Math.min(2, parts.length)).join(' ');
+      const role = parts.slice(Math.min(2, parts.length)).join(' ');
+      return {
+        company: formatName(company),
+        role: formatName(role) || 'Position'
+      };
+    }
+    
+    const company = parts.slice(0, roleStartIndex).join(' ');
+    const role = parts.slice(roleStartIndex).join(' ');
+    
+    return {
+      company: formatName(company) || 'Company',
+      role: formatName(role) || 'Position'
+    };
   };
 
-  const sortedCVs = sortCVs(cvs);
+  // Format name: capitalize first letter of each word
+  const formatName = (str) => {
+    if (!str) return '';
+    return str
+      .split(' ')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+      .join(' ');
+  };
+
+  // Extract skills from CV for search
+  const extractSkills = (cvData) => {
+    const skills = [];
+    
+    // Get skills from technicalSkills array
+    if (cvData.technicalSkills && Array.isArray(cvData.technicalSkills)) {
+      cvData.technicalSkills.forEach(skillGroup => {
+        if (skillGroup.skills) {
+          skills.push(skillGroup.skills.toLowerCase());
+        }
+      });
+    }
+    
+    // Get from summary
+    if (cvData.summary) {
+      skills.push(cvData.summary.toLowerCase());
+    }
+    
+    return skills.join(' ');
+  };
+
+  // Filter CVs based on search term
+  const filteredCvs = cvs.filter(cv => {
+    if (!searchTerm) return true;
+    
+    const search = searchTerm.toLowerCase();
+    return (
+      cv.company.toLowerCase().includes(search) ||
+      cv.role.toLowerCase().includes(search) ||
+      cv.name.toLowerCase().includes(search) ||
+      cv.skills.includes(search)
+    );
+  });
+
+  // Pagination logic
+  const indexOfLastCv = currentPage * cvsPerPage;
+  const indexOfFirstCv = indexOfLastCv - cvsPerPage;
+  const currentCvs = filteredCvs.slice(indexOfFirstCv, indexOfLastCv);
+  const totalPages = Math.ceil(filteredCvs.length / cvsPerPage);
+
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
+  const handleSearchChange = (e) => {
+    setSearchTerm(e.target.value);
+    setCurrentPage(1); // Reset to first page when searching
+  };
+
+  if (loading) {
+    return <div className="cv-list-loading">Loading CVs...</div>;
+  }
 
   return (
-    <Container>
-      <Title>CV Manager</Title>
-      <Subtitle>Manage and view all your CVs in one place</Subtitle>
-      
-      <Controls>
-        <SortButton 
-          active={sortBy === 'name'} 
-          onClick={() => setSortBy('name')}
-        >
-          Sort by Name
-        </SortButton>
-        <SortButton 
-          active={sortBy === 'date'} 
-          onClick={() => setSortBy('date')}
-        >
-          Sort by Date
-        </SortButton>
-        <SortButton 
-          active={sortBy === 'skills'} 
-          onClick={() => setSortBy('skills')}
-        >
-          Sort by Skills
-        </SortButton>
-      </Controls>
-
-      <CVGrid>
-        {sortedCVs.map((cv) => (
-          <CVCard key={cv.id} to={`/cvs/${cv.id}`}>
-            <CVTitle>{cv.name}</CVTitle>
-            <CVMeta>
-              <strong>{cv.personalInfo?.fullName}</strong>
-            </CVMeta>
-            <CVMeta>
-              {cv.experience?.[0]?.company} • {cv.experience?.[0]?.startDate}
-            </CVMeta>
-            <SkillTags>
-              {getMainSkills(cv.technicalSkills).map((skill, index) => (
-                <Tag key={index}>{skill}</Tag>
-              ))}
-            </SkillTags>
-          </CVCard>
-        ))}
-      </CVGrid>
-
-      {cvs.length === 0 && (
-        <p style={{ textAlign: 'center', color: '#666', marginTop: '40px' }}>
-          No CVs found. Add JSON files to src/cv_jsons/ directory.
+    <div className="cv-list-container">
+      <div className="cv-list-header">
+        <h1>My CV Collection</h1>
+        <p className="cv-count">
+          {filteredCvs.length} {filteredCvs.length === 1 ? 'CV' : 'CVs'} 
+          {searchTerm && ` (filtered from ${cvs.length} total)`}
         </p>
+      </div>
+
+      {/* Search Bar */}
+      <div className="search-container">
+         <input
+          type="text"
+          placeholder="Search by company, role, or skills (e.g., 'React', 'Senior', 'Google')..."
+          value={searchTerm}
+          onChange={handleSearchChange}
+          className="search-input"
+        />
+        {searchTerm && (
+          <button 
+            onClick={() => setSearchTerm('')} 
+            className="clear-search"
+            aria-label="Clear search"
+          >
+            ✕
+          </button>
+        )}
+      </div>
+
+      {/* CV List */}
+      {filteredCvs.length === 0 ? (
+        <div className="no-results">
+          <p>No CVs found matching "{searchTerm}"</p>
+          <button onClick={() => setSearchTerm('')} className="reset-button">
+            Clear Search
+          </button>
+        </div>
+      ) : (
+        <>
+          <div className="cv-grid">
+            {currentCvs.map((cv) => (
+              <Link
+                to={`/cvs/${cv.fileName}`}
+                key={cv.id}
+                className="cv-card"
+              >
+                <div className="cv-card-header">
+                  <h2 className="company-name">{cv.company}</h2>
+                  <span className="cv-badge">CV</span>
+                </div>
+                <h3 className="role-name">{cv.role}</h3>
+                <p className="cv-description">{cv.name}</p>
+                <div className="cv-card-footer">
+                  <span className="view-link">View CV →</span>
+                </div>
+              </Link>
+            ))}
+          </div>
+
+          {/* Pagination */}
+          {totalPages > 1 && (
+            <div className="pagination">
+              <button
+                onClick={() => paginate(currentPage - 1)}
+                disabled={currentPage === 1}
+                className="pagination-button"
+              >
+                ← Previous
+              </button>
+              
+              <div className="pagination-numbers">
+                {[...Array(totalPages)].map((_, index) => {
+                  const pageNumber = index + 1;
+                  
+                  // Show first page, last page, current page, and pages around current
+                  if (
+                    pageNumber === 1 ||
+                    pageNumber === totalPages ||
+                    (pageNumber >= currentPage - 1 && pageNumber <= currentPage + 1)
+                  ) {
+                    return (
+                      <button
+                        key={pageNumber}
+                        onClick={() => paginate(pageNumber)}
+                        className={`pagination-number ${currentPage === pageNumber ? 'active' : ''}`}
+                      >
+                        {pageNumber}
+                      </button>
+                    );
+                  } else if (
+                    pageNumber === currentPage - 2 ||
+                    pageNumber === currentPage + 2
+                  ) {
+                    return <span key={pageNumber} className="pagination-ellipsis">...</span>;
+                  }
+                  return null;
+                })}
+              </div>
+
+              <button
+                onClick={() => paginate(currentPage + 1)}
+                disabled={currentPage === totalPages}
+                className="pagination-button"
+              >
+                Next →
+              </button>
+            </div>
+          )}
+
+          <div className="pagination-info">
+            Showing {indexOfFirstCv + 1}-{Math.min(indexOfLastCv, filteredCvs.length)} of {filteredCvs.length}
+          </div>
+        </>
       )}
-    </Container>
+    </div>
   );
-};
+}
 
 export default CVList;

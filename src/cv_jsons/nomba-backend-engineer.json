@@ -1,0 +1,157 @@
+{
+  "id": "nomba-backend-engineer",
+  "name": "Backend Engineer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Hybrid)",
+    "email": "lawrenceughonu@gmail.com",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Backend Engineer with 6+ years of experience developing scalable applications using Node.js and modern backend technologies. Strong expertise in MongoDB and MySQL database design, system architecture, and microservices. Proficient in technical design, testing, and modern software engineering practices including DDD and TDD. Experience working with containers (Docker), managing junior engineers, and leading technical initiatives. Excellent problem-solving skills with deep knowledge of networking, databases, concurrency, algorithms, data structures, and performance optimization. Proven ability to work autonomously, take initiative, and deliver end-to-end solutions from design to deployment.",
+  "technicalSkills": [
+    {
+      "category": "Backend Technologies",
+      "skills": "Node.js, Express.js, NestJS, Java (basics), RESTful APIs, Microservices"
+    },
+    {
+      "category": "Databases (5+ years)",
+      "skills": "MongoDB, MySQL, PostgreSQL, Database Design, Query Optimization, NoSQL, SQL"
+    },
+    {
+      "category": "System Architecture",
+      "skills": "System Architecture Design, Microservices Architecture, Technical Design, Scalable Systems"
+    },
+    {
+      "category": "Containers & DevOps",
+      "skills": "Docker, Containers, CI/CD Pipelines, Deployment Automation"
+    },
+    {
+      "category": "Software Engineering Practices",
+      "skills": "Domain-Driven Design (DDD), Test-Driven Development (TDD), Clean Code, Code Reviews"
+    },
+    {
+      "category": "Fundamental Computing",
+      "skills": "Networking, Databases, Concurrency, Parallelism, Locking, Algorithms, Data Structures, Performance Monitoring, Optimization"
+    },
+    {
+      "category": "Testing",
+      "skills": "Unit Testing, Integration Testing, TDD, Jest, Testing Best Practices"
+    },
+    {
+      "category": "Leadership & Management",
+      "skills": "Managing Junior Engineers, Mentoring, Code Reviews, Performance Reviews, Technical Leadership"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Backend Engineer (Node.js)",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "Present",
+      "achievements": [
+        "Architected, designed, and developed backend products using Node.js serving 10,000+ users with scalable microservices architecture.",
+        "Provided ongoing maintenance, support, and enhancements to existing backend services ensuring 99.5% uptime and reliability.",
+        "Managed and mentored junior engineers providing code reviews, architectural design guidance, and technical leadership.",
+        "Performed performance reviews on direct reports documenting technical growth and reporting to line manager.",
+        "Took full responsibility for products during development and production, troubleshooting issues and implementing solutions autonomously.",
+        "Worked across different technology stacks focusing primarily on Node.js with experience in multiple languages and frameworks.",
+        "Owned end-to-end responsibility for services from design through deployment including architecture, implementation, and monitoring.",
+        "Worked in fast-paced team environment as point of call for technical matters and architectural decisions.",
+        "Developed with MongoDB and MySQL databases for 5+ years with expertise in schema design, indexing, and query optimization.",
+        "Implemented strong technical design, comprehensive testing (TDD), and robust system architecture following modern practices.",
+        "Worked extensively with Docker containers for development, testing, and production deployment environments.",
+        "Demonstrated excellent problem-solving skills debugging complex distributed systems and performance bottlenecks.",
+        "Applied knowledge of networking, databases, concurrency, parallelism, algorithms, and data structures to build efficient systems.",
+        "Practiced modern software engineering including Domain-Driven Design (DDD) and Test-Driven Development (TDD).",
+        "Led technical initiatives autonomously, took initiative to identify and solve problems, and consistently got stuff done.",
+        "Maintained great communication with stakeholders, team members, and management ensuring alignment and transparency."
+      ]
+    },
+    {
+      "title": "Backend Developer (Node.js)",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "2023",
+      "endDate": "Present",
+      "achievements": [
+        "Developed backend services using Node.js with MongoDB and PostgreSQL databases handling complex business logic.",
+        "Designed system architecture for microservices ensuring scalability, reliability, and maintainability.",
+        "Implemented testing practices including TDD and comprehensive unit/integration test coverage.",
+        "Worked with containers (Docker) for consistent development and deployment environments.",
+        "Demonstrated strong problem-solving skills optimizing database queries and improving system performance by 40%.",
+        "Applied knowledge of concurrency, locking mechanisms, and performance optimization to handle high-traffic scenarios.",
+        "Mentored team members on backend best practices, code quality, and architectural patterns.",
+        "Worked autonomously taking ownership of features from design to deployment with minimal supervision."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Developed backend services using Node.js with MySQL database for web applications.",
+        "Implemented RESTful APIs and integrated with frontend applications.",
+        "Worked with fundamental computing concepts including networking, databases, and algorithms.",
+        "Demonstrated ability to take initiative, work autonomously, and deliver solutions efficiently."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Fintech Backend Platform (Node.js/MongoDB/MySQL)",
+      "description": "Architected and built scalable backend for fintech application using Node.js, MongoDB, and MySQL. Microservices architecture with Docker containers. Implemented DDD and TDD practices. End-to-end ownership from design to deployment. Handles payment processing, user management, and transaction history. 99.5% uptime serving 10,000+ users. Demonstrates backend engineering expertise."
+    },
+    {
+      "name": "Microservices Architecture (Node.js/Docker)",
+      "description": "Designed and developed microservices system using Node.js with MongoDB and PostgreSQL. Docker containerization, CI/CD pipelines. Strong focus on system architecture, concurrency handling, performance optimization. Applied modern software engineering practices (DDD, TDD). Shows technical design and architecture skills."
+    },
+    {
+      "name": "API Gateway & Backend Services",
+      "description": "Built RESTful APIs and backend services with Node.js. MongoDB and MySQL databases. Implemented caching, performance monitoring, optimization. Knowledge of networking, databases, parallelism, locking. Demonstrates fundamental computing knowledge and problem-solving."
+    }
+  ],
+  "leadership": [
+    {
+      "category": "Managing Junior Engineers",
+      "description": "Experience managing and mentoring junior engineers. Provided code reviews, architectural guidance, technical mentoring. Performed performance reviews documenting growth and progress."
+    },
+    {
+      "category": "Technical Leadership",
+      "description": "Led technical initiatives autonomously. Point of call for technical matters. Made architectural decisions and guided team on best practices."
+    },
+    {
+      "category": "Communication & Initiative",
+      "description": "Great communication skills with stakeholders and team. Ability to take initiative, identify problems proactively, and get stuff done efficiently."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (B.Eng.) in Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "nodejsExperience": "6+ years developing with Node.js in the industry",
+    "databaseExperience": "6+ years with MongoDB and MySQL",
+    "javaExperience": "Foundational Java knowledge, primarily Node.js focused",
+    "technicalDesign": "Strong affinity for technical design, testing, and system architecture",
+    "containers": "Experience working with Docker containers",
+    "problemSolving": "Excellent problem-solving skills",
+    "architecture": "Strong System Architecture Design skills",
+    "fundamentals": "Knowledge of networking, databases, concurrency, parallelism, algorithms, data structures, optimization",
+    "modernPractices": "Knowledge of DDD, TDD, and modern software engineering practices",
+    "autonomy": "Ability to work autonomously and lead technically",
+    "communication": "Great communication skills",
+    "initiative": "Ability to take initiative and get stuff done",
+    "location": "Based in Lagos, Nigeria - available for hybrid work",
+    "availability": "Immediate"
+  }
+}
