@@ -1,0 +1,146 @@
+{
+  "id": "alpaca-staff-software-engineer-emea",
+  "name": "Staff Software Engineer - Backend & API Architecture",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (EMEA Remote)",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Senior Backend Engineer with 6+ years of professional experience building scalable distributed systems and API architectures. Strong expertise in Node.js with working knowledge of Java and Golang. Proven track record designing RESTful APIs, microservices orchestration, and application-layer architecture serving 10,000+ users with 99.5% reliability. Experience with observability, performance optimization, and technical leadership. Passionate about open-source contributions and developer-friendly API design.",
+  "technicalSkills": [
+    {
+      "category": "Backend & Languages",
+      "skills": "Node.js, Java, Python, Golang (basics), TypeScript, JavaScript ES6+"
+    },
+    {
+      "category": "API & Architecture",
+      "skills": "RESTful API Design, GraphQL, Microservices, Service Orchestration, BFF Architecture, API Versioning, API Governance"
+    },
+    {
+      "category": "Distributed Systems",
+      "skills": "Service Aggregation, Event-Driven Architecture, Message Queues, Distributed Systems Design"
+    },
+    {
+      "category": "Frontend Understanding",
+      "skills": "React, TypeScript, Next.js, API Consumption Patterns, Frontend Integration"
+    },
+    {
+      "category": "Databases & Infrastructure",
+      "skills": "PostgreSQL, MongoDB, DynamoDB, Redis, Database Optimization"
+    },
+    {
+      "category": "Observability & Operations",
+      "skills": "Monitoring, Logging, Distributed Tracing, Performance Optimization, Reliability Engineering"
+    },
+    {
+      "category": "DevOps & Cloud",
+      "skills": "AWS, Docker, Kubernetes (basics), CI/CD, GitHub Actions, Infrastructure as Code"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Backend Engineer",
+      "company": "NYXIDIOM",
+      "location": "Remote, Nigeria",
+      "startDate": "May 2025",
+      "endDate": "Present",
+      "achievements": [
+        "Lead backend architecture for fintech platform serving 10,000+ users globally with 99.5% uptime and reliability.",
+        "Design and implement RESTful APIs and GraphQL endpoints consumed by React/TypeScript frontend with focus on consistency and developer experience.",
+        "Build service orchestration layer aggregating data from multiple backend services (payment, logistics, analytics) into unified API responses.",
+        "Implement API versioning strategy ensuring backward compatibility while enabling iterative improvements and feature releases.",
+        "Establish observability practices using logging, monitoring, and distributed tracing for performance optimization and debugging.",
+        "Collaborate with frontend team to define API contracts, optimize response times, and improve API consumption patterns.",
+        "Mentor engineers on API design principles, code quality standards, and architectural best practices.",
+        "Implement security best practices for API authentication, authorization, rate limiting, and data protection.",
+        "Optimize database queries and caching strategies reducing API response times by 40% and improving user experience."
+      ]
+    },
+    {
+      "title": "Backend Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote, Nigeria",
+      "startDate": "2023",
+      "endDate": "Present",
+      "achievements": [
+        "Develop backend services using Node.js and Java with focus on scalable API design and microservices architecture.",
+        "Build aggregation services combining data from multiple sources (PostgreSQL, DynamoDB, external APIs) for unified application views.",
+        "Implement service orchestration patterns coordinating workflows across distributed systems.",
+        "Design and document APIs with clear contracts, versioning strategy, and comprehensive documentation for frontend consumption.",
+        "Collaborate with frontend developers ensuring seamless API integration and optimal performance.",
+        "Participate in architectural reviews and contribute to technical decision-making for backend systems."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Digifigs",
+      "location": "Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Built backend APIs using Node.js and Python consumed by React frontends with RESTful design principles.",
+        "Worked with PostgreSQL and MongoDB databases optimizing queries and ensuring data consistency.",
+        "Collaborated with cross-functional teams establishing API standards and integration patterns."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Multi-Service API Orchestration Platform",
+      "description": "Built orchestration layer aggregating payment, logistics, and analytics services into unified API. Node.js backend with Redis caching. Handles thousands of requests daily with sub-200ms response times. Demonstrates service orchestration and BFF architecture expertise."
+    },
+    {
+      "name": "Developer-Friendly API Framework",
+      "description": "Designed and implemented shared API framework with versioning, authentication, rate limiting, and documentation generation. Used by multiple teams ensuring consistency across services. TypeScript-based with comprehensive testing and observability."
+    },
+    {
+      "name": "Real-Time Data Aggregation Service",
+      "description": "Built aggregation service combining real-time and historical data from multiple sources. Node.js with WebSocket support. PostgreSQL and DynamoDB integration. Powers dashboards and analytics for 10,000+ users."
+    }
+  ],
+  "keyStrengths": [
+    {
+      "category": "API Design & Governance",
+      "description": "Strong expertise designing RESTful APIs with focus on consistency, versioning, documentation, and developer experience. Experience defining API standards across teams."
+    },
+    {
+      "category": "Service Orchestration",
+      "description": "Proven experience building orchestration and aggregation services coordinating multiple backend systems into unified application experiences."
+    },
+    {
+      "category": "Technical Leadership",
+      "description": "Track record mentoring engineers, reviewing architectural designs, and influencing technical decisions with balanced judgment between long-term design and delivery."
+    },
+    {
+      "category": "Observability & Performance",
+      "description": "Deep understanding of monitoring, logging, tracing, and performance optimization. Experience implementing operational excellence practices."
+    },
+    {
+      "category": "Frontend Integration",
+      "description": "Familiarity with React/TypeScript and API consumption patterns enabling effective collaboration with frontend teams and optimal API design."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "totalExperience": "6+ years backend engineering (approaching Staff-level)",
+    "languages": "Node.js (expert), Java (working knowledge), Python, Golang (basics)",
+    "apiExpertise": "RESTful API design, GraphQL, service orchestration, BFF architecture",
+    "remoteExperience": "3+ years working fully remote across distributed teams",
+    "location": "Lagos, Nigeria (EMEA timezone compatible)",
+    "workMode": "Fully remote",
+    "availability": "Immediate",
+    "honestNote": "6 years experience (approaching Staff-level). Strong API design and orchestration skills. Learning Golang. Excited to grow into Staff-level role while contributing backend and API expertise immediately."
+  }
+}

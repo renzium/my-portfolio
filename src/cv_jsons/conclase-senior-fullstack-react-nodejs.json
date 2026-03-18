@@ -1,0 +1,111 @@
+{
+  "id": "conclase-senior-fullstack-react-nodejs",
+  "name": "Senior Full Stack Engineer - React & Node.js",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Available for Lekki onsite)",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Senior Full Stack Engineer with 6+ years of professional experience building scalable web applications using React and Node.js. Proven expertise in frontend development (React, TypeScript, CSS) and backend development (Node.js, RESTful APIs, microservices). Strong experience in fintech and on-demand platforms serving 10,000+ users. Proficient with Docker, Redis caching, and scalable architectures. Available immediately for 3-month onsite contract in Lekki.",
+  "technicalSkills": [
+    {
+      "category": "Frontend Development (6+ years)",
+      "skills": "React.js, TypeScript, JavaScript ES6+, HTML5, CSS3, Sass/SCSS, Tailwind CSS, Next.js, Redux"
+    },
+    {
+      "category": "Backend Development (6+ years)",
+      "skills": "Node.js, Express.js, RESTful APIs, GraphQL, Microservices Architecture, Authentication/Authorization"
+    },
+    {
+      "category": "Databases",
+      "skills": "PostgreSQL, MongoDB, DynamoDB, Redis (Caching), Database Optimization"
+    },
+    {
+      "category": "DevOps & Scaling",
+      "skills": "Docker, Kubernetes (basics), Redis Caching, Web Load Balancing, AWS, CI/CD, Scaling Strategies"
+    },
+    {
+      "category": "Testing & Quality",
+      "skills": "Jest, React Testing Library, Cypress, Unit Testing, Integration Testing"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Full Stack Engineer (Fintech/On-Demand)",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "Present",
+      "achievements": [
+        "Built full stack fintech on-demand platform using React, TypeScript, Node.js serving 10,000+ users with 99.5% uptime.",
+        "Developed responsive frontend with React, Redux state management, and modern CSS for optimal user experience.",
+        "Built scalable Node.js backend with Express.js, RESTful APIs, and microservices architecture handling thousands of concurrent users.",
+        "Implemented Redis caching reducing API response times by 40% and improving application performance.",
+        "Containerized applications using Docker for consistent deployment across environments.",
+        "Integrated payment systems (Stripe, Paystack) with secure transaction handling and real-time processing.",
+        "Optimized database queries (PostgreSQL, MongoDB) and implemented load balancing for high-traffic scenarios.",
+        "Collaborated with cross-functional teams in agile environment delivering features rapidly while maintaining code quality."
+      ]
+    },
+    {
+      "title": "Full Stack Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "2023",
+      "endDate": "Present",
+      "achievements": [
+        "Develop full stack solutions using React frontend and Node.js backend for enterprise clients.",
+        "Build RESTful APIs with Node.js and Express.js consumed by React applications with TypeScript.",
+        "Implement responsive UI components with React and CSS frameworks ensuring cross-browser compatibility.",
+        "Work with PostgreSQL and DynamoDB databases optimizing queries for performance and scalability.",
+        "Deploy applications using Docker containers with CI/CD pipelines for automated testing and deployment."
+      ]
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Built full stack web applications using React frontend and Node.js backend with RESTful API integration.",
+        "Developed responsive user interfaces with React, HTML5, CSS3 ensuring mobile-first approach.",
+        "Worked with MongoDB and PostgreSQL databases implementing CRUD operations and data management.",
+        "Collaborated with designers and backend developers in fast-paced environment delivering projects on schedule."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Fintech On-Demand Platform (React/Node.js)",
+      "description": "Full stack application with React TypeScript frontend and Node.js Express backend. Redis caching, Docker containerization, PostgreSQL database. Serves 10,000+ users with payment integration and real-time features. Demonstrates fintech and on-demand expertise."
+    },
+    {
+      "name": "Scalable API Backend (Node.js/Docker)",
+      "description": "Built Node.js microservices with Docker containerization and Redis caching. Load balanced architecture handling high traffic. PostgreSQL and MongoDB integration. CI/CD with GitHub Actions."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibabad",
+      "startYear": "2018",
+      "endYear": "2024",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "totalExperience": "6+ years full stack development (React & Node.js)",
+    "fintechExperience": "3+ years in fintech and on-demand platforms",
+    "containerization": "Docker experience with Kubernetes basics",
+    "caching": "Redis caching implementation for performance optimization",
+    "scaling": "Experience building scalable systems with load balancing",
+    "location": "Based in Lagos - Available for onsite work in Lekki",
+    "contractAvailability": "Available immediately for 3-month contract",
+    "workMode": "Ready for onsite work in Lekki office"
+  }
+}

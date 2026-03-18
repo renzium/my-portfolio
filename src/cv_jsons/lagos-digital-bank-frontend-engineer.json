@@ -1,0 +1,109 @@
+{
+  "id": "lagos-digital-bank-frontend-engineer",
+  "name": "Frontend Engineer - Fintech & Digital Banking",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Senior Frontend Engineer with 6+ years of professional experience building high-performance web and mobile applications for fintech and digital banking platforms. Proven expertise in React, React Native, TypeScript with track record delivering scalable payment systems serving 10,000+ users. Strong background in payment integration (Stripe, Paystack, Flutterwave), financial dashboards, and secure banking interfaces. Experience with Java backend integration and full-stack development in fast-paced fintech environments.",
+  "technicalSkills": [
+    {
+      "category": "Frontend & Mobile",
+      "skills": "React.js, React Native, TypeScript, JavaScript ES6+, Next.js, HTML5, CSS3, Redux, Tailwind CSS"
+    },
+    {
+      "category": "Backend & Full-Stack",
+      "skills": "Node.js, Java, Python, RESTful APIs, GraphQL, Microservices Integration"
+    },
+    {
+      "category": "Fintech & Payments",
+      "skills": "Stripe, Paystack, Flutterwave, Payment Gateways, Digital Wallets, Transaction Management, PCI DSS Compliance"
+    },
+    {
+      "category": "Tools & Cloud",
+      "skills": "Git/GitHub, Docker, AWS, Firebase, Jest, Cypress, CI/CD, Agile/Scrum"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Frontend Engineer (Fintech)",
+      "company": "NYXIDIOM",
+      "location": "Remote, Nigeria",
+      "startDate": "May 2025",
+      "endDate": "Present",
+      "achievements": [
+        "Lead frontend development for fintech platform serving 10,000+ users with integrated payment systems achieving 99.5% uptime.",
+        "Built cross-platform mobile app using React Native and Expo with Stripe payment integration processing thousands of transactions monthly.",
+        "Developed responsive web dashboard using React, TypeScript, and Next.js for financial analytics and payment management with real-time updates.",
+        "Optimized mobile app performance reducing crash rate from 15% to 0.5% through React Native performance profiling and memory management.",
+        "Integrated multiple payment providers (Stripe, Paystack) with secure transaction handling and fraud prevention measures.",
+        "Collaborated with Java and Node.js backend teams to design RESTful APIs for payment processing and transaction management.",
+        "Implemented Redux state management for complex financial data flows across web and mobile platforms.",
+        "Deployed applications to Google Play Store with CI/CD pipelines and achieved 80%+ test coverage using Jest and React Testing Library.",
+        "Developed multilingual support for international operations with dynamic currency conversion and real-time exchange rates."
+      ]
+    },
+    {
+      "title": "Frontend Engineer (Digital Banking)",
+      "company": "SQE Holdings LLC",
+      "location": "Remote, Nigeria",
+      "startDate": "2023",
+      "endDate": "Present",
+      "achievements": [
+        "Develop frontend solutions for digital banking platform using React, TypeScript with Java backend integration.",
+        "Built wallet features, transaction interfaces, and payment dashboards with focus on security and user experience.",
+        "Implemented real-time transaction updates using WebSocket connections for instant payment notifications.",
+        "Integrated with Java APIs for account management, fund transfers, and financial reporting with PostgreSQL and DynamoDB.",
+        "Developed authentication flows using JWT tokens, OAuth, and biometric authentication for secure banking access."
+      ]
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Digifigs",
+      "location": "Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Built responsive web applications using React and JavaScript with payment gateway integration (Paystack, Flutterwave).",
+        "Developed financial dashboards displaying transaction data, analytics, and reporting with REST API integration.",
+        "Collaborated with Node.js and Java backend developers ensuring seamless API integration and data flow."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Paka - Logistics & Payment Platform",
+      "description": "React Native mobile app with 10,000+ downloads on Google Play. Stripe payment processing, real-time tracking, multilingual support. 99.5% crash-free rate. Demonstrates fintech and mobile expertise."
+    },
+    {
+      "name": "Digital Banking Dashboard",
+      "description": "Enterprise banking platform built with React, TypeScript, Next.js. Java backend integration for transactions and reporting. Real-time updates, secure authentication, regulatory compliance."
+    },
+    {
+      "name": "Payment Integration System",
+      "description": "Multi-provider payment system (Stripe, Paystack, Flutterwave). React frontend with Node.js and Java backend. Processes thousands of transactions monthly in production."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "totalExperience": "6+ years professional frontend development",
+    "fintechExperience": "5+ years in fintech, digital banking, and payment systems",
+    "mobileExperience": "3+ years React Native with published apps (10,000+ downloads)",
+    "paymentSystems": "Stripe, Paystack, Flutterwave integration expertise",
+    "location": "Lagos, Nigeria - Available for fully remote work",
+    "availability": "Immediate"
+  }
+}

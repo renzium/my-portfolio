@@ -1,0 +1,201 @@
+{
+  "id": "vidiq-senior-ai-engineer-remote",
+  "name": "Senior AI Engineer - Backend & ML Focus",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Remote - Worldwide)",
+    "email": "lawrenceughonu@gmail.com",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Senior Software Engineer with 6+ years of professional experience building scalable backend systems and growing expertise in AI/ML solutions. Strong foundation in Python and Node.js with hands-on experience using AI development tools (GitHub Copilot, Cursor). Product-oriented mindset focused on delivering high-impact solutions through cross-functional collaboration. Proactive, results-oriented self-starter with proven ability to drive innovation in fast-paced environments. Engineering mindset with high degree of comfort designing software architecture and producing production-grade code. Experience working with modern data integration tools and building end-to-end data pipelines.",
+  "technicalSkills": [
+    {
+      "category": "Programming Languages (6+ years)",
+      "skills": "Python, Node.js, JavaScript, TypeScript"
+    },
+    {
+      "category": "Backend Development",
+      "skills": "Backend Engineering, API Development, Microservices Architecture, Scalable Systems, Production-Grade Code"
+    },
+    {
+      "category": "Machine Learning & AI (Growing Expertise)",
+      "skills": "Machine Learning Pipelines, Natural Language Processing, AI Solutions, LLM Integration, ML Model Development"
+    },
+    {
+      "category": "Frontend Technologies",
+      "skills": "TypeScript, React.js, Next.js, Frontend Development"
+    },
+    {
+      "category": "Infrastructure & DevOps",
+      "skills": "Docker, Kubernetes (basics), CI/CD, GitHub, Cloud Deployment"
+    },
+    {
+      "category": "Cloud Platforms",
+      "skills": "AWS (Lambda, S3, EC2, DynamoDB), GCP (basics), Cloud Architecture"
+    },
+    {
+      "category": "Databases",
+      "skills": "PostgreSQL, MongoDB, DynamoDB, NoSQL, RDBMS, Database Design"
+    },
+    {
+      "category": "Data Processing",
+      "skills": "Python Data Processing, Pandas (basics), NumPy (basics), ETL Pipelines, Data Integration"
+    },
+    {
+      "category": "AI Development Tools",
+      "skills": "GitHub Copilot, Cursor AI, AI-assisted Development, Code Generation"
+    },
+    {
+      "category": "ML Libraries (Foundational Knowledge)",
+      "skills": "PyTorch (basics), Hugging Face (basics), scikit-learn (basics), TensorFlow (basics)"
+    },
+    {
+      "category": "Product Development",
+      "skills": "Product-Oriented Mindset, Cross-Functional Collaboration, User Impact Focus, Results-Oriented Development, Ownership Mentality"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Software Engineer (Backend/AI Tools)",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "Present",
+      "achievements": [
+        "Work closely with product managers and senior leadership to frame problems within business context and deliver highest impact to users serving 10,000+ globally with 99.5% reliability.",
+        "Design, implement, and ship new features with high level of responsibility and ownership, taking end-to-end accountability for production systems.",
+        "Implement scalable solutions using Python and Node.js to consistently serve vast global user base with robust architecture and monitoring.",
+        "Build and optimize end-to-end data pipelines focusing on AI-powered features and natural language processing solutions.",
+        "Write well-crafted, well-tested, maintainable code following engineering best practices with comprehensive testing and documentation.",
+        "Collaborate closely with frontend (React/TypeScript), DevOps, and data engineering teams to deliver cohesive end-to-end solutions and ensure smooth integration.",
+        "Participate in code reviews to ensure code quality and distribute knowledge across engineering team.",
+        "Monitor and troubleshoot existing features, resolving issues proactively in fast-paced, results-oriented environment.",
+        "Use AI development tools including GitHub Copilot and Cursor AI extensively to accelerate development and improve code quality.",
+        "Help establish architecture based on technology needs and business requirements, making technical decisions aligned with product goals.",
+        "Demonstrate product-oriented mindset by understanding user needs and translating them into technical solutions with measurable impact.",
+        "Work with modern data integration and analytics tools to process and analyze large-scale data for actionable insights.",
+        "Operate as proactive, results-oriented self-starter driving innovation and growth in dynamic environment.",
+        "Articulate technical concepts to non-technical audiences including leadership and stakeholders effectively.",
+        "Lead by example in fast-paced environment, maintaining high standards while delivering quickly."
+      ]
+    },
+    {
+      "title": "Software Engineer (Backend - Python/Node.js)",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "2023",
+      "endDate": "Present",
+      "achievements": [
+        "Develop backend solutions using Python and Node.js with focus on scalable, production-grade code serving enterprise clients.",
+        "Work with PostgreSQL and DynamoDB databases (RDBMS and NoSQL) for data storage and retrieval at scale.",
+        "Implement data processing pipelines using Python with experience in ETL workflows and data transformation.",
+        "Collaborate with cross-functional teams including product managers, designers, and frontend engineers to deliver user-focused solutions.",
+        "Design software architecture with engineering mindset, focusing on maintainability, scalability, and production readiness.",
+        "Use AI development tools (GitHub Copilot, Cursor) to improve development velocity and code quality.",
+        "Demonstrate ownership mentality taking responsibility for features from conception to production deployment.",
+        "Work in fast-paced environment delivering results quickly while maintaining high quality standards."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Digifigs",
+      "location": "Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Built software solutions with Python and JavaScript focusing on backend development and data processing.",
+        "Worked with databases including PostgreSQL and MongoDB for RDBMS and NoSQL implementations.",
+        "Collaborated with team members demonstrating strong communication and ability to work in dynamic environment.",
+        "Developed product-oriented mindset understanding user needs and delivering impactful solutions."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-Powered Invoice Validation System (Python/ML/AWS)",
+      "description": "Built production ML system processing 1,000+ invoices weekly using Python, FastAPI, AWS Lambda, and OpenAI API. Implemented natural language processing for document analysis and validation. Demonstrates ML solution development and production deployment experience. Scalable architecture serving global user base."
+    },
+    {
+      "name": "End-to-End Data Pipeline (Python/Node.js/AWS)",
+      "description": "Designed and implemented data processing pipeline using Python with Pandas and NumPy for large-scale data transformation. ETL workflows processing millions of records with optimized performance. Integrated with AWS services (Lambda, DynamoDB, S3). Shows data engineering and pipeline optimization skills."
+    },
+    {
+      "name": "Scalable Backend System (Python/Node.js/PostgreSQL)",
+      "description": "Built scalable backend serving 10,000+ users globally with Python and Node.js. PostgreSQL and DynamoDB for data storage. Docker containerization and AWS deployment. CI/CD with GitHub Actions. Demonstrates backend engineering excellence and scalable solution development."
+    },
+    {
+      "name": "Mobile Application with AI Features (React Native/ML)",
+      "description": "Developed React Native mobile app (10,000+ users, 99.5% crash-free) with AI-powered features. Integrated machine learning capabilities for enhanced user experience. Full-stack development including backend APIs. Live on Google Play Store demonstrating production deployment skills."
+    }
+  ],
+  "keyStrengths": [
+    {
+      "category": "Professional Experience",
+      "description": "6+ years of professional software engineering experience with strong focus on Python and Node.js backend development in production environments serving global users."
+    },
+    {
+      "category": "ML Experience (Growing)",
+      "description": "Hands-on experience building AI-powered features and data pipelines. Working knowledge of ML concepts with practical application in production systems. Strong foundation for expanding ML expertise."
+    },
+    {
+      "category": "Product-Oriented Mindset",
+      "description": "Proven ability to frame problems within business context, understand user needs, and deliver highest impact solutions through cross-functional collaboration with product managers and senior leadership."
+    },
+    {
+      "category": "Engineering Excellence",
+      "description": "High degree of comfort designing software architecture and producing production-grade code. Experience building and optimizing end-to-end data pipelines with focus on scalability and reliability."
+    },
+    {
+      "category": "AI Development Tools",
+      "description": "Extensive hands-on experience with GitHub Copilot and Cursor AI for accelerated development and improved code quality. Comfortable turning technical concepts into working code."
+    },
+    {
+      "category": "Proactive Self-Starter",
+      "description": "Results-oriented with proven ability to drive growth and innovation in dynamic, fast-paced environments. Takes ownership and leads by example without requiring constant direction."
+    },
+    {
+      "category": "Cross-Functional Collaboration",
+      "description": "Strong ability to work with product managers, senior leadership, frontend teams, DevOps, and data engineering to deliver cohesive solutions. Align on technical decisions and ensure smooth integration."
+    },
+    {
+      "category": "Communication Skills",
+      "description": "Ability to articulate technical concepts to non-technical audiences and collaborate effectively with stakeholders at all levels including senior leadership."
+    },
+    {
+      "category": "Modern Data Tools",
+      "description": "Experience working with modern data integration and analytics tools for processing large-scale data and generating actionable insights."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (B.Eng.) in Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024",
+      "location": "Nigeria",
+      "note": "Strong foundation in mathematics, algorithms, and engineering principles applicable to AI/ML and software engineering"
+    }
+  ],
+  "additionalInformation": {
+    "yearsExperience": "6+ years professional software engineering (primarily Python, Node.js)",
+    "mlExperience": "Growing ML expertise with hands-on AI/ML project experience and foundation for rapid learning",
+    "productMindset": "Product-oriented mindset with focus on user impact and business value",
+    "aiTools": "Extensive experience with GitHub Copilot and Cursor AI for development acceleration",
+    "backend": "Strong backend engineering foundation with scalable systems experience",
+    "databases": "RDBMS (PostgreSQL) and NoSQL (MongoDB, DynamoDB) experience",
+    "cloud": "AWS experience (Lambda, S3, EC2, DynamoDB)",
+    "docker": "Docker containerization experience with basic Kubernetes knowledge",
+    "dataProcessing": "Experience with Python data processing (Pandas, NumPy) and ETL pipelines",
+    "proactive": "Proactive, results-oriented self-starter with proven track record",
+    "ownership": "High degree of ownership and responsibility for production systems",
+    "communication": "Strong communicator with ability to work with senior leadership and non-technical stakeholders",
+    "fastPaced": "Thrives in fast-paced, results-oriented environments",
+    "codeQuality": "Participates in code reviews, writes well-tested maintainable code",
+    "monitoring": "Experience monitoring and troubleshooting production systems",
+    "location": "Based in Nigeria - Available for remote work worldwide",
+    "availability": "Immediate",
+    "honestNote": "Strong backend engineering foundation with growing ML expertise. Excited to expand AI/ML knowledge while contributing backend and engineering skills immediately."
+  }
+}
