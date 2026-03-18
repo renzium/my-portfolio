@@ -199,7 +199,7 @@ const CVViewer = () => {
         <h1>{cvData.personalInfo.fullName.toUpperCase()}</h1>
         
         <div className="contact">
-          {cvData.personalInfo.location} | {cvData.personalInfo.email} | {cvData.personalInfo.website} | {cvData.personalInfo.linkedin} | {cvData.personalInfo.github}
+          {cvData.personalInfo.location} | {cvData.personalInfo.phone} |  {cvData.personalInfo.email} | {cvData.personalInfo.website} | {cvData.personalInfo.linkedin} | {cvData.personalInfo.github}
         </div>
 
         <div className="summary">
