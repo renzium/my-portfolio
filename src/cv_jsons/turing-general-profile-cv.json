@@ -1,0 +1,114 @@
+{
+  "id": "turing-general-profile-cv",
+  "name": "Senior Full Stack Engineer - JavaScript,Typescript,Python,Java,React, React Native, Node.js",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Senior Full Stack Engineer with 6+ years building scalable web and mobile applications. Expert in React, React Native, Node.js, TypeScript with backend skills in Python and Java. Proven fintech experience serving 10,000+ users with 99.5% reliability. Published mobile app with 10,000+ downloads. Extensive payment integration (Stripe, Paystack, Flutterwave), microservices, and AWS expertise. Available for remote work globally.",
+  "technicalSkills": [
+    {
+      "category": "Frontend & Mobile",
+      "skills": "React.js, React Native, TypeScript, JavaScript, Next.js, HTML5, CSS3, Redux, Tailwind CSS"
+    },
+    {
+      "category": "Backend",
+      "skills": "Node.js, Python, Java, Express.js, RESTful APIs, GraphQL, Microservices"
+    },
+    {
+      "category": "Databases & Cloud",
+      "skills": "PostgreSQL, MongoDB, DynamoDB, Redis, AWS, Docker, CI/CD"
+    },
+    {
+      "category": "Fintech & Testing",
+      "skills": "Stripe, Paystack, Flutterwave, Jest, Cypress, TDD, Agile"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Full Stack Engineer",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "Present",
+      "achievements": [
+        "Lead fintech platform serving 10,000+ users with 99.5% uptime using React, Node.js, and AWS.",
+        "Built React Native mobile app with 10,000+ downloads and 99.5% crash-free rate on Google Play.",
+        "Developed web dashboard with React, TypeScript, Next.js for real-time financial analytics.",
+        "Integrated Stripe and Paystack processing thousands of transactions monthly.",
+        "Built Python FastAPI service for AI invoice validation (1,000+ weekly).",
+        "Deployed with Docker, AWS Lambda, S3, DynamoDB, and CI/CD pipelines."
+      ]
+    },
+    {
+      "title": "Full Stack Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "2023",
+      "endDate": "Present",
+      "achievements": [
+        "Build digital banking platform with React, TypeScript, Node.js, and Java.",
+        "Develop wallet features and payment dashboards with security focus.",
+        "Implement real-time WebSocket updates and JWT/OAuth authentication.",
+        "Optimize PostgreSQL and DynamoDB queries for scalability."
+      ]
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Built React web applications with REST API integration.",
+        "Integrated Paystack and Flutterwave payment gateways.",
+        "Worked with MongoDB and PostgreSQL in agile environment."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Paka Mobile App",
+      "technologies": "React Native, Stripe, Google Maps",
+      "description": "10,000+ downloads, 99.5% crash-free. Stripe payments, real-time tracking, multilingual support."
+    },
+    {
+      "name": "AI Invoice System",
+      "technologies": "Python, FastAPI, AWS Lambda, OpenAI",
+      "description": "Processes 1,000+ invoices weekly with ML-powered validation."
+    },
+    {
+      "name": "Banking Dashboard",
+      "technologies": "React, TypeScript, Next.js, Node.js, Java",
+      "description": "Enterprise platform with real-time transactions and analytics."
+    },
+    {
+      "name": "Payment Integration",
+      "technologies": "React, Node.js, Stripe, Paystack, Redis",
+      "description": "Multi-provider orchestration processing thousands monthly."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024"
+    }
+  ],
+  "additionalInformation": {
+    "experience": "6+ years full stack, 3+ years remote",
+    "availability": "Available for full-time remote",
+    "highlights": [
+      "Published app: 10,000+ downloads",
+      "Fintech: Stripe, Paystack, Flutterwave",
+      "Performance: 40% improvement, 80%+ coverage",
+      "Stack: React, React Native, Node.js, Python, Java, AWS"
+    ]
+  }
+}
