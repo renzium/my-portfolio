@@ -1,0 +1,88 @@
+{
+  "id": "hotspots-beauty-lead-frontend-engineer",
+  "name": "Lead Frontend Engineer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Lead Full Stack Engineer with 6+ years building scalable web and mobile applications. Expert in React, React Native, TypeScript, Node.js with proven track record leading frontend development for platforms serving 10,000+ users with 99.5% reliability. Strong experience reviewing codebases, implementing features, maintaining scalable architecture, and collaborating with backend teams. Published mobile app with 10,000+ downloads. Available for remote work.",
+  "technicalSkills": [
+    {
+      "category": "Frontend & Mobile",
+      "skills": "React.js, React Native, TypeScript, JavaScript ES6+, Next.js, HTML5, CSS3, Redux, Tailwind CSS, Material-UI"
+    },
+    {
+      "category": "Backend & Full Stack",
+      "skills": "Node.js, Python, Java, Express.js, RESTful APIs, GraphQL, Microservices, PostgreSQL, MongoDB, Redis"
+    },
+    {
+      "category": "DevOps & Tools",
+      "skills": "Git/GitHub, Docker, AWS, CI/CD, Jest, Cypress, Webpack, Performance Optimization"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead Frontend Engineer",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "Present",
+      "achievements": [
+        "Lead frontend development for fintech platform serving 10,000+ users with 99.5% uptime using React, TypeScript, Next.js.",
+        "Built cross-platform mobile app (React Native) with 10,000+ downloads and 99.5% crash-free rate on Google Play.",
+        "Reviewed existing codebase, continued development implementing new features while maintaining scalable architecture.",
+        "Optimized performance by 40% through code splitting, lazy loading, caching. Collaborated with Node.js backend team.",
+        "Established code review processes, mentored developers, and managed CI/CD pipelines with Docker and AWS."
+      ]
+    },
+    {
+      "title": "Full Stack Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "2023",
+      "endDate": "Present",
+      "achievements": [
+        "Develop full stack digital banking platform using React, TypeScript frontend and Node.js, Java backend.",
+        "Continue development from existing implementation adding features. Build scalable architecture and conduct code reviews."
+      ]
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Built frontend features using React and JavaScript. Reviewed codebases and implemented scalability improvements."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Paka Mobile App",
+      "description": "React Native, TypeScript, Stripe. 10,000+ downloads, 99.5% crash-free. Payment integration, real-time tracking."
+    },
+    {
+      "name": "Fintech Web Platform",
+      "description": "React, TypeScript, Next.js, Node.js. Scalable frontend with payment systems, real-time features, Redis caching."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024"
+    }
+  ],
+  "additionalInformation": {
+    "experience": "6+ years frontend/full stack with leadership",
+    "availability": "Immediate - Remote (contract or full-time)",
+    "highlights": "React/React Native/TypeScript expert • Node.js backend • Published mobile app • Scalable architecture • Performance optimization"
+  }
+}

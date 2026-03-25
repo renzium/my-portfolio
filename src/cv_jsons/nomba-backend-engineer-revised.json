@@ -1,0 +1,131 @@
+{
+  "id": "nomba-backend-engineer-revised",
+  "name": "Backend Engineer - Node.js & System Architecture",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Backend Engineer with 6+ years building scalable Node.js applications serving 10,000+ users with 99.5% uptime. Expert in MongoDB and MySQL database architecture, microservices design, and high-performance system optimization. Proven track record reducing API response times by 40%, managing cross-functional teams of 3+ engineers, and delivering end-to-end solutions from architecture to production. Strong foundation in networking, concurrency, algorithms, and distributed systems. Passionate about Domain-Driven Design (DDD), Test-Driven Development (TDD), and shipping quality software fast.",
+  "technicalSkills": [
+    {
+      "category": "Backend & Languages",
+      "skills": "Node.js, Express.js, NestJS, Java (basics), Python, TypeScript, JavaScript"
+    },
+    {
+      "category": "Databases & Storage",
+      "skills": "MongoDB, MySQL, PostgreSQL, Redis, Database Design, Query Optimization, Indexing"
+    },
+    {
+      "category": "Architecture & Design",
+      "skills": "Microservices, RESTful APIs, System Architecture, Domain-Driven Design (DDD), Event-Driven Architecture"
+    },
+    {
+      "category": "DevOps & Containers",
+      "skills": "Docker, CI/CD, GitHub Actions, Deployment Automation, Infrastructure"
+    },
+    {
+      "category": "Testing & Quality",
+      "skills": "Test-Driven Development (TDD), Unit Testing, Integration Testing, Jest, Code Reviews"
+    },
+    {
+      "category": "Core Computer Science",
+      "skills": "Networking, Concurrency, Parallelism, Algorithms, Data Structures, Performance Optimization"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Backend Engineer (Node.js) - Contract",
+      "company": "NYXIDIOM",
+      "location": "Remote, Nigeria",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Architected and shipped microservices backend serving 10,000+ daily active users across 3 countries with 99.5% uptime.",
+        "Reduced API response times by 40% (from 800ms to 480ms) through Redis caching, database query optimization, and strategic indexing.",
+        "Built real-time payment processing system handling 1,000+ transactions weekly with zero data loss and PCI DSS compliance.",
+        "Led migration from monolith to microservices architecture, improving deployment speed by 60% and reducing system coupling.",
+        "Mentored team of 3 junior engineers through code reviews, pair programming sessions, and architectural design workshops.",
+        "Owned 5 production services end-to-end including API gateway, payment service, notification service, analytics engine, and user management.",
+        "Eliminated 95% of production bugs by introducing TDD practices, achieving 80%+ test coverage across critical services.",
+        "Optimized MongoDB queries reducing database load by 50% through proper indexing, aggregation pipelines, and query refactoring.",
+        "Established CI/CD pipeline with Docker cutting deployment time from 45 minutes to 8 minutes per release.",
+        "Resolved 20+ critical production incidents under pressure, maintaining SLA commitments and user trust."
+      ]
+    },
+    {
+      "title": "Backend Developer (Node.js)",
+      "company": "SQE Holdings LLC",
+      "location": "Remote, Nigeria",
+      "startDate": "2023",
+      "endDate": "Present",
+      "achievements": [
+        "Built RESTful APIs serving 5,000+ enterprise users with sub-200ms average response times.",
+        "Designed MySQL database schema for financial transactions achieving ACID compliance and zero data corruption.",
+        "Accelerated feature delivery by 30% by establishing coding standards, API documentation, and reusable component library.",
+        "Debugged complex distributed system issues including race conditions, deadlocks, and memory leaks affecting production stability.",
+        "Collaborated with 4-person frontend team ensuring seamless API integration and consistent data contracts.",
+        "Automated 15+ manual deployment tasks through bash scripts and CI/CD pipelines, saving 10 hours per week.",
+        "Conducted 50+ code reviews focusing on security vulnerabilities, performance bottlenecks, and architectural improvements."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Shipped 12+ backend features using Node.js and MongoDB supporting e-commerce platform with 2,000+ daily transactions.",
+        "Refactored legacy codebase reducing technical debt by 40% through modular design and separation of concerns.",
+        "Enhanced system reliability from 92% to 99% uptime by introducing error monitoring, alerting, and graceful degradation.",
+        "Collaborated with product and design teams translating business requirements into technical specifications for 8 major releases."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Microservices Payment Platform",
+      "technologies": "Node.js, MongoDB, Redis, Docker",
+      "description": "Built microservices handling 1,000+ weekly transactions. Reduced latency by 40% through caching and optimization. Achieved 99.5% uptime serving 10,000+ users across 3 countries."
+    },
+    {
+      "name": "Real-Time Analytics Engine",
+      "technologies": "Node.js, PostgreSQL, WebSockets",
+      "description": "Created analytics service processing 50,000+ events daily. Delivered insights with sub-500ms latency through efficient database design and query optimization."
+    },
+    {
+      "name": "API Gateway & Rate Limiter",
+      "technologies": "Node.js, Redis, Express.js",
+      "description": "Architected API gateway handling 100,000+ daily requests. Prevented abuse through intelligent rate limiting and request throttling."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "experience": "6+ years Node.js backend development",
+    "databases": "5+ years MongoDB and MySQL production experience",
+    "leadership": "Managed and mentored 3+ junior engineers",
+    "methodology": "Domain-Driven Design (DDD), Test-Driven Development (TDD)",
+    "location": "Lagos, Nigeria - Available for hybrid work",
+    "availability": "Immediate",
+    "highlights": [
+      "Reduced API latency by 40% through optimization",
+      "Achieved 99.5% uptime serving 10,000+ users",
+      "Mentored 3+ engineers improving team velocity by 30%",
+      "Built microservices handling 1,000+ transactions weekly",
+      "80%+ test coverage on critical production services"
+    ]
+  }
+}
