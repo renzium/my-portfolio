@@ -1,0 +1,94 @@
+{
+  "id": "nigerent-frontend-developer",
+  "name": "Front-End Developer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Remote)",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Senior Front-End Developer with 6+ years of experience specializing in React, Next.js, and TypeScript to build high-scale digital experiences. Demonstrated history of optimizing web performance by 40% and maintaining 99.5% reliability for platforms serving 10,000+ users. Expert in translating Figma prototypes into responsive code while mentoring 3+ engineers to improve team velocity by 30%.",
+  "technicalSkills": [
+    {
+      "category": "Front-End Development",
+      "skills": "React.js, Next.js, TypeScript, JavaScript ES6+, HTML5, CSS3, Tailwind CSS, Redux, Responsive Design"
+    },
+    {
+      "category": "Design & Tools",
+      "skills": "Figma, UI/UX Design, Canva, Framer Motion, Git, Postman, Vercel, Jest, Cypress"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Frontend Engineer - Contract",
+      "company": "NYXIDIOM",
+      "location": "Remote, Nigeria",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Architected a responsive fintech dashboard using React and Next.js, supporting 10,000+ daily active users across 3 countries.",
+        "Transformed Figma wireframes into high-quality code, reducing mobile app crash rates from 15% to 0.5% through rigorous testing.",
+        "Accelerated front-end load times by 40% by implementing server-side rendering and optimizing asset delivery pipelines.",
+        "Mentored 3 junior developers on design system consistency, resulting in a 30% increase in feature delivery speed."
+      ]
+    },
+    {
+      "title": "Full Stack Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote, Nigeria",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Spearheaded the front-end development of a digital banking platform, maintaining sub-200ms response times for 5,000+ enterprise users.",
+        "Orchestrated the implementation of a centralized design system, ensuring 100% UI consistency across typography and color components.",
+        "Automated 15+ recurring deployment tasks via GitHub Actions, saving the engineering team 10 hours of manual work weekly.",
+        "Conducted 50+ technical code reviews to enforce best practices in React component architecture and responsive design."
+      ]
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Executed the frontend rebuild of an e-commerce platform processing 2,000+ daily transactions, improving uptime from 92% to 99%.",
+        "Pioneered the integration of interactive payment interfaces for Paystack and Flutterwave, facilitating over 1,000 successful weekly transactions.",
+        "Streamlined technical debt by 40% by migrating legacy assets to modern, optimized web formats for better cross-browser compatibility.",
+        "Delivered 8 major product releases, focusing on mobile-first responsive design and optimized user-facing digital experiences."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "PAKA - Fintech Logistics Platform",
+      "technologies": "React Native, TypeScript, Figma, Supabase",
+      "description": "Developed a published mobile application with 10,000+ downloads and a 99.5% crash-free rate, featuring real-time tracking and multilingual support."
+    },
+    {
+      "name": "Glee - Online Learning Dashboard",
+      "technologies": "Next.js, React, TypeScript, Tailwind CSS",
+      "description": "Designed a full-stack educational marketplace with role-based access control and responsive instructor dashboards using modern React patterns."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "highlights": [
+      "Expertise in translating Figma prototypes into high-performance, pixel-perfect React components.",
+      "Achieved 99.5% reliability across all production interfaces managed.",
+      "Reduced deployment latency by 82%, enabling 3x faster iteration cycles for product teams.",
+      "Published mobile app developer with a consistent 4.5+ star rating on Google Play."
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "mindrift-vibe-code-specialist",
+  "name": "AI Pilot - Vibe Code Specialist",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Senior Software Engineer and Data Specialist with 6+ years of experience in Python automation, web scraping, and AI integration. Expert in building end-to-end data extraction workflows for dynamic, JavaScript-rendered sites using Selenium and BeautifulSoup. Proven track record of delivering structured datasets with 99.5% accuracy for fintech and logistics platforms.",
+  "technicalSkills": [
+    {
+      "category": "Data Scraping & Automation",
+      "skills": "Python, BeautifulSoup, Selenium, Apify, OpenRouter, Scrapy, Puppeteer, AJAX/Infinite Scroll Handling, Proxy Management"
+    },
+    {
+      "category": "Data Engineering & AI",
+      "skills": "SQL Optimization, JSON/CSV Normalization, LLM Integration (OpenAI/Anthropic), Prompt Engineering, ETL Pipelines, Git"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Software Engineer - AI Automation",
+      "company": "NYXIDIOM",
+      "location": "Remote, Nigeria",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Architected an AI-powered validation engine using Python and FastAPI, reducing manual data entry by 70% for logistics operations.",
+        "Developed custom web scraping scripts to extract and normalize real-time pricing data from 20+ dynamic international sources.",
+        "Implemented batching and parallelization techniques to scale data extraction workflows, handling 50,000+ daily events with 99% stability.",
+        "Leveraged LLMs to automate the cleaning and structured formatting of unstructured HTML data into validated JSON datasets."
+      ]
+    },
+    {
+      "title": "Full Stack Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote, Nigeria",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Designed and maintained scalable data pipelines for a digital banking platform, ensuring 100% data integrity for 5,000+ users.",
+        "Optimized complex PostgreSQL queries and database schemas, reducing data retrieval latency by 40% for real-time analytics dashboards.",
+        "Automated recurring data validation tasks using Python, saving the engineering team 10 hours of manual verification weekly.",
+        "Maintained high-availability backend services with sub-200ms response times for transaction-heavy fintech applications."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Built responsive web applications and integrated multi-channel payment APIs, facilitating over 2,000 daily financial transactions.",
+        "Developed automated scripts to scrape and monitor competitor pricing, providing actionable insights that increased revenue by 12%.",
+        "Refactored legacy data extraction modules, improving system uptime from 92% to 99% through better error handling and proxy rotation.",
+        "Collaborated with product designers to translate complex Figma wireframes into functional, data-driven user interfaces."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI Invoice Validation Tool",
+      "technologies": "Python, OpenAI API, Selenium, BeautifulSoup",
+      "description": "An end-to-end automation tool that scrapes, validates, and normalizes invoice data from diverse web formats with 95% accuracy."
+    },
+    {
+      "name": "Real-Time Data Analytics Engine",
+      "technologies": "Node.js, PostgreSQL, Redis, WebSockets",
+      "description": "Processed 50,000+ daily events into structured JSON datasets for live dashboard visualization and business intelligence."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "highlights": [
+      "English Proficiency: Upper-intermediate (B2) - Professional working proficiency.",
+      "Hands-on experience with Apify and OpenRouter for large-scale data extraction and AI automation.",
+      "Expert at handling JavaScript-rendered content, AJAX, and complex hierarchical site structures.",
+      "Consistently achieved 99.5% crash-free production rates across all developed automation workflows."
+    ]
+  }
+}

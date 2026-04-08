@@ -1,0 +1,94 @@
+{
+  "id": "menokraft-web-admin-v2",
+  "name": "PHP Web Administrator",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Remote)",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Senior Web Engineer with 6+ years of experience specializing in WordPress infrastructure and PHP backend modifications. Demonstrated history of maintaining 99.5% website uptime and optimizing performance for 10,000+ users. Expert in delivering responsive web solutions and high-fidelity Canva visuals while reducing API latency by 40% through technical leadership.",
+  "technicalSkills": [
+    {
+      "category": "Web Administration",
+      "skills": "WordPress, PHP, HTML5, CSS3, JavaScript ES6+, SEO Optimization, Plugin Management, Website Security"
+    },
+    {
+      "category": "Design & Tools",
+      "skills": "Canva (Visuals/Banners), UI/UX Design, Photoshop, Git, Postman, Vercel, Docker"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Web Engineer - Contract",
+      "company": "NYXIDIOM",
+      "location": "Remote, Nigeria",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Overhauled a multilingual logistics platform serving 10,000+ users, ensuring 100% content accuracy and 99.5% system reliability.",
+        "Orchestrated backend modifications using PHP and FastAPI to reduce site latency by 40%, significantly improving SEO rankings.",
+        "Conceptualized 20+ digital assets and high-fidelity banners using Canva and design tools to refresh corporate branding.",
+        "Resolved 20+ critical production incidents and security vulnerabilities through systematic monitoring and plugin audits."
+      ]
+    },
+    {
+      "title": "Full Stack Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote, Nigeria",
+      "startDate": "2023",
+      "endDate": "Present",
+      "achievements": [
+        "Spearheaded the administration of a digital banking interface for 5,000+ users, maintaining sub-200ms response times.",
+        "Automated 15+ recurring website maintenance tasks, saving 10 hours per week in manual content updates.",
+        "Consolidated database schemas for PostgreSQL and DynamoDB to improve data retrieval efficiency by 30%.",
+        "Supervised 50+ code and content reviews to ensure adherence to web accessibility standards and responsive design principles."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Executed 8+ major releases for an e-commerce site processing 2,000+ daily transactions with zero downtime.",
+        "Pioneered the integration of Paystack and Flutterwave payment gateways, facilitating 1,000+ weekly successful transactions.",
+        "Streamlined technical debt by 40% through the migration of legacy assets to modern, optimized web formats.",
+        "Transformed user engagement metrics by implementing responsive UI features that supported 12-15+ new product features."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "PAKA Fintech Platform",
+      "technologies": "WordPress/PHP Context, Canva, Supabase",
+      "description": "Managed end-to-end web presence and mobile API integration for a logistics service with 10,000+ downloads and a 4.5+ star rating."
+    },
+    {
+      "name": "AI-Powered Validation Service",
+      "technologies": "PHP, Python, AWS Lambda",
+      "description": "Automated document processing for 1,000+ weekly invoices with 95% accuracy, reducing manual administrative overhead by 70%."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "highlights": [
+      "Proficient in Canva for creating high-impact marketing visuals and website banners.",
+      "Expertise in PHP backend modifications and WordPress theme customization.",
+      "Autonomous remote worker with 3+ years experience in fast-paced startup environments.",
+      "Achieved 80%+ test coverage and 99.5% crash-free rates in production environments."
+    ]
+  }
+}

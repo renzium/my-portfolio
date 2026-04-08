@@ -1,0 +1,130 @@
+{
+  "id": "hotspots-beauty-lead-frontend-engineer-optimized",
+  "name": "Lead Frontend Engineer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Lead Frontend Engineer with 6+ years delivering scalable web applications serving 10,000+ users with 99.5% uptime. Expert in React, TypeScript, Next.js with demonstrated track record optimizing performance by 40%, reducing deployment time from 45 minutes to 8 minutes, and mentoring cross-functional teams of 3+ engineers. Strong focus on reviewing existing codebases, continuing implementation, and maintaining architectural excellence. Specialized in taking over projects mid-development and shipping quality features on schedule.",
+  "technicalSkills": [
+    {
+      "category": "Frontend Core",
+      "skills": "React.js, TypeScript, JavaScript ES6+, Next.js, HTML5, CSS3, Responsive Design, Progressive Web Apps"
+    },
+    {
+      "category": "State & Architecture",
+      "skills": "Redux, Context API, React Query, Zustand, Component Architecture, Design Patterns, Scalable Systems"
+    },
+    {
+      "category": "Styling & UI",
+      "skills": "Tailwind CSS, Sass/SCSS, CSS Modules, Material-UI, Styled Components, CSS-in-JS"
+    },
+    {
+      "category": "Performance & Quality",
+      "skills": "Code Splitting, Lazy Loading, Performance Optimization, Lighthouse Scores, Web Vitals, Accessibility"
+    },
+    {
+      "category": "Testing & Tools",
+      "skills": "Jest, Cypress, React Testing Library, Git/GitHub, Webpack, Vite, ESLint, Prettier"
+    },
+    {
+      "category": "DevOps & Deployment",
+      "skills": "Docker, CI/CD Pipelines, GitHub Actions, AWS, Vercel, Netlify"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead Frontend Engineer - Contract",
+      "company": "NYXIDIOM",
+      "location": "Remote, Nigeria",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Led frontend development for fintech platform serving 10,000+ daily users across 3 countries achieving 99.5% uptime.",
+        "Reviewed and continued development from existing React/TypeScript codebase, shipping 12+ major features on schedule.",
+        "Accelerated page load times by 40% (from 800ms to 480ms) through code splitting, lazy loading, and intelligent caching strategies.",
+        "Architected scalable component library used across 15+ pages reducing code duplication by 60% and improving team velocity.",
+        "Mentored cross-functional team of 3 engineers through code reviews, pair programming, and architectural design workshops.",
+        "Eliminated 95% of production bugs by establishing testing standards achieving 80%+ coverage using Jest and Cypress.",
+        "Optimized CI/CD pipeline reducing deployment time from 45 minutes to 8 minutes enabling 3x faster iteration cycles.",
+        "Migrated legacy jQuery codebase to modern React architecture improving maintainability and developer experience significantly.",
+        "Collaborated with backend team ensuring seamless API integration across 20+ endpoints with proper error handling.",
+        "Established frontend best practices documentation reducing onboarding time for new developers from 2 weeks to 3 days."
+      ]
+    },
+    {
+      "title": "Frontend Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote, Nigeria",
+      "startDate": "2023",
+      "endDate": "Present",
+      "achievements": [
+        "Developed responsive web applications using React and TypeScript for digital banking platform serving 5,000+ enterprise users.",
+        "Continued implementation from existing frontend systems adding authentication, dashboard features, and payment interfaces.",
+        "Enhanced user experience reducing bounce rate by 25% through performance optimization and intuitive UI improvements.",
+        "Maintained scalable architecture ensuring codebase remains performant as feature set expanded by 300% over 18 months.",
+        "Conducted 50+ code reviews focusing on security, performance, and adherence to React best practices.",
+        "Implemented responsive designs supporting desktop, tablet, and mobile achieving 100% cross-browser compatibility.",
+        "Collaborated with 4-person design team translating Figma mockups into pixel-perfect, accessible React components."
+      ]
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Shipped 15+ frontend features using React and JavaScript supporting e-commerce platform with 2,000+ daily transactions.",
+        "Reviewed existing HTML/CSS codebase identifying technical debt and refactoring for improved maintainability.",
+        "Enhanced page performance achieving Lighthouse scores above 90 through image optimization and bundle size reduction.",
+        "Participated in agile sprints delivering features consistently meeting deadlines across 8 major product releases."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Fintech Platform Frontend",
+      "technologies": "React, TypeScript, Next.js, Redux, Tailwind CSS",
+      "description": "Led frontend for platform serving 10,000+ users. Optimized performance by 40%, achieved 99.5% uptime. Scalable architecture with component library."
+    },
+    {
+      "name": "Mobile App (React Native)",
+      "technologies": "React Native, TypeScript, Expo",
+      "description": "Cross-platform app with 10,000+ downloads on Google Play. 99.5% crash-free rate demonstrating code quality excellence."
+    },
+    {
+      "name": "Digital Banking Dashboard",
+      "technologies": "React, TypeScript, Material-UI",
+      "description": "Enterprise banking frontend with real-time transactions, secure authentication, responsive design across devices."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "experience": "6+ years frontend development with leadership",
+    "specialization": "Reviewing existing codebases, continuing implementation, scalable architecture",
+    "location": "Lagos, Nigeria - Available for remote work",
+    "workMode": "Contract or full-time",
+    "availability": "Immediate",
+    "highlights": [
+      "Optimized performance by 40% (800ms to 480ms)",
+      "Reduced deployment time from 45min to 8min",
+      "Mentored 3+ engineers improving team velocity",
+      "Achieved 99.5% uptime serving 10,000+ users",
+      "80%+ test coverage on production applications"
+    ]
+  }
+}

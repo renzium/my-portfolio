@@ -1,0 +1,94 @@
+{
+  "id": "multi-openings-full-stack-engineer",
+  "name": "Full Stack Software Developer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Hybrid/Remote)",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Senior Software Engineer with 6+ years of experience specializing in React, Node.js, and TypeScript. Proven track record of scaling platforms to 10,000+ users while achieving 99.5% uptime and optimizing API performance by 40%. Expert in delivering end-to-end solutions through technical leadership and mentorship of 3+ engineers.",
+  "technicalSkills": [
+    {
+      "category": "Full Stack Development",
+      "skills": "JavaScript, TypeScript, React, Next.js, Node.js, Express.js, Python, Java, FastAPI"
+    },
+    {
+      "category": "Databases & Cloud",
+      "skills": "PostgreSQL, MongoDB, MySQL, DynamoDB, AWS (Lambda, S3, EC2), Docker, CI/CD"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Software Engineer - Contract",
+      "company": "NYXIDIOM",
+      "location": "Remote, Nigeria",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Architected a fintech logistics platform serving 10,000+ daily active users across 3 countries with 99.5% reliability.",
+        "Accelerated API response times by 40% (800ms to 480ms) through Redis caching and database index optimization.",
+        "Eliminated 95% of production bugs by implementing Test-Driven Development (TDD) and achieving 80%+ test coverage.",
+        "Mentored 3 junior engineers, increasing team feature velocity by 30% through structured code reviews and pair programming."
+      ]
+    },
+    {
+      "title": "Full Stack Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote, Nigeria",
+      "startDate": "2023",
+      "endDate": "Present",
+      "achievements": [
+        "Spearheaded the development of a digital banking platform supporting 5,000+ enterprise users with sub-200ms API response times.",
+        "Automated 15+ deployment tasks via GitHub Actions, saving the engineering team 10 hours of manual work weekly.",
+        "Designed secure authentication systems using JWT and OAuth, maintaining a zero-breach record for sensitive financial data.",
+        "Conducted 50+ technical code reviews to ensure architectural consistency and high-quality documentation across the stack."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Shipped 12+ major features for an e-commerce platform processing 2,000+ daily transactions using React and Node.js.",
+        "Enhanced system uptime from 92% to 99% by refactoring legacy code and optimizing PostgreSQL query performance.",
+        "Integrated Paystack and Flutterwave gateways to facilitate seamless payment processing for a diverse user base.",
+        "Reduced technical debt by 40% through the migration of legacy jQuery modules to modern React component architecture."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "PAKA - Fintech Logistics App",
+      "technologies": "React Native, TypeScript, Supabase, Stripe",
+      "description": "Published mobile app with 10,000+ downloads and a 99.5% crash-free rate, featuring real-time GPS tracking and multi-country payments."
+    },
+    {
+      "name": "AI-Powered Invoice Validation",
+      "technologies": "Python, FastAPI, OpenAI API, AWS Lambda",
+      "description": "Developed a machine learning service that processes 1,000+ weekly invoices with 95% accuracy, reducing manual work by 70%."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "highlights": [
+      "Published app with 10,000+ downloads on Google Play Store.",
+      "Achieved 99.5% uptime across all production services managed.",
+      "Reduces deployment times from 45 minutes to 8 minutes through CI/CD optimization.",
+      "Proven ability to manage cross-functional teams in high-growth startup environments."
+    ]
+  }
+}

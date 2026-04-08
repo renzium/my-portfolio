@@ -1,0 +1,94 @@
+{
+  "id": "estate-intel-senior-fullstack-data-engineer",
+  "name": "Senior Full-Stack & Data Engineer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Hybrid)",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "www.renzium.com",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Senior Software Engineer with 6+ years of experience specializing in PHP, Node.js, and Python to build scalable backend architectures and data pipelines. Demonstrated history of optimizing API performance by 40% and maintaining 99.5% reliability for platforms serving 10,000+ users. Expert in designing ELT processes and real-time analytics engines while mentoring 3+ engineers to improve team velocity by 30%.",
+  "technicalSkills": [
+    {
+      "category": "Backend & Data Engineering",
+      "skills": "PHP, Laravel, Node.js, Python (FastAPI), SQL Optimization, dbt, ELT Pipelines (Airbyte), RESTful APIs, Microservices"
+    },
+    {
+      "category": "Full-Stack & Cloud",
+      "skills": "Vue.js, JavaScript ES6+, WordPress (Custom), PostgreSQL, MongoDB, ClickHouse, Docker, AWS (Lambda, S3), CI/CD"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Software Engineer - Contract",
+      "company": "NYXIDIOM",
+      "location": "Remote, Nigeria",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Architected a fintech logistics platform serving 10,000+ daily active users across 3 countries with 99.5% system reliability.",
+        "Engineered an AI-powered validation service using Python and FastAPI, reducing manual processing by 70% through automated NLP.",
+        "Accelerated API response times by 40% through Redis caching and advanced PostgreSQL query optimization strategies.",
+        "Mentored 3 junior engineers on backend best practices, increasing team feature velocity by 30% through structured code reviews."
+      ]
+    },
+    {
+      "title": "Full Stack Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote, Nigeria",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Spearheaded the development of a digital banking platform supporting 5,000+ enterprise users with sub-200ms API response times.",
+        "Automated 15+ recurring deployment and data maintenance tasks, saving the engineering team 10 hours of manual work weekly.",
+        "Designed complex database schemas for PostgreSQL and DynamoDB to support high-concurrency transaction logging and analytics.",
+        "Conducted 50+ technical code reviews to ensure architectural consistency and adherence to secure authentication standards."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Shipped 12+ major features for an e-commerce platform processing 2,000+ daily transactions using PHP and React.",
+        "Enhanced system uptime from 92% to 99% by refactoring legacy modules and optimizing relational database performance.",
+        "Integrated multi-channel payment gateways including Paystack and Flutterwave to facilitate seamless financial operations.",
+        "Streamlined technical debt by 40% through the migration of legacy assets to modern, scalable web architectures."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Real-Time Analytics Engine",
+      "technologies": "Node.js, PostgreSQL, WebSockets, Redis",
+      "description": "Developed a production analytics service processing 50,000+ daily events with sub-500ms latency for real-time dashboard visualization."
+    },
+    {
+      "name": "PAKA - Fintech Logistics App",
+      "technologies": "PHP, React Native, Supabase, Google Maps API",
+      "description": "Published mobile and web platform with 10,000+ downloads, featuring real-time GPS tracking and secure payment processing."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2024",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "highlights": [
+      "Expertise in designing ELT pipelines and managing complex data transformations via dbt.",
+      "Proven capability in maintaining high-performance WordPress and Laravel environments.",
+      "Achieved 80%+ test coverage and 99.5% crash-free rates in production environments.",
+      "Strong background in fintech payment integrations and secure transaction management."
+    ]
+  }
+}

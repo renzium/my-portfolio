@@ -1,0 +1,73 @@
+🚀 NOMBA BACKEND INTERVIEW: MASTER STUDY & PROJECT LOG
+1. THE "DOWNLOAD NOW" LIST (Workspace Action Items)
+Do these before you leave the workspace to study offline at home.
+
+A. YouTube Videos (Gaurav Sen - System Design)
+Download these specific titles from his channel:
+
+[ ] "What is a Load Balancer?"
+
+[ ] "Consistent Hashing"
+
+[ ] "Database Sharding"
+
+[ ] "System Design: Messenger or WhatsApp" (Great for real-time messaging)
+
+[ ] "Microservices Architecture"
+
+B. Amazon AWS Badge Course
+[ ] Course Name: "AWS Cloud Practitioner Essentials"
+
+[ ] Platform: AWS Skill Builder (Free).
+
+[ ] Why: It aligns with Nomba’s infrastructure and covers Load Balancers (ELB), S3, and EC2.
+
+C. The Book (Java & Data Structures)
+[ ] Title: Introduction to Java Programming and Data Structures by Y. Daniel Liang.
+
+[ ] Focus Chapters: Chapter 1-8 (Fundamentals), Chapter 12 (Exception Handling), and Chapter 31 (Advanced Java Database Programming).
+
+2. THE 3-DAY HIGH-INTENSITY SCHEDULE
+DAY 1: System Architecture & Caching
+Study: Watch Gaurav Sen’s "Load Balancing" and "Caching" videos.
+
+Book: Read Daniel Liang Chapter 1 (Introduction) and Chapter 12 (Exception Handling).
+
+Glee AI Prompt (Paste this to Claude):
+
+"In the Glee project, we need to handle high traffic. 1. Create a CacheModule in NestJS using Redis. 2. Apply it to the 'Course Catalog' so we don't hit the database every time a user browses. 3. Explain the trade-off: Why is 'Eventual Consistency' okay for a course list but NOT for a payment balance?"
+
+DAY 2: Concurrency & The "Nomba" Financial Core
+Study: Watch "Database Sharding" and "Consistent Hashing."
+
+Book: Read Daniel Liang Chapter 31 (Database Programming).
+
+Glee AI Prompt (Paste this to Claude):
+
+"Design a 'Quest Enrollment' service for Glee. 1. Use Prisma Transactions to ensure payment and enrollment happen together or not at all (Atomicity). 2. Implement Pessimistic Locking on the User Balance to prevent double-spending. 3. Write a brief 'Design Decision' on how this protects Nomba from financial loss during high-volume spikes."
+
+DAY 3: AI Integration & Java Bridge
+Study: Watch "Message Queues" (RabbitMQ/Kafka).
+
+Book: Review Data Structures (Arrays, HashMaps).
+
+Glee AI Prompt (Paste this to Claude):
+
+"Nomba is AI-focused. 1. Create an 'AI Fraud Check' service in Glee. 2. Implement it as an Asynchronous Background Task. 3. When a user pays, the API returns 'Success' immediately, while a Background Worker sends the data to the AI. 4. Explain why this 'Decoupled' architecture is necessary for a system processing $1B/month."
+
+3. THE "JAVA BRIDGE" FOR NODE DEVELOPERS
+Read this to explain your Java learning to the interviewers:
+
+The Strategy: "I have 6 years of Node.js expertise. I am currently bridging that to Java by studying the Spring Boot framework. I’ve found that my experience with NestJS (Dependency Injection and Decorators) makes learning Java Spring very intuitive, as the architectural patterns are almost identical."
+
+Concepts to Master: Annotations (@Service, @RestController), JPA/Hibernate (like Prisma), and Multi-threading (how Java handles many requests at once).
+
+4. THE "BROTHER'S FRAMEWORK" FOR INTERVIEW ANSWERS
+If they ask a question about something you haven't done at scale:
+
+The Script: "In my professional work, I’ve managed systems for 10,000 users. While I haven't personally scaled to millions, I understand the theoretical requirements: Horizontal Scaling, Database Sharding, and Message Queues to prevent the main thread from blocking. In my Glee project, I'm currently implementing these patterns to ensure it's 'Nomba-scale' ready."
+
+5. FINAL SUBMISSION: THE "SENIOR" README
+Paste this prompt to Claude when the project is "finished":
+
+"Create a Master README for the Glee project. 1. Include a Technical Design Document. 2. List all major Architectural Decisions (ADRs): why we chose PostgreSQL, how we handle concurrency, and our AI-ready background processing. 3. Write this as if I am a Senior Engineer presenting to a CTO. This is my final proof of competence for my interview."
