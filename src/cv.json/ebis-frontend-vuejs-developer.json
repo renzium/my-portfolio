@@ -1,0 +1,97 @@
+{
+  "id": "ebis-frontend-vuejs-developer",
+  "name": "Frontend Developer (Vue.js Specialist)",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "github": "github.com/renzium",
+    "linkedin": "linkedin.com/in/lawrence-ughonu"
+  },
+  "summary": "Dynamic Frontend Developer with over 5 years of experience building high-performance, responsive user interfaces. Specialist in Vue.js and modern CSS frameworks like Tailwind CSS. Proven track record of translating complex UI/UX designs into functional components and seamlessly integrating them with backend APIs (Laravel/Node.js). Passionate about component-based architecture and optimizing client-side performance.",
+  "technicalSkills": [
+    {
+      "category": "Frontend Core",
+      "skills": "Vue.js (Vue 2/3), JavaScript (ES6+), TypeScript, HTML5, CSS3, Responsive Design"
+    },
+    {
+      "category": "State & Routing",
+      "skills": "Pinia, Vuex, Vue Router, Composition API"
+    },
+    {
+      "category": "Styling & UI",
+      "skills": "Tailwind CSS, Bootstrap, Material Design, Figma-to-Code Translation"
+    },
+    {
+      "category": "Tools & Backend Integration",
+      "skills": "RESTful APIs, Axios, Git, Webpack/Vite, Laravel (Basic Understanding), Node.js"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Frontend Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Architected and maintained modular Vue.js components for a digital banking platform, ensuring a seamless user experience for 5,000+ enterprise users.",
+        "Implemented state management using Pinia to handle complex financial data flows and real-time transaction updates.",
+        "Collaborated closely with UI/UX designers to implement high-fidelity, pixel-perfect interfaces from Figma designs.",
+        "Optimized frontend performance by implementing lazy loading and code-splitting, reducing initial page load time by 35%."
+      ]
+    },
+    {
+      "title": "Software Developer (Frontend Focus)",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Developed and refactored e-commerce storefronts using Vue.js and Tailwind CSS, improving mobile responsiveness and user engagement.",
+        "Integrated frontend components with Laravel-based RESTful APIs, ensuring efficient data synchronization and error handling.",
+        "Managed version control using Git, participating in rigorous code reviews to maintain high code quality and component reusability.",
+        "Successfully translated 12+ complex design wireframes into functional, interactive web applications."
+      ]
+    },
+    {
+      "title": "Software Engineer (Contract)",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Built administrative dashboards using Vue.js for a logistics platform, featuring real-time data visualization and complex filtering.",
+        "Ensured cross-browser compatibility and accessibility (WCAG) across all frontend modules.",
+        "Developed reusable UI component libraries to standardize design patterns across multiple internal projects."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "PAKA Logistics Dashboard",
+      "technologies": "Vue.js, Tailwind CSS, Google Maps API",
+      "description": "Developed a real-time tracking dashboard for logistics management, providing users with live updates and interactive maps."
+    },
+    {
+      "name": "Digital Bank Interface",
+      "technologies": "Vue.js, Pinia, Axios",
+      "description": "Built a secure, responsive banking portal with complex form validation and multi-step transaction workflows."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan"
+    }
+  ],
+  "additionalInformation": {
+    "competencies": [
+      "Expertise in component-based architecture.",
+      "Strong understanding of the Vue.js lifecycle and reactivity system.",
+      "Experience with modern frontend build tools like Vite and Vitest.",
+      "Effective communicator capable of bridging the gap between design and backend engineering."
+    ]
+  }
+}
