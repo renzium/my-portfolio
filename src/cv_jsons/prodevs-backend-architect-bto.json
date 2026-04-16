@@ -1,0 +1,88 @@
+{
+  "id": "prodevs-backend-architect-bto",
+  "name": "Backend Architect / Event-Driven Systems Specialist",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "www.renzium.com",
+    "github": "github.com/renzium"
+  },
+  "summary": "Senior Backend Architect with 6+ years of experience specializing in high-throughput, event-driven systems. Expert in resolving asynchronous 'state-sync' issues between disparate platforms (E-commerce to ERP). Proven track record in orchestrating microservices using Go, Python, and RabbitMQ to handle 50,000+ daily events with 99.9% consistency.",
+  "technicalSkills": [
+    {
+      "category": "Languages & Frameworks",
+      "skills": "Go (Golang), Python (Django/Flask/FastAPI), Node.js, SpringBoot"
+    },
+    {
+      "category": "Event-Driven & Messaging",
+      "skills": "RabbitMQ, Kafka, gRPC, Protobuf, Webhooks, AWS SQS/SNS, Eventual Consistency Patterns"
+    },
+    {
+      "category": "Infrastructure & Cloud",
+      "skills": "AWS (Lambda, S3, RDS), Kubernetes (K8s), Docker, Terraform, CI/CD Pipelines"
+    },
+    {
+      "category": "Data & Observability",
+      "skills": "PostgreSQL (SQL Optimization), Redis, Monitoring (Grafana/Prometheus), Logging (ELK Stack)"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Software Engineer (Backend Architect Focus)",
+      "company": "NYXIDIOM",
+      "location": "Remote, Nigeria",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Designed an asynchronous middleware for fintech-logistics, handling 10,000+ daily orders across 3 countries with 99.5% reliability.",
+        "Implemented gRPC for service-to-service communication, reducing latency by 45% compared to REST.",
+        "Engineered a resilient task-processing layer using RabbitMQ and Dead Letter Queues (DLQ) to ensure zero data loss during network spikes.",
+        "Architected a real-time analytics engine processing 50,000+ events daily into structured ClickHouse datasets."
+      ]
+    },
+    {
+      "title": "Full Stack & Systems Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote, Nigeria",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Orchestrated event-driven microservices for a digital banking platform, ensuring sub-200ms transaction finality.",
+        "Integrated complex payment and audit streams via Kafka, facilitating real-time fraud detection and regulatory reporting.",
+        "Automated deployment workflows using Docker and Kubernetes, increasing team velocity by 30% through CI/CD optimization.",
+        "Developed idempotent API endpoints to prevent duplicate transactions during retries in high-concurrency environments."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Modernized a legacy e-commerce monolith into a modular architecture using the Strangler Fig pattern.",
+        "Built secure webhook handlers for Paystack and Flutterwave, managing the 'Limbo State' between checkout and fulfillment.",
+        "Reduced technical debt by 40% through rigorous database schema optimization and API versioning."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "BTO Event Orchestrator",
+      "technologies": "Go, RabbitMQ, PostgreSQL, Docker",
+      "description": "Prototype of a state-machine based orchestrator that syncs e-commerce order states with factory-floor execution queues."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "focus": "Expertise in solving distributed systems 'limbo' states, idempotency in payments, and scaling event-driven architectures on AWS."
+  }
+}

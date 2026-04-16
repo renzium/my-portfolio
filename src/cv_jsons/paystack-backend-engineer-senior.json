@@ -1,0 +1,93 @@
+{
+  "id": "paystack-backend-engineer-senior",
+  "name": "Senior Backend Engineer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "github": "github.com/renzium",
+    "linkedin": "linkedin.com/in/lawrence-ughonu"
+  },
+  "summary": "Senior Backend Engineer with 6+ years of experience architecting high-availability payment systems and asynchronous middleware. Expert in TypeScript (Node.js) and Go, with a focus on distributed systems, event-driven architectures, and database optimization. Proven track record of solving the 'Limbo State' in transaction processing and maintaining 99.9% uptime for mission-critical fintech infrastructure.",
+  "technicalSkills": [
+    {
+      "category": "Backend Engineering",
+      "skills": "Go (Golang), Node.js (TypeScript), Python (FastAPI), Distributed Systems, Microservices, API Design (REST/gRPC)"
+    },
+    {
+      "category": "Data & Messaging",
+      "skills": "PostgreSQL (Advanced Indexing/Sharding), Redis (Geo/Caching), RabbitMQ, Kafka, Eventual Consistency, dbt"
+    },
+    {
+      "category": "Infrastructure & DevOps",
+      "skills": "AWS (Lambda, ECS, RDS, S3), Docker, Kubernetes (K8s), Terraform (IaC), CI/CD, Monitoring & Observability"
+    },
+    {
+      "category": "Security & Fintech",
+      "skills": "Idempotent API Design, HMAC Webhook Verification, PCI DSS Compliance, mTLS, OAuth2/JWT"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Backend Engineer",
+      "company": "NYXIDIOM",
+      "location": "Remote, Nigeria",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Architected an asynchronous event-driven logistics engine using Node.js and gRPC, facilitating 10,000+ daily transactions across distributed nodes.",
+        "Engineered an automated validation middleware in Python/FastAPI, utilizing NLP to reduce manual data verification by 70%.",
+        "Optimized database write-throughput and query performance in PostgreSQL, resulting in a 40% reduction in API latency.",
+        "Led backend code reviews and mentored 3 junior engineers on implementing resilient patterns like Circuit Breakers and Dead Letter Queues."
+      ]
+    },
+    {
+      "title": "Backend Systems Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote, Nigeria",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Developed core ledger services for a digital banking platform, ensuring strict ACID compliance and sub-200ms transaction finality.",
+        "Built a high-volume audit logging system using DynamoDB to track sensitive financial events with a zero-loss guarantee.",
+        "Secured service-to-service communication via mTLS and implemented robust rate-limiting strategies at the API Gateway level.",
+        "Automated infrastructure provisioning using Terraform and optimized CI/CD pipelines, reducing deployment overhead by 10 hours weekly."
+      ]
+    },
+    {
+      "title": "Backend Developer (Payment Integrations)",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Architected secure payment bridges for Paystack and Flutterwave, handling high-concurrency webhook events with idempotent logic.",
+        "Refactored legacy monolith modules into scalable Node.js microservices using the Strangler Fig pattern to ensure zero downtime.",
+        "Managed database schema migrations and indexing strategies that improved system uptime from 92% to 99%.",
+        "Implemented HMAC signature verification for all third-party integrations to prevent request spoofing and financial fraud."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "BTO Event Orchestrator",
+      "technologies": "Go, RabbitMQ, PostgreSQL",
+      "description": "A state-machine based middleware that synchronizes e-commerce order states with manufacturing queues using event-driven logic."
+    },
+    {
+      "name": "Real-Time Transaction Analytics",
+      "technologies": "Node.js, Redis, ClickHouse",
+      "description": "High-throughput service processing 50k+ daily events for real-time monitoring and anomaly detection."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan"
+    }
+  ],
+  "additionalInformation": {
+    "technical_philosophy": "Strong advocate for 'The Twelve-Factor App' methodology, test-driven development (TDD), and building for observability from day one."
+  }
+}
