@@ -1,0 +1,98 @@
+{
+  "id": "senior-frontend-engineer-vuejs-expert",
+  "name": "Senior Frontend Engineer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "github": "github.com/renzium",
+    "linkedin": "linkedin.com/in/lawrence-ughonu"
+  },
+  "summary": "Senior Frontend Engineer with 6+ years of experience specializing in the Vue.js ecosystem and scalable front-end architecture. Expert in TypeScript and modern JavaScript (ES6+), with a proven track record of designing and documenting enterprise-level UIs. Skilled in collaborating with UX designers to translate complex requirements into responsive, high-performance applications while maintaining rigorous code quality and CI/CD standards.",
+  "technicalSkills": [
+    {
+      "category": "Vue.js Ecosystem Expertise",
+      "skills": "Vue.js (2 & 3), Vuex, Pinia, Vue Router, Composition API, Vite, Vitest"
+    },
+    {
+      "category": "Core Frontend Architecture",
+      "skills": "TypeScript, JavaScript (ES6+), OOP Principles, Asynchronous Request Handling, State Management, Axios"
+    },
+    {
+      "category": "UI & Design Implementation",
+      "skills": "HTML5, CSS3, SASS/LESS, Tailwind CSS, Bootstrap, Responsive Design, UX/UI Translation (Figma)"
+    },
+    {
+      "category": "Workflow & DevOps",
+      "skills": "Git/Gitflow, CI/CD for Frontend, Docker, Webpack, Unit/E2E Testing, Documentation"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Frontend Engineer",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Architected and documented a medium-level enterprise logistics dashboard using Vue 3 and TypeScript, serving 10,000+ daily active users.",
+        "Collaborated with UX designers to interpret complex requirements into functional UIs, ensuring 100% fidelity to design specifications.",
+        "Implemented advanced state management and asynchronous data fetching patterns, reducing API-related UI latency by 40%.",
+        "Established frontend CI/CD pipelines and coding standards, ensuring high-quality deliverables across multiple project teams."
+      ]
+    },
+    {
+      "title": "Frontend Systems Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Designed and maintained scalable frontend components for a digital banking platform, utilizing JavaScript classes and OOP principles for modularity.",
+        "Led the migration of state management to Pinia, improving data flow efficiency for enterprise-level financial dashboards.",
+        "Authored comprehensive functional specification documentation for UI components, facilitating seamless handovers between design and engineering teams.",
+        "Ensured pixel-perfect responsiveness across mobile, tablet, and desktop views using modern CSS frameworks and SASS."
+      ]
+    },
+    {
+      "title": "Software Developer (Frontend Focus)",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Developed 12+ major frontend features for high-traffic e-commerce platforms using Vue.js and Axios for RESTful API integration.",
+        "Refactored legacy CSS into modular SASS structures, improving maintainability and reducing technical debt by 40%.",
+        "Achieved team consensus on Git branching strategies, enhancing collaboration and reducing merge conflicts by 50%.",
+        "Consistently met tight deadlines for multiple competing priorities while maintaining a 99% crash-free rate on production UIs."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Enterprise Logistics Analytics Portal",
+      "technologies": "Vue.js, TypeScript, Vuex, SASS",
+      "description": "A comprehensive data visualization tool featuring real-time tracking, complex filtering, and interactive reporting for logistics management."
+    },
+    {
+      "name": "PAKA - Fintech Mobile/Web Platform",
+      "technologies": "Vue.js, Tailwind CSS, Axios, Git",
+      "description": "An integrated payment and logistics platform with 10k+ downloads, focusing on responsive design and secure API handling."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan"
+    }
+  ],
+  "additionalInformation": {
+    "core_competencies": [
+      "Expertise in Frontend Software Architecture for enterprise applications.",
+      "Strong advocate for clean code, documentation, and OOP principles in JavaScript.",
+      "Highly self-motivated with the ability to manage multiple high-priority deliverables under tight deadlines.",
+      "Excellent communicator with experience achieving consensus in peer reviews and stakeholder updates."
+    ]
+  }
+}
