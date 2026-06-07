@@ -107,7 +107,7 @@ const CVViewer = () => {
       <PrintButton onClick={handlePrint}>🖨️ Print to PDF</PrintButton>
       
       <Container>
-        <style>{`
+       <style>{`
           @media print {
             body { margin: 0; padding: 0; }
             .no-print { display: none; }
@@ -124,7 +124,7 @@ const CVViewer = () => {
           h2 {
             font-size: 11pt;
             font-weight: bold;
-            margin-top: 8pt;
+            margin-top: 10pt;
             margin-bottom: 4pt;
             border-bottom: 1pt solid #000;
             padding-bottom: 1pt;
@@ -168,26 +168,30 @@ const CVViewer = () => {
           }
 
           ul {
-            margin-left: 15pt;
+            margin-left: 10pt;
             margin-bottom: 4pt;
-            padding-left: 10pt;
+            padding-left: 5pt;
             font-size: 9pt;
           }
 
           li {
-            margin-bottom: 1.5pt;
+            margin-bottom: 2pt;
             text-align: justify;
+            list-style-type: square; /* Clean look for ATS/Print */
           }
 
+          /* FLATTENED FOR ATS READABILITY */
           .skills {
-            columns: 3;
-            column-gap: 15pt;
             font-size: 9pt;
             margin-bottom: 6pt;
+            display: flex;
+            flex-direction: column;
+            gap: 3pt;
           }
 
           .skills > div {
-            margin-bottom: 2pt;
+            margin-bottom: 0pt;
+            line-height: 1.3;
           }
 
           p {

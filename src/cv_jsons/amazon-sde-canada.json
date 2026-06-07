@@ -1,0 +1,90 @@
+{
+  "id": "amazon-sde-canada",
+  "name": "Software Development Engineer - Full-Stack Target",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Remote - Worldwide)",
+    "email": "lawrenceughonu@gmail.com",
+    "phone":"+2349031194460",
+    "website": "https://lawrence-ughonu.vercel.app",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Senior Software Development Engineer offering over 5 years of dedicated enterprise software employment backed by a 6+ year technical engineering foundation. Strong architecture mastery in Python and Node.js backend engineering alongside comprehensive full-stack delivery frameworks. Proven experience designing highly available asynchronous distributed microservices, optimizing database scaling strategies, and embedding automated pipelines.",
+  "technicalSkills": [
+    {
+      "category": "Backend Engineering & Languages",
+      "skills": "Python, Node.js, JavaScript, TypeScript, Java (basics), RESTful APIs, GraphQL, Microservices Architecture"
+    },
+    {
+      "category": "Databases & Core Infrastructure",
+      "skills": "PostgreSQL, MongoDB, DynamoDB, Redis, AWS (Lambda, S3, EC2, DynamoDB), Docker, CI/CD Pipelines"
+    },
+    {
+      "category": "Full-Stack & Integrations",
+      "skills": "React.js, Next.js, React Native, Payment Gateway Orchestration (Stripe, Paystack, Flutterwave), ACID Compliance"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Full Stack Engineer (Contract)",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Brought in as a contract engineer to architect low-latency asynchronous middleware systems and manage end-to-end data pipelines for global logistics data processing.",
+        "Optimized client-to-backend transactional flow pipelines, contributing to a 40% reduction in rendering bottlenecks and improving system resilience to a 99.5% baseline.",
+        "Engineered Python FastAPI components integrating AI model endpoints to handle automated document and invoice data extraction pipelines.",
+        "Enforced rigorous architectural standards through peer code reviews, CI/CD automated pipeline management, and exhaustive test coverage.",
+        "Managed non-relational and relational database scaling strategies to support high concurrent transaction loads cleanly across decentralized systems."
+      ]
+    },
+    {
+      "title": "Full Stack / Systems Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Architected core digital banking microservices and ledger features, maintaining absolute transactional ACID compliance across cloud database targets.",
+        "Optimized complex PostgreSQL and DynamoDB indexing and query strategies to support low-latency data scaling under high transactional volumes.",
+        "Designed and deployed secure token authorization architectures (JWT, OAuth2) across distributed web services.",
+        "Utilized AI-assisted engineering systems (Cursor, Claude) to accelerate internal production deployment sprint speed while maintaining strict unit test boundaries."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Engineered secure backend integrations with payment gateways (Paystack, Flutterwave), implementing custom retry mechanics to bypass transaction failures.",
+        "Developed data-processing scripts using Python and JavaScript to handle catalog indexing and automated background storage workflows.",
+        "Maintained schema configurations and managed performance optimizations for relational PostgreSQL and NoSQL MongoDB storage clusters."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-Powered Automation & Extraction Pipeline",
+      "technologies": "Python, FastAPI, AWS Lambda, OpenAI API, PostgreSQL",
+      "description": "Built a scalable transaction validation system processing 1,000+ secure invoices weekly. Designed an asynchronous ETL data pipeline using AWS serverless functions to process and parse data transformations cleanly."
+    },
+    {
+      "name": "High-Availability Ledger Ecosystem",
+      "technologies": "Node.js, Express, DynamoDB, React, Redis",
+      "description": "Full-stack digital banking ecosystem handling multi-provider orchestration, synchronizing backend microservice pools with frontend layers without data drift or presentation blocking."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "February 21, 2025",
+      "note": "Formal curriculum focused heavily on systems logic, computational algorithms, and electrical networks, establishing an analytical foundation applied directly to software development."
+    }
+  ]
+}

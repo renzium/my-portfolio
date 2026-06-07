@@ -1,0 +1,93 @@
+{
+  "id": "rocketdevs-fullstack-ai-orchestrator",
+  "name": "Mid-Senior Full Stack Engineer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Available for Hybrid/Remote)",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "github": "github.com/renzium",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "portfolio": "www.renzium.com"
+  },
+  "summary": "Mid-Senior Full Stack Engineer with 6+ years of experience building scalable applications and distributed systems. Expert in architecting event-driven backends (Go, Python, Node.js) and high-performance frontends (Vue.js, React). Specialized as an AI Orchestrator, integrating LLM-based services and AI APIs to enhance user experience and automate complex workflows. Proven track record of deploying real-world applications on AWS and managing both SQL and NoSQL environments.",
+  "technicalSkills": [
+    {
+      "category": "Frontend Development",
+      "skills": "Vue.js (Pinia/Vuex), React (Next.js), TypeScript, Modern JavaScript (ES6+), HTML5, CSS3/Tailwind"
+    },
+    {
+      "category": "Backend Engineering",
+      "skills": "Go (Gin/Fiber), Python (FastAPI/Django), Node.js (Express), RESTful & GraphQL API Design, gRPC"
+    },
+    {
+      "category": "AI & Automation",
+      "skills": "AI API Integration (OpenAI, Claude), Prompt Engineering, AI-Assisted Development (Cursor, Claude), LLM-based Feature Design"
+    },
+    {
+      "category": "Databases & Infrastructure",
+      "skills": "PostgreSQL, MySQL, MongoDB, Redis, AWS (Lambda, RDS, S3), Docker, Kubernetes, CI/CD (GitHub Actions)"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Software Engineer (Full Stack & AI Focus)",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Architected an asynchronous middleware platform using Go and Node.js, facilitating 10,000+ daily transactions with 99.5% reliability.",
+        "Integrated AI-driven automation tools to streamline document verification, reducing manual processing time by 70%.",
+        "Designed and managed complex data flows between Vue.js frontends and distributed microservices, optimizing for sub-200ms latency.",
+        "Managed hybrid database environments utilizing PostgreSQL for relational integrity and MongoDB for flexible logistics data scaling."
+      ]
+    },
+    {
+      "title": "Full Stack & Systems Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Developed core banking and ledger services using Python and TypeScript, ensuring ACID compliance for over 5,000 enterprise users.",
+        "Leveraged AI-assisted development platforms to accelerate feature delivery cycles by 30% while maintaining high code quality.",
+        "Implemented JWT and OAuth2 authentication flows across multiple microservices to ensure secure global access.",
+        "Deployed and maintained containerized applications using Docker and Kubernetes, ensuring 99.9% uptime for mission-critical services."
+      ]
+    },
+    {
+      "title": "Software Developer (Payment & Frontend Specialist)",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Modernized legacy PHP monoliths into modern Vue.js/Node.js architectures using the Strangler Fig pattern.",
+        "Architected secure payment integrations for Paystack and Flutterwave, managing complex webhook state-syncs for high-volume merchants.",
+        "Designed responsive, user-centric UIs from Figma designs, ensuring technical feasibility and maximum scalability."
+      ]
+    }
+  ],
+  "deployedProjects": [
+    {
+      "name": "PAKA Logistics Platform",
+      "url": "https://www.renzium.com/projects/paka",
+      "description": "A live, event-driven logistics engine featuring real-time tracking, automated financial settlements, and an AI-powered support chatbot."
+    },
+    {
+      "name": "BTO Commerce Middleware",
+      "url": "https://github.com/renzium/bto-orchestrator",
+      "description": "An asynchronous middleware designed to orchestrate complex build-to-order workflows between Shopify and factory ERPs."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan"
+    }
+  ],
+  "additionalInformation": {
+    "philosophy": "Passionate about bridging the gap between skilled talent and global opportunities through AI-enhanced engineering and clean, scalable architecture."
+  }
+}

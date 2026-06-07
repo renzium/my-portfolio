@@ -1,0 +1,98 @@
+{
+  "id": "lagos-senior-frontend-engineer-hybrid",
+  "name": "Senior Frontend Engineer (Web & Mobile)",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Hybrid Ready)",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "github": "github.com/renzium",
+    "portfolio": "www.renzium.com"
+  },
+  "summary": "Innovative Senior Frontend Engineer with over 6 years of experience architecting high-performance web and mobile applications. Expert in the Vue.js and React ecosystems, specializing in scalable, component-based UIs and cross-platform mobile solutions. Proven track record of leading frontend strategy for enterprise-level logistics and fintech platforms, optimizing client-side performance by 40%, and collaborating with UX teams to deliver pixel-perfect user experiences for global clients.",
+  "technicalSkills": [
+    {
+      "category": "Frontend Ecosystem",
+      "skills": "Vue.js (2/3), React, Next.js, TypeScript, JavaScript (ES6+), Vuex, Pinia, Redux"
+    },
+    {
+      "category": "Mobile & Cross-Platform",
+      "skills": "React Native, Capacitor, Responsive Design, Progressive Web Apps (PWA)"
+    },
+    {
+      "category": "UI & Styling",
+      "skills": "Tailwind CSS, SASS/LESS, CSS3, HTML5, Figma-to-Code Translation, UI Component Architecture"
+    },
+    {
+      "category": "Data & Integration",
+      "skills": "RESTful APIs, GraphQL, Axios, gRPC, WebSocket, Webhook Security (HMAC)"
+    },
+    {
+      "category": "DevOps & Tooling",
+      "skills": "Git/Gitflow, Docker, CI/CD Pipelines (GitHub Actions), Vite, Webpack, Vitest, Jest"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Frontend Engineer",
+      "company": "NYXIDIOM",
+      "location": "Lagos, Nigeria (Hybrid)",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Architected an enterprise-level logistics dashboard using Vue 3 and TypeScript, supporting 10,000+ daily active users with sub-200ms interaction latency.",
+        "Led the development of a cross-platform mobile interface using React Native, achieving 95% code parity between web and mobile versions and streamlining deployment.",
+        "Optimized client-side rendering and asset delivery, resulting in a 40% improvement in Google Lighthouse performance scores and page load speed.",
+        "Collaborated with UI/UX designers to implement a standardized, reusable component library that reduced feature development time by 30% across multiple teams."
+      ]
+    },
+    {
+      "title": "Senior Systems & Frontend Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote / Hybrid (Lagos)",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Designed and maintained the frontend architecture for a digital banking platform, managing secure financial data flows using React, Pinia, and asynchronous state patterns.",
+        "Engineered real-time transaction monitoring dashboards with live data syncing, ensuring zero UI lag during peak load and high-concurrency events.",
+        "Mentored a team of 4 developers on advanced frontend concepts, including TypeScript design patterns, OOP principles in JavaScript, and scalable state management.",
+        "Authored comprehensive functional and technical specification documentation to ensure long-term frontend system maintainability and scalability."
+      ]
+    },
+    {
+      "title": "Software Developer (Frontend Specialist)",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Modernized 15+ legacy e-commerce storefronts into modern Vue.js applications using the Strangler Fig pattern, increasing merchant retention and system uptime to 99%.",
+        "Integrated secure payment gateways (Paystack, Flutterwave) with custom idempotent logic for reliable transaction processing and webhook handling.",
+        "Designed and implemented high-fidelity, responsive user interfaces that improved mobile conversion rates by 25% for high-traffic merchant platforms."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "PAKA Logistics Platform",
+      "technologies": "Vue.js, React Native, TypeScript, Tailwind",
+      "description": "An integrated payment and logistics platform with 10k+ downloads, focusing on responsive design and secure API handling for multi-country operations."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "location": "Ibadan, Nigeria"
+    }
+  ],
+  "certifications": [
+    "Programming in Python - Google/Coursera",
+    "Advanced Frontend Software Architecture",
+    "TypeScript Masterclass"
+  ],
+  "additionalInformation": {
+    "work_preference": "Available for Hybrid roles in Lagos",
+    "compensation": "Aligned with Senior-level benchmarks (₦1M+ Net Monthly)"
+  }
+}

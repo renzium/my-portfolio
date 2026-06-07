@@ -1,0 +1,90 @@
+{
+  "id": "amazon-frontend-engineer-canada",
+  "name": "Front-End Engineer - React/Next.js Target",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Remote - Worldwide)",
+    "email": "lawrenceughonu@gmail.com",
+    "phone":"+2349031194460",
+    "website": "https://lawrence-ughonu.vercel.app",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Senior Front-End Engineer with over 5 years of dedicated enterprise software employment built upon a 6+ year foundation in systems engineering and digital logic. Production expert in React, Next.js, and TypeScript, specializing in high-performance client-side rendering paths, global state architecture, and micro-frontend integrations. Proven track record of driving user metrics and system reliability up to 99.5% for high-traffic platforms.",
+  "technicalSkills": [
+    {
+      "category": "Frontend Architecture",
+      "skills": "React.js, Next.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, Responsive Design System Conversion"
+    },
+    {
+      "category": "State Management & Testing",
+      "skills": "Redux Toolkit, Context API, Pinia, Jest, Cypress, Test-Driven Development (TDD)"
+    },
+    {
+      "category": "Tools & Infrastructure",
+      "skills": "Node.js, RESTful APIs, GraphQL, Docker, Git, CI/CD, AWS (S3, CloudFront, Lambda)"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Front-End Engineer (Contract)",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Architected core front-end performance updates, optimizing client-side rendering paths to increase Google Lighthouse performance scores by 40% globally.",
+        "Translated complex, high-fidelity Figma specifications into modular, reusable design system components using React and TypeScript.",
+        "Built and deployed a cross-platform mobile application utilizing React Native, maintaining a 99.5% crash-free baseline across 10,000+ downloads.",
+        "Synchronized high-volume UI analytics dashboards with real-time asynchronous logistics systems, minimizing user interaction latencies.",
+        "Utilized advanced AI-assisted development tools (Cursor, Copilot) to accelerate frontend delivery timelines by 30% while retaining comprehensive unit test coverage."
+      ]
+    },
+    {
+      "title": "Full Stack / Systems Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Engineered rich, real-time user interfaces for complex financial transaction monitoring systems using React and TypeScript.",
+        "Synchronized live ledger transactional feeds with global frontend state layers (Redux) without introducing main-thread blocking or rendering lag.",
+        "Implemented secure JWT and OAuth2 state-handling protocols to manage session integrity securely across decoupled client-side web apps.",
+        "Collaborated closely with cross-functional design and product teams to map business specifications down to accessible UI components."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Modernized legacy web layouts into component-based React applications utilizing modern responsive design principles.",
+        "Connected responsive client interfaces to payment gateways (Paystack, Flutterwave), writing rigorous state verification to avoid drop-offs.",
+        "Built highly reliable e-commerce web layouts, improving cross-browser asset delivery pipelines and caching strategies."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Paka Cross-Platform Mobile Application",
+      "technologies": "React Native, Redux, Stripe API, Google Maps API",
+      "description": "Cross-platform mobile application achieving 10,000+ organic downloads with a 99.5% crash-free baseline. Orchestrated complex UI views with deep third-party map integrations and secure checkout screens."
+    },
+    {
+      "name": "Enterprise Transaction Analytics Dashboard",
+      "technologies": "React, TypeScript, Next.js, Tailwind CSS",
+      "description": "High-throughput financial analytics panel showing real-time transaction states, streaming historical ledgers cleanly with near-zero viewport latency."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "February 21, 2025",
+      "note": "Specialized in systems logic and hardware-to-software integration, providing a rigorous architectural foundation for complex interface and application state engineering."
+    }
+  ]
+}
