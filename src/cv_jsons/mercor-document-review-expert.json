@@ -1,0 +1,83 @@
+{
+  "id": "mercor-document-review-expert",
+  "name": "Document Review & AI Evaluation Specialist",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Remote",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "https://lawrence-ughonu.vercel.app",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Detail-oriented Senior Software Engineer with 6+ years of professional experience producing, auditing, and refining complex technical documentation and system outputs. Demonstrated ability to apply structured evaluation frameworks, identify logical inconsistencies, and deliver precise written assessments across engineering and data domains. Native English communicator with a strong background in critical reading, technical writing, and independent analytical work.",
+  "technicalSkills": [
+    {
+      "category": "Review & Evaluation",
+      "skills": "Technical Documentation Auditing, Critical Reading, Logical Consistency Analysis, Structured Guideline Adherence, Error Identification, Tone and Nuance Assessment"
+    },
+    {
+      "category": "Technical Writing & Communication",
+      "skills": "System Documentation, Code Review Feedback, API Documentation, Engineering Reports, Schema Validation Writing"
+    },
+    {
+      "category": "Engineering & Analytical Tools",
+      "skills": "Python, Node.js, TypeScript, PostgreSQL, MongoDB, REST APIs, CI/CD Pipelines, Data Profiling, Markdown"
+    }
+  ],
+  "experience": [
+    {
+      "title": "AI Response Evaluator (Freelance)",
+      "company": "Outlier AI",
+      "location": "Remote",
+      "startDate": "January 2024",
+      "endDate": "Present",
+      "achievements": [
+        "Evaluated hundreds of AI-generated technical responses across software engineering domains, applying multi-step structured evaluation guidelines to assess factual accuracy, logical coherence, and response quality.",
+        "Produced detailed written feedback reports identifying structural inaccuracies, reasoning gaps, and implicit errors across complex technical text outputs.",
+        "Conducted comparative line-by-line analyses of competing AI responses, ranking outputs based on accuracy, completeness, and adherence to user intent.",
+        "Maintained consistent evaluation quality across extended project durations, working independently without reliance on external AI assistance."
+      ]
+    },
+    {
+      "title": "Full Stack / Systems Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Authored and maintained comprehensive technical documentation covering API contracts, database schemas, and deployment procedures across 6+ distributed services, ensuring clarity and long-term maintainability.",
+        "Conducted structured peer code reviews producing detailed written assessments that identified logical inconsistencies and enforced compliance standards, contributing to a 30% reduction in production defect rates.",
+        "Identified and documented reasoning gaps in system integration specifications before deployment, preventing downstream failures across critical financial features serving 50,000+ monthly transactions.",
+        "Delivered written engineering reports translating complex technical findings into clear, actionable recommendations reviewed and actioned by cross-functional stakeholders."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Remote",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Reviewed and refined user-facing documentation, onboarding guides, and API integration specifications for logical flow, formatting accuracy, and structural consistency prior to production release.",
+        "Produced written correction reports identifying edge-case errors within system outputs and execution logs, preventing 3+ critical defects across major pre-launch milestones."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-Powered Automation & Extraction Pipeline",
+      "technologies": "Python, FastAPI, AWS Lambda, OpenAI API, PostgreSQL",
+      "description": "Engineered a document validation and extraction system processing 1,000+ structured records weekly with 98% accuracy. Applied rigorous output verification standards to ensure data integrity across automated invoice parsing pipelines."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2025",
+      "note": "Curriculum grounded in discrete logic systems, technical analysis, and computational verification — providing a strong analytical foundation applied directly to structured evaluation and document review work."
+    }
+  ]
+}

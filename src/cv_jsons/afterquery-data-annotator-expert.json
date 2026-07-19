@@ -1,0 +1,96 @@
+{
+  "id": "afterquery-data-annotator-expert",
+  "name": "General AfterQuery Expert - Data Annotator",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Remote",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "https://lawrence-ughonu.vercel.app",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Senior Software Engineer with 6+ years of professional engineering experience producing, evaluating, and annotating complex technical outputs across distributed systems, fintech, and AI-powered domains. Demonstrated ability to apply structured analytical frameworks to assess accuracy, logical consistency, and quality of technical content requiring specialist professional judgment. Experienced AI model evaluator with a proven track record of delivering precise, citation-supported written assessments independently and at scale.",
+  "technicalSkills": [
+    {
+      "category": "Annotation & Evaluation",
+      "skills": "AI Response Evaluation, Structured Data Annotation, Logical Consistency Analysis, Technical Content Review, Fact Verification, Reasoning Assessment, Guideline-Based Labeling"
+    },
+    {
+      "category": "Technical Writing & Documentation",
+      "skills": "Engineering Report Writing, API Documentation, Schema Validation, Code Review Feedback, Citation-Supported Analysis, Structured Technical Assessments"
+    },
+    {
+      "category": "Domain Expertise",
+      "skills": "JavaScript, TypeScript, Node.js, Distributed Systems, Backend Engineering, Fintech Systems, Cloud Architecture (AWS), Database Design (PostgreSQL, DynamoDB, MongoDB), Python"
+    }
+  ],
+  "experience": [
+    {
+      "title": "AI Response Evaluator (Freelance)",
+      "company": "Outlier AI",
+      "location": "Remote",
+      "startDate": "January 2024",
+      "endDate": "Present",
+      "achievements": [
+        "Evaluated hundreds of AI-generated technical responses across software engineering domains, applying multi-step structured annotation guidelines to assess factual accuracy, logical coherence, and output quality.",
+        "Produced detailed written feedback reports identifying structural inaccuracies, reasoning gaps, and implicit errors across complex technical text outputs, with clear justifications for each annotation decision.",
+        "Conducted comparative line-by-line analyses of competing AI responses, ranking outputs based on accuracy, completeness, and adherence to user intent using structured labeling frameworks.",
+        "Flagged ambiguous and out-of-scope samples with documented written escalations, maintaining consistent annotation quality across high volumes of review tasks without external AI assistance.",
+        "Maintained reproducible annotation decisions across extended project durations, working independently in line with detailed project-specific guidelines."
+      ]
+    },
+    {
+      "title": "Full Stack / Systems Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Authored and maintained comprehensive technical documentation covering API contracts, database schemas, and deployment procedures across 6+ distributed services, producing structured written analyses reviewed by cross-functional stakeholders.",
+        "Conducted structured peer code reviews producing detailed written assessments that identified logical inconsistencies and enforced compliance standards, contributing to a 30% reduction in production defect rates.",
+        "Applied professional engineering judgment to evaluate system integration specifications, identifying and documenting reasoning gaps before deployment across critical financial features serving 50,000+ monthly transactions.",
+        "Delivered citation-supported written engineering reports translating complex technical findings into clear, actionable recommendations for business and engineering leadership."
+      ]
+    },
+    {
+      "title": "Full Stack Engineer (Contract)",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Applied domain expertise to evaluate and refine AI model endpoint outputs for document and invoice data extraction pipelines, processing over 2,000 structured records per week with 98% parse accuracy.",
+        "Produced structured written assessments of data pipeline outputs, identifying edge-case errors and inconsistencies across logistics data processing workflows.",
+        "Enforced annotation and review standards across a 4-engineer team through structured code reviews and CI/CD governance, reducing production defect rates by 30%."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Remote",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Reviewed and refined user-facing documentation, onboarding guides, and API integration specifications for logical flow, formatting accuracy, and structural consistency prior to production release.",
+        "Produced written correction reports identifying edge-case errors within system outputs and execution logs, preventing 3+ critical defects across major pre-launch milestones."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-Powered Automation & Extraction Pipeline",
+      "technologies": "Python, FastAPI, AWS Lambda, OpenAI API, PostgreSQL",
+      "description": "Engineered and evaluated a document validation and extraction system processing 1,000+ structured records weekly with 98% accuracy. Applied rigorous output verification and annotation standards to ensure data integrity across automated invoice parsing pipelines, producing structured quality assessments at each validation stage."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2025",
+      "note": "Curriculum grounded in discrete logic systems, technical analysis, and computational verification — providing a strong analytical foundation directly applicable to structured data annotation, expert evaluation, and domain-specific content review."
+    }
+  ]
+}

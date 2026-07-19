@@ -1,3 +1,24 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-dark: var(--dark);
+  --color-light: var(--light);
+  --color-light2: var(--light2);
+  --color-light3: var(--light3);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-border: var(--border);
+  --color-card: var(--card);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-secondary-bg: var(--secondary-bg);
+}
+
+/* ── LIGHT MODE ─────────────────────────────── */
 :root {
   --primary: #ff6464;
   --secondary: #00a8cc;
@@ -5,94 +26,299 @@
   --light: #8695a4;
   --light2: #edf7fa;
   --light3: #e0e0e0;
+  --background: #ffffff;
+  --foreground: #21243d;
+  --border: #e2e8f0;
+  --card: #f8fafc;
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+  --secondary-bg: #f1f5f9;
+  --emerald: #10b981;
+  --emerald-glow: rgba(16, 185, 129, 0.25);
 }
 
-html {
-  font-size: 62.5%;
-  scroll-behavior: smooth;
+/* ── DARK MODE ──────────────────────────────── */
+.dark {
+  --primary: #ff6464;
+  --secondary: #38bdf8;
+  --dark: #f8fafc;
+  --light: #94a3b8;
+  --light2: #1e293b;
+  --light3: #334155;
+  --background: #0f172a;
+  --foreground: #f8fafc;
+  --border: #1e293b;
+  --card: #1e293b;
+  --muted: #1e293b;
+  --muted-foreground: #94a3b8;
+  --secondary-bg: #1e293b;
+  --emerald: #34d399;
+  --emerald-glow: rgba(52, 211, 153, 0.2);
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: #ffffff;
-  line-height: 1.6;
-}
+/* ── GLOBAL RESETS ──────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
 
-* {
-  box-sizing: border-box;
+html { scroll-behavior: smooth; }
+
+html, body {
   margin: 0;
   padding: 0;
-  -webkit-touch-callout: none;
-  -webkit-tap-highlight-color: transparent;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-a {
-  text-decoration: none;
-  color: inherit;
+/* ── DARK MODE ADAPTATIONS ──────────────────── */
+.dark .bg-white:not(.cv-canvas) {
+  background-color: var(--background);
+  color: var(--foreground);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-button {
-  font-family: var(--font_regular);
+.dark input, .dark textarea, .dark select {
+  background-color: var(--light2);
+  color: var(--foreground);
+  border-color: var(--light3);
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--light);
+  opacity: 0.8;
+}
+
+/* ── PRINT ──────────────────────────────────── */
+@media print {
+  /* Hide nav in print — fixes the header/footer issue */
+  nav, header, .nav, [class*="Nav"], [id*="nav"], [id*="header"] {
+    display: none !important;
+  }
+  .print\:hidden { display: none !important; }
+  body { background-color: #ffffff !important; color: #000000 !important; }
+  .cv-canvas { background-color: #ffffff !important; color: #1e293b !important; }
+}
+
+/* ── GPU ACCELERATION ───────────────────────── */
+.will-change-transform {
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* ── SECTION DIVIDERS ───────────────────────── */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, var(--border) 20%, var(--border) 80%, transparent 100%);
   border: none;
-  cursor: pointer;
-  background-color: transparent;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  margin: 0;
 }
 
-input:focus,
-button:focus,
-select:focus,
-textarea:focus {
-  outline: none;
-}
-.head {
-  color: #7956d2;
-}
-h5 {
-  text-align: center;
-  font-size: 1.125rem;
-  line-height: 3.75rem;
-  font-weight: 400;
+/* ── HERO GRID TEXTURE ──────────────────────── */
+.hero-grid {
+  background-image:
+    linear-gradient(var(--foreground) 1px, transparent 1px),
+    linear-gradient(90deg, var(--foreground) 1px, transparent 1px);
+  background-size: 60px 60px;
+  opacity: 0.03;
 }
 
-@media (min-width: 50rem) {
-  p {
-    font-size: 1rem;
-  }
-  h1 {
-    font-size: 1.875rem;
-  }
-}
-@media (min-width: 56.25rem) {
-  button {
-    font-size: 1.25rem;
-  }
-}
-@media (min-width: 62.5rem) {
+/* ══════════════════════════════════════════════
+   HERO ANIMATIONS
+   Items start hidden, slide in from left when
+   .hero-visible is added by IntersectionObserver
+═══════════════════════════════════════════════ */
+.hero-item {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
 }
 
-@media (min-width: 75rem) {
-  h1 {
-    font-size: 3.5rem;
-    line-height: 1.4;
-    width: 40vw;
+.hero-visible .hero-item,
+section.hero-visible-root .hero-item {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Stagger delays */
+.delay-0 { transition-delay: 0ms; }
+.delay-1 { transition-delay: 100ms; }
+.delay-2 { transition-delay: 200ms; }
+.delay-3 { transition-delay: 320ms; }
+.delay-4 { transition-delay: 440ms; }
+.delay-5 { transition-delay: 560ms; }
+.delay-6 { transition-delay: 680ms; }
+.delay-7 { transition-delay: 800ms; }
+
+/* ══════════════════════════════════════════════
+   FEATURED WORKS ANIMATIONS
+   Items slide up from below on entry
+═══════════════════════════════════════════════ */
+.works-item {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+  transition-delay: 0ms;
+}
+
+.works-item-delay {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+  transition-delay: 200ms;
+}
+
+.works-visible .works-item,
+.works-visible .works-item-delay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ══════════════════════════════════════════════
+   ABOUT ANIMATIONS
+   Left items slide from left, right items from right
+   Icons stagger in from below
+═══════════════════════════════════════════════ */
+.about-item {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.about-item-right {
+  opacity: 0;
+  transform: translateX(40px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.about-icon {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.about-visible .about-item,
+.about-visible .about-item-right,
+.about-visible .about-icon {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* Icon stagger */
+.delay-icon-0  { transition-delay: 400ms; }
+.delay-icon-1  { transition-delay: 440ms; }
+.delay-icon-2  { transition-delay: 480ms; }
+.delay-icon-3  { transition-delay: 520ms; }
+.delay-icon-4  { transition-delay: 560ms; }
+.delay-icon-5  { transition-delay: 600ms; }
+.delay-icon-6  { transition-delay: 640ms; }
+.delay-icon-7  { transition-delay: 680ms; }
+.delay-icon-8  { transition-delay: 720ms; }
+.delay-icon-9  { transition-delay: 760ms; }
+.delay-icon-10 { transition-delay: 800ms; }
+.delay-icon-11 { transition-delay: 840ms; }
+.delay-icon-12 { transition-delay: 880ms; }
+.delay-icon-13 { transition-delay: 920ms; }
+.delay-icon-14 { transition-delay: 960ms; }
+.delay-icon-15 { transition-delay: 1000ms; }
+
+/* ══════════════════════════════════════════════
+   FULL-SCREEN SECTION UTILITY
+═══════════════════════════════════════════════ */
+.full-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.full-section--hero    { background: var(--background); }
+.full-section--works   { background: var(--card); }
+.full-section--about   { background: linear-gradient(160deg, var(--background) 0%, color-mix(in srgb, var(--primary) 3%, var(--background)) 100%); }
+.full-section--stack   { background: linear-gradient(135deg, color-mix(in srgb, var(--emerald) 4%, var(--background)) 0%, var(--background) 50%, color-mix(in srgb, var(--secondary) 4%, var(--background)) 100%); }
+.full-section--posts   { background: linear-gradient(180deg, var(--card) 0%, var(--background) 100%); }
+.full-section--contact { background: linear-gradient(135deg, color-mix(in srgb, var(--secondary) 6%, var(--background)) 0%, var(--background) 100%); }
+
+/* ── REDUCED MOTION ─────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
-  p {
-    font-size: 1.8rem;
-    line-height: 1.4;
+  .hero-item, .works-item, .works-item-delay,
+  .about-item, .about-item-right, .about-icon {
+    opacity: 1 !important;
+    transform: none !important;
   }
+}
+
+/* ── CONTACT ANIMATIONS ─────────────────────── */
+.contact-item {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.contact-visible .contact-item {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── CONTACT DARK MODE INPUT FIX ────────────── */
+/*
+  The inputs in Contact.jsx use bg-background and text-foreground
+  directly via Tailwind — those CSS variable tokens adapt automatically
+  in dark mode without needing any override here.
+  This rule is a safety net for any other inputs on the site.
+*/
+.dark input:not([class*="bg-"]),
+.dark textarea:not([class*="bg-"]),
+.dark select:not([class*="bg-"]) {
+  background-color: var(--light2);
+  color: var(--foreground);
+  border-color: var(--light3);
+}
+
+/* ── RECENT POSTS ANIMATIONS ────────────────── */
+.posts-item {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.posts-visible .posts-item {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── GLOBAL TYPOGRAPHY SCALE FIX ────────────── */
+/*
+  Base paragraph text bumped slightly across the board.
+  Sections using text-sm for body copy are now text-base (16px).
+  This affects any text-sm inside section containers.
+*/
+section p.text-sm {
+  font-size: 0.9375rem; /* 15px — halfway between sm and base */
+  line-height: 1.75;
+}
+
+/* Muted foreground text contrast boost */
+.text-muted-foreground {
+  opacity: 1; /* prevent double-dimming from /80 or /70 modifiers */
+}
+
+/* ── WHITESPACE REDUCTION ────────────────────── */
+/*
+  Sections had py-32 (128px top+bottom). Reducing to py-24 (96px)
+  gives a tighter, more intentional feel without losing breathability.
+  Applied specifically to min-h-screen sections.
+*/
+section.min-h-screen {
+  padding-top: 5rem;    /* 80px */
+  padding-bottom: 5rem;
 }

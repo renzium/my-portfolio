@@ -1,0 +1,2569 @@
+Items in src/components 
+Blog.jsx
+// src/components/Nav.jsx
+import { useEffect, useState } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
+import { Moon, Sun } from "lucide-react";
+import { useTheme } from "./use-theme.jsx";
+
+const links = [
+  { to: "/", label: "Home" },
+  { to: "/works", label: "Works" },
+  { to: "/blog", label: "Blog" },
+];
+
+export default function Nav() {
+  const { theme, toggle } = useTheme();
+  const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
+
+  // Check if we are currently on the Home page
+  const isHomePage = location.pathname === "/";
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 20);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  // Show background if scrolled OR if we are on any interior page (like /blog)
+  const showBackground = scrolled || !isHomePage;
+
+  return (
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+        showBackground 
+          ? "border-b border-border/60 bg-background/80 backdrop-blur-xl" 
+          : "bg-transparent"
+      }`}
+    >
+      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+        <Link to="/" className="flex items-center gap-2.5 text-sm font-medium tracking-tight">
+          <span className="inline-block h-1.5 w-1.5 rounded-full bg-[--emerald] shadow-[0_0_16px_var(--emerald-glow)]" />
+          <span className="text-foreground">portfolio</span>
+        </Link>
+        
+        <ul className="hidden items-center gap-10 md:flex">
+          {links.map((l) => (
+            <li key={l.to}>
+              <NavLink
+                to={l.to}
+                end={l.to === "/"}
+                className={({ isActive }) =>
+                  `text-[13px] transition-colors hover:text-foreground ${
+                    isActive ? "text-foreground font-semibold" : "text-muted-foreground"
+                  }`
+                }
+              >
+                {l.label}
+              </NavLink>
+            </li>
+          ))}
+        </ul>
+
+        <div className="flex items-center gap-3">
+          <button
+            onClick={toggle}
+            aria-label="Toggle theme"
+            className="grid h-9 w-9 place-items-center rounded-full border border-border/60 text-muted-foreground transition-colors hover:text-foreground cursor-pointer bg-background"
+          >
+            {theme === "dark" ? <Sun size={15} className="text-foreground" /> : <Moon size={15} className="text-foreground" />}
+          </button>
+          
+          <a
+            href="/#contact"
+            className="hidden sm:inline-flex items-center gap-2 rounded-full border border-[--emerald]/30 bg-[--emerald]/10 px-4 py-1.5 text-xs font-medium text-[--emerald] transition-all hover:bg-[--emerald]/20"
+          >
+            Let's talk
+          </a>
+        </div>
+      </nav>
+    </header>
+  );
+}
+
+
+
+BlogPost1.jsx
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+function BlogPost1() {
+  return (
+    <article className="max-w-3xl mx-auto px-6 py-16 md:py-24 text-foreground transition-colors duration-300">
+      {/* Back Link styling mimicking your old styled component transition */}
+      <Link 
+        to="/" 
+        className="inline-flex items-center gap-2 text-secondary font-semibold mb-8 transition-transform duration-300 hover:-translate-x-1"
+      >
+        ← Back to Home
+      </Link>
+      
+      <header className="mb-12">
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tight leading-tight mb-4 text-foreground">
+          Building Cross-Platform Mobile Apps with React Native
+        </h1>
+        <div className="flex gap-4 items-center text-foreground text-sm mb-8">
+          <span>15th Dec 2024</span>
+          <span>•</span>
+          <span className="inline-block px-3 py-1 bg-gradient-to-r from-[#667eea] to-[#764ba2] text-white rounded-full text-xs font-semibold">
+            React Native Development
+          </span>
+        </div>
+      </header>
+
+      {/* Main typography content container using tailwind styling */}
+      <div className="text-base md:text-lg leading-relaxed text-muted-foreground space-y-8">
+        <section className="mb-8">
+          <p>
+            React Native has revolutionized mobile app development by enabling developers to build truly native mobile applications for iOS and Android from a single codebase. As a React Native engineer with experience building production apps like Paka, SQE, and various client projects, I've seen firsthand how this framework transforms the development process.
+          </p>
+        </section>
+
+        <section className="mb-8 space-y-6">
+          <h2 className="text-3xl font-bold mt-12 mb-4 text-foreground">Why React Native?</h2>
+          <p>
+            React Native enables developers to write code once and deploy to both iOS and Android platforms. This approach significantly reduces development time and costs while maintaining the performance and feel of native applications.
+          </p>
+
+          {/* Callout box styling updated to use your current border themes */}
+          <div className="bg-[--light2]/40 border-l-4 border-[#667eea] p-6 rounded-r-lg my-8">
+            <strong className="text-[#667eea] font-semibold">Key Benefit:</strong> With React Native, you can share up to 90% of your codebase between platforms, dramatically reducing development time and maintenance overhead.
+          </div>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">1. Single Codebase, Multiple Platforms</h3>
+          <p>
+            The biggest advantage of React Native is the ability to maintain one codebase for multiple platforms. During my work on the Paka app at NYXIDIOM, I developed features once and they worked seamlessly on both iOS and Android devices.
+          </p>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">2. Near-Native Performance</h3>
+          <p>
+            React Native apps compile to native code, which means they perform just as well as native apps. In the SQE app, we achieved smooth 60fps animations and real-time WebSocket connections that rival native implementations.
+          </p>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">3. Large Ecosystem</h3>
+          <p>
+            The React Native ecosystem is vast and growing:
+          </p>
+          <ul className="list-disc pl-8 space-y-3">
+            <li>Expo for rapid development and built-in modules</li>
+            <li>React Navigation for smooth, native-feeling navigation</li>
+            <li>Native modules for advanced platform-specific features</li>
+            <li>Libraries for everything from payments to AI integration</li>
+          </ul>
+        </section>
+
+        <section className="mb-8 space-y-6">
+          <h2 className="text-3xl font-bold mt-12 mb-4 text-foreground">Key Technologies in My Stack</h2>
+          
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">Expo Framework</h3>
+          <p>
+            Expo has been instrumental in my recent projects. For the Paka app, Expo provided:
+          </p>
+          <ul className="list-disc pl-8 space-y-3">
+            <li>Built-in authentication providers</li>
+            <li>Push notification handling out of the box</li>
+            <li>Easy integration with services like Supabase and Stripe</li>
+            <li>Simple deployment via EAS (Expo Application Services)</li>
+          </ul>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">TypeScript for Type Safety</h3>
+          <p>
+            Using TypeScript in React Native projects has been a game-changer:
+          </p>
+          <ul className="list-disc pl-8 space-y-3">
+            <li>Catch errors before runtime</li>
+            <li>Better IDE autocomplete and IntelliSense</li>
+            <li>Self-documenting code through type definitions</li>
+            <li>Easier refactoring and maintenance</li>
+          </ul>
+
+          {/* Styled code container that shifts background cleanly in dark mode */}
+          <pre className="bg-[--light2]/60 border border-border/60 text-foreground p-6 rounded-xl overflow-x-auto my-8 font-mono text-sm">
+            <code>{`// Example: Type-safe navigation
+interface Props {
+  navigation: {
+    navigate: (screen: string, params?: object) => void;
+  };
+  route: {
+    params: {
+      userId: string;
+    };
+  };
+}`}</code>
+          </pre>
+        </section>
+
+        <section className="mb-8 space-y-6">
+          <h2 className="text-3xl font-bold mt-12 mb-4 text-foreground">Real-World Challenges and Solutions</h2>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">iOS-Specific Issues</h3>
+          <p>
+            During development of the Paka app, I encountered and fixed several iOS-specific issues:
+          </p>
+
+          <p><strong className="font-semibold text-foreground">Memory Management:</strong></p>
+          <p>
+            Images were randomly disappearing on iOS devices. The solution was implementing a robust image loading system with preloading and fallback mechanisms.
+          </p>
+
+          <p><strong className="font-semibold text-foreground">Keyboard Handling:</strong></p>
+          <p>
+            iOS keyboard behavior differs from Android. I implemented auto-focus on form inputs with proper timing to ensure users could see what they were typing.
+          </p>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">Native Module Integration</h3>
+          <p>
+            In the SQE app, I integrated C++ native modules for:
+          </p>
+          <ul className="list-disc pl-8 space-y-3">
+            <li>Cryptographic operations</li>
+            <li>Performance-critical computations</li>
+            <li>Secure transaction handling</li>
+          </ul>
+        </section>
+
+        <section className="mb-8 space-y-6">
+          <h2 className="text-3xl font-bold mt-12 mb-4 text-foreground">Best Practices for React Native Development</h2>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">1. Performance Optimization</h3>
+          <ul className="list-disc pl-8 space-y-3">
+            <li>Use <code>React.memo</code> to prevent unnecessary re-renders</li>
+            <li>Implement lazy loading for images and heavy components</li>
+            <li>Optimize bundle size with code splitting</li>
+            <li>Use <code>FlatList</code> instead of <code>ScrollView</code> for large lists</li>
+          </ul>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">2. State Management</h3>
+          <p>
+            Choose the right state management solution:
+          </p>
+          <ul className="list-disc pl-8 space-y-3">
+            <li><strong className="font-semibold text-foreground">Context API:</strong> For simple, shared state</li>
+            <li><strong className="font-semibold text-foreground">Redux:</strong> For complex, global state management</li>
+            <li><strong className="font-semibold text-foreground">Zustand:</strong> Lightweight alternative (used in SQE)</li>
+          </ul>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">3. Testing Strategy</h3>
+          <ul className="list-disc pl-8 space-y-3">
+            <li>Unit tests for business logic</li>
+            <li>Integration tests for critical user flows</li>
+            <li>E2E tests with Detox or Appium</li>
+          </ul>
+        </section>
+
+        <section className="mb-8 space-y-6">
+          <h2 className="text-3xl font-bold mt-12 mb-4 text-foreground">Looking Ahead: What's Next for React Native</h2>
+          <p>
+            The React Native ecosystem continues to evolve:
+          </p>
+          <ul className="list-disc pl-8 space-y-3">
+            <li><strong className="font-semibold text-foreground">New Architecture:</strong> Improved performance and interoperability</li>
+            <li><strong className="font-semibold text-foreground">Fabric Renderer:</strong> Better UI performance</li>
+            <li><strong className="font-semibold text-foreground">TurboModules:</strong> Faster bridge between JS and native code</li>
+            <li><strong className="font-semibold text-foreground">Improved CLI:</strong> Better developer experience</li>
+          </ul>
+        </section>
+
+        <section className="mb-8 space-y-6">
+          <h2 className="text-3xl font-bold mt-12 mb-4 text-foreground">Conclusion</h2>
+          <p>
+            React Native continues to be the go-to framework for cross-platform mobile development. With proper architecture, testing, and performance optimization, you can build apps that users love while maintaining development efficiency.
+          </p>
+          <p>
+            If you're interested in seeing my React Native projects in action, check out the portfolio works section for live demonstrations of the Paka and SQE applications.
+          </p>
+        </section>
+      </div>
+    </article>
+  );
+}
+
+export default BlogPost1;
+
+
+BlogPost2.jsx
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+function BlogPost2() {
+  return (
+    <article className="max-w-3xl mx-auto px-6 py-16 md:py-24 text-foreground transition-colors duration-300">
+      {/* Back Link styling */}
+      <Link 
+        to="/" 
+        className="inline-flex items-center gap-2 text-secondary font-semibold mb-8 transition-transform duration-300 hover:-translate-x-1"
+      >
+        ← Back to Home
+      </Link>
+      
+      <header className="mb-12">
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tight leading-tight mb-4 text-foreground">
+          Integrating AI Voice Features into Mobile Apps
+        </h1>
+        <div className="flex gap-4 items-center text-foreground text-sm mb-8">
+          <span>10th Dec 2024</span>
+          <span>•</span>
+          <span className="inline-block px-3 py-1 bg-gradient-to-r from-[#667eea] to-[#764ba2] text-white rounded-full text-xs font-semibold">
+            AI Integration
+          </span>
+        </div>
+      </header>
+
+      <div className="text-base md:text-lg leading-relaxed text-muted-foreground space-y-8">
+        <section className="mb-8">
+          <p>
+            Voice interfaces are rapidly becoming an essential feature in modern mobile applications. With the integration of AI-powered voice recognition, text-to-speech, and conversational AI, we can create more accessible, engaging, and intuitive user experiences. As a developer exploring AI voice features for an upcoming React Native project, I've researched the best approaches and technologies for implementing voice interfaces.
+          </p>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-3xl font-bold mt-12 mb-4 text-foreground">Why Voice Features Matter</h2>
+          <p className="mb-6">
+            Voice interfaces offer several compelling advantages for mobile applications:
+          </p>
+
+          {/* Grid setup utilizing Tailwind grid properties - dynamically styles in dark mode using bg-[--light2]/20 */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+            <div className="bg-[--light2]/40 border border-border/60 p-6 rounded-xl shadow-xs transition-colors duration-300">
+              <h4 className="text-[#667eea] font-semibold text-lg mb-2">🌐 Accessibility</h4>
+              <p className="text-sm m-0">Voice input makes apps usable for people with disabilities or in hands-free situations.</p>
+            </div>
+            <div className="bg-[--light2]/40 border border-border/60 p-6 rounded-xl shadow-xs transition-colors duration-300">
+              <h4 className="text-[#667eea] font-semibold text-lg mb-2">⚡ Speed</h4>
+              <p className="text-sm m-0">Speaking is faster than typing, especially for longer messages or commands.</p>
+            </div>
+            <div className="bg-[--light2]/40 border border-border/60 p-6 rounded-xl shadow-xs transition-colors duration-300">
+              <h4 className="text-[#667eea] font-semibold text-lg mb-2">🎯 Intuitive</h4>
+              <p className="text-sm m-0">Natural language is easier than learning complex UI patterns.</p>
+            </div>
+            <div className="bg-[--light2]/40 border border-border/60 p-6 rounded-xl shadow-xs transition-colors duration-300">
+              <h4 className="text-[#667eea] font-semibold text-lg mb-2">🚀 Modern</h4>
+              <p className="text-sm m-0">Users expect voice features in sophisticated applications.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="mb-8 space-y-6">
+          <h2 className="text-3xl font-bold mt-12 mb-4 text-foreground">Core Voice Features</h2>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">1. Speech-to-Text (STT)</h3>
+          <p>
+            Converting spoken words into text is the foundation of voice interfaces. In React Native, you can implement STT using:
+          </p>
+          <ul className="list-disc pl-8 space-y-3">
+            <li><strong className="font-semibold text-foreground">@react-native-voice/voice:</strong> Cross-platform speech recognition</li>
+            <li><strong className="font-semibold text-foreground">expo-speech:</strong> Built-in Expo module for iOS and Android</li>
+            <li><strong className="font-semibold text-foreground">Web Speech API:</strong> For web-based implementations</li>
+            <li><strong className="font-semibold text-foreground">Cloud APIs:</strong> Google Speech-to-Text, AWS Transcribe, Azure Speech</li>
+          </ul>
+
+          <pre className="bg-[--light2]/60 border border-border/60 text-foreground p-6 rounded-xl overflow-x-auto font-mono text-sm">
+            <code>{`// Example: Basic speech recognition
+import Voice from '@react-native-voice/voice';
+
+const startListening = async () => {
+  try {
+    await Voice.start('en-US');
+    Voice.onSpeechResults = (e) => {
+      const transcript = e.value[0];
+      setText(transcript);
+    };
+  } catch (error) {
+    console.error('Error starting voice recognition:', error);
+  }
+};`}</code>
+          </pre>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">2. Text-to-Speech (TTS)</h3>
+          <p>
+            Converting text back to speech for feedback and responses:
+          </p>
+          <ul className="list-disc pl-8 space-y-3">
+            <li><strong className="font-semibold text-foreground">expo-speech:</strong> Simple, built-in solution for Expo</li>
+            <li><strong className="font-semibold text-foreground">react-native-tts:</strong> Feature-rich TTS library</li>
+            <li><strong className="font-semibold text-foreground">Amazon Polly:</strong> High-quality cloud-based voices</li>
+          </ul>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">3. Conversational AI</h3>
+          <p>
+            Making the voice interaction intelligent:
+          </p>
+          <ul className="list-disc pl-8 space-y-3">
+            <li><strong className="font-semibold text-foreground">OpenAI API:</strong> GPT models for natural conversations</li>
+            <li><strong className="font-semibold text-foreground">Dialogflow:</strong> Google's conversational AI platform</li>
+            <li><strong className="font-semibold text-foreground">Rasa:</strong> Open-source conversational AI</li>
+            <li><strong className="font-semibold text-foreground">Custom NLU:</strong> Build your own understanding logic</li>
+          </ul>
+        </section>
+
+        <section className="mb-8 space-y-6">
+          <h2 className="text-3xl font-bold mt-12 mb-4 text-foreground">Implementation Strategy for Voice Features</h2>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">Step 1: Speech Recognition Setup</h3>
+          <p>
+            First, you need to set up voice recognition in your React Native app:
+          </p>
+
+          <div className="bg-[--light2]/40 border-l-4 border-[#667eea] p-6 rounded-r-lg my-8">
+            <strong className="text-[#667eea] font-semibold">Key Consideration:</strong> Handle permissions carefully. Users must grant microphone permissions for voice features to work.
+          </div>
+
+          <pre className="bg-[--light2]/60 border border-border/60 text-foreground p-6 rounded-xl overflow-x-auto font-mono text-sm">
+            <code>{`// Request microphone permission
+import { request, PERMISSIONS } from 'react-native-permissions';
+
+const requestMicrophonePermission = async () => {
+  const result = await request(PERMISSIONS.IOS.MICROPHONE);
+  if (result === 'granted') {
+    startVoiceRecognition();
+  }
+};`}</code>
+          </pre>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">Step 2: Real-Time Voice Streaming</h3>
+          <p>
+            For production-ready voice features, implement streaming audio to your backend:
+          </p>
+          <ul className="list-disc pl-8 space-y-3">
+            <li>Capture audio in chunks</li>
+            <li>Stream to your API endpoint</li>
+            <li>Process with OpenAI Whisper or similar</li>
+            <li>Return transcription in real-time</li>
+          </ul>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">Step 3: AI Processing</h3>
+          <p>
+            Once you have the transcript, send it to your AI service:
+          </p>
+
+          <pre className="bg-[--light2]/60 border border-border/60 text-foreground p-6 rounded-xl overflow-x-auto font-mono text-sm">
+            <code>{`// Example: Using OpenAI for conversational AI
+const processVoiceInput = async (transcript) => {
+  const response = await fetch('https://api.openai.com/v1/chat/completions', {
+    method: 'POST',
+    headers: {
+      'Authorization': \`Bearer \${API_KEY}\`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      model: 'gpt-4',
+      messages: [
+        { role: 'user', content: transcript }
+      ],
+      max_tokens: 150
+    })
+  });
+  
+  const data = await response.json();
+  return data.choices[0].message.content;
+};`}</code>
+          </pre>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">Step 4: Voice Response</h3>
+          <p>
+            Play back the AI response using TTS:
+          </p>
+
+          <pre className="bg-[--light2]/60 border border-border/60 text-foreground p-6 rounded-xl overflow-x-auto font-mono text-sm">
+            <code>{`// Play AI response as speech
+import * as Speech from 'expo-speech';
+
+const speakResponse = (text) => {
+  Speech.speak(text, {
+    language: 'en-US',
+    pitch: 1.0,
+    rate: 1.0,
+  });
+};`}</code>
+          </pre>
+        </section>
+
+        <section className="mb-8 space-y-6">
+          <h2 className="text-3xl font-bold mt-12 mb-4 text-foreground">Best Practices for Voice Features</h2>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">1. Error Handling</h3>
+          <p>
+            Voice recognition isn't always perfect. Implement:
+          </p>
+          <ul className="list-disc pl-8 space-y-3">
+            <li>Confidence thresholds for results</li>
+            <li>Fallback mechanisms when recognition fails</li>
+            <li>Visual feedback during listening</li>
+            <li>Manual correction options</li>
+          </ul>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">2. Performance Optimization</h3>
+          <ul className="list-disc pl-8 space-y-3">
+            <li>Minimize latency with local processing when possible</li>
+            <li>Implement audio compression for streaming</li>
+            <li>Cache frequently used responses</li>
+            <li>Optimize AI API calls</li>
+          </ul>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">3. User Experience</h3>
+          <ul className="list-disc pl-8 space-y-3">
+            <li>Provide visual feedback during voice capture</li>
+            <li>Show what the app "heard"</li>
+            <li>Allow users to stop/restart listening</li>
+            <li>Include keyboard fallback</li>
+          </ul>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">4. Privacy and Security</h3>
+          <ul className="list-disc pl-8 space-y-3">
+            <li>Ask for explicit permission before recording</li>
+            <li>Encrypt audio data in transit</li>
+            <li>Don't store audio recordings without consent</li>
+            <li>Comply with GDPR and data protection laws</li>
+          </ul>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-3xl font-bold mt-12 mb-4 text-foreground">Use Cases for Voice Features</h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+            <div className="bg-[--light2]/40 border border-border/60 p-6 rounded-xl shadow-xs transition-colors duration-300">
+              <h4 className="text-[#667eea] font-semibold text-lg mb-2">🗣️ Voice Commands</h4>
+              <p className="text-sm m-0">Control app functions with natural language commands.</p>
+            </div>
+            <div className="bg-[--light2]/40 border border-border/60 p-6 rounded-xl shadow-xs transition-colors duration-300">
+              <h4 className="text-[#667eea] font-semibold text-lg mb-2">💬 Voice Messaging</h4>
+              <p className="text-sm m-0">Send voice messages in chat applications.</p>
+            </div>
+            <div className="bg-[--light2]/40 border border-border/60 p-6 rounded-xl shadow-xs transition-colors duration-300">
+              <h4 className="text-[#667eea] font-semibold text-lg mb-2">🤖 AI Assistant</h4>
+              <p className="text-sm m-0">Interactive chatbot with voice interaction.</p>
+            </div>
+            <div className="bg-[--light2]/40 border border-border/60 p-6 rounded-xl shadow-xs transition-colors duration-300">
+              <h4 className="text-[#667eea] font-semibold text-lg mb-2">🔍 Voice Search</h4>
+              <p className="text-sm m-0">Search functionality using spoken queries.</p>
+            </div>
+            <div className="bg-[--light2]/40 border border-border/60 p-6 rounded-xl shadow-xs transition-colors duration-300">
+              <h4 className="text-[#667eea] font-semibold text-lg mb-2">📝 Dictation</h4>
+              <p className="text-sm m-0">Convert speech to text for notes and messages.</p>
+            </div>
+            <div className="bg-[--light2]/40 border border-border/60 p-6 rounded-xl shadow-xs transition-colors duration-300">
+              <h4 className="text-[#667eea] font-semibold text-lg mb-2">🌍 Translation</h4>
+              <p className="text-sm m-0">Real-time translation with voice input/output.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="mb-8 space-y-6">
+          <h2 className="text-3xl font-bold mt-12 mb-4 text-foreground">Technical Architecture</h2>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">Recommended Stack</h3>
+          <p>
+            For implementing voice features in React Native:
+          </p>
+
+          <div className="bg-[--light2]/40 border-l-4 border-[#667eea] p-6 rounded-r-lg my-8 text-sm space-y-1">
+            <strong className="text-[#667eea] font-semibold block text-base mb-2">My Recommendation:</strong>
+            <p>• Voice Recognition: @react-native-voice/voice</p>
+            <p>• Text-to-Speech: expo-speech or react-native-tts</p>
+            <p>• AI Processing: OpenAI API (GPT-4 or Whisper)</p>
+            <p>• Backend: Node.js with Express/FastAPI</p>
+            <p>• Real-time: WebSocket for streaming audio</p>
+          </div>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">Flow Diagram</h3>
+          <pre className="bg-[--light2]/60 border border-border/60 text-foreground p-6 rounded-xl overflow-x-auto font-mono text-sm leading-relaxed">
+            <code>{`User Speaks
+    ↓
+Microphone Capture
+    ↓
+Speech-to-Text (Local/Cloud)
+    ↓
+Text Processing
+    ↓
+AI Understanding (OpenAI)
+    ↓
+Intent Recognition
+    ↓
+Generate Response
+    ↓
+Text-to-Speech
+    ↓
+Audio Output`}</code>
+          </pre>
+        </section>
+
+        <section className="mb-8 space-y-6">
+          <h2 className="text-3xl font-bold mt-12 mb-4 text-foreground">Challenges and Solutions</h2>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">Challenge 1: Background Audio</h3>
+          <p>
+            <strong className="font-semibold text-foreground">Problem:</strong> Apps lose audio focus when backgrounded.<br/>
+            <strong className="font-semibold text-foreground">Solution:</strong> Implement foreground service for continuous recording.
+          </p>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">Challenge 2: Network Latency</h3>
+          <p>
+            <strong className="font-semibold text-foreground">Problem:</strong> Cloud processing adds noticeable delay.<br/>
+            <strong className="font-semibold text-foreground">Solution:</strong> Use optimistic UI updates and streaming responses.
+          </p>
+
+          <h3 className="text-2xl font-semibold mt-8 mb-3 text-foreground">Challenge 3: Accuracy</h3>
+          <p>
+            <strong className="font-semibold text-foreground">Problem:</strong> Voice recognition isn't 100% accurate.<br/>
+            <strong className="font-semibold text-foreground">Solution:</strong> Show transcription for user confirmation, implement correction flow.
+          </p>
+        </section>
+
+        <section className="mb-8 space-y-6">
+          <h2 className="text-3xl font-bold mt-12 mb-4 text-foreground">The Future of Voice in Mobile Apps</h2>
+          <p>
+            Voice interfaces are becoming increasingly sophisticated:
+          </p>
+          <ul className="list-disc pl-8 space-y-3">
+            <li>Multi-language support with automatic detection</li>
+            <li>Emotion recognition from voice tone</li>
+            <li>Offline voice processing capabilities</li>
+            <li>Advanced wake-word detection</li>
+            <li>Better handling of accents and dialects</li>
+          </ul>
+        </section>
+
+        <section className="mb-8 space-y-6">
+          <h2 className="text-3xl font-bold mt-12 mb-4 text-foreground">Conclusion</h2>
+          <p>
+            Integrating voice features into mobile applications opens up a world of possibilities for user interaction. By combining speech recognition, AI processing, and text-to-speech, we can create more natural, accessible, and engaging experiences.
+          </p>
+          <p>
+            The key to success is choosing the right tools, handling edge cases gracefully, and always keeping the user experience at the forefront of design decisions.
+          </p>
+          <p>
+            As voice technology continues to evolve, staying up-to-date with the latest APIs and best practices will be crucial for building modern, competitive applications.
+          </p>
+        </section>
+      </div>
+    </article>
+  );
+}
+
+export default BlogPost2;
+
+
+
+
+
+Contact.jsx
+import React, { useState } from 'react';
+
+export default function Contact() {
+  const [sent, setSent] = useState(false);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setSent(true);
+  };
+
+  return (
+    <section id="contact" className="py-20 bg-background px-6 scroll-mt-10">
+      <div className="max-w-xl mx-auto space-y-8">
+        <div className="text-center space-y-2">
+          <h2 className="text-3xl font-black text-foreground">Initiate Connection</h2>
+          <p className="text-foreground text-sm">Drop a line to talk architecture, system optimizations, or role matching.</p>
+        </div>
+
+        {sent ? (
+          <div className="bg-[--light2] border border-secondary/30 p-6 rounded-xl text-center text-foreground font-bold text-sm">
+            🚀 Connection query queued inside processing streams successfully!
+          </div>
+        ) : (
+          <form onSubmit={handleSubmit} className="space-y-5 bg-[--light2] p-8 rounded-2xl border border-[--light3] shadow-sm">
+            <div className="space-y-1.5">
+              <label className="text-xs font-bold text-foreground uppercase tracking-wider">Identity Name</label>
+              <input required type="text" className="w-full bg-background border border-[--light3] rounded-lg py-2.5 px-4 text-sm text-foreground focus:outline-none focus:border-primary transition-all" />
+            </div>
+            <div className="space-y-1.5">
+              <label className="text-xs font-bold text-foreground uppercase tracking-wider">Communication Email</label>
+              <input required type="email" className="w-full bg-background border border-[--light3] rounded-lg py-2.5 px-4 text-sm text-foreground focus:outline-none focus:border-primary transition-all" />
+            </div>
+            <div className="space-y-1.5">
+              <label className="text-xs font-bold text-foreground uppercase tracking-wider">Message Payload</label>
+              <textarea required rows={4} className="w-full bg-background border border-[--light3] rounded-lg py-2.5 px-4 text-sm text-foreground focus:outline-none focus:border-primary transition-all resize-none"></textarea>
+            </div>
+            <button type="submit" className="w-full bg-dark text-white font-bold text-sm py-3 rounded-xl hover:bg-primary transition-colors shadow-md uppercase tracking-wider">
+              Transmit Data Packets
+            </button>
+          </form>
+        )}
+      </div>
+    </section>
+  );
+}
+
+
+
+
+CVList.jsx
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
+export default function CVList() {
+  const [cvs, setCvs] = useState([]);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    try {
+      // Vite native directory scanner
+      const jsonModules = import.meta.glob('../cv_jsons/*.json', { eager: true });
+      const cvList = [];
+
+      Object.entries(jsonModules).forEach(([path, cvContent]) => {
+        try {
+          // Extract the filename without extensions to match router expectations
+          const fileSlug = path.split('/').pop().replace('.json', '');
+          const data = cvContent.default || cvContent;
+
+          // 1. Fallback to data.id or fileSlug if id doesn't exist
+          const rawId = data.id || fileSlug; 
+          const idParts = rawId.split('-');
+          
+          // Company name is the first block, capitalize it cleanly
+          const rawCompany = idParts[0] || "General";
+          const company = rawCompany.charAt(0).toUpperCase() + rawCompany.slice(1);
+
+          // Job Target Application is the remaining string, capitalized nicely
+          const applicationTarget = idParts.length > 1 
+            ? idParts.slice(1).join(' ').toUpperCase() 
+            : "GENERAL APPLICATION";
+
+          // 2. Parse skills array out of schema variants
+          let parsedKeywords = [];
+          if (Array.isArray(data.technicalSkills)) {
+            parsedKeywords = data.technicalSkills.map(s => s.skills || '').filter(Boolean);
+          } else if (Array.isArray(data.skills)) {
+            parsedKeywords = data.skills;
+          }
+
+          cvList.push({
+            slug: fileSlug, // Crucial: Router expects filename slug to match file system queries
+            company: company,
+            target: applicationTarget,
+            keywords: parsedKeywords.join(', ').split(', ').map(k => k.trim()).filter(k => k.length > 0)
+          });
+        } catch (singleFileError) {
+          console.warn(`Skipping corrupted file entry [${path}]:`, singleFileError);
+        }
+      });
+
+      // Sort alphabetically by Company target
+      cvList.sort((a, b) => a.company.localeCompare(b.company));
+      setCvs(cvList);
+    } catch (error) {
+      console.error("Critical error building file matrix:", error);
+    } finally {
+      setLoading(false);
+    }
+  }, []);
+
+  const filteredCVs = cvs.filter(cv => 
+    cv.company?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    cv.target?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    cv.keywords?.some(k => k.toLowerCase().includes(searchTerm.toLowerCase()))
+  );
+
+  if (loading) {
+    return (
+      <div className="bg-slate-950 min-h-screen flex items-center justify-center text-emerald-400 font-mono text-sm tracking-widest">
+        <div className="flex items-center gap-2">
+          <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></div>
+          [SYS_LOG]: Aggregating local portfolio records...
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="bg-slate-950 min-h-screen pt-28 pb-20 px-6 text-slate-100 font-sans">
+      <div className="max-w-5xl mx-auto space-y-10">
+        
+        {/* Header Segment */}
+        <div className="text-center space-y-3">
+          <h1 className="text-4xl font-extrabold tracking-tight bg-gradient-to-r from-emerald-400 to-teal-500 bg-clip-text text-transparent">
+            My CV Collection
+          </h1>
+          <p className="text-slate-400 text-sm max-w-xl mx-auto">
+            Tailored professional profiles optimized for specific enterprise roles and target countries.
+          </p>
+          <span className="inline-block bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-bold px-3 py-1 rounded-full shadow-sm">
+            {filteredCVs.length} Active Targets Found
+          </span>
+        </div>
+
+        {/* Search Block */}
+        <div className="bg-slate-900 shadow-xl rounded-2xl p-2 border border-slate-800 max-w-xl mx-auto">
+          <input 
+            type="text"
+            placeholder="Search by company, target role, or framework stack..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="w-full bg-slate-950 border border-slate-800 rounded-xl py-3 px-5 text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all"
+          />
+        </div>
+
+        {/* Main Grid View */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {filteredCVs.length > 0 ? (
+            filteredCVs.map((cv) => (
+              <div 
+                key={cv.slug} 
+                className="bg-slate-900 border border-slate-800/80 p-6 rounded-2xl shadow-lg hover:border-slate-700/80 transition-all duration-300 flex flex-col justify-between items-start gap-6 group hover:-translate-y-1"
+              >
+                <div className="space-y-4 w-full">
+                  {/* Top Line: Company Badge & Application Target */}
+                  <div className="flex items-center justify-between gap-2 border-b border-slate-800/60 pb-3">
+                    <span className="bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 text-xs font-bold px-3 py-1 rounded-lg">
+                      {cv.company}
+                    </span>
+                    <span className="text-[10px] tracking-wider text-slate-500 font-bold uppercase">
+                      {cv.target}
+                    </span>
+                  </div>
+
+                  {/* Main Header Content */}
+                  <div className="space-y-1.5">
+                    <p className="text-[11px] font-bold tracking-widest uppercase text-slate-500">
+                      Candidate Profile
+                    </p>
+                    <h2 className="text-xl font-extrabold text-slate-100 group-hover:text-emerald-400 transition-colors tracking-tight">
+                      {cv.company}
+                    </h2>
+                    <p className="text-sm text-slate-400 font-medium pt-0.5">
+                      <strong className="text-slate-500 font-normal">Targeting Role:</strong> {cv.target}
+                    </p>
+                  </div>
+                  
+                  {/* Skill Badge Section */}
+                  <div className="flex flex-wrap gap-1.5 pt-1 max-h-24 overflow-hidden">
+                    {cv.keywords.slice(0, 6).map((word, wIdx) => (
+                      <span key={wIdx} className="bg-slate-950 text-slate-400 text-[10px] font-semibold px-2.5 py-1 rounded-md border border-slate-800/60">
+                        {word}
+                      </span>
+                    ))}
+                    {cv.keywords.length > 6 && (
+                      <span className="text-[11px] text-slate-500 font-semibold pt-1 pl-1">
+                        +{cv.keywords.length - 6} more
+                      </span>
+                    )}
+                  </div>
+                </div>
+
+                {/* Direct Router Action Link */}
+                <Link 
+                  to={`/cvs/${cv.slug}`}
+                  className="w-full text-center bg-slate-950 text-slate-300 border border-slate-800 text-xs font-bold py-3 rounded-xl hover:bg-emerald-400 hover:text-slate-950 hover:border-emerald-400 transition-colors shadow-sm tracking-wider uppercase"
+                >
+                  View ATS Profile →
+                </Link>
+              </div>
+            ))
+          ) : (
+            <div className="col-span-full bg-slate-900 border border-slate-800 rounded-2xl p-12 text-center text-slate-500 font-medium shadow-sm">
+              No tailored CV variants match your current filter search criteria.
+            </div>
+          )}
+        </div>
+
+      </div>
+    </div>
+  );
+}
+
+
+
+CVViewer.jsx
+import React, { useState, useEffect } from 'react';
+import { useParams, Link } from 'react-router-dom';
+
+export default function CVViewer() {
+  const { slug } = useParams(); // Extracts the exact filename slug from the URL route
+  const [cv, setCv] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchTargetCV = async () => {
+      try {
+        setLoading(true);
+        // Vite dynamic import mapping to grab the specific JSON file asynchronously
+        const jsonModules = import.meta.glob('../cv_jsons/*.json');
+        const targetPath = `../cv_jsons/${slug}.json`;
+
+        if (jsonModules[targetPath]) {
+          const importedModule = await jsonModules[targetPath]();
+          setCv(importedModule.default || importedModule);
+        } else {
+          console.error(`File path target not found: ${targetPath}`);
+          setCv(null);
+        }
+      } catch (error) {
+        console.error("Critical error pulling target structural layout data:", error);
+        setCv(null);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    if (slug) {
+      fetchTargetCV();
+    }
+  }, [slug]);
+
+  if (loading) {
+    return (
+      <div className="bg-slate-950 min-h-screen flex items-center justify-center text-emerald-400 font-mono text-sm tracking-widest">
+        <div className="flex items-center gap-2">
+          <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></div>
+          [SYS_LOG]: Resolving target CV matrix parameters...
+        </div>
+      </div>
+    );
+  }
+
+  if (!cv) {
+    return (
+      <div className="min-h-screen bg-slate-950 flex flex-col items-center justify-center space-y-4 text-slate-100 font-sans">
+        <p className="text-sm font-semibold text-slate-400 font-mono">[ERROR_404]: Requested profile matrix could not be resolved.</p>
+        <Link to="/cvs" className="text-emerald-400 font-bold hover:underline text-xs tracking-wider uppercase">
+          ← Return to Collection
+        </Link>
+      </div>
+    );
+  }
+
+  // Exact schema normalization mappings for Lawrence Ughonu's data structures
+  const fullName = cv.personalInfo?.fullName || "Lawrence Ughonu";
+  const email = cv.personalInfo?.email || "";
+  const phone = cv.personalInfo?.phone || "";
+  const location = cv.personalInfo?.location || "";
+  const website = cv.personalInfo?.website || "";
+  const linkedin = cv.personalInfo?.linkedin || "";
+  const github = cv.personalInfo?.github || "";
+  const summaryText = cv.summary || "";
+  const rawSkills = cv.technicalSkills || cv.skills || [];
+  const rawExperience = cv.experience || cv.workHistory || [];
+  const projectList = cv.projects || [];
+  const educationList = cv.education || [];
+
+  return (
+    <div className="bg-slate-950 min-h-screen pt-24 pb-20 px-4 md:px-8 font-sans text-slate-900 print:bg-background print:pt-0 print:pb-0 print:px-0 print:min-h-0">
+      <div className="max-w-4xl mx-auto space-y-6 print:max-w-none print:space-y-0">
+        
+        {/* Navigation & Action Header Strip */}
+        <div className="flex justify-between items-center bg-slate-900 p-4 rounded-xl border border-slate-800 text-white print:hidden shadow-lg">
+          <Link to="/cvs" className="text-xs font-bold tracking-wider uppercase text-slate-400 hover:text-emerald-400 transition-colors flex items-center gap-2">
+            ‹ Back to CV List
+          </Link>
+          <button 
+            onClick={() => window.print()}
+            className="bg-emerald-500 text-slate-950 text-xs font-extrabold px-4 py-2 rounded-lg hover:bg-emerald-400 transition-all shadow-md tracking-wider uppercase"
+          >
+            Print PDF / Download
+          </button>
+        </div>
+
+        {/* The Premium White A4 CV Canvas Block */}
+        <div className="bg-background shadow-2xl rounded-2xl p-8 md:p-16 border border-slate-200 text-slate-800 font-sans leading-relaxed selection:bg-emerald-100 print:shadow-none print:rounded-none print:border-none print:p-8 print:m-0">
+          
+          {/* Document Header Contact Sector */}
+          <div className="text-center space-y-2 border-b-2 border-slate-200 pb-6">
+            <h1 className="text-4xl font-black tracking-tight text-slate-900 uppercase">
+              {fullName}
+            </h1>
+            <p className="text-md font-bold text-emerald-600 tracking-wide uppercase">
+              {cv.name || cv.role || "Software Development Engineer"}
+            </p>
+            
+            {/* Contact Grid Block */}
+            <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-1.5 text-xs font-semibold text-slate-500 pt-2 max-w-2xl mx-auto">
+              {email && <span>{email}</span>}
+              {phone && <><span className="text-slate-300">•</span><span>{phone}</span></>}
+              {location && <><span className="text-slate-300">•</span><span>{location}</span></>}
+            </div>
+
+            {/* Links Block */}
+            <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-1 text-xs font-bold text-slate-700 pt-1">
+              {website && <a href={website} target="_blank" rel="noreferrer" className="hover:text-emerald-600 transition-colors">{website.replace('https://', '')}</a>}
+              {linkedin && <><span className="text-slate-300">•</span><a href={`https://${linkedin}`} target="_blank" rel="noreferrer" className="hover:text-emerald-600 transition-colors">{linkedin}</a></>}
+              {github && <><span className="text-slate-300">•</span><a href={`https://${github}`} target="_blank" rel="noreferrer" className="hover:text-emerald-600 transition-colors">{github}</a></>}
+            </div>
+          </div>
+
+          {/* Profile Overview Section */}
+          {summaryText && (
+            <div className="py-6 border-b border-slate-200 space-y-2">
+              <h2 className="text-xs font-extrabold uppercase tracking-widest text-emerald-600">Professional Summary</h2>
+              <p className="text-[13px] text-slate-700 font-normal leading-relaxed text-justify">
+                {summaryText}
+              </p>
+            </div>
+          )}
+
+          {/* Core Technical Core Competencies Matrix */}
+          {rawSkills.length > 0 && (
+            <div className="py-6 border-b border-slate-200 space-y-3">
+              <h2 className="text-xs font-extrabold uppercase tracking-widest text-emerald-600">Technical Core Competencies</h2>
+              <div className="grid grid-cols-1 gap-2 text-[13px] text-slate-700">
+                {rawSkills.map((skillGroup, idx) => (
+                  <div key={idx} className="text-justify leading-relaxed">
+                    <strong className="text-slate-900 font-bold">{skillGroup.category}:</strong> {skillGroup.skills}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Professional Work Experience Section */}
+          {rawExperience.length > 0 && (
+            <div className="py-6 border-b border-slate-200 space-y-5">
+              <h2 className="text-xs font-extrabold uppercase tracking-widest text-emerald-600">
+                Professional Experience
+              </h2>
+              
+              <div className="space-y-6">
+                {rawExperience.map((job, idx) => {
+                  const companyName = job.company || "";
+                  const positionTitle = job.title || job.position || "";
+                  const durationSpan = job.period || (job.startDate && `${job.startDate} — ${job.endDate || 'Present'}`) || "";
+                  const bulletPoints = job.achievements || job.highlights || [];
+
+                  return (
+                    <div key={idx} className="space-y-1.5">
+                      <div className="flex justify-between items-baseline flex-wrap gap-2">
+                        <div>
+                          <h3 className="text-sm font-bold text-slate-900">{positionTitle}</h3>
+                          <p className="text-xs font-semibold text-slate-500">
+                            {companyName} {job.location && `• ${job.location}`}
+                          </p>
+                        </div>
+                        <span className="text-[11px] font-bold text-slate-600 bg-slate-100 px-2 py-0.5 rounded border border-slate-200">
+                          {durationSpan}
+                        </span>
+                      </div>
+                      
+                      {bulletPoints.length > 0 && (
+                        <ul className="list-disc pl-4 space-y-1 text-[13px] text-slate-700 font-normal text-justify">
+                          {bulletPoints.map((bullet, bIdx) => (
+                            <li key={bIdx} className="leading-relaxed">{bullet}</li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {/* Featured Technical Projects Section */}
+          {projectList.length > 0 && (
+            <div className="py-6 border-b border-slate-200 space-y-4">
+              <h2 className="text-xs font-extrabold uppercase tracking-widest text-emerald-600">Technical Projects</h2>
+              <div className="space-y-4">
+                {projectList.map((proj, idx) => (
+                  <div key={idx} className="space-y-1">
+                    <div className="flex justify-between items-baseline flex-wrap gap-2">
+                      <h4 className="text-sm font-bold text-slate-900">{proj.name}</h4>
+                      {proj.technologies && (
+                        <span className="text-[10px] font-mono bg-slate-100 border border-slate-200 text-slate-600 px-2 py-0.5 rounded">
+                          {proj.technologies}
+                        </span>
+                      )}
+                    </div>
+                    <p className="text-[13px] text-slate-700 text-justify leading-relaxed">{proj.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Academic Education Block */}
+          {educationList.length > 0 && (
+            <div className="py-6 space-y-3">
+              <h2 className="text-xs font-extrabold uppercase tracking-widest text-emerald-600">Education</h2>
+              {educationList.map((edu, idx) => (
+                <div key={idx} className="space-y-1 text-sm">
+                  <div className="flex justify-between items-baseline flex-wrap gap-2">
+                    <h4 className="font-bold text-slate-900">{edu.degree}</h4>
+                    <span className="text-[11px] text-slate-500 font-bold">
+                      {edu.startYear} — {edu.endYear}
+                    </span>
+                  </div>
+                  <p className="text-xs text-slate-500 font-semibold">{edu.institution}</p>
+                  {edu.note && <p className="text-[12px] text-slate-600 text-justify pt-1 leading-relaxed">{edu.note}</p>}
+                </div>
+              ))}
+            </div>
+          )}
+
+        </div>
+
+      </div>
+    </div>
+  );
+}
+
+
+
+FeaturedWorks.jsx
+// src/components/FeaturedWorks.jsx
+import { useEffect, useRef, useState } from "react";
+import { ArrowUpRight } from "lucide-react";
+import { Link } from "react-router-dom";
+
+const works = [
+  {
+    id: "nyxidiom",
+    title: "Nyxidiom Streamlined Core",
+    tag: "Full-Stack · Distributed Architecture",
+    year: "2025",
+    desc: "Architected high-throughput cloud infrastructure and unified state orchestration mechanisms to deploy low-latency web applications into production."
+  },
+  {
+    id: "sqe-holding",
+    title: "SQE Holding Transaction Ledger",
+    tag: "Systems Primitives · Backend",
+    year: "2024",
+    desc: "Refactored transactional state machines to ensure event consistency and high-concurrency performance across secure business domains."
+  },
+  {
+    id: "aquaculture",
+    title: "AquaSense IoT Node",
+    tag: "IoT · Embedded Firmware Integration",
+    year: "2024",
+    desc: "Designed an automated, IoT-enabled environmental monitoring node utilizing an ESP32 edge node and real-time Firebase syncing."
+  }
+];
+
+export default function FeaturedWorks() {
+  const [active, setActive] = useState(0);
+  const timer = useRef(null);
+
+  useEffect(() => {
+    timer.current = setInterval(() => setActive((a) => (a + 1) % works.length), 5000);
+    return () => clearInterval(timer.current);
+  }, []);
+
+  return (
+    <section id="work" className="relative border-t border-border/60 py-32">
+      <div className="mx-auto max-w-6xl px-6">
+        <div data-reveal className="mb-20 flex items-end justify-between">
+          <div>
+            <div className="mb-3 text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
+              01 — SELECTED SYSTEMS WORK
+            </div>
+            <h2 className="text-4xl font-medium tracking-tight md:text-5xl">Engineering Case Studies.</h2>
+          </div>
+          <div className="hidden text-xs text-muted-foreground md:block">
+            {String(active + 1).padStart(2, "0")} / {String(works.length).padStart(2, "0")}
+          </div>
+        </div>
+
+        <div className="relative h-[460px] overflow-hidden rounded-2xl border border-border/60 bg-card/40 backdrop-blur md:h-[420px]">
+          {works.map((w, i) => (
+            <div
+              key={w.id}
+              className={`absolute inset-0 grid grid-cols-1 md:grid-cols-2 transition-all duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+                i === active ? "translate-x-0 opacity-100" : i < active ? "-translate-x-full opacity-0" : "translate-x-full opacity-0"
+              }`}
+            >
+              <div className="flex flex-col justify-between p-10 md:p-14">
+                <div className="text-[10px] uppercase tracking-[0.3em] text-[--emerald]">{w.tag}</div>
+                <div>
+                  <h3 className="text-3xl font-medium tracking-tight md:text-4xl">{w.title}</h3>
+                  <p className="mt-4 max-w-sm text-sm text-muted-foreground">{w.desc}</p>
+                  <div className="mt-8 flex items-center gap-4">
+                    <Link to={`/works/${w.id}`} className="group inline-flex items-center gap-2 text-sm text-foreground">
+                      View system breakdown
+                      <ArrowUpRight size={14} className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                    </Link>
+                    <span className="text-xs text-muted-foreground">{w.year}</span>
+                  </div>
+                </div>
+              </div>
+              <div className="relative hidden overflow-hidden md:block bg-gradient-to-br from-border/10 to-transparent">
+                <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, var(--emerald-glow), transparent 70%)" }} />
+                <div className="absolute inset-0 grid place-items-center">
+                  <div className="text-[120px] font-mono font-light text-muted-foreground/5">0{i + 1}</div>
+                </div>
+              </div>
+            </div>
+          ))}
+
+          <div className="absolute bottom-6 left-10 right-10 flex gap-2">
+            {works.map((_, i) => (
+              <button key={i} onClick={() => setActive(i)} className="relative h-0.5 flex-1 overflow-hidden bg-border cursor-pointer">
+                <span
+                  className={`absolute inset-y-0 left-0 bg-[--emerald] transition-all duration-700 ${
+                    i === active ? "w-full" : i < active ? "w-full opacity-40" : "w-0"
+                  }`}
+                />
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+
+
+Footer.jsx
+import React from 'react';
+
+export default function Footer() {
+  return (
+    <footer className="bg-background border-t border-[--light3] py-10 px-6 print:hidden">
+      <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+        <p className="text-sm text-foreground font-medium">
+          © {new Date().getFullYear()} Lawrence Ughonu. All Rights Reserved.
+        </p>
+        <div className="flex gap-6 text-xs font-bold text-foreground">
+          <a href="https://github.com/renzium" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">LinkedIn</a>
+          <a href="https://lawrence-ughonu.vercel.app" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">Portfolio Portfolio</a>
+        </div>
+      </div>
+    </footer>
+  );
+}
+
+
+
+
+Header.jsx
+import React, { useState } from "react";
+import styled from 'styled-components'
+import { Navigation } from "@styled-icons/fluentui-system-filled/Navigation";
+import Nav from './Nav'
+import Sidebar from "./Header/Sidebar";
+
+
+
+function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
+  return (
+    <>
+      <Nav onClick={ toggle } />
+      <Sidebar click={ toggle } isOpen={ isOpen }/>
+      
+    </>
+  )
+}
+
+export default Header
+
+
+
+
+
+Hero.jsx
+import { useEffect, useRef } from "react";
+import { ArrowDown } from "lucide-react";
+
+export default function Hero() {
+  const glowRef = useRef(null);
+
+  useEffect(() => {
+    const onMove = (e) => {
+      if (glowRef.current) {
+        glowRef.current.style.transform = `translate3d(${e.clientX - 300}px, ${e.clientY - 300}px, 0)`;
+      }
+    };
+    window.addEventListener("mousemove", onMove);
+    return () => window.removeEventListener("mousemove", onMove);
+  }, []);
+
+  return (
+    <section id="top" className="relative min-h-screen overflow-hidden pt-40 pb-24 flex items-center">
+      <div
+        ref={glowRef}
+        className="pointer-events-none fixed left-0 top-0 z-0 h-[600px] w-[600px] rounded-full opacity-40 blur-3xl mix-blend-screen will-change-transform"
+        style={{ background: "radial-gradient(circle, var(--emerald-glow) 0%, transparent 60%)" }}
+      />
+      
+      <div className="relative mx-auto max-w-5xl px-6 z-10">
+        <div className="animate-slide-up">
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border/60 bg-card/40 px-3 py-1 text-xs text-muted-foreground backdrop-blur">
+            <span className="relative flex h-1.5 w-1.5">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[--emerald] opacity-75" />
+              <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-[--emerald]" />
+            </span>
+            Available for mission-critical core systems — 2026
+          </div>
+          
+          <h1 className="text-5xl font-medium tracking-[-0.03em] leading-[1.05] md:text-7xl max-w-4xl">
+            Building global-scale distributed networks with <br />
+            <span className="italic text-muted-foreground font-light">systemic</span>{" "}
+            <span className="text-[--emerald]">precision.</span>
+          </h1>
+          
+          <p className="mt-8 max-w-xl text-[16px] leading-relaxed text-muted-foreground">
+            Senior software engineer focusing on web primitives, highly resilient distributed frameworks, and hardware integrations. Moving applications gracefully from raw bare-metal control structures up to polished interfaces.
+          </p>
+          
+          <div className="mt-10 flex flex-wrap items-center gap-4">
+            <a
+              href="#work"
+              className="group inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background transition-all hover:opacity-90"
+            >
+              See engineering work
+              <ArrowDown size={14} className="transition-transform group-hover:translate-y-0.5" />
+            </a>
+            <a
+              href="#contact"
+              className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm text-foreground transition-colors hover:bg-secondary"
+            >
+              Initiate technical dialogue
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+
+
+Home.jsx
+// src/components/Home.jsx
+import Hero from "./Hero.jsx";
+import FeaturedWorks from "./FeaturedWorks.jsx";
+import TechStack from "./TechStack.jsx";
+import RecentPosts from "./RecentPosts.jsx";
+import Contact from "./Contact.jsx";
+import { useReveal } from "./use-theme.jsx"; // Fixed relative import path
+
+export default function Home() {
+  useReveal();
+  return (
+    <>
+      <Hero />
+      <FeaturedWorks />
+      <TechStack />
+      <RecentPosts />
+      <Contact />
+    </>
+  );
+}
+
+
+
+
+
+ImageGallery.jsx
+import React, { useState } from "react";
+import styled from "styled-components";
+
+const GalleryContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  
+  @media (min-width: 37.5rem) {
+    flex-direction: column;
+    max-width: 200px;
+  }
+`;
+
+const MainImage = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  background: linear-gradient(135deg, #f5f7fa 0%, #ffffff 100%);
+  aspect-ratio: 9/16;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover img {
+    transform: scale(1.02);
+  }
+  
+  @media (min-width: 37.5rem) {
+    max-width: 200px;
+    max-height: 400px;
+  }
+`;
+
+const Thumbnails = styled.div`
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  @media (min-width: 37.5rem) {
+    flex-direction: row;
+    max-width: 200px;
+  }
+`;
+
+const Thumbnail = styled.div`
+  width: 50px;
+  height: 80px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: ${props => props.isActive ? 1 : 0.6};
+  border: 2px solid ${props => props.isActive ? '#667eea' : 'transparent'};
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+
+  &:hover {
+    opacity: 1;
+    border-color: #667eea;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media (min-width: 37.5rem) {
+    width: 40px;
+    height: 60px;
+  }
+`;
+
+const Modal = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.95);
+  z-index: 1000;
+  display: ${props => props.isOpen ? 'flex' : 'none'};
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+`;
+
+const ModalContent = styled.div`
+  max-width: 90vw;
+  max-height: 90vh;
+  position: relative;
+
+  img {
+    max-width: 100%;
+    max-height: 90vh;
+    border-radius: 1rem;
+    object-fit: contain;
+  }
+`;
+
+const CloseButton = styled.button`
+  position: absolute;
+  top: -2rem;
+  right: -2rem;
+  background: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #667eea;
+  font-weight: bold;
+`;
+
+const NavButton = styled.button`
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #667eea;
+  font-weight: bold;
+  
+  &:hover {
+    background: white;
+  }
+  
+  &.prev {
+    left: -2rem;
+  }
+  
+  &.next {
+    right: -2rem;
+  }
+`;
+
+function ImageGallery({ images }) {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handlePrev = () => {
+    setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
+  };
+
+  const handleNext = () => {
+    setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+  };
+
+  if (!images || images.length === 0) return null;
+
+  return (
+    <>
+      <GalleryContainer>
+        <MainImage onClick={() => setIsModalOpen(true)}>
+          <img src={images[currentIndex]} alt={`Screenshot ${currentIndex + 1}`} />
+        </MainImage>
+        <Thumbnails>
+          {images.map((image, index) => (
+            <Thumbnail
+              key={index}
+              isActive={index === currentIndex}
+              onClick={() => setCurrentIndex(index)}
+            >
+              <img src={image} alt={`Thumbnail ${index + 1}`} />
+            </Thumbnail>
+          ))}
+        </Thumbnails>
+      </GalleryContainer>
+
+      <Modal isOpen={isModalOpen}>
+        <CloseButton onClick={() => setIsModalOpen(false)}>×</CloseButton>
+        <ModalContent>
+          <img src={images[currentIndex]} alt={`Full screenshot ${currentIndex + 1}`} />
+          {images.length > 1 && (
+            <>
+              <NavButton className="prev" onClick={handlePrev}>‹</NavButton>
+              <NavButton className="next" onClick={handleNext}>›</NavButton>
+            </>
+          )}
+        </ModalContent>
+      </Modal>
+    </>
+  );
+}
+
+export default ImageGallery;
+
+
+
+
+
+Nav.jsx
+// src/components/Nav.jsx
+import { useEffect, useState } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
+import { Moon, Sun } from "lucide-react";
+import { useTheme } from "./use-theme.jsx";
+
+const links = [
+  { to: "/", label: "Home" },
+  { to: "/works", label: "Works" },
+  { to: "/blog", label: "Blog" },
+];
+
+export default function Nav() {
+  const { theme, toggle } = useTheme();
+  const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
+
+  // Check if we are currently on the Home page
+  const isHomePage = location.pathname === "/";
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 20);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  // Show background if scrolled OR if we are on any interior page (like /blog)
+  const showBackground = scrolled || !isHomePage;
+
+  return (
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+        showBackground 
+          ? "border-b border-border/60 bg-background/80 backdrop-blur-xl" 
+          : "bg-transparent"
+      }`}
+    >
+      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+        <Link to="/" className="flex items-center gap-2.5 text-sm font-medium tracking-tight">
+          <span className="inline-block h-1.5 w-1.5 rounded-full bg-[--emerald] shadow-[0_0_16px_var(--emerald-glow)]" />
+          <span className="text-foreground">portfolio</span>
+        </Link>
+        
+        <ul className="hidden items-center gap-10 md:flex">
+          {links.map((l) => (
+            <li key={l.to}>
+              <NavLink
+                to={l.to}
+                end={l.to === "/"}
+                className={({ isActive }) =>
+                  `text-[13px] transition-colors hover:text-foreground ${
+                    isActive ? "text-foreground font-semibold" : "text-muted-foreground"
+                  }`
+                }
+              >
+                {l.label}
+              </NavLink>
+            </li>
+          ))}
+        </ul>
+
+        <div className="flex items-center gap-3">
+          <button
+            onClick={toggle}
+            aria-label="Toggle theme"
+            className="grid h-9 w-9 place-items-center rounded-full border border-border/60 text-muted-foreground transition-colors hover:text-foreground cursor-pointer bg-background"
+          >
+            {theme === "dark" ? <Sun size={15} className="text-foreground" /> : <Moon size={15} className="text-foreground" />}
+          </button>
+          
+          <a
+            href="/#contact"
+            className="hidden sm:inline-flex items-center gap-2 rounded-full border border-[--emerald]/30 bg-[--emerald]/10 px-4 py-1.5 text-xs font-medium text-[--emerald] transition-all hover:bg-[--emerald]/20"
+          >
+            Let's talk
+          </a>
+        </div>
+      </nav>
+    </header>
+  );
+}
+
+
+
+
+RecentPosts.jsx
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+export default function RecentPosts() {
+  const posts = [
+    { id: 1, title: "Optimizing Client-Side Hydration on React 19 Engine Hooks", date: "12 Feb 2026", tags: "React, DevOps", text: "A detailed breakdown explaining performance loops, environment context drift, and optimization routines." },
+    { id: 2, title: "Building Production Pipelines with Vite and Custom Assets", date: "28 Jan 2026", tags: "Vite, Architecture", text: "Analyzing configuration paradigms to ensure fluid bundling across modular component trees safely." }
+  ];
+
+  return (
+    <section className="py-16 bg-[--light2] px-6">
+      <div className="max-w-4xl mx-auto space-y-6">
+        <div className="flex justify-between items-center">
+          <h2 className="text-xl font-bold text-foreground">Recent Publication Stream</h2>
+          <Link to="/blog" className="text-sm font-bold text-secondary hover:underline">View All Entries</Link>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {posts.map((post) => (
+            <div key={post.id} className="bg-background p-6 rounded-xl border border-[--light3] shadow-sm flex flex-col justify-between space-y-4">
+              <div className="space-y-2">
+                <h3 className="text-xl font-bold text-foreground hover:text-primary transition-colors">
+                  <Link to="/blog">{post.title}</Link>
+                </h3>
+                <div className="text-sm text-foreground flex items-center gap-3">
+                  <span>{post.date}</span>
+                  <span>|</span>
+                  <span className="font-semibold text-foreground/70">{post.tags}</span>
+                </div>
+              </div>
+              <p className="text-sm text-foreground/80 line-clamp-3 leading-relaxed">{post.text}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+
+
+
+Sidebar.jsx
+import styled from "styled-components";
+import { NavLink } from "react-router-dom";
+import text from "../text.json";
+
+const sidebarLinks = text.header.sidebar;
+
+const SidebarStyle = styled.div`
+  padding: 3.125rem 1.125rem;
+  font-size: 1.875rem;
+  .active {
+    color: var(--primary);
+  }
+  & > a {
+    display: block;
+    text-shadow: 0 0 1px var(--primary);
+    transition: all 0.5s;
+    font-size: 1.25rem;
+    &:hover {
+      text-shadow: 0 0 10px;
+    }
+  }
+
+  a + a {
+    margin-top: 1.5rem;
+  }
+
+  a {
+    border-bottom: 1px solid var(--light);
+    padding-bottom: 1.5rem;
+  }
+
+  a:first-child {
+    padding-top: 1.875rem;
+  }
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  transform: ${(props) =>
+    props.showSidebar ? "translateX(0)" : "translateX(-100%)"};
+  transition: all 0.5s;
+  z-index: 1;
+  @media (min-width: 37.5rem) {
+    display: none;
+  }
+`;
+
+const Sidebar = ({ isOpen, click }) => (
+  <>
+    <SidebarStyle showSidebar={isOpen}>
+      {sidebarLinks.map((link) => (
+        <NavLink key={link.path} onClick={click} to={link.path}>
+          {link.label}
+        </NavLink>
+      ))}
+    </SidebarStyle>
+  </>
+);
+
+export default Sidebar;
+
+
+
+
+TechStack.jsx
+const stack = [
+  "TypeScript", "React", "Next.js", "C++", "Python", "Node.js", 
+  "PostgreSQL", "Tailwind CSS", "Distributed Systems", "Git", "Firebase", "Systems Architecture"
+];
+
+export default function TechStack() {
+  return (
+    <section id="stack" className="relative border-t border-border/60 py-32">
+      <div className="mx-auto max-w-6xl px-6">
+        <div data-reveal className="mb-16 max-w-2xl">
+          <div className="mb-3 text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
+            02 — Toolkit
+          </div>
+          <h2 className="text-4xl font-medium tracking-tight md:text-5xl">The stack behind the craft.</h2>
+          <p className="mt-6 text-sm text-muted-foreground">
+            A precise alignment of high-level full-stack tools and lower-level systems engineering environments.
+          </p>
+        </div>
+      </div>
+
+      <div className="relative overflow-hidden border-y border-border/60 py-8 bg-card/20 backdrop-blur-xs">
+        <div className="flex w-max animate-marquee gap-16 whitespace-nowrap">
+          {[...stack, ...stack].map((s, i) => (
+            <span key={i} className="flex items-center gap-6 text-2xl font-medium tracking-tight text-muted-foreground">
+              {s}
+              <span className="h-1 w-1 rounded-full bg-[--emerald]" />
+            </span>
+          ))}
+        </div>
+      </div>
+
+      <div className="mx-auto mt-16 grid max-w-6xl grid-cols-2 gap-px overflow-hidden rounded-xl border border-border/60 bg-border/60 md:grid-cols-4">
+        {[
+          { k: "5+ Yrs", v: "Professional Engineering" },
+          { k: "Global", v: "Scale Architecture" },
+          { k: "Hardware", v: "IoT Integration" },
+          { k: "∞", v: "Refactoring & Iterations" },
+        ].map((s) => (
+          <div key={s.v} data-reveal className="bg-background p-8">
+            <div className="text-3xl font-medium tracking-tight text-foreground md:text-4xl">{s.k}</div>
+            <div className="mt-2 text-[10px] uppercase tracking-[0.2em] text-muted-foreground leading-relaxed">{s.v}</div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+
+
+
+use-theme.jsx
+// src/components/use-theme.jsx
+import { createContext, useContext, useEffect, useState } from "react";
+
+const ThemeContext = createContext({
+  theme: "dark",
+  toggle: () => {},
+});
+
+export function ThemeProvider({ children }) {
+  // Read initial preference, defaulting to dark mode
+  const [theme, setTheme] = useState(() => {
+    const saved = localStorage.getItem("theme");
+    if (saved) return saved;
+    return window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+  });
+
+  useEffect(() => {
+    const root = window.document.documentElement;
+    if (theme === "dark") {
+      root.classList.add("dark");
+    } else {
+      root.classList.remove("dark");
+    }
+    localStorage.setItem("theme", theme);
+  }, [theme]);
+
+  const toggle = () => {
+    setTheme((prev) => (prev === "dark" ? "light" : "dark"));
+  };
+
+  return (
+    <ThemeContext.Provider value={{ theme, toggle }}>
+      {children}
+    </ThemeContext.Provider>
+  );
+}
+
+export function useTheme() {
+  const context = useContext(ThemeContext);
+  if (!context) {
+    throw new Error("useTheme must be used within a ThemeProvider");
+  }
+  return context;
+}
+
+/**
+ * Scroll reveal hook that matches your Tailwind v4 @utility styles.
+ * It queries elements with [data-reveal] and applies 'reveal-in' when visible.
+ */
+export function useReveal() {
+  useEffect(() => {
+    const elements = document.querySelectorAll("[data-reveal]");
+    
+    // Immediately prepare elements with base transition classes
+    elements.forEach((el) => {
+      el.classList.add("reveal");
+    });
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("reveal-in");
+            // Unobserve once revealed for better scroll performance
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px", // Triggers slightly before element enters viewport
+      }
+    );
+
+    elements.forEach((el) => observer.observe(el));
+
+    return () => {
+      elements.forEach((el) => observer.unobserve(el));
+    };
+  }, []);
+}
+
+
+
+
+WorkDetail.jsx
+// src/components/WorkDetail.jsx
+import { useParams, Link } from "react-router-dom";
+import { ArrowLeft, Cpu, Network, Code2, ShieldAlert } from "lucide-react";
+
+const PROJECT_STUDIES = {
+  nyxidiom: {
+    title: "Nyxidiom Client-State & Edge Orchestration Infrastructure",
+    subtitle: "High-throughput cloud deployments, distributed state architecture, and micro-frontend performance tuning.",
+    role: "Senior Full-Stack & Systems Engineer",
+    duration: "Production Integration",
+    tags: ["React", "TypeScript", "Node.js", "AWS", "Next.js", "GraphQL"],
+    metrics: [
+      { label: "Core Web Vitals", value: "+42%", desc: "Improvement in LCP & TBT across core modules" },
+      { label: "Deployment Pipeline", value: "<4.5m", desc: "Automated container builds using micro-bundle strategies" },
+      { label: "Concurrency Peak", value: "10k+", desc: "Concurrent state synchronization events handled smoothly" }
+    ],
+    challenge: "Enterprise clients required highly interactive web platforms to manage real-time operational flows. The underlying client systems suffered from component-rendering lag during heavy data-socket pushes, paired with prolonged continuous integration deployment bottlenecks that slowed development velocity.",
+    topology: [
+      "View Orchestration Layer: Clean, atomic React & Next.js layouts configured under strict modular boundaries.",
+      "State Management Bus: Local state mutations processed sequentially via a centralized event channel to prevent atomic re-render cycles.",
+      "Edge Infrastructure Layer: Static optimization using custom asset streaming nodes distributed over AWS CloudFront edge networks.",
+      "API Layer: Clean, optimized TypeScript GraphQL servers processing complex data structures asynchronously."
+    ],
+    tradeoffs: [
+      {
+        decision: "Incremental Static Regeneration (ISR) vs Server-Side Rendering (SSR)",
+        reason: "SSR introduced a 350ms initial latency hit. By leveraging Next.js ISR pipelines coupled with progressive hydration on the client, we delivered instant initial document loads while dynamic telemetry states rendered in milliseconds post-load."
+      },
+      {
+        decision: "Centralized Micro-Bundles vs Giant Monolith Core",
+        reason: "Separating large dependency chains into tree-shaken, lazy-loaded components cut initial JS payload sizes in half, resolving CPU parsing blockages on weaker client devices."
+      }
+    ],
+    codeSnippet: `// Optimized non-blocking react event reconciliation queue
+export class RenderOptimizer {
+  private queue: Array<() => void> = [];
+  private frameScheduled = false;
+
+  public scheduleUpdate(updateFn: () => void) {
+    this.queue.push(updateFn);
+    if (!this.frameScheduled) {
+      this.frameScheduled = true;
+      requestAnimationFrame(() => this.flushQueue());
+    }
+  }
+
+  private flushQueue() {
+    // Process all updates in a single animation frame to avoid layout thrashing
+    while (this.queue.length > 0) {
+      const update = this.queue.shift();
+      if (update) update();
+    }
+    this.frameScheduled = false;
+  }
+}`,
+  },
+  "sqe-holding": {
+    title: "SQE Holding Transactional Primitives & Database Performance Tuning",
+    subtitle: "Designing bulletproof ledger systems, processing concurrent state streams, and optimizing complex database access structures.",
+    role: "Database & Backend Systems Specialist",
+    duration: "Contract System Architecture Migration",
+    tags: ["Node.js", "PostgreSQL", "TypeORM", "Docker", "Redis Cache", "Git Workflow"],
+    metrics: [
+      { label: "SQL Latency Reduction", value: "65%", desc: "Index and transaction optimization gains" },
+      { label: "Lock Contention", value: "0%", desc: "Deadlocks eliminated using atomic transaction isolation" },
+      { label: "Throughput Limit", value: "4.8k/s", desc: "Clean ledger writes per second sustained" }
+    ],
+    challenge: "SQE Holding transaction nodes ran into database deadlocks and slow indexing queries during periods of heavy ledger writes. The application required a resilient architecture that prioritized data integrity while scaling to high throughput limits.",
+    topology: [
+      "Access Layer: Standard API endpoints validating client payloads using robust middleware primitives.",
+      "Caching Engine: Redis Key-Value cluster intercepting repeating, high-read catalog queries.",
+      "Database Layer: Multi-threaded PostgreSQL engine running optimized indexes under Read Committed transaction isolation rules.",
+      "Worker Threads: Decoupled job queues running asynchronous transaction notifications to external micro-services."
+    ],
+    tradeoffs: [
+      {
+        decision: "Prepared Statements vs Raw Dynamic Queries",
+        reason: "Prepared statements allowed PostgreSQL to cache execution plans. When processing thousands of repetitive updates, this choice alone saved massive CPU processing cycles on the core database nodes."
+      },
+      {
+        decision: "Redis Cache-Aside Strategy vs Real-Time Direct DB Reads",
+        reason: "By implementing an aggressive cache-aside pattern for heavy, non-volatile state queries, we protected our primary data cluster from resource exhaustion."
+      }
+    ],
+    codeSnippet: `// High-concurrency safe transactional ledger update pipeline
+async function executeAtomicLedgerTransfer(db, senderId, receiverId, amount) {
+  return await db.transaction(async (transactionalEntityManager) => {
+    // Acquire explicit row-level locks using FOR UPDATE to bypass transaction race-conditions
+    const sender = await transactionalEntityManager
+      .createQueryBuilder(Account, "account")
+      .setLock("pessimistic_write")
+      .where("account.id = :id", { id: senderId })
+      .getOne();
+
+    if (sender.balance < amount) {
+      throw new Error("Insufficient transactional balance available");
+    }
+
+    // Execute atomic balance shifting inside the protected boundary
+    await transactionalEntityManager.decrement(Account, { id: senderId }, "balance", amount);
+    await transactionalEntityManager.increment(Account, { id: receiverId }, "balance", amount);
+  });
+}`,
+  },
+  aquaculture: {
+    title: "IoT-Enabled Aquaculture Telemetry & Control Node",
+    subtitle: "Automated environmental feedback loops & real-time telemetry pipelines.",
+    role: "Lead Systems & Firmware Engineer",
+    duration: "Academic Final Year Project",
+    tags: ["C++", "ESP32", "Firebase RTDB", "Control Theory", "Embedded Systems"],
+    metrics: [
+      { label: "Latency", value: "<180ms", desc: "Sensor-to-UI replication over standard cellular" },
+      { label: "Power Save", value: "35%", desc: "Efficiency gain using light-sleep state cycles" },
+      { label: "Uptime", value: "99.9%", desc: "Continuous loop execution during network drops" }
+    ],
+    challenge: "Aquaculture environments require precise, real-time chemistry adjustments. Standard solutions relied on expensive, high-power industrial PLCs. The goal was to build an ultra-low-cost, highly responsive, edge-computed node that could autonomously monitor parameters and trigger physical actuator relays without relying on a constant cloud connection.",
+    topology: [
+      "Edge Layer: ESP32 microcontroller reading analog/digital sensors (pH, temperature, dissolved oxygen) using non-blocking registers.",
+      "Buffer & Filter: Firmware implements a rolling-average digital filter to eliminate high-frequency sensor noise before transmission.",
+      "Transport Layer: Lightweight Firebase Realtime Database WebSockets stream delta-changes only, keeping payload overhead minimal.",
+      "Client Layer: React-based dashboard displaying system health charts with optimistic UI updates for manual override controls."
+    ],
+    tradeoffs: [
+      {
+        decision: "Custom C++ State Machine vs RTOS Tasks",
+        reason: "While FreeRTOS is native to ESP32, multi-tasking introduced unnecessary mutex overhead for our 3 core sensors. Writing a custom, non-blocking cooperative scheduler loop minimized RAM usage and eliminated race conditions on the ADC."
+      },
+      {
+        decision: "WebSockets (Firebase) vs MQTT Broker",
+        reason: "MQTT is standard for IoT, but Firebase's native offline-first caching SDK on the React client allowed us to build robust sync mechanics with zero extra setup. Relays are triggered locally via hardware interrupts first, then synced to the cloud."
+      }
+    ],
+    codeSnippet: `// Non-blocking sensor polling & hardware feedback loop
+void loop() {
+  unsigned long currentMillis = millis();
+  
+  // Poll sensors asynchronously without blocking the main event loop
+  if (currentMillis - lastSensorRead >= SENSOR_INTERVAL) {
+    lastSensorRead = currentMillis;
+    float phReading = readFilteredPH();
+    
+    // Edge-computed safety shutdown: acts instantly, cloud sync is secondary
+    if (phReading < CRITICAL_LOW_PH || phReading > CRITICAL_HIGH_PH) {
+      triggerEmergencyDosingRelay();
+    }
+  }
+  
+  // Keep streaming socket alive & process outstanding writes
+  handleDatabaseStreaming();
+}`,
+  }
+};
+
+export default function WorkDetail() {
+  const { id } = useParams();
+  const project = PROJECT_STUDIES[id];
+
+  if (!project) {
+    return (
+      <div className="mx-auto max-w-4xl px-6 py-40 text-center">
+        <h1 className="text-2xl font-medium">Case Study Not Found</h1>
+        <p className="text-muted-foreground mt-2">The requested project architecture document does not exist.</p>
+        <Link to="/works" className="mt-6 inline-block text-sm text-[--emerald] hover:underline">Back to Works</Link>
+      </div>
+    );
+  }
+
+  return (
+    <article className="mx-auto max-w-4xl px-6 pt-36 pb-32">
+      <Link to="/works" className="inline-flex items-center gap-2 text-xs text-muted-foreground hover:text-foreground mb-12 group transition-colors">
+        <ArrowLeft size={14} className="transition-transform group-hover:-translate-x-0.5" /> 
+        Back to Architectural Works
+      </Link>
+
+      <header className="space-y-4">
+        <div className="flex flex-wrap gap-2">
+          {project.tags.map(t => (
+            <span key={t} className="rounded-md bg-secondary/40 px-2 py-0.5 text-[11px] font-medium text-muted-foreground border border-border/30">{t}</span>
+          ))}
+        </div>
+        <h1 className="text-3xl md:text-5xl font-medium tracking-tight text-foreground">{project.title}</h1>
+        <p className="text-lg text-muted-foreground font-light max-w-2xl">{project.subtitle}</p>
+        
+        <div className="flex gap-10 pt-4 text-xs text-muted-foreground border-b border-border/60 pb-8">
+          <div><p className="font-semibold text-foreground">Role</p><p>{project.role}</p></div>
+          <div><p className="font-semibold text-foreground">Timeline</p><p>{project.duration}</p></div>
+        </div>
+      </header>
+
+      {/* Metrics Row */}
+      <section className="grid grid-cols-1 sm:grid-cols-3 gap-4 my-12">
+        {project.metrics.map((m, i) => (
+          <div key={i} className="border border-border/60 bg-card/25 rounded-xl p-5">
+            <p className="text-xs text-muted-foreground font-medium uppercase tracking-wider">{m.label}</p>
+            <p className="text-3xl font-semibold text-[--emerald] my-1">{m.value}</p>
+            <p className="text-xs text-muted-foreground leading-relaxed">{m.desc}</p>
+          </div>
+        ))}
+      </section>
+
+      {/* Narrative & Deep Dive */}
+      <div className="space-y-12 text-sm md:text-base leading-relaxed text-muted-foreground">
+        
+        {/* Challenge */}
+        <section className="space-y-3">
+          <h2 className="text-lg font-medium text-foreground flex items-center gap-2">
+            <ShieldAlert size={18} className="text-[--emerald]" /> Core Challenge & Constraints
+          </h2>
+          <p>{project.challenge}</p>
+        </section>
+
+        {/* System Topology */}
+        <section className="space-y-3">
+          <h2 className="text-lg font-medium text-foreground flex items-center gap-2">
+            <Network size={18} className="text-[--emerald]" /> System Topology
+          </h2>
+          <ol className="space-y-2 list-decimal list-inside bg-card/10 border border-border/40 rounded-xl p-5 text-sm">
+            {project.topology.map((step, i) => (
+              <li key={i} className="pl-2"><span className="text-foreground">{step.split(':')[0]}:</span>{step.split(':')[1]}</li>
+            ))}
+          </ol>
+        </section>
+
+        {/* Engineering Tradeoffs */}
+        <section className="space-y-4">
+          <h2 className="text-lg font-medium text-foreground flex items-center gap-2">
+            <Cpu size={18} className="text-[--emerald]" /> Architecture & Tradeoff Decisions
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {project.tradeoffs.map((t, i) => (
+              <div key={i} className="border border-border/40 rounded-xl p-5 bg-card/5">
+                <h3 className="text-sm font-semibold text-foreground mb-1.5">{t.decision}</h3>
+                <p className="text-xs leading-relaxed">{t.reason}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Code deep-dive */}
+        <section className="space-y-3">
+          <h2 className="text-lg font-medium text-foreground flex items-center gap-2">
+            <Code2 size={18} className="text-[--emerald]" /> Implementation Deep-Dive
+          </h2>
+          <pre className="overflow-x-auto rounded-xl border border-border/60 bg-muted/65 p-4 text-[11px] md:text-xs font-mono text-foreground leading-relaxed">
+            <code>{project.codeSnippet}</code>
+          </pre>
+        </section>
+
+      </div>
+    </article>
+  );
+}
+
+
+
+
+
+
+
+Works.jsx
+import React from 'react';
+import FeaturedWorks from './FeaturedWorks';
+
+export default function Works() {
+  return (
+    <div className="pt-12">
+      <div className="max-w-4xl mx-auto px-6 pt-16 text-center space-y-2">
+        <h1 className="text-4xl font-black text-foreground tracking-tight">System Engineering Index</h1>
+        <p className="text-foreground text-base max-w-lg mx-auto">Production-ready operational applications and architectures built from scratch.</p>
+      </div>
+      <FeaturedWorks />
+    </div>
+  );
+}
+
+
+src/App.jsx
+// src/App.jsx
+import { Routes, Route } from "react-router-dom";
+import Nav from "./components/Nav.jsx";
+import Footer from "./components/Footer.jsx";
+import Home from "./components/Home.jsx";
+import Works from "./components/Works.jsx";
+import WorkDetail from "./components/WorkDetail.jsx";
+import Blog from "./components/Blog.jsx";
+import CVList from "./components/CVList.jsx"; // Active in background
+import CVViewer from "./components/CVViewer.jsx"; // Active in background
+import { ThemeProvider } from "./components/use-theme.jsx";
+
+export default function App() {
+  return (
+    <ThemeProvider>
+      <main className="relative min-h-screen bg-background text-foreground selection:bg-[--emerald]/20 selection:text-[--emerald]">
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/works" element={<Works />} />
+          <Route path="/works/:id" element={<WorkDetail />} />
+          <Route path="/blog" element={<Blog />} />
+          
+          {/* Kept routes fully operational, just not listed on main navigation */}
+          <Route path="/cvs" element={<CVList />} />
+          <Route path="/cvs/:id" element={<CVViewer />} />
+        </Routes>
+        <Footer />
+      </main>
+    </ThemeProvider>
+  );
+}
+
+
+
+
+
+
+
+src/index.css
+@import "tailwindcss";
+
+/* 🚀 Official Tailwind v4 Manual Class-Based Dark Mode Toggle */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-dark: var(--dark);
+  --color-light: var(--light);
+  --color-light2: var(--light2);
+  --color-light3: var(--light3);
+  
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+/* ☀️ Light Mode State (Default) */
+:root {
+  --primary: #ff6464;       
+  --secondary: #00a8cc;     
+  --dark: #21243d;          
+  --light: #8695a4;         
+  --light2: #edf7fa;        
+  --light3: #e0e0e0;        
+
+  --background: #ffffff;
+  --foreground: #21243d; /* dark blue */
+}
+
+/* 🌙 Dark Mode State */
+.dark {
+  --primary: #ff6464;       
+  --secondary: #38bdf8;     
+  --dark: #f8fafc;         /* High-contrast off-white text */
+  --light: #94a3b8;         
+  --light2: #1e293b;        /* Dark mode container/card backgrounds */
+  --light3: #334155;        
+
+  --background: #0f172a;    /* Beautiful deep slate background */
+  --foreground: #f8fafc;    /* High-contrast off-white text */
+}
+
+/* Global resets using dynamic variables */
+html, 
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background) !important;
+  color: var(--foreground) !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* 🚀 FIX: Force background utility mappings to change dynamically in dark mode */
+.bg-background {
+  background-color: var(--background) !important;
+  color: var(--foreground) !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* 🚀 FIX: Ensure inputs, textareas and forms scale contrast in dark mode */
+input, 
+textarea, 
+select {
+  background-color: var(--background) !important;
+  color: var(--foreground) !important;
+  border-color: var(--light3) !important;
+}
+
+/* Placeholder text contrast fix */
+input::placeholder,
+textarea::placeholder {
+  color: var(--light) !important;
+  opacity: 0.8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media print {
+  .print\:hidden {
+    display: none !important;
+  }
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+}
+
+
+
+
+
+
+
+
+package.json
+{
+  "name": "my-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "lucide-react": "^0.454.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.0.0"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "tailwindcss": "^4.0.0",
+    "vite": "^6.0.0"
+  }
+}
+
+
+
+
+src/main.jsx
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import { BrowserRouter as Router } from 'react-router-dom'
+import './index.css'
+import App from './App'
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <Router>
+      <App />
+    </Router>
+  </StrictMode>
+)
+
+
+
+
+
+src/cv_jsons
+amazon-sde-canada-new.json
+{
+  "id": "amazon-sde-canada-new",
+  "name": "Software Development Engineer - Full-Stack Target",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Remote - Worldwide)",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "https://lawrence-ughonu.vercel.app",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Software Development Engineer with 6+ years building enterprise-grade distributed systems, backend microservices, and full-stack platforms across fintech, logistics, and AI-powered domains. Proven record of designing high-availability architectures on AWS, optimizing database performance under high concurrency, and shipping production systems that directly impact business outcomes. Experienced in Python, Node.js, TypeScript, and cloud-native infrastructure with a strong bias for operational ownership and measurable delivery.",
+  "technicalSkills": [
+    {
+      "category": "Backend Engineering & Languages",
+      "skills": "Python, Node.js, JavaScript, TypeScript, Java (basics), RESTful APIs, GraphQL, Microservices Architecture, FastAPI, Express.js"
+    },
+    {
+      "category": "Cloud, Infrastructure & Databases",
+      "skills": "AWS (Lambda, S3, EC2, DynamoDB), Docker, CI/CD Pipelines, PostgreSQL, MongoDB, DynamoDB, Redis, ETL Pipelines"
+    },
+    {
+      "category": "Full-Stack & Integrations",
+      "skills": "React.js, Next.js, React Native, Socket.io, Payment Gateway Orchestration (Stripe, Paystack, Flutterwave), JWT, OAuth2, ACID Compliance"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer (Contract)",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Designed and deployed low-latency asynchronous middleware systems handling end-to-end data pipelines for global logistics operations, reducing average pipeline processing time by 35%.",
+        "Optimized client-to-backend transactional flow pipelines, contributing to a 40% reduction in rendering bottlenecks and improving system resilience to a 99.5% uptime baseline.",
+        "Established Python FastAPI services integrating AI model endpoints for document and invoice data extraction, processing over 2,000 structured records per week with 98% parse accuracy.",
+        "Enforced architectural standards across a 4-engineer team through structured code reviews and CI/CD pipeline governance, reducing production defect rates by 30%.",
+        "Scaled non-relational and relational database layers to sustain 10,000+ concurrent transactions, eliminating bottlenecks that previously caused 15% request failure under peak load."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "January 2023",
+      "endDate": "January 2026",
+      "achievements": [
+        "Architected core digital banking microservices and ledger features serving 50,000+ monthly active transactions, maintaining full ACID compliance across distributed cloud database targets.",
+        "Optimized PostgreSQL and DynamoDB indexing and query strategies, reducing average query latency by 45% and supporting 3x growth in transactional volume without infrastructure scaling.",
+        "Implemented JWT and OAuth2 token authorization systems across 6+ distributed web services, cutting unauthorized access incidents to zero post-deployment.",
+        "Integrated AI-assisted engineering tooling (Cursor, Claude) into development workflows, accelerating feature sprint delivery by 25% while sustaining 90%+ unit test coverage.",
+        "Led migration of legacy monolithic service modules to independently deployable microservices, reducing deployment cycle time from 2 weeks to 3 days."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Shipped secure backend integrations with Paystack and Flutterwave payment gateways, implementing custom retry logic that raised transaction success rates by 22% and reduced chargebacks by 18%.",
+        "Developed data-processing pipelines in Python and JavaScript to handle catalog indexing and background storage workflows, cutting manual processing effort by 60%.",
+        "Managed schema design and query optimization for PostgreSQL and MongoDB clusters supporting 500+ daily active users, achieving sub-200ms average response times under peak load."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-Powered Automation & Extraction Pipeline",
+      "technologies": "Python, FastAPI, AWS Lambda, OpenAI API, PostgreSQL",
+      "description": "Engineered a scalable invoice validation and extraction system processing 1,000+ secure documents weekly with 98% accuracy. Architected an asynchronous ETL pipeline on AWS Lambda that cut extraction turnaround time by 70% versus the prior manual workflow, with PostgreSQL as the structured output store."
+    },
+    {
+      "name": "High-Availability Ledger Ecosystem",
+      "technologies": "Node.js, Express, DynamoDB, React, Redis",
+      "description": "Delivered full-stack digital banking platform handling multi-provider payment orchestration across 3 integrated gateways. Leveraged Redis caching to reduce DynamoDB read costs by 40% and eliminate frontend data drift under concurrent user sessions, sustaining 99.9% uptime during load-test scenarios."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2025",
+      "note": "Curriculum grounded in systems logic, computational algorithms, and electrical networks — directly applied to distributed systems design and software engineering practice."
+    }
+  ]
+}
+
+
+
+
+ebis-frontend-vuejs-developer.json
+{
+  "id": "ebis-frontend-vuejs-developer",
+  "name": "Frontend Developer (Vue.js Specialist)",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "github": "github.com/renzium",
+    "linkedin": "linkedin.com/in/lawrence-ughonu"
+  },
+  "summary": "Dynamic Frontend Developer with over 5 years of experience building high-performance, responsive user interfaces. Specialist in Vue.js and modern CSS frameworks like Tailwind CSS. Proven track record of translating complex UI/UX designs into functional components and seamlessly integrating them with backend APIs (Laravel/Node.js). Passionate about component-based architecture and optimizing client-side performance.",
+  "technicalSkills": [
+    {
+      "category": "Frontend Core",
+      "skills": "Vue.js (Vue 2/3), JavaScript (ES6+), TypeScript, HTML5, CSS3, Responsive Design"
+    },
+    {
+      "category": "State & Routing",
+      "skills": "Pinia, Vuex, Vue Router, Composition API"
+    },
+    {
+      "category": "Styling & UI",
+      "skills": "Tailwind CSS, Bootstrap, Material Design, Figma-to-Code Translation"
+    },
+    {
+      "category": "Tools & Backend Integration",
+      "skills": "RESTful APIs, Axios, Git, Webpack/Vite, Laravel (Basic Understanding), Node.js"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Frontend Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Architected and maintained modular Vue.js components for a digital banking platform, ensuring a seamless user experience for 5,000+ enterprise users.",
+        "Implemented state management using Pinia to handle complex financial data flows and real-time transaction updates.",
+        "Collaborated closely with UI/UX designers to implement high-fidelity, pixel-perfect interfaces from Figma designs.",
+        "Optimized frontend performance by implementing lazy loading and code-splitting, reducing initial page load time by 35%."
+      ]
+    },
+    {
+      "title": "Software Developer (Frontend Focus)",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Developed and refactored e-commerce storefronts using Vue.js and Tailwind CSS, improving mobile responsiveness and user engagement.",
+        "Integrated frontend components with Laravel-based RESTful APIs, ensuring efficient data synchronization and error handling.",
+        "Managed version control using Git, participating in rigorous code reviews to maintain high code quality and component reusability.",
+        "Successfully translated 12+ complex design wireframes into functional, interactive web applications."
+      ]
+    },
+    {
+      "title": "Software Engineer (Contract)",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Built administrative dashboards using Vue.js for a logistics platform, featuring real-time data visualization and complex filtering.",
+        "Ensured cross-browser compatibility and accessibility (WCAG) across all frontend modules.",
+        "Developed reusable UI component libraries to standardize design patterns across multiple internal projects."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "PAKA Logistics Dashboard",
+      "technologies": "Vue.js, Tailwind CSS, Google Maps API",
+      "description": "Developed a real-time tracking dashboard for logistics management, providing users with live updates and interactive maps."
+    },
+    {
+      "name": "Digital Bank Interface",
+      "technologies": "Vue.js, Pinia, Axios",
+      "description": "Built a secure, responsive banking portal with complex form validation and multi-step transaction workflows."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan"
+    }
+  ],
+  "additionalInformation": {
+    "competencies": [
+      "Expertise in component-based architecture.",
+      "Strong understanding of the Vue.js lifecycle and reactivity system.",
+      "Experience with modern frontend build tools like Vite and Vitest.",
+      "Effective communicator capable of bridging the gap between design and backend engineering."
+    ]
+  }
+}

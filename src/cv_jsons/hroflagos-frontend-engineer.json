@@ -1,0 +1,95 @@
+{
+  "id": "hroflagos-frontend-engineer",
+  "name": "Frontend Engineer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Hybrid)",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "https://lawrence-ughonu.vercel.app",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Frontend Engineer with 6+ years of professional experience building responsive, scalable, and performant web applications across fintech and logistics domains. Proficient in React, TypeScript, JavaScript, NestJS, and modern frontend architecture. Proven record of translating complex product designs into clean, functional interfaces while collaborating closely with product, design, and backend engineering teams to deliver production-grade digital products.",
+  "technicalSkills": [
+    {
+      "category": "Frontend Engineering",
+      "skills": "React.js, Next.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, Responsive Web Design, Frontend Performance Optimization, Component Architecture"
+    },
+    {
+      "category": "Backend & APIs",
+      "skills": "NestJS, Node.js, Express.js, RESTful APIs, GraphQL, FastAPI (Python), JWT, OAuth2, WebSockets"
+    },
+    {
+      "category": "Tools & Infrastructure",
+      "skills": "Git, CI/CD Pipelines, Docker, AWS (Lambda, S3, EC2), PostgreSQL, MongoDB, Redis, DynamoDB"
+    },
+    {
+      "category": "Integrations",
+      "skills": "Payment Gateway Orchestration (Paystack, Flutterwave, Stripe), Firebase, React Native, Socket.io"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer (Contract)",
+      "company": "NYXIDIOM",
+      "location": "Lagos, Nigeria (Remote)",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Developed and maintained responsive frontend interfaces using React and TypeScript, translating product designs into clean, functional components for a global logistics platform.",
+        "Optimized client-to-backend transactional flow pipelines, contributing to a 40% reduction in rendering bottlenecks and improving system resilience to a 99.5% uptime baseline.",
+        "Established NestJS backend services integrating AI model endpoints for document and invoice data extraction, processing over 2,000 structured records per week with 98% parse accuracy.",
+        "Enforced frontend and backend architectural standards across a 4-engineer team through structured code reviews and CI/CD pipeline governance, reducing production defect rates by 30%.",
+        "Scaled non-relational and relational database layers to sustain 10,000+ concurrent transactions, eliminating bottlenecks that previously caused 15% request failure under peak load."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Lagos, Nigeria (Remote)",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Built and maintained React-based frontend interfaces for a digital banking platform serving 50,000+ monthly active transactions, ensuring pixel-perfect design fidelity and cross-browser compatibility.",
+        "Architected NestJS and Node.js microservices powering core banking ledger features, maintaining full ACID compliance across distributed cloud database targets.",
+        "Optimized frontend performance and PostgreSQL query strategies, reducing average page load time by 45% and supporting 3x growth in user traffic without infrastructure scaling.",
+        "Implemented JWT and OAuth2 token authorization flows across frontend and backend layers for 6+ distributed web services, cutting unauthorized access incidents to zero post-deployment.",
+        "Led migration of legacy frontend modules to a modern React and TypeScript architecture, reducing deployment cycle time from 2 weeks to 3 days."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Shipped responsive web interfaces in React and JavaScript, translating Figma designs into clean, accessible frontend components for client-facing fintech products.",
+        "Developed secure backend integrations with Paystack and Flutterwave payment gateways, implementing custom retry logic that raised transaction success rates by 22% and reduced chargebacks by 18%.",
+        "Managed schema design and query optimization for PostgreSQL and MongoDB clusters supporting 500+ daily active users, achieving sub-200ms average API response times under peak load."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "High-Availability Ledger Ecosystem",
+      "technologies": "React, NestJS, Node.js, DynamoDB, Redis, TypeScript",
+      "description": "Delivered a full-stack digital banking platform with a React frontend handling multi-provider payment orchestration across 3 integrated gateways. Leveraged Redis caching to reduce DynamoDB read costs by 40% and eliminate frontend data drift under concurrent user sessions, sustaining 99.9% uptime during load-test scenarios."
+    },
+    {
+      "name": "AI-Powered Automation & Extraction Pipeline",
+      "technologies": "Python, FastAPI, NestJS, AWS Lambda, OpenAI API, PostgreSQL",
+      "description": "Engineered a scalable document validation and extraction system processing 1,000+ secure invoices weekly with 98% accuracy. Built a NestJS API layer connecting the AI extraction engine to frontend dashboards, cutting extraction turnaround time by 70% versus the prior manual workflow."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2025",
+      "note": "Curriculum grounded in systems logic, computational algorithms, and electrical networks — directly applied to frontend architecture, distributed systems design, and software engineering practice."
+    }
+  ]
+}

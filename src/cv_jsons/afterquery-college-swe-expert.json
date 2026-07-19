@@ -1,0 +1,106 @@
+{
+  "id": "afterquery-college-swe-expert",
+  "name": "College Software Engineering Expert",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Remote",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "https://lawrence-ughonu.vercel.app",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Software Development Engineer with 6+ years of professional engineering experience designing distributed systems, backend APIs, and full-stack platforms across fintech and logistics domains. Strong foundation in algorithms, data structures, and system architecture with hands-on experience across Python, Node.js, TypeScript, and JavaScript. Experienced AI model evaluator with a proven record of producing structured technical assessments, debugging complex systems, and delivering precise written analyses of engineering content.",
+  "technicalSkills": [
+    {
+      "category": "Programming Languages",
+      "skills": "Python, JavaScript, TypeScript, Node.js, SQL, Bash, Java (basics), C/C++ (academic)"
+    },
+    {
+      "category": "Algorithms & System Design",
+      "skills": "Data Structures, Algorithm Design, Complexity Analysis, Distributed Systems Architecture, API Design, Microservices, System Optimization, Debugging"
+    },
+    {
+      "category": "Tools & Infrastructure",
+      "skills": "Git, Docker, CI/CD Pipelines, AWS (Lambda, S3, EC2, DynamoDB), PostgreSQL, MongoDB, Redis, REST APIs, GraphQL, Testing Frameworks"
+    },
+    {
+      "category": "AI & Evaluation",
+      "skills": "AI Model Evaluation, Technical Content Review, Structured Annotation, Coding Challenge Design, Feedback Report Writing"
+    }
+  ],
+  "experience": [
+    {
+      "title": "AI Response Evaluator (Freelance)",
+      "company": "Outlier AI",
+      "location": "Remote",
+      "startDate": "January 2024",
+      "endDate": "Present",
+      "achievements": [
+        "Designed and evaluated hundreds of software engineering coding challenges used to train AI models across algorithm design, debugging, API design, and system architecture domains.",
+        "Validated AI-generated technical responses against software engineering best practices, producing detailed written feedback reports identifying logical errors, edge-case failures, and reasoning gaps.",
+        "Conducted comparative analyses of competing model outputs, ranking responses based on technical accuracy, code correctness, and adherence to engineering principles.",
+        "Maintained consistent evaluation quality across high volumes of coding challenges, working independently without external AI assistance in line with structured project guidelines."
+      ]
+    },
+    {
+      "title": "Full Stack / Systems Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Architected core digital banking microservices and ledger features serving 50,000+ monthly active transactions, applying rigorous system design principles across distributed cloud database targets.",
+        "Optimized PostgreSQL and DynamoDB indexing and query strategies, reducing average query latency by 45% — demonstrating deep algorithmic thinking applied to real production systems.",
+        "Implemented JWT and OAuth2 authorization systems across 6+ distributed web services, applying security best practices and API design principles throughout.",
+        "Led migration of legacy monolithic service modules to independently deployable microservices, reducing deployment cycle time from 2 weeks to 3 days through architectural redesign."
+      ]
+    },
+    {
+      "title": "Full Stack Engineer (Contract)",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Designed and deployed low-latency asynchronous middleware systems handling end-to-end data pipelines for global logistics operations, reducing average pipeline processing time by 35%.",
+        "Established Python FastAPI services integrating AI model endpoints for document and invoice data extraction, processing over 2,000 structured records per week with 98% parse accuracy.",
+        "Enforced engineering best practices across a 4-engineer team through structured code reviews and CI/CD pipeline governance, reducing production defect rates by 30%.",
+        "Scaled non-relational and relational database layers to sustain 10,000+ concurrent transactions, applying optimization techniques that eliminated 15% request failure under peak load."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Remote",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Shipped secure backend integrations with Paystack and Flutterwave payment gateways, implementing custom retry logic algorithms that raised transaction success rates by 22% and reduced chargebacks by 18%.",
+        "Developed data-processing pipelines in Python and JavaScript handling catalog indexing and background storage workflows, cutting manual processing effort by 60%.",
+        "Managed schema design and query optimization for PostgreSQL and MongoDB clusters supporting 500+ daily active users, achieving sub-200ms average response times under peak load."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-Powered Automation & Extraction Pipeline",
+      "technologies": "Python, FastAPI, AWS Lambda, OpenAI API, PostgreSQL",
+      "description": "Engineered a scalable document validation and extraction system processing 1,000+ structured records weekly with 98% accuracy. Designed an asynchronous ETL pipeline on AWS Lambda that cut extraction turnaround time by 70%, applying algorithm optimization and serverless architecture principles throughout."
+    },
+    {
+      "name": "High-Availability Ledger Ecosystem",
+      "technologies": "Node.js, Express, DynamoDB, React, Redis",
+      "description": "Delivered a full-stack digital banking platform handling multi-provider payment orchestration across 3 integrated gateways. Applied Redis caching algorithms to reduce DynamoDB read costs by 40% and eliminate data drift under concurrent sessions, sustaining 99.9% uptime during load-test scenarios."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2025",
+      "note": "Curriculum grounded in computational algorithms, discrete logic systems, and electrical networks — establishing a strong analytical and systems-thinking foundation directly applied to software engineering, algorithm design, and technical problem solving."
+    }
+  ]
+}

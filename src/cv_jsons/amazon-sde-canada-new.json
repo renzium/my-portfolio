@@ -1,0 +1,91 @@
+{
+  "id": "amazon-sde-canada-new",
+  "name": "Software Development Engineer - Full-Stack Target",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Remote - Worldwide)",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "https://lawrence-ughonu.vercel.app",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Software Development Engineer with 6+ years building enterprise-grade distributed systems, backend microservices, and full-stack platforms across fintech, logistics, and AI-powered domains. Proven record of designing high-availability architectures on AWS, optimizing database performance under high concurrency, and shipping production systems that directly impact business outcomes. Experienced in Python, Node.js, TypeScript, and cloud-native infrastructure with a strong bias for operational ownership and measurable delivery.",
+  "technicalSkills": [
+    {
+      "category": "Backend Engineering & Languages",
+      "skills": "Python, Node.js, JavaScript, TypeScript, Java (basics), RESTful APIs, GraphQL, Microservices Architecture, FastAPI, Express.js"
+    },
+    {
+      "category": "Cloud, Infrastructure & Databases",
+      "skills": "AWS (Lambda, S3, EC2, DynamoDB), Docker, CI/CD Pipelines, PostgreSQL, MongoDB, DynamoDB, Redis, ETL Pipelines"
+    },
+    {
+      "category": "Full-Stack & Integrations",
+      "skills": "React.js, Next.js, React Native, Socket.io, Payment Gateway Orchestration (Stripe, Paystack, Flutterwave), JWT, OAuth2, ACID Compliance"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer (Contract)",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Designed and deployed low-latency asynchronous middleware systems handling end-to-end data pipelines for global logistics operations, reducing average pipeline processing time by 35%.",
+        "Optimized client-to-backend transactional flow pipelines, contributing to a 40% reduction in rendering bottlenecks and improving system resilience to a 99.5% uptime baseline.",
+        "Established Python FastAPI services integrating AI model endpoints for document and invoice data extraction, processing over 2,000 structured records per week with 98% parse accuracy.",
+        "Enforced architectural standards across a 4-engineer team through structured code reviews and CI/CD pipeline governance, reducing production defect rates by 30%.",
+        "Scaled non-relational and relational database layers to sustain 10,000+ concurrent transactions, eliminating bottlenecks that previously caused 15% request failure under peak load."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "January 2023",
+      "endDate": "January 2026",
+      "achievements": [
+        "Architected core digital banking microservices and ledger features serving 50,000+ monthly active transactions, maintaining full ACID compliance across distributed cloud database targets.",
+        "Optimized PostgreSQL and DynamoDB indexing and query strategies, reducing average query latency by 45% and supporting 3x growth in transactional volume without infrastructure scaling.",
+        "Implemented JWT and OAuth2 token authorization systems across 6+ distributed web services, cutting unauthorized access incidents to zero post-deployment.",
+        "Integrated AI-assisted engineering tooling (Cursor, Claude) into development workflows, accelerating feature sprint delivery by 25% while sustaining 90%+ unit test coverage.",
+        "Led migration of legacy monolithic service modules to independently deployable microservices, reducing deployment cycle time from 2 weeks to 3 days."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Shipped secure backend integrations with Paystack and Flutterwave payment gateways, implementing custom retry logic that raised transaction success rates by 22% and reduced chargebacks by 18%.",
+        "Developed data-processing pipelines in Python and JavaScript to handle catalog indexing and background storage workflows, cutting manual processing effort by 60%.",
+        "Managed schema design and query optimization for PostgreSQL and MongoDB clusters supporting 500+ daily active users, achieving sub-200ms average response times under peak load."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-Powered Automation & Extraction Pipeline",
+      "technologies": "Python, FastAPI, AWS Lambda, OpenAI API, PostgreSQL",
+      "description": "Engineered a scalable invoice validation and extraction system processing 1,000+ secure documents weekly with 98% accuracy. Architected an asynchronous ETL pipeline on AWS Lambda that cut extraction turnaround time by 70% versus the prior manual workflow, with PostgreSQL as the structured output store."
+    },
+    {
+      "name": "High-Availability Ledger Ecosystem",
+      "technologies": "Node.js, Express, DynamoDB, React, Redis",
+      "description": "Delivered full-stack digital banking platform handling multi-provider payment orchestration across 3 integrated gateways. Leveraged Redis caching to reduce DynamoDB read costs by 40% and eliminate frontend data drift under concurrent user sessions, sustaining 99.9% uptime during load-test scenarios."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2025",
+      "note": "Curriculum grounded in systems logic, computational algorithms, and electrical networks — directly applied to distributed systems design and software engineering practice."
+    }
+  ]
+}

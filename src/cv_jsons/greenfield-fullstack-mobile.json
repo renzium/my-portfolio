@@ -1,0 +1,100 @@
+{
+  "id": "greenfield-fullstack-mobile",
+  "name": "Full Stack Mobile App Developer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Remote)",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "https://lawrence-ughonu.vercel.app",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Full Stack Mobile App Developer with 6+ years of professional experience building and shipping cross-platform iOS and Android applications using React Native, backed by scalable Node.js APIs and Firebase integrations. Proven record of delivering production-grade mobile apps to app stores, integrating payment gateways, real-time data systems, and location-based services across fintech and consumer domains. Strong ownership mindset with end-to-end delivery experience from architecture through deployment.",
+  "technicalSkills": [
+    {
+      "category": "Mobile Development",
+      "skills": "React Native, iOS, Android, Cross-Platform Development, App Store Deployment, Google Play Deployment, Push Notifications, QR Code Integration, Offline-First Architecture"
+    },
+    {
+      "category": "Backend & APIs",
+      "skills": "Node.js, Express.js, FastAPI (Python), RESTful APIs, GraphQL, Firebase (Auth, Firestore, Cloud Messaging), Microservices Architecture"
+    },
+    {
+      "category": "Databases & Infrastructure",
+      "skills": "PostgreSQL, MongoDB, DynamoDB, Redis, AWS (Lambda, S3, EC2), Docker, CI/CD Pipelines, ETL Pipelines"
+    },
+    {
+      "category": "Integrations & Tools",
+      "skills": "Payment Gateways (Paystack, Flutterwave, Stripe), Google Maps API, Firebase Analytics, JWT, OAuth2, TypeScript, JavaScript"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Full Stack Engineer (Contract)",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Contributed to the development and deployment of PAKA — a live React Native mobile app (iOS & Android) enabling returnable packaging management at municipal markets across Spain, now available on Google Play.",
+        "Integrated QR code scanning and user identity verification flows into the mobile app, enabling seamless stall-level transactions for 100+ active users at launch.",
+        "Engineered secure Node.js backend APIs powering the app's container tracking, return deadline management, and push notification delivery via Firebase Cloud Messaging.",
+        "Established Python FastAPI services integrating AI model endpoints for document and invoice data extraction, processing over 2,000 structured records per week with 98% parse accuracy.",
+        "Enforced architectural standards across a 4-engineer team through structured code reviews and CI/CD pipeline governance, reducing production defect rates by 30%."
+      ]
+    },
+    {
+      "title": "Full Stack / Systems Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Architected and shipped the SQE React Native mobile application for iOS and Android, providing customers with real-time access to digital banking features including account management, transaction history, and fund transfers.",
+        "Integrated Paystack and Stripe payment gateway SDKs into the mobile app, enabling secure in-app payments with custom retry logic that achieved a 99.2% transaction success rate.",
+        "Built Firebase Authentication and Firestore real-time sync into the mobile app, reducing onboarding drop-off by 35% through streamlined social login and live data updates.",
+        "Implemented and deployed JWT and OAuth2 token authorization systems across 6+ distributed web services, cutting unauthorized access incidents to zero post-deployment.",
+        "Optimized PostgreSQL and DynamoDB indexing strategies, reducing average query latency by 45% and supporting 3x growth in transactional volume without infrastructure scaling."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Shipped secure backend integrations with Paystack and Flutterwave payment gateways, implementing custom retry logic that raised transaction success rates by 22% and reduced chargebacks by 18%.",
+        "Developed data-processing pipelines in Python and JavaScript to handle catalog indexing and background storage workflows, cutting manual processing effort by 60%.",
+        "Managed schema design and query optimization for PostgreSQL and MongoDB clusters supporting 500+ daily active users, achieving sub-200ms average response times under peak load."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "PAKA — Returnable Packaging Mobile App",
+      "technologies": "React Native, Node.js, Firebase, QR Code API, Google Play",
+      "description": "Contributed to a live cross-platform mobile app published on Google Play enabling eco-friendly returnable container management at municipal markets. Implemented QR-based user identification, Firebase push notifications for return deadline reminders, and secure backend APIs for container lifecycle tracking across multiple market locations."
+    },
+    {
+      "name": "SQE Digital Banking Mobile App",
+      "technologies": "React Native, Node.js, Firebase Auth, Paystack, Stripe, DynamoDB",
+      "description": "Architected and delivered a full-featured digital banking mobile application for iOS and Android. Integrated multi-provider payment orchestration, Firebase real-time sync, and JWT-secured API layers — sustaining 99.9% uptime and serving 50,000+ monthly active transactions."
+    },
+    {
+      "name": "AI-Powered Automation & Extraction Pipeline",
+      "technologies": "Python, FastAPI, AWS Lambda, OpenAI API, PostgreSQL",
+      "description": "Engineered a scalable invoice validation and extraction system processing 1,000+ secure documents weekly with 98% accuracy. Architected an asynchronous ETL pipeline on AWS Lambda that cut extraction turnaround time by 70% versus the prior manual workflow."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2025",
+      "note": "Curriculum grounded in systems logic, computational algorithms, and electrical networks — directly applied to mobile architecture, distributed systems design, and software engineering practice."
+    }
+  ]
+}
