@@ -1,5 +1,5 @@
 import { useRef, useEffect } from "react";
-import photo from "../assets/images/me.JPG";
+import photo from "../assets/images/me.jpgg";
 
 const techIcons = [
   { name: "TypeScript", color: "#3178C6" },
