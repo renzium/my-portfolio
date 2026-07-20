@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "./use-theme.jsx";
+import { HashLink } from 'react-router-hash-link';
 
 const links = [
   { to: "/", label: "Home" },
@@ -37,7 +38,7 @@ export default function Nav() {
         <Link to="/" className="flex items-center gap-2.5 font-medium tracking-tight">
           <span className="inline-block h-2 w-2 rounded-full bg-[--emerald] shadow-[0_0_16px_var(--emerald-glow)]" />
           {/* FIX: nav brand text increased from text-sm → text-base */}
-          <span className="text-base text-foreground">portfolio</span>
+          <span className="text-base text-foreground">Renzium</span>
         </Link>
 
         <ul className="hidden items-center gap-10 md:flex">
@@ -70,13 +71,14 @@ export default function Nav() {
               : <Moon size={16} className="text-foreground" />}
           </button>
 
-          <a
-            href="/#contact"
+          <HashLink
+          smooth
+            to="/#contact"
             /* FIX: button text increased from text-xs → text-sm */
             className="hidden sm:inline-flex items-center gap-2 rounded-full border border-[--emerald]/30 bg-[--emerald]/10 px-4 py-2 text-sm font-medium text-[--emerald] transition-all hover:bg-[--emerald]/20"
           >
             Let's talk
-          </a>
+          </HashLink>
         </div>
       </nav>
     </header>
