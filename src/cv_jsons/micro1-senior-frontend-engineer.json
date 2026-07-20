@@ -1,0 +1,113 @@
+{
+  "id": "micro1-senior-frontend-engineer",
+  "name": "Senior Front-End Engineer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Remote)",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "lawrence-ughonu.vercel.app",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Senior Front-End Engineer with 6+ years building React and React Native interfaces serving 10,000+ users across fintech, logistics, and e-commerce domains. Direct experience evaluating AI-generated technical outputs and producing structured feedback reports that improve frontier model reasoning quality. Expert at translating UX/UI designs into accessible, pixel-perfect production interfaces, with hands-on Shopify and multi-gateway payment integration (Stripe, Google Pay, Paystack). Comfortable delivering high-quality independent work within distributed, multidisciplinary teams.",
+  "technicalSkills": [
+    {
+      "category": "Front-End Engineering",
+      "skills": "React.js, React Native, TypeScript, JavaScript, Next.js, HTML5, CSS3, Tailwind CSS, Redux, Zustand, Context API"
+    },
+    {
+      "category": "UX/UI & E-Commerce",
+      "skills": "UX/UI Design Principles, Responsive Web Design, Component-Driven Development, Figma Collaboration, Shopify Integration, Payment Gateways (Stripe, Google Pay, Paystack)"
+    },
+    {
+      "category": "AI Evaluation & Technical Feedback",
+      "skills": "AI Response Evaluation, Technical Output Verification, Structured Feedback Reports, Logical Consistency Analysis, Guideline-Based Annotation"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer - Contract",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Built the Paka global logistics mobile app using Expo, delivering seamless cross-platform feature parity across iOS and Android from a single shared codebase serving 10,000+ users.",
+        "Shipped native e-commerce checkout screens integrating Stripe and Google Pay APIs, configuring secure payment authentication flows for real-time mobile transactions.",
+        "Reduced front-end rendering bottlenecks by 40%, improving interface responsiveness under low-bandwidth mobile network conditions.",
+        "Verified AI-generated document extraction outputs for edge-case visual errors, helping the pipeline reach 98% parsing accuracy."
+      ]
+    },
+    {
+      "title": "AI Response Evaluator - Part-Time Freelance",
+      "company": "Outlier AI",
+      "location": "Remote",
+      "startDate": "January 2024",
+      "endDate": "Present",
+      "achievements": [
+        "Evaluated 500+ AI-generated technical responses across software engineering domains, applying structured annotation guidelines to verify accuracy and logical coherence.",
+        "Produced detailed written feedback reports documenting reasoning gaps, structural bugs, and interface discrepancies to improve frontier model reasoning quality.",
+        "Conducted comparative line-by-line analysis of competing model outputs, ranking performance against strict technical guidelines and user intent."
+      ]
+    },
+    {
+      "title": "Full Stack / Front-End Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Architected core mobile modules using React Native's CLI and TurboModules, establishing a high-speed native bridge for cryptographic operations.",
+        "Established low-latency WebSocket connections supporting 50,000+ monthly transactions while sustaining fluid 60fps rendering under heavy network load.",
+        "Integrated Zustand alongside Context API for global state management, eliminating data drift across multi-tier layouts.",
+        "Collaborated with UI/UX designers to implement pixel-perfect, accessible component trees across all device viewports."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Remote",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Delivered secure e-commerce and transaction-facing interfaces for a platform supporting 2,000+ daily transactions, integrating custom payment workflows with full visual consistency.",
+        "Refined user-facing documentation, onboarding flows, and component layouts, improving accessibility compliance and structural design consistency."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-Powered Invoice Validation & Extraction Pipeline",
+      "technologies": "Python, FastAPI, AWS Lambda, OpenAI API, PostgreSQL",
+      "description": "Engineered a scalable pipeline parsing 1,000+ secure invoices weekly with 98% extraction accuracy. Created a multi-stage validation dashboard using asynchronous UI states to track processing logs and display parsed outputs without thread blockage."
+    },
+    {
+      "name": "High-Availability Payment Ecosystem & Client Dashboard",
+      "technologies": "React, Node.js, Express, DynamoDB, Redis",
+      "description": "Deployed a full-stack digital banking platform featuring multi-provider payment orchestration across 3 integrated gateways. Leveraged optimistic UI updates in React to eliminate client-side data drift under high concurrency, maintaining sub-200ms response times."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2025",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "experience": "6+ years React and React Native, direct AI evaluation experience since 2024",
+    "keyFit": "Rare direct overlap with role requirements: production front-end expertise plus active AI response evaluation background",
+    "availability": "Immediate - ready to start within 24-48 hours of onboarding",
+    "workMode": "Remote contractor, comfortable with output-based/task-based compensation structures",
+    "highlights": [
+      "6+ years React/React Native across fintech, logistics, e-commerce",
+      "Active AI response evaluator since Jan 2024 (Outlier AI)",
+      "Shopify and multi-gateway payment integration experience",
+      "40% front-end performance improvement delivered",
+      "98% AI extraction accuracy achieved through output verification"
+    ]
+  }
+}

@@ -55,35 +55,40 @@ export class RenderOptimizer {
 }`,
   },
   "sqe-holding": {
-    title: "SQE Holding Transactional Primitives & Database Performance Tuning",
-    subtitle: "Designing bulletproof ledger systems, processing concurrent state streams, and optimizing complex database access structures.",
-    role: "Database & Backend Systems Specialist",
+    title: "SQE Holding Payment Orchestration Engine",
+    subtitle: "Multi-gateway payment routing, bulletproof transactional consistency, and high-throughput database tuning under concurrent write pressure.",
+    role: "Backend & Payments Systems Engineer",
     duration: "Contract System Architecture Migration",
-    tags: ["Node.js", "PostgreSQL", "TypeORM", "Docker", "Redis Cache", "Git Workflow"],
+    tags: ["Node.js", "PostgreSQL", "TypeORM", "Docker", "Redis Cache", "Stripe · Paystack · Flutterwave"],
     metrics: [
       { label: "SQL Latency Reduction", value: "65%", desc: "Index and transaction optimization gains" },
       { label: "Lock Contention", value: "0%", desc: "Deadlocks eliminated using atomic transaction isolation" },
-      { label: "Throughput Limit", value: "4.8k/s", desc: "Clean ledger writes per second sustained" }
+      { label: "Throughput Limit", value: "4.8k/s", desc: "Clean payment writes per second sustained" }
     ],
-    challenge: "SQE Holding transaction nodes ran into database deadlocks and slow indexing queries during periods of heavy ledger writes. The application required a resilient architecture that prioritized data integrity while scaling to high throughput limits.",
+    challenge: "SQE Holding needed a payment system capable of routing transactions across multiple gateways (Stripe, Paystack, Flutterwave) while guaranteeing exactly-once settlement. Heavy write periods triggered database deadlocks and slow indexing queries, and the architecture had to prioritize data integrity while scaling to high throughput without dropping or duplicating a single transaction.",
     topology: [
-      "Access Layer: Standard API endpoints validating client payloads using robust middleware primitives.",
-      "Caching Engine: Redis Key-Value cluster intercepting repeating, high-read catalog queries.",
+      "Access Layer: API endpoints validating inbound payment requests and gateway webhooks using robust middleware primitives.",
+      "Orchestration Layer: Provider-agnostic routing logic selecting the optimal gateway per transaction, with automatic failover and retry on provider timeouts.",
+      "Caching Engine: Redis Key-Value cluster intercepting repeating, high-read balance and catalog queries.",
       "Database Layer: Multi-threaded PostgreSQL engine running optimized indexes under Read Committed transaction isolation rules.",
-      "Worker Threads: Decoupled job queues running asynchronous transaction notifications to external micro-services."
+      "Worker Threads: Decoupled job queues running asynchronous settlement notifications and reconciliation jobs to external micro-services."
     ],
     tradeoffs: [
       {
         decision: "Prepared Statements vs Raw Dynamic Queries",
-        reason: "Prepared statements allowed PostgreSQL to cache execution plans. When processing thousands of repetitive updates, this choice alone saved massive CPU processing cycles on the core database nodes."
+        reason: "Prepared statements allowed PostgreSQL to cache execution plans. When processing thousands of repetitive balance updates, this choice alone saved massive CPU processing cycles on the core database nodes."
+      },
+      {
+        decision: "Idempotency Keys vs Relying on Gateway-Side Deduplication",
+        reason: "Payment gateway webhooks can fire more than once for the same event. Enforcing idempotency keys at our own API boundary meant we never trusted a third party alone to prevent double-settlement — a critical requirement for financial correctness."
       },
       {
         decision: "Redis Cache-Aside Strategy vs Real-Time Direct DB Reads",
-        reason: "By implementing an aggressive cache-aside pattern for heavy, non-volatile state queries, we protected our primary data cluster from resource exhaustion."
+        reason: "By implementing an aggressive cache-aside pattern for heavy, non-volatile state queries, we protected our primary data cluster from resource exhaustion during payment spikes."
       }
     ],
-    codeSnippet: `// High-concurrency safe transactional ledger update pipeline
-async function executeAtomicLedgerTransfer(db, senderId, receiverId, amount) {
+    codeSnippet: `// High-concurrency safe atomic payment settlement pipeline
+async function executeAtomicPaymentSettlement(db, senderId, receiverId, amount) {
   return await db.transaction(async (transactionalEntityManager) => {
     // Acquire explicit row-level locks using FOR UPDATE to bypass transaction race-conditions
     const sender = await transactionalEntityManager
@@ -93,7 +98,7 @@ async function executeAtomicLedgerTransfer(db, senderId, receiverId, amount) {
       .getOne();
 
     if (sender.balance < amount) {
-      throw new Error("Insufficient transactional balance available");
+      throw new Error("Insufficient balance for settlement");
     }
 
     // Execute atomic balance shifting inside the protected boundary
@@ -101,6 +106,49 @@ async function executeAtomicLedgerTransfer(db, senderId, receiverId, amount) {
     await transactionalEntityManager.increment(Account, { id: receiverId }, "balance", amount);
   });
 }`,
+  },
+  "ai-extraction": {
+    title: "AI-Powered Invoice Extraction & Validation Pipeline",
+    subtitle: "Asynchronous document processing pipeline using LLM-based extraction to automate structured data capture at scale.",
+    role: "Backend & AI Systems Engineer",
+    duration: "Production Integration",
+    tags: ["Python", "FastAPI", "AWS Lambda", "OpenAI API", "PostgreSQL"],
+    metrics: [
+      { label: "Extraction Accuracy", value: "98%", desc: "Field-level accuracy across structured document types" },
+      { label: "Turnaround Time", value: "-70%", desc: "Reduction versus prior manual processing workflow" },
+      { label: "Weekly Volume", value: "1,000+", desc: "Secure documents processed per week" }
+    ],
+    challenge: "Manual invoice processing was slow, error-prone, and could not scale with document volume. The goal was to build a system that could ingest unstructured invoices in varying formats, extract structured fields with high accuracy, and validate the output automatically — without a human reviewing every document.",
+    topology: [
+      "Ingestion Layer: Secure document upload endpoints accepting PDFs and images, queued for asynchronous processing.",
+      "Extraction Layer: FastAPI service orchestrating calls to OpenAI's API for field-level extraction (vendor, amount, line items, dates) from unstructured document text.",
+      "Validation Layer: Rule-based post-processing that cross-checks extracted fields against expected formats and flags low-confidence results for review.",
+      "Storage Layer: Structured output persisted to PostgreSQL, with AWS Lambda handling the asynchronous ETL orchestration end-to-end."
+    ],
+    tradeoffs: [
+      {
+        decision: "LLM-Based Extraction vs Traditional OCR + Regex Rules",
+        reason: "Regex-based extraction broke down every time a vendor changed invoice layout. Using an LLM to interpret document text semantically meant new formats worked out-of-the-box, cutting rule-maintenance overhead almost entirely."
+      },
+      {
+        decision: "Asynchronous Lambda-Triggered Pipeline vs Synchronous Request/Response",
+        reason: "Extraction latency varied per document, so blocking API calls would have created timeouts under load. Moving to an event-driven Lambda pipeline let documents queue and process independently, which is what delivered the 70% turnaround improvement."
+      }
+    ],
+    codeSnippet: `# Async invoice extraction handler triggered by document upload events
+async def process_invoice_document(event, context):
+    document = fetch_document_from_queue(event["document_id"])
+    raw_text = extract_text_from_document(document)
+
+    # Delegate field-level extraction to the LLM instead of brittle regex rules
+    extracted_fields = await extract_structured_fields(raw_text)
+
+    if validate_extraction_confidence(extracted_fields):
+        await persist_to_postgres(extracted_fields)
+    else:
+        await flag_for_manual_review(document["id"], extracted_fields)
+
+    return {"status": "processed", "document_id": document["id"]}`,
   },
   aquaculture: {
     title: "IoT-Enabled Aquaculture Telemetry & Control Node",

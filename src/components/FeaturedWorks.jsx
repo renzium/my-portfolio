@@ -12,10 +12,17 @@ const works = [
   },
   {
     id: "sqe-holding",
-    title: "SQE Holding Transaction Ledger",
-    tag: "Systems Primitives · Backend",
+    title: "SQE Holding Payment Orchestration Engine",
+    tag: "Payments Systems · Backend",
     year: "2024",
-    desc: "Refactored transactional state machines to ensure event consistency and high-concurrency performance across secure business domains.",
+    desc: "Built a multi-gateway payment orchestration system with bulletproof transactional consistency, sustaining high-concurrency write loads across secure financial domains.",
+  },
+  {
+    id: "ai-extraction",
+    title: "AI-Powered Invoice Extraction Pipeline",
+    tag: "AI Systems · Backend Automation",
+    year: "2025",
+    desc: "Engineered an asynchronous document extraction pipeline using LLM-based parsing to automate structured data capture from thousands of invoices weekly.",
   },
   {
     id: "aquaculture",
