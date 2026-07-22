@@ -41,7 +41,7 @@
       "startDate": "May 2025",
       "endDate": "December 2025",
       "achievements": [
-        "Built and published Paka, a React Native logistics and payment app with 1000+ downloads and a 99.5% crash-free rate, featuring real-time GPS order tracking.",
+        "Built and published Paka, a React Native logistics and payment app with 100+ downloads and a 99.5% crash-free rate, featuring real-time GPS order tracking.",
         "Integrated Stripe, Paystack, and Google Maps APIs into production checkout and delivery-tracking flows.",
         "Reduced app crash rate from 15% to 0.5% through performance profiling and memory leak resolution.",
         "Automated the CI/CD pipeline, cutting release time from 45 minutes to 8 minutes."
@@ -54,7 +54,7 @@
       "startDate": "January 2023",
       "endDate": "Present",
       "achievements": [
-        "Developed full stack features using React, TypeScript, and Node.js for a platform processing 50,000+ monthly transactions.",
+        "Developed full stack features using React, TypeScript, and Node.js for a platform processing 500+ monthly transactions.",
         "Established authentication and database systems supporting 3x transaction growth with 45% faster query performance.",
         "Collaborated with cross-functional teams through architecture discussions and sprint planning."
       ]
@@ -75,7 +75,7 @@
     {
       "name": "Paka - Logistics & Payment Mobile App",
       "technologies": "React Native, Expo, TypeScript, Stripe, Google Maps API",
-      "description": "Published cross-platform app with 10,000+ downloads and a 99.5% crash-free rate. Real-time GPS tracking, multi-provider payment integration, and delivery coordination features directly relevant to food ordering and delivery systems.(https://play.google.com/store/apps/details?id=com.pakaeco.app)",
+      "description": "Published cross-platform app with 100+ downloads and a 99.5% crash-free rate. Real-time GPS tracking, multi-provider payment integration, and delivery coordination features directly relevant to food ordering and delivery systems.(https://play.google.com/store/apps/details?id=com.pakaeco.app)",
       "link": "https://play.google.com/store/apps/details?id=com.pakaeco.app"
     }
   ],
