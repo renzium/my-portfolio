@@ -1,0 +1,93 @@
+{
+  "id": "transcription-annotation-global-remote",
+  "name": "Transcriber & Data Annotator",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Remote - Global)",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "linkedin": "linkedin.com/in/lawrence-ughonu"
+  },
+  "summary": "Detail-oriented remote professional with over a year of hands-on experience annotating and evaluating AI-generated content against structured guidelines, combined with 6+ years of fully remote work reliability across distributed, English-speaking teams. Strong written and spoken English, careful listening and comprehension skills, and a proven track record following detailed multi-step instructions to deliver consistent, high-accuracy output. Comfortable working independently within online platforms and meeting project timelines with minimal supervision.",
+  "technicalSkills": [
+    {
+      "category": "Annotation & Data Quality",
+      "skills": "Structured Annotation, Guideline-Based Labeling, Content Categorization, Quality Verification, Comparative Analysis, Written Feedback Reporting"
+    },
+    {
+      "category": "Language & Communication",
+      "skills": "High Proficiency in Written and Spoken English, Active Listening, Comprehension, Attention to Detail, Documentation"
+    },
+    {
+      "category": "Remote Work & Reliability",
+      "skills": "Independent Task Completion, Deadline Management, Online Platform Proficiency, Cross-Timezone Collaboration, Self-Directed Work"
+    }
+  ],
+  "experience": [
+    {
+      "title": "AI Response Evaluator - Part-Time Freelance",
+      "company": "Outlier AI",
+      "location": "Remote",
+      "startDate": "January 2024",
+      "endDate": "Present",
+      "achievements": [
+        "Evaluated 500+ AI-generated technical responses against detailed, multi-step annotation guidelines, verifying accuracy and logical coherence for every submission.",
+        "Produced clear, well-structured written feedback reports identifying gaps, errors, and inconsistencies to support model quality improvement.",
+        "Conducted comparative line-by-line analysis of competing outputs, ranking and labeling content according to strict project-specific guidelines.",
+        "Maintained consistent task quality and turnaround while working independently through a secure online platform with minimal supervision."
+      ]
+    },
+    {
+      "title": "Full Stack Engineer - Contract",
+      "company": "NYXIDIOM",
+      "location": "Remote (Spain)",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Delivered production work reliably as part of a fully remote, cross-timezone team based in Spain, meeting project deadlines throughout the contract.",
+        "Followed detailed technical specifications and documentation guidelines to ensure consistent, high-quality output across every task."
+      ]
+    },
+    {
+      "title": "Full Stack / Backend Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote (United States)",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Sustained over 2 years of consistent, independent remote work for a US-based company, communicating clearly across time zones.",
+        "Documented technical work thoroughly, maintaining written records and reports for distributed team members and stakeholders."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Ibadan, Oyo, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Reviewed and refined user-facing documentation and content for clarity, consistency, and accuracy over a 2-year period."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2025",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "availability": "Minimum 4+ hours daily, flexible scheduling, immediate start",
+    "workMode": "Remote, freelance/independent contractor",
+    "highlights": [
+      "1+ year direct experience annotating and evaluating content against structured guidelines",
+      "500+ pieces of content evaluated with detailed written feedback",
+      "6+ years fully remote work across US and Europe-based teams",
+      "Strong written and spoken English with careful attention to detail",
+      "Proven reliability meeting deadlines with minimal supervision"
+    ]
+  }
+}

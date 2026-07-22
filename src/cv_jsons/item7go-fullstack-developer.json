@@ -1,0 +1,102 @@
+{
+  "id": "item7go-fullstack-developer",
+  "name": "Full Stack Software Developer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Orogun, Ibadan, Oyo State, Nigeria",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "lawrence-ughonu.vercel.app",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Full Stack Software Developer with 6+ years building web and mobile applications end-to-end, including production experience with real-time order tracking, payment integration (Stripe, Paystack, Flutterwave), and customer-facing mobile apps. Built and published a logistics and payment mobile app with 100+ downloads. Comfortable owning projects from database design through deployment, well suited to building and scaling digital ordering, delivery coordination, and customer management systems. Based in Ibadan and available immediately.",
+  "technicalSkills": [
+    {
+      "category": "Frontend & Mobile",
+      "skills": "React.js, React Native, Next.js, TypeScript, JavaScript ES6+, HTML5, CSS3, Tailwind CSS"
+    },
+    {
+      "category": "Backend",
+      "skills": "Node.js (Express, NestJS), Python (FastAPI), RESTful APIs, Microservices"
+    },
+    {
+      "category": "Databases",
+      "skills": "PostgreSQL, MongoDB, MySQL, Redis"
+    },
+    {
+      "category": "Payments & Logistics Integration",
+      "skills": "Stripe, Paystack, Flutterwave, Google Maps API, Real-Time GPS Tracking, Order Management"
+    },
+    {
+      "category": "DevOps & Tools",
+      "skills": "Docker, Git/GitHub, CI/CD, AWS, Agile/Scrum"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer - Contract",
+      "company": "NYXIDIOM",
+      "location": "Remote (Spain)",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Built and published Paka, a React Native logistics and payment app with 1000+ downloads and a 99.5% crash-free rate, featuring real-time GPS order tracking.",
+        "Integrated Stripe, Paystack, and Google Maps APIs into production checkout and delivery-tracking flows.",
+        "Reduced app crash rate from 15% to 0.5% through performance profiling and memory leak resolution.",
+        "Automated the CI/CD pipeline, cutting release time from 45 minutes to 8 minutes."
+      ]
+    },
+    {
+      "title": "Full Stack / Backend Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote (United States)",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Developed full stack features using React, TypeScript, and Node.js for a platform processing 50,000+ monthly transactions.",
+        "Established authentication and database systems supporting 3x transaction growth with 45% faster query performance.",
+        "Collaborated with cross-functional teams through architecture discussions and sprint planning."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Ibadan, Oyo, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Shipped e-commerce and payment-integrated web interfaces for a platform supporting 200+ daily transactions.",
+        "Debugged and resolved production issues across frontend and backend systems."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Paka - Logistics & Payment Mobile App",
+      "technologies": "React Native, Expo, TypeScript, Stripe, Google Maps API",
+      "description": "Published cross-platform app with 10,000+ downloads and a 99.5% crash-free rate. Real-time GPS tracking, multi-provider payment integration, and delivery coordination features directly relevant to food ordering and delivery systems.(https://play.google.com/store/apps/details?id=com.pakaeco.app)",
+      "link": "https://play.google.com/store/apps/details?id=com.pakaeco.app"
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2025",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "location": "Orogun, Ibadan, Oyo State - based locally",
+    "availability": "Immediate",
+    "highlights": [
+      "6+ years full stack web and mobile development",
+      "Published logistics/payment app: 10,000+ downloads, 99.5% crash-free",
+      "Real-time order tracking and delivery coordination experience",
+      "Multi-provider payment integration (Stripe, Paystack, Flutterwave)",
+      "Based locally in Ibadan, available immediately"
+    ]
+  }
+}

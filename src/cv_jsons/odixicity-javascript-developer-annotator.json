@@ -1,0 +1,103 @@
+{
+  "id": "odixicity-javascript-developer-annotator",
+  "name": "Mid-Level JavaScript Developer Annotator",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Remote)",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "lawrence-ughonu.vercel.app",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "JavaScript Developer with 6+ years of professional Node.js and modern framework experience, combined with direct, ongoing experience evaluating and annotating AI-generated code as a freelance AI Response Evaluator since January 2024. Skilled at reviewing technical outputs against structured guidelines, identifying bugs and reasoning gaps, and producing clear written feedback. Strong debugging and analytical background from 6+ years of production JavaScript engineering.",
+  "technicalSkills": [
+    {
+      "category": "JavaScript & Node.js",
+      "skills": "JavaScript ES6+, Node.js, Express.js, TypeScript, React.js, Next.js"
+    },
+    {
+      "category": "Code Review & Evaluation",
+      "skills": "Code Annotation, Technical Output Verification, Structured Feedback Reports, Guideline-Based Review, Logical Consistency Analysis"
+    },
+    {
+      "category": "Debugging & Quality",
+      "skills": "Debugging, Root Cause Analysis, Code Reviews, Unit Testing, Jest"
+    },
+    {
+      "category": "Databases & Tools",
+      "skills": "MongoDB, PostgreSQL, MySQL, Redis, Git/GitHub, CI/CD"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer - Contract",
+      "company": "NYXIDIOM",
+      "location": "Remote, Nigeria",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Verified AI-generated document extraction outputs for edge-case errors, applying structured guidelines to help the pipeline achieve 98% parsing accuracy.",
+        "Built backend services in Node.js and Python supporting real-time logistics and payment processing for 10,000+ users.",
+        "Reduced front-end rendering bottlenecks by 40% through JavaScript performance profiling and code optimization."
+      ]
+    },
+    {
+      "title": "AI Response Evaluator - Part-Time Freelance",
+      "company": "Outlier AI",
+      "location": "Remote",
+      "startDate": "January 2024",
+      "endDate": "Present",
+      "achievements": [
+        "Evaluated 500+ AI-generated JavaScript and software engineering technical responses, applying structured multi-step annotation guidelines to verify accuracy and logical coherence.",
+        "Produced detailed written feedback reports documenting reasoning gaps, structural bugs, and code discrepancies to improve frontier model output quality.",
+        "Conducted comparative line-by-line analysis of competing model-generated code outputs, ranking performance against strict technical and stylistic guidelines."
+      ]
+    },
+    {
+      "title": "Backend Developer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote, Nigeria",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Developed RESTful APIs and backend services in Node.js supporting 50,000+ monthly transactions with sub-200ms response times.",
+        "Debugged complex distributed system issues including race conditions and memory leaks affecting production JavaScript services.",
+        "Collaborated with cross-functional teams reviewing 50+ pull requests for code quality, security, and adherence to JavaScript best practices."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Shipped 12+ JavaScript features for an e-commerce platform supporting 2,000+ daily transactions using vanilla JS and Node.js.",
+        "Refactored legacy JavaScript codebase reducing technical debt by 40% through modular design and code review practices."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2025",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "experience": "6+ years JavaScript/Node.js, active AI code annotator since Jan 2024",
+    "keyFit": "Direct, ongoing production experience annotating and evaluating AI-generated JavaScript code against structured guidelines",
+    "availability": "Immediate",
+    "workMode": "Remote",
+    "highlights": [
+      "6+ years professional JavaScript and Node.js development",
+      "Active AI code evaluator/annotator since January 2024",
+      "500+ technical responses evaluated against structured guidelines",
+      "50+ pull requests reviewed for code quality and best practices",
+      "Strong written English for structured technical feedback"
+    ]
+  }
+}

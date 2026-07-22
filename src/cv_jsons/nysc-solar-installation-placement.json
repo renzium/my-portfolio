@@ -1,0 +1,118 @@
+{
+  "id": "nysc-solar-installation-placement",
+  "name": "Solar PV Installation Engineer",
+  "personalInfo": {
+    "fullName": "Lawrence Chibikem Ughonu",
+    "location": "Ibadan, Oyo State, Nigeria",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "linkedin": "linkedin.com/in/lawrence-ughonu"
+  },
+  "summary": "Electrical and Electronic Engineering graduate with hands-on solar photovoltaic (PV) installation experience gained through a 6-month industrial training placement at SolarWorld Alternative Energy Resources Nigeria Limited, followed by independent execution of two complete solar power installations ranging from 6.2KVA to 10.2KVA. Skilled in system sizing, inverter and battery bank configuration, panel array mounting, and electrical safety compliance including surge protection, circuit breaker installation, and earthing. Also brings 6+ years of software engineering experience across React, React Native, and Node.js, offering a combination of practical electrical systems knowledge and technical proficiency.",
+  "technicalSkills": [
+    {
+      "category": "Solar PV Systems & Installation",
+      "skills": "PV System Design & Sizing, Inverter Installation (up to 10.2KVA), Battery Bank Configuration (Tubular), Charge Controller Setup, Solar Panel Mounting & Array Configuration, Monocrystalline Panel Installation"
+    },
+    {
+      "category": "Electrical Safety & System Protection",
+      "skills": "DC/AC Circuit Protection, Surge Protector Installation, Circuit Breaker Installation, Cable Sizing, Changeover Switch Installation, Earthing & Grounding, Conduit & Trunking Routing"
+    },
+    {
+      "category": "Frontend & Mobile (Secondary Expertise)",
+      "skills": "React.js, React Native, Next.js, TypeScript, JavaScript ES6+, HTML5, CSS3, Tailwind CSS, Redux"
+    },
+    {
+      "category": "Backend & Databases (Secondary Expertise)",
+      "skills": "Node.js, Express.js, Python, FastAPI, RESTful APIs, PostgreSQL, MongoDB, MySQL, Redis"
+    },
+    {
+      "category": "Cloud & DevOps (Secondary Expertise)",
+      "skills": "AWS (Lambda, S3, EC2, DynamoDB), Docker, Git/GitHub, CI/CD"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Independent Solar Installer (Personal Projects)",
+      "company": "Self-Employed",
+      "location": "Ibadan, Oyo State, Nigeria",
+      "startDate": "March 2024",
+      "endDate": "Present",
+      "achievements": [
+        "Designed and installed a 6.2KVA hybrid solar power system at Oluyole, Ibadan (March 2024), featuring an inbuilt 120A charge controller, 4 x 12V 220AH tubular batteries, and 14 x 300W monocrystalline panels.",
+        "Configured DC and AC surge protection and circuit breakers, and built a dedicated battery cage housing four tubular batteries for safe, organized storage.",
+        "Mounted solar panel arrays using 16-foot brackets and connected the complete DC and AC circuit for the 6.2KVA system.",
+        "Installed a 10.2KVA solar inverter system opposite the Oyo State Secretariat (March 2025), sized for higher-capacity commercial and residential load requirements.",
+        "Set up DC cabling and flexible AC cabling with dedicated earth cabling for safety grounding on the 10.2KVA installation.",
+        "Installed AC and DC surge protectors, multiple circuit breakers, and a 200A changeover switch to enable seamless grid-to-solar transition.",
+        "Routed cabling through flexible conduit and trunking pipe for a clean, protected, and durable installation on both projects."
+      ]
+    },
+    {
+      "title": "Industrial Trainee (IT)",
+      "company": "SolarWorld Alternative Energy Resources Nigeria Limited",
+      "location": "Ibadan, Nigeria",
+      "startDate": "April 2023",
+      "endDate": "September 2023",
+      "achievements": [
+        "Assisted in the installation and commissioning of residential and commercial solar power systems ranging from 3KVA to 10KVA capacity.",
+        "Learned system sizing principles, matching inverter capacity, battery bank configuration, and panel wattage to client load requirements.",
+        "Supported installation of DC and AC circuit protection, including surge protectors and circuit breakers, following electrical safety standards.",
+        "Participated in solar panel mounting and array configuration for rooftop and ground-mount installations.",
+        "Gained hands-on exposure to charge controller configuration and tubular battery bank setup."
+      ]
+    },
+    {
+      "title": "Full Stack Engineer - Contract",
+      "company": "NYXIDIOM",
+      "location": "Remote, Spain",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Built and published Paka, a React Native logistics and payment app with 10,000+ downloads and a 99.5% crash-free rate.",
+        "Integrated Stripe and Google Pay payment APIs into production checkout and delivery flows.",
+        "Reduced app crash rate from 15% to 0.5% through systematic performance profiling and memory leak resolution."
+      ]
+    },
+    {
+      "title": "Full Stack / Backend Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote, USA",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Develop backend services and mobile modules in Node.js and React Native supporting 50,000+ monthly transactions.",
+        "Established low-latency WebSocket connections sustaining 60fps rendering under heavy network load."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Ibadan, Oyo State, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Shipped e-commerce and payment-integrated interfaces for a platform supporting 2,000+ daily transactions using JavaScript and Node.js."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2025",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "location": "Ibadan, Oyo State - Available for NYSC placement",
+    "highlights": [
+      "6 months industrial training at SolarWorld Alternative Energy Resources Nigeria Limited",
+      "Independently designed and installed 6.2KVA solar power system (Oluyole, Ibadan)",
+      "Independently installed 10.2KVA solar power system (Oyo State Secretariat area)",
+      "6+ years software engineering experience as secondary technical skill",
+      "Published mobile app with 10,000+ downloads and 99.5% crash-free rate"
+    ]
+  }
+}

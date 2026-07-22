@@ -1,0 +1,102 @@
+{
+  "id": "gileam-mobile-app-engineer",
+  "name": "Mobile App Engineer (React Native)",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "lawrence-ughonu.vercel.app",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Mobile App Engineer with 6+ years building production React Native applications, including a published Google Play app with 10,000+ downloads and a 99.5% crash-free rate. Strong background in state management, offline data persistence, API and payment integration, push notifications, and CI/CD release pipelines. Based in Lagos, available for immediate full-time onsite or hybrid work.",
+  "technicalSkills": [
+    {
+      "category": "Mobile Development",
+      "skills": "React Native, Expo, TypeScript, JavaScript ES6+, iOS & Android Publishing, App Store & Google Play Deployment"
+    },
+    {
+      "category": "State Management & Storage",
+      "skills": "Redux, Zustand, Context API, Offline Data Persistence, Local Storage, Sync Queues"
+    },
+    {
+      "category": "Integrations",
+      "skills": "RESTful APIs, JWT/OAuth Authentication, Push Notifications, Analytics, Payment Gateways (Stripe, Paystack, Google Pay)"
+    },
+    {
+      "category": "Testing & DevOps",
+      "skills": "Jest, Git/GitHub, CI/CD, GitHub Actions, Performance Profiling, Crash Monitoring"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer - Contract",
+      "company": "NYXIDIOM",
+      "location": "Remote, Nigeria",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Built Paka, a cross-platform logistics mobile app using React Native and Expo, published to Google Play with 10,000+ downloads and a 99.5% crash-free rate.",
+        "Integrated Stripe and Google Pay payment APIs, push notifications, and real-time GPS tracking into production checkout and delivery flows.",
+        "Reduced app crash rate from 15% to 0.5% through systematic performance profiling and memory leak resolution.",
+        "Managed offline data persistence using local storage and sync queues, ensuring reliable functionality during network interruptions.",
+        "Automated the CI/CD pipeline for builds and Google Play deployment, cutting release time from 45 minutes to 8 minutes."
+      ]
+    },
+    {
+      "title": "Full Stack / Mobile Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote, Nigeria",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Architected core mobile modules using React Native TurboModules, building a high-speed native bridge for cryptographic operations.",
+        "Implemented Zustand and Context API for global state management, eliminating data drift across multi-tier app layouts.",
+        "Established low-latency WebSocket connections supporting 50,000+ monthly transactions while sustaining 60fps rendering under heavy load.",
+        "Collaborated with QA and design teams to ship pixel-perfect, tested components across iOS and Android viewports."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Delivered secure e-commerce mobile interfaces supporting 2,000+ daily transactions with integrated custom payment workflows.",
+        "Debugged and resolved production issues across Android and iOS builds, improving app stability ahead of major releases."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Paka - Logistics & Payment Mobile App",
+      "technologies": "React Native, Expo, TypeScript, Stripe, Google Maps API",
+      "description": "Published cross-platform app with 10,000+ downloads and a 99.5% crash-free rate. Implemented offline-first architecture with local sync queues, real-time GPS tracking, and multi-provider payment integration.",
+      "link": "https://play.google.com/store/apps/details?id=com.pakaeco.app"
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Eng. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2025",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "experience": "6+ years mobile and full-stack engineering",
+    "publishedApp": "10,000+ downloads, 99.5% crash-free rate on Google Play",
+    "location": "Lagos, Nigeria - available for onsite or hybrid",
+    "availability": "Immediate",
+    "highlights": [
+      "Published production app: 10,000+ downloads, 99.5% crash-free",
+      "Reduced crash rate from 15% to 0.5%",
+      "Cut deployment time from 45 minutes to 8 minutes",
+      "Built offline-first architecture with sync queues",
+      "Integrated Stripe, Google Pay, and Paystack in production"
+    ]
+  }
+}
