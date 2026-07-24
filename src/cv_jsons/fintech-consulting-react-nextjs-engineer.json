@@ -1,0 +1,99 @@
+{
+  "id": "fintech-consulting-react-nextjs-engineer",
+  "name": "Frontend React / Next.js Engineer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos State, Nigeria",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "lawrence-ughonu.vercel.app",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Frontend Engineer with 6+ years building responsive, high-performance web applications using React and Next.js. Strong TypeScript expertise with extensive experience integrating REST and GraphQL APIs for payments, wallets, and reporting features. Skilled in state management (Redux, Zustand, React Query), building reusable component and design systems, and implementing secure authentication and role-based access control. Proven track record building payment and checkout flows with real-time WebSocket features, backed by comprehensive testing.",
+  "technicalSkills": [
+    {
+      "category": "Core Frontend",
+      "skills": "React.js, Next.js, TypeScript, JavaScript ES6+, HTML5, CSS3"
+    },
+    {
+      "category": "State & Styling",
+      "skills": "Redux, Zustand, React Query, Context API, Tailwind CSS, Styled Components"
+    },
+    {
+      "category": "APIs & Real-Time",
+      "skills": "RESTful APIs, GraphQL, WebSockets, Real-Time Data Updates"
+    },
+    {
+      "category": "Testing & Quality",
+      "skills": "Jest, Cypress, React Testing Library, Code Reviews"
+    },
+    {
+      "category": "Payments & Commerce",
+      "skills": "Checkout Flow Development, Payment Integration (Stripe, Paystack, Flutterwave), Role-Based Access Control"
+    },
+    {
+      "category": "DevOps & Tools",
+      "skills": "Git/GitHub, CI/CD, Performance Optimization, SEO"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer - Contract",
+      "company": "NYXIDIOM",
+      "location": "Remote (Spain)",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Built responsive, high-performance web applications using React and Next.js for a fintech platform serving 10,000+ users with 99.5% uptime.",
+        "Developed secure checkout flows integrating Stripe and Paystack payment APIs into production order and payment systems.",
+        "Reduced page load times by 40% through code splitting, lazy loading, and performance optimization.",
+        "Implemented real-time WebSocket features for live transaction updates and notifications."
+      ]
+    },
+    {
+      "title": "Full Stack / Frontend Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote (United States)",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Designed reusable component and design systems using React and TypeScript, reducing code duplication across 15+ pages.",
+        "Integrated GraphQL and REST APIs for wallet, transaction, and reporting features supporting 50,000+ monthly transactions.",
+        "Established role-based access control and secure session management across the platform.",
+        "Achieved 80%+ test coverage using Jest and Cypress for critical payment flows."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Ibadan, Oyo, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Shipped e-commerce checkout and payment interfaces using React, supporting 2,000+ daily transactions with Paystack and Flutterwave integration.",
+        "Optimized frontend performance, achieving Lighthouse scores above 90 through image optimization and bundle size reduction."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2025",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "location": "Ibadan, Oyo State - open to hybrid work in Ikeja, Lagos",
+    "availability": "Immediate",
+    "highlights": [
+      "6+ years React and Next.js development",
+      "GraphQL and REST API integration for payment/wallet features",
+      "80%+ test coverage on critical payment flows",
+      "40% page load performance improvement",
+      "Role-based access control and secure session management experience"
+    ]
+  }
+}

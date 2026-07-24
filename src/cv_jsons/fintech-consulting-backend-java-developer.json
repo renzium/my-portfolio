@@ -1,0 +1,95 @@
+{
+  "id": "fintech-consulting-backend-java-developer",
+  "name": "Backend Developer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Ibadan, Oyo State, Nigeria",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "lawrence-ughonu.vercel.app",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Backend Engineer with 6+ years designing and maintaining scalable services for payment, fintech, and transaction-processing platforms. Strong Node.js expertise with growing hands-on Java and Spring Boot knowledge, currently deepening skills through structured coursework. Experience building RESTful APIs, integrating payment gateways, implementing OAuth2/JWT security, and optimizing PostgreSQL and MySQL databases for high-volume transactions. Comfortable working with Docker, CI/CD, and cloud deployment.",
+  "technicalSkills": [
+    {
+      "category": "Backend Languages",
+      "skills": "Java (Spring Boot), Node.js (Express, NestJS), Python"
+    },
+    {
+      "category": "Payment & Fintech Systems",
+      "skills": "Payment Orchestration, Wallet & Transaction Systems, Stripe, Paystack, Flutterwave, PCI DSS Awareness"
+    },
+    {
+      "category": "Databases",
+      "skills": "PostgreSQL, MySQL, MongoDB, Redis, DynamoDB"
+    },
+    {
+      "category": "Security",
+      "skills": "OAuth2, JWT, Encryption, Secure API Design"
+    },
+    {
+      "category": "DevOps & Cloud",
+      "skills": "Docker, CI/CD, AWS, Git/GitHub"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer - Contract",
+      "company": "NYXIDIOM",
+      "location": "Remote (Spain)",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Architected backend microservices for a fintech platform processing 1,000+ transactions weekly with 99.5% uptime.",
+        "Implemented JWT-based authentication and secure API design across payment and logistics services.",
+        "Optimized PostgreSQL queries, reducing database load by 50% under high-volume transaction conditions.",
+        "Built a Python FastAPI service integrating OpenAI's API for automated document processing at 98% accuracy."
+      ]
+    },
+    {
+      "title": "Full Stack / Backend Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote (United States)",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Designed RESTful APIs and backend services in Node.js supporting 50,000+ monthly transactions with sub-200ms response times.",
+        "Tuned MySQL and DynamoDB query performance, cutting latency by 45% while supporting 3x transaction growth.",
+        "Established OAuth2 and JWT authorization across 6+ distributed services, eliminating unauthorized access incidents."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Ibadan, Oyo, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Developed backend integrations with Paystack and Flutterwave payment gateways for a platform supporting 2,000+ daily transactions.",
+        "Debugged production database issues, improving transaction processing reliability."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2025",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "location": "Ibadan, Oyo State - open to hybrid work in Ikeja, Lagos",
+    "availability": "Immediate",
+    "javaNote": "Actively deepening Java and Spring Boot expertise through structured coursework and technical reading. Strong transferable backend and payment-systems experience in Node.js applies directly to Spring Boot architecture patterns.",
+    "highlights": [
+      "6+ years backend engineering across payment and fintech platforms",
+      "Production experience with OAuth2/JWT security and PCI-relevant payment integration",
+      "45% database latency reduction while supporting 3x transaction growth",
+      "50,000+ monthly transactions supported with sub-200ms response times",
+      "Growing Java/Spring Boot expertise through active coursework"
+    ]
+  }
+}

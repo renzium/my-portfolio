@@ -1,0 +1,94 @@
+{
+  "id": "hroflagos2-frontend-engineer",
+  "name": "Frontend Engineer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "lawrence-ughonu.vercel.app",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Frontend Engineer with 6+ years building responsive, high-performance web applications using React, TypeScript, and modern JavaScript. Backend familiarity with NestJS and Node.js for full API integration, having built and maintained production interfaces serving 10,000+ users. Fintech experience integrating payment systems (Stripe, Paystack, Flutterwave) and translating UX/UI designs into clean, functional interfaces. Comfortable working across the stack with strong Git workflows and modern development practices.",
+  "technicalSkills": [
+    {
+      "category": "Frontend",
+      "skills": "React.js, TypeScript, JavaScript ES6+, Next.js, HTML5, CSS3, Responsive Design"
+    },
+    {
+      "category": "Backend & APIs",
+      "skills": "NestJS, Node.js, Express.js, RESTful APIs, API Integration"
+    },
+    {
+      "category": "State & Styling",
+      "skills": "Redux, Context API, Tailwind CSS, Sass/SCSS, Styled Components"
+    },
+    {
+      "category": "Fintech & Payments",
+      "skills": "Payment Gateway Integration (Stripe, Paystack, Flutterwave), Secure Checkout Flows"
+    },
+    {
+      "category": "Tools",
+      "skills": "Git/GitHub, CI/CD, Performance Optimization, Jest"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer - Contract",
+      "company": "NYXIDIOM",
+      "location": "Remote (Spain)",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Built responsive React and TypeScript interfaces for a fintech platform serving 10,000+ users with 99.5% uptime.",
+        "Translated Figma designs into pixel-perfect, accessible components across web and mobile.",
+        "Reduced front-end rendering bottlenecks by 40% through code splitting and performance profiling.",
+        "Integrated Stripe and Paystack payment APIs into production checkout flows."
+      ]
+    },
+    {
+      "title": "Full Stack / Frontend Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote (United States)",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Developed frontend features using React and TypeScript with NestJS-based backend integration for a platform processing 50,000+ monthly transactions.",
+        "Collaborated with designers to implement responsive, cross-browser-compatible interfaces.",
+        "Established Git workflows and code review standards improving frontend consistency across the team."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Ibadan, Oyo, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Shipped React and JavaScript features for an e-commerce platform supporting 2,000+ daily transactions with Paystack and Flutterwave integration.",
+        "Debugged and resolved cross-browser rendering issues, improving frontend stability."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2025",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "location": "Lagos, Nigeria - available for hybrid work",
+    "availability": "Immediate",
+    "highlights": [
+      "6+ years React and TypeScript development",
+      "Backend familiarity with NestJS and Node.js",
+      "Fintech payment integration experience (Stripe, Paystack, Flutterwave)",
+      "40% front-end performance improvement delivered",
+      "Serves 10,000+ users with 99.5% uptime"
+    ]
+  }
+}

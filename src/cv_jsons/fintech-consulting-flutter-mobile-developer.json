@@ -1,0 +1,94 @@
+{
+  "id": "fintech-consulting-flutter-mobile-developer",
+  "name": "Mobile Application Developer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Ibadan, Oyo State, Nigeria",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "lawrence-ughonu.vercel.app",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Mobile Application Developer with 3+ years of cross-platform experience building and publishing production mobile apps, including a Google Play app with 10,000+ downloads and a 99.5% crash-free rate. Strong background in secure authentication (JWT, OAuth, biometric), REST API integration, push notifications, offline-first architecture, and app store release management. Currently expanding into Flutter and Dart to broaden cross-platform mobile expertise, bringing transferable state-management and mobile-architecture experience directly applicable to Flutter development.",
+  "technicalSkills": [
+    {
+      "category": "Mobile Development",
+      "skills": "React Native, Expo, TypeScript, iOS & Android Publishing, App Store & Google Play Release Management"
+    },
+    {
+      "category": "State Management & Architecture (Transferable to Flutter)",
+      "skills": "Redux, Zustand, Context API, Offline-First Architecture, Local Storage & Sync Queues"
+    },
+    {
+      "category": "Security & Authentication",
+      "skills": "JWT, OAuth2, Biometric Authentication, Secure Local Storage"
+    },
+    {
+      "category": "Integrations",
+      "skills": "RESTful APIs, Push Notifications, Payment SDKs (Stripe, Paystack, Google Pay), Google Maps API"
+    },
+    {
+      "category": "DevOps & Tools",
+      "skills": "Git/GitHub, CI/CD (GitHub Actions), Crash Monitoring, Performance Profiling"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer - Contract",
+      "company": "NYXIDIOM",
+      "location": "Remote (Spain)",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Built and published Paka, a cross-platform React Native app with 10,000+ downloads and a 99.5% crash-free rate on Google Play.",
+        "Integrated Stripe and Google Pay payment SDKs alongside real-time GPS tracking into production mobile flows.",
+        "Reduced app crash rate from 15% to 0.5% through systematic performance profiling and memory leak resolution.",
+        "Implemented offline-first data persistence using local storage and sync queues for reliable functionality during network interruptions."
+      ]
+    },
+    {
+      "title": "Full Stack / Mobile Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote (United States)",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Developed secure mobile authentication flows using JWT, OAuth, and biometric authentication for a banking application.",
+        "Established push notification and real-time features supporting 50,000+ monthly transactions.",
+        "Managed state across multi-tier mobile layouts using Zustand and Context API, eliminating data drift."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Ibadan, Oyo, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Shipped mobile-responsive interfaces with payment gateway integration (Paystack, Flutterwave) for 2,000+ daily transactions."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2025",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "location": "Ibadan, Oyo State - open to hybrid work in Ikeja, Lagos",
+    "availability": "Immediate",
+    "flutterNote": "Production mobile experience is currently in React Native rather than Flutter/Dart. Actively learning Flutter to broaden cross-platform capability. Core mobile competencies - state management, secure authentication, API integration, offline-first architecture, and app store release management - transfer directly across frameworks.",
+    "highlights": [
+      "Published production app: 10,000+ downloads, 99.5% crash-free rate",
+      "JWT, OAuth, and biometric authentication experience",
+      "Payment SDK integration (Stripe, Paystack, Google Pay)",
+      "Offline-first architecture with local sync queues",
+      "App Store and Google Play release management experience"
+    ]
+  }
+}
