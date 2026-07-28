@@ -1,0 +1,91 @@
+{
+  "id": "genifem-ai-engineer-intern",
+  "name": "AI Engineer (Intern)",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Remote)",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "lawrence-ughonu.vercel.app",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Software Engineer with hands-on Python and FastAPI experience, including production integration of OpenAI's API into a deployed automation pipeline that processes documents with AI-powered extraction. Comfortable working with REST APIs, databases, Git, and cloud deployment on AWS. Genuinely interested in AI agent development, prompt engineering, and voice AI integrations, and excited to build on existing automation experience in a hands-on, learning-focused role.",
+  "technicalSkills": [
+    {
+      "category": "Python & AI",
+      "skills": "Python, FastAPI, OpenAI API, Prompt Engineering, LLM Integration, Document Parsing"
+    },
+    {
+      "category": "APIs & Databases",
+      "skills": "RESTful APIs, PostgreSQL, MongoDB, Redis"
+    },
+    {
+      "category": "Tools & Cloud",
+      "skills": "Git/GitHub, Docker, AWS (Lambda, S3), Node.js"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer - Contract",
+      "company": "NYXIDIOM",
+      "location": "Remote (Spain)",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Built a Python FastAPI service integrating OpenAI's API to automate invoice data extraction, processing 1,000+ documents weekly with 98% accuracy.",
+        "Wrote and refined extraction prompts to improve output accuracy and handle varied document formats.",
+        "Deployed the automation pipeline on AWS Lambda, testing and documenting edge cases to improve reliability."
+      ]
+    },
+    {
+      "title": "Full Stack / Backend Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote (United States)",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Developed backend services in Node.js and Python supporting production systems with database integration.",
+        "Documented API behavior and internal tooling for team reference."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Ibadan, Oyo, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Built Python data-processing scripts for catalog indexing and background automation tasks."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-Powered Invoice Validation & Extraction Pipeline",
+      "technologies": "Python, FastAPI, AWS Lambda, OpenAI API, PostgreSQL",
+      "description": "Personal-turned-production automation project: an AI agent-style pipeline that extracts, validates, and routes invoice data using OpenAI's API, with a confidence-based decision layer that flags uncertain results for review. Deployed and processing 1,000+ documents weekly."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2025",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "honestNote": "Real-world experience is concentrated in Python/FastAPI backend work and direct OpenAI API integration. No formal experience yet with dedicated agent frameworks or voice AI platforms, but strong foundation and genuine interest in growing in both areas.",
+    "availability": "Immediate",
+    "workMode": "Remote",
+    "highlights": [
+      "Production OpenAI API integration processing 1,000+ documents weekly",
+      "Hands-on prompt writing and optimization experience",
+      "Python automation and FastAPI backend experience",
+      "AWS deployment and testing experience",
+      "Genuine interest in AI agents and voice AI platforms"
+    ]
+  }
+}

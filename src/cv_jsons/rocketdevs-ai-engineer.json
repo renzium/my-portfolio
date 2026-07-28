@@ -1,0 +1,104 @@
+{
+  "id": "rocketdevs-ai-engineer",
+  "name": "AI Engineer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Remote)",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "lawrence-ughonu.vercel.app",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "Backend Engineer with 6+ years of production experience in Python and Node.js, including hands-on work integrating OpenAI's API into a deployed, scalable backend system. Built and shipped an asynchronous AI-powered document processing pipeline with confidence-based workflow routing, deployed on AWS Lambda and processing 1,000+ documents weekly with 98% accuracy. Strong foundation in API design, async processing, background jobs, and both SQL and NoSQL databases, with growing experience in agent frameworks and retrieval-based AI systems.",
+  "technicalSkills": [
+    {
+      "category": "Backend & Languages",
+      "skills": "Python (FastAPI, Flask basics), Node.js (Express, NestJS), RESTful APIs, GraphQL basics, Async Processing, Background Jobs"
+    },
+    {
+      "category": "AI & LLM Integration",
+      "skills": "OpenAI API, LLM-Based Extraction, Confidence-Based Workflow Routing, Document Parsing (PDF/Image), Prompt-Driven Processing"
+    },
+    {
+      "category": "Databases & Caching",
+      "skills": "PostgreSQL, MongoDB, Redis, DynamoDB, Supabase"
+    },
+    {
+      "category": "DevOps & Tools",
+      "skills": "Docker, Git/GitHub, CI/CD, AWS Lambda (Serverless)"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer - Contract",
+      "company": "NYXIDIOM",
+      "location": "Remote",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Built an asynchronous AI-powered invoice extraction pipeline using Python, FastAPI, and OpenAI's API, processing 1,000+ documents weekly with 98% accuracy.",
+        "Designed a confidence-based routing workflow, escalating low-confidence AI extractions for review while auto-approving high-confidence outputs, reducing manual review load by 70%.",
+        "Deployed the pipeline on AWS Lambda for scalable, serverless async processing, handling variable document volume without manual scaling.",
+        "Integrated PostgreSQL for structured output storage, ensuring queryable, auditable records for every processed document.",
+        "Used Supabase for real-time data synchronization and authentication in a separate production mobile application."
+      ]
+    },
+    {
+      "title": "Full Stack / Backend Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote (United States)",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Developed backend services in Node.js and Java supporting 50,000+ monthly transactions with JWT/OAuth2 authentication across 6+ services.",
+        "Optimized PostgreSQL and DynamoDB query performance, cutting latency by 45% while supporting 3x transaction volume growth.",
+        "Collaborated in architecture discussions guiding a migration from monolith to microservices, reducing deployment cycle time from 2 weeks to 3 days."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Ibadan, Oyo, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Created data-processing pipelines in Python and JavaScript for catalog indexing, cutting manual processing effort by 60%."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-Powered Invoice Validation & Extraction Pipeline",
+      "technologies": "Python, FastAPI, AWS Lambda, OpenAI API, PostgreSQL",
+      "description": "Deployed production system processing 1,000+ secure documents weekly with 98% extraction accuracy. Includes a confidence-based decision layer that routes low-confidence outputs to manual review and auto-approves high-confidence ones, functioning as a basic multi-step workflow ahead of full agent-framework adoption."
+    },
+    {
+      "name": "High-Availability Payment Ecosystem & Client Dashboard",
+      "technologies": "Node.js, Express, DynamoDB, React, Redis",
+      "description": "Deployed backend system with multi-provider payment orchestration across 3 integrated gateways, using Redis caching to reduce read costs by 40% under concurrent load."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2025",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "deployedProject": "AI-powered invoice extraction pipeline, deployed on AWS Lambda, processing 1,000+ documents weekly - satisfies the deployed AI-backend project requirement",
+    "honestNote": "Direct production experience integrating LLMs (OpenAI API) into a deployed backend with conditional, multi-step decision routing. Formal agent framework experience (LangChain, LangGraph, RAG pipelines, vector databases) is limited - actively building toward this given the strong overlap with existing backend and LLM integration skills.",
+    "availability": "Immediate",
+    "workMode": "Remote, full-time",
+    "highlights": [
+      "Deployed production AI-powered backend pipeline (1,000+ documents/week, 98% accuracy)",
+      "Real OpenAI API integration in a live, scalable system",
+      "Confidence-based workflow routing (closest existing analog to agent decision logic)",
+      "Supabase experience from a separate production mobile application",
+      "6+ years backend engineering across Python and Node.js"
+    ]
+  }
+}

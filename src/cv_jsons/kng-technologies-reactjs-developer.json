@@ -1,0 +1,92 @@
+{
+  "id": "kng-technologies-reactjs-developer",
+  "name": "Mid/Senior Level ReactJS Developer",
+  "personalInfo": {
+    "fullName": "Lawrence Ughonu",
+    "location": "Lagos, Nigeria (Remote)",
+    "email": "lawrenceughonu@gmail.com",
+    "phone": "+2349031194460",
+    "website": "lawrence-ughonu.vercel.app",
+    "linkedin": "linkedin.com/in/lawrence-ughonu",
+    "github": "github.com/renzium"
+  },
+  "summary": "ReactJS Developer with 6+ years of professional software engineering experience, including 3+ years working across distributed teams spanning multiple geographies and time zones. Strong hands-on expertise in JavaScript, TypeScript, and React, with a proven track record architecting responsive pages from scratch, building reusable component libraries, and optimizing website load speed. Comfortable owning features end-to-end and mentoring junior developers. Based in Nigeria and available for immediate remote contract work.",
+  "technicalSkills": [
+    {
+      "category": "Core Frontend",
+      "skills": "React.js, JavaScript ES6+, TypeScript, HTML5, CSS3, Next.js"
+    },
+    {
+      "category": "Component Architecture",
+      "skills": "Reusable Component Libraries, Design Systems, Redux, Context API, Zustand"
+    },
+    {
+      "category": "Performance & Quality",
+      "skills": "Website Load Speed Optimization, Code Splitting, Lazy Loading, Automated Testing (Jest, Cypress)"
+    },
+    {
+      "category": "Collaboration & Tools",
+      "skills": "Git/GitHub, CI/CD, Agile/Scrum, Distributed Team Collaboration, Code Reviews"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full Stack Engineer - Contract",
+      "company": "NYXIDIOM",
+      "location": "Remote (Spain)",
+      "startDate": "May 2025",
+      "endDate": "December 2025",
+      "achievements": [
+        "Architected responsive React pages from scratch for a platform serving 10,000+ users with 99.5% uptime, collaborating with a distributed team across multiple time zones.",
+        "Built reusable, scalable JavaScript and TypeScript components, reducing code duplication across 15+ pages.",
+        "Reduced page load times by 40% through code splitting, lazy loading, and website performance optimization.",
+        "Implemented automated testing with Jest and Cypress, achieving 80%+ coverage on critical user flows."
+      ]
+    },
+    {
+      "title": "Full Stack / Frontend Engineer",
+      "company": "SQE Holdings LLC",
+      "location": "Remote (United States)",
+      "startDate": "January 2023",
+      "endDate": "Present",
+      "achievements": [
+        "Developed scalable frontend libraries and reusable components using React and TypeScript, working daily with a distributed US-based team.",
+        "Established coding standards and mentored junior developers on React best practices and component architecture.",
+        "Optimized frontend rendering performance, contributing to sub-200ms interaction response times."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Digifigs",
+      "location": "Lagos, Nigeria",
+      "startDate": "November 2020",
+      "endDate": "December 2022",
+      "achievements": [
+        "Shipped 12+ React and JavaScript features for an e-commerce platform supporting 2,000+ daily transactions.",
+        "Refactored legacy components into reusable, well-tested modules, improving maintainability across the codebase."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. Electrical and Electronic Engineering",
+      "institution": "University of Ibadan",
+      "startYear": "2018",
+      "endYear": "2025",
+      "location": "Nigeria"
+    }
+  ],
+  "additionalInformation": {
+    "location": "Lagos, Nigeria - meets residency requirement",
+    "distributedTeamExperience": "3+ years working across teams in the United States, Spain, and Nigeria",
+    "availability": "Immediate",
+    "workMode": "Remote, contract",
+    "highlights": [
+      "6+ years React, JavaScript, and TypeScript development",
+      "3+ years collaborating across distributed, multi-timezone teams",
+      "40% website load speed improvement delivered",
+      "80%+ automated test coverage on critical flows",
+      "Mentored junior developers on React best practices"
+    ]
+  }
+}
